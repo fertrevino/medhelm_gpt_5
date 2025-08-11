@@ -10,7 +10,6 @@ model_deployments:
     model_name: openai/gpt-5
     tokenizer_name: openai/cl100k_base  # Uses OpenAI's cl100k (tiktoken) vocabulary.
     max_sequence_length: 200000  # Soft cap; adjust to match provider published limits if lower.
-    # TODO: max_output_tokens: 100000  # Uncomment & tune once enforced in request layer.
     client_spec:
       class_name: "custom_client.OpenAIClient"  # Local wrapper allowing custom logging/instrumentation.
       args:
