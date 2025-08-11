@@ -1,0 +1,15 @@
+{
+  "aci_bench:model=openai_gpt-5": "my-medhelm-suite",
+  "ehr_sql:model=openai_gpt-5": "my-medhelm-suite",
+  "head_qa:language=en,category=None,model=openai_gpt-5": "my-medhelm-suite",
+  "med_dialog,subset=healthcaremagic:model=openai_gpt-5": "my-medhelm-suite",
+  "med_dialog,subset=icliniq:model=openai_gpt-5": "my-medhelm-suite",
+  "medbullets:model=openai_gpt-5": "my-medhelm-suite",
+  "medcalc_bench:model=openai_gpt-5": "my-medhelm-suite",
+  "medec:model=openai_gpt-5": "my-medhelm-suite",
+  "medhallu:model=openai_gpt-5": "my-medhelm-suite",
+  "medi_qa:model=openai_gpt-5": "my-medhelm-suite",
+  "mtsamples_replicate:model=openai_gpt-5": "my-medhelm-suite",
+  "pubmed_qa:model=openai_gpt-5": "my-medhelm-suite",
+  "race_based_med:model=openai_gpt-5": "my-medhelm-suite"
+}

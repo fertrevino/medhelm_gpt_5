@@ -1,0 +1,9 @@
+{
+  "name": "medbullets",
+  "description": "Medbullets is a benchmark of USMLE-style medical questions designed to assess amodel\u2019s ability to understand and apply clinical knowledge. Each question is accompaniedby a patient scenario and five multiple-choice options, similar to those found onStep 2 and Step 3 on the US medical licensing exam.",
+  "tags": [
+    "reasoning",
+    "biomedical"
+  ],
+  "definition_path": "https://github.com/stanford-crfm/helm/blob/main/src/helm/benchmark/scenarios/medbullets_scenario.py"
+}

@@ -1,0 +1,147 @@
+[
+  {
+    "title": "",
+    "header": [
+      {
+        "value": "Model",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "Jury Score",
+        "description": "ACI-Bench is a benchmark of real-world patient-doctor conversations paired with structured clinical notes. The benchmark evaluates a model's ability to understand spoken medical dialogue and convert it into formal clinical documentation, covering sections such as history of present illness, physical exam findings, results, and assessment and plan [(Yim et al., 2024)](https://www.nature.com/articles/s41597-023-02487-3).\n\nACI-Bench Jury Score: Measures the average score assigned by an LLM-based jury evaluating task performance.",
+        "markdown": false,
+        "lower_is_better": false,
+        "metadata": {
+          "metric": "Jury Score",
+          "run_group": "ACI-Bench"
+        }
+      },
+      {
+        "value": "Observed inference time (s)",
+        "description": "ACI-Bench is a benchmark of real-world patient-doctor conversations paired with structured clinical notes. The benchmark evaluates a model's ability to understand spoken medical dialogue and convert it into formal clinical documentation, covering sections such as history of present illness, physical exam findings, results, and assessment and plan [(Yim et al., 2024)](https://www.nature.com/articles/s41597-023-02487-3).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+        "markdown": false,
+        "lower_is_better": true,
+        "metadata": {
+          "metric": "Observed inference time (s)",
+          "run_group": "ACI-Bench"
+        }
+      },
+      {
+        "value": "# eval",
+        "description": "ACI-Bench is a benchmark of real-world patient-doctor conversations paired with structured clinical notes. The benchmark evaluates a model's ability to understand spoken medical dialogue and convert it into formal clinical documentation, covering sections such as history of present illness, physical exam findings, results, and assessment and plan [(Yim et al., 2024)](https://www.nature.com/articles/s41597-023-02487-3).\n\n# eval: Number of evaluation instances.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# eval",
+          "run_group": "ACI-Bench"
+        }
+      },
+      {
+        "value": "# train",
+        "description": "ACI-Bench is a benchmark of real-world patient-doctor conversations paired with structured clinical notes. The benchmark evaluates a model's ability to understand spoken medical dialogue and convert it into formal clinical documentation, covering sections such as history of present illness, physical exam findings, results, and assessment and plan [(Yim et al., 2024)](https://www.nature.com/articles/s41597-023-02487-3).\n\n# train: Number of training instances (e.g., in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "# train",
+          "run_group": "ACI-Bench"
+        }
+      },
+      {
+        "value": "truncated",
+        "description": "ACI-Bench is a benchmark of real-world patient-doctor conversations paired with structured clinical notes. The benchmark evaluates a model's ability to understand spoken medical dialogue and convert it into formal clinical documentation, covering sections such as history of present illness, physical exam findings, results, and assessment and plan [(Yim et al., 2024)](https://www.nature.com/articles/s41597-023-02487-3).\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "truncated",
+          "run_group": "ACI-Bench"
+        }
+      },
+      {
+        "value": "# prompt tokens",
+        "description": "ACI-Bench is a benchmark of real-world patient-doctor conversations paired with structured clinical notes. The benchmark evaluates a model's ability to understand spoken medical dialogue and convert it into formal clinical documentation, covering sections such as history of present illness, physical exam findings, results, and assessment and plan [(Yim et al., 2024)](https://www.nature.com/articles/s41597-023-02487-3).\n\n# prompt tokens: Number of tokens in the prompt.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# prompt tokens",
+          "run_group": "ACI-Bench"
+        }
+      },
+      {
+        "value": "# output tokens",
+        "description": "ACI-Bench is a benchmark of real-world patient-doctor conversations paired with structured clinical notes. The benchmark evaluates a model's ability to understand spoken medical dialogue and convert it into formal clinical documentation, covering sections such as history of present illness, physical exam findings, results, and assessment and plan [(Yim et al., 2024)](https://www.nature.com/articles/s41597-023-02487-3).\n\n# output tokens: Actual number of output tokens.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# output tokens",
+          "run_group": "ACI-Bench"
+        }
+      }
+    ],
+    "rows": [
+      [
+        {
+          "value": "GPT 5",
+          "description": "",
+          "href": "?group=aci_bench&subgroup=&runSpecs=%5B%22aci_bench%3Amodel%3Dopenai_gpt-5%22%5D",
+          "markdown": false,
+          "run_spec_names": [
+            "aci_bench:model=openai_gpt-5"
+          ]
+        },
+        {
+          "value": 1.0,
+          "description": "min=1, mean=1, max=1, sum=1 (1)",
+          "style": {
+            "font-weight": "bold"
+          },
+          "markdown": false
+        },
+        {
+          "value": 35.712009525299074,
+          "description": "min=35.712, mean=35.712, max=35.712, sum=35.712 (1)",
+          "style": {
+            "font-weight": "bold"
+          },
+          "markdown": false
+        },
+        {
+          "value": 10.0,
+          "description": "min=10, mean=10, max=10, sum=10 (1)",
+          "style": {},
+          "markdown": false
+        },
+        {
+          "value": 0.0,
+          "description": "min=0, mean=0, max=0, sum=0 (1)",
+          "style": {},
+          "markdown": false
+        },
+        {
+          "value": 0.0,
+          "description": "min=0, mean=0, max=0, sum=0 (1)",
+          "style": {},
+          "markdown": false
+        },
+        {
+          "value": 1447.3,
+          "description": "min=1447.3, mean=1447.3, max=1447.3, sum=1447.3 (1)",
+          "style": {},
+          "markdown": false
+        },
+        {
+          "value": 474.1,
+          "description": "min=474.1, mean=474.1, max=474.1, sum=474.1 (1)",
+          "style": {},
+          "markdown": false
+        }
+      ]
+    ],
+    "links": [
+      {
+        "text": "LaTeX",
+        "href": "benchmark_output/runs/my-medhelm-suite/groups/latex/aci_bench_aci_bench_.tex"
+      },
+      {
+        "text": "JSON",
+        "href": "benchmark_output/runs/my-medhelm-suite/groups/json/aci_bench_aci_bench_.json"
+      }
+    ],
+    "name": "aci_bench_"
+  }
+]

@@ -1,0 +1,1571 @@
+[
+  {
+    "title": "All scenarios",
+    "header": [
+      {
+        "value": "Group",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "Description",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "Adaptation method",
+        "description": "Adaptation strategy (e.g., generation)",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "# instances",
+        "description": "Number of instances evaluated on",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "# references",
+        "description": "Number of references provided per instance",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "# prompt tokens",
+        "description": "Total number of prompt tokens",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "# completion tokens",
+        "description": "Total number of completion tokens",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "# models",
+        "description": "Number of models we're evaluating",
+        "markdown": false,
+        "metadata": {}
+      }
+    ],
+    "rows": [
+      [
+        {
+          "value": "MedHELM Scenarios",
+          "href": "?group=medhelm_scenarios",
+          "markdown": false
+        },
+        {
+          "value": "Scenarios for the medical domain",
+          "markdown": true
+        },
+        {
+          "value": "multiple_choice_joint, generation",
+          "markdown": false
+        },
+        {
+          "value": 134.6153846153846,
+          "description": "min=10, mean=134.615, max=1000, sum=1750 (13)",
+          "markdown": false
+        },
+        {
+          "value": 1.7692307692307692,
+          "description": "min=1, mean=1.769, max=5, sum=69 (39)",
+          "markdown": false
+        },
+        {
+          "value": 20774.528999999995,
+          "description": "min=38.6, mean=532.68, max=1447.3, sum=20774.529 (39)",
+          "markdown": false
+        },
+        {
+          "value": 5979.522000000003,
+          "description": "min=1, mean=153.321, max=744.6, sum=5979.522 (39)",
+          "markdown": false
+        },
+        {
+          "value": 1,
+          "markdown": false
+        }
+      ]
+    ],
+    "links": []
+  },
+  {
+    "title": "Healthcare Task Categories",
+    "header": [
+      {
+        "value": "Group",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "Description",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "Adaptation method",
+        "description": "Adaptation strategy (e.g., generation)",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "# instances",
+        "description": "Number of instances evaluated on",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "# references",
+        "description": "Number of references provided per instance",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "# prompt tokens",
+        "description": "Total number of prompt tokens",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "# completion tokens",
+        "description": "Total number of completion tokens",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "# models",
+        "description": "Number of models we're evaluating",
+        "markdown": false,
+        "metadata": {}
+      }
+    ],
+    "rows": [
+      [
+        {
+          "value": "Clinical Decision Support",
+          "href": "?group=clinical_decision_support",
+          "markdown": false
+        },
+        {
+          "value": "Scenarios for clinical decision support",
+          "markdown": true
+        },
+        {
+          "value": "multiple_choice_joint, generation",
+          "markdown": false
+        },
+        {
+          "value": 262.0,
+          "description": "min=10, mean=262, max=1000, sum=1310 (5)",
+          "markdown": false
+        },
+        {
+          "value": 2.4,
+          "description": "min=1, mean=2.4, max=5, sum=36 (15)",
+          "markdown": false
+        },
+        {
+          "value": 6793.8690000000015,
+          "description": "min=151.78, mean=452.925, max=889.5, sum=6793.869 (15)",
+          "markdown": false
+        },
+        {
+          "value": 1603.512,
+          "description": "min=1, mean=106.901, max=512, sum=1603.512 (15)",
+          "markdown": false
+        },
+        {
+          "value": 1,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "Clinical Note Generation",
+          "href": "?group=clinical_note_generation",
+          "markdown": false
+        },
+        {
+          "value": "Scenarios for clinical note generation",
+          "markdown": true
+        },
+        {
+          "value": "generation",
+          "markdown": false
+        },
+        {
+          "value": 10.0,
+          "description": "min=10, mean=10, max=10, sum=10 (1)",
+          "markdown": false
+        },
+        {
+          "value": 1.0,
+          "description": "min=1, mean=1, max=1, sum=3 (3)",
+          "markdown": false
+        },
+        {
+          "value": 4341.9,
+          "description": "min=1447.3, mean=1447.3, max=1447.3, sum=4341.9 (3)",
+          "markdown": false
+        },
+        {
+          "value": 1422.3000000000002,
+          "description": "min=474.1, mean=474.1, max=474.1, sum=1422.3 (3)",
+          "markdown": false
+        },
+        {
+          "value": 1,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "Patient Communication and Education",
+          "href": "?group=patient_communication",
+          "markdown": false
+        },
+        {
+          "value": "Scenarios for patient communication and education",
+          "markdown": true
+        },
+        {
+          "value": "generation",
+          "markdown": false
+        },
+        {
+          "value": 10.0,
+          "description": "min=10, mean=10, max=10, sum=30 (3)",
+          "markdown": false
+        },
+        {
+          "value": 1.0,
+          "description": "min=1, mean=1, max=1, sum=9 (9)",
+          "markdown": false
+        },
+        {
+          "value": 2002.1999999999998,
+          "description": "min=38.6, mean=222.467, max=380.5, sum=2002.2 (9)",
+          "markdown": false
+        },
+        {
+          "value": 2624.3999999999996,
+          "description": "min=63.3, mean=291.6, max=744.6, sum=2624.4 (9)",
+          "markdown": false
+        },
+        {
+          "value": 1,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "Medical Research Assistance",
+          "href": "?group=medical_research",
+          "markdown": false
+        },
+        {
+          "value": "Scenarios for medical research assistance",
+          "markdown": true
+        },
+        {
+          "value": "multiple_choice_joint, generation",
+          "markdown": false
+        },
+        {
+          "value": 100.0,
+          "description": "min=100, mean=100, max=100, sum=400 (4)",
+          "markdown": false
+        },
+        {
+          "value": 1.75,
+          "description": "min=1, mean=1.75, max=3, sum=21 (12)",
+          "markdown": false
+        },
+        {
+          "value": 7636.5599999999995,
+          "description": "min=391.5, mean=636.38, max=963.81, sum=7636.56 (12)",
+          "markdown": false
+        },
+        {
+          "value": 329.31,
+          "description": "min=1, mean=27.442, max=106.77, sum=329.31 (12)",
+          "markdown": false
+        },
+        {
+          "value": 1,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "Administration and Workflow",
+          "href": "?group=administration_and_workflow",
+          "markdown": false
+        },
+        {
+          "value": "Scenarios for administration and workflow",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ]
+    ],
+    "links": []
+  },
+  {
+    "title": "Scenarios",
+    "header": [
+      {
+        "value": "Group",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "Description",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "Adaptation method",
+        "description": "Adaptation strategy (e.g., generation)",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "# instances",
+        "description": "Number of instances evaluated on",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "# references",
+        "description": "Number of references provided per instance",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "# prompt tokens",
+        "description": "Total number of prompt tokens",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "# completion tokens",
+        "description": "Total number of completion tokens",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "# models",
+        "description": "Number of models we're evaluating",
+        "markdown": false,
+        "metadata": {}
+      }
+    ],
+    "rows": [
+      [
+        {
+          "value": "MedCalc-Bench",
+          "href": "?group=medcalc_bench",
+          "markdown": false
+        },
+        {
+          "value": "MedCalc-Bench is a benchmark designed to evaluate models on their ability to compute clinically relevant values from patient notes. Each instance consists of a clinical note describing the patient's condition, a diagnostic question targeting a specific medical value, and a ground truth response. [(Khandekar et al., 2024)](https://arxiv.org/abs/2406.12036).",
+          "markdown": true
+        },
+        {
+          "value": "generation",
+          "markdown": false
+        },
+        {
+          "value": 1000.0,
+          "description": "min=1000, mean=1000, max=1000, sum=1000 (1)",
+          "markdown": false
+        },
+        {
+          "value": 1.0,
+          "description": "min=1, mean=1, max=1, sum=3 (3)",
+          "markdown": false
+        },
+        {
+          "value": 1755.1889999999999,
+          "description": "min=585.063, mean=585.063, max=585.063, sum=1755.189 (3)",
+          "markdown": false
+        },
+        {
+          "value": 6.672000000000001,
+          "description": "min=2.224, mean=2.224, max=2.224, sum=6.672 (3)",
+          "markdown": false
+        },
+        {
+          "value": 1,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "CLEAR",
+          "href": "?group=clear",
+          "markdown": false
+        },
+        {
+          "value": "CLEAR is a benchmark designed to evaluate models on their ability to detect medical conditions from patient notes using categorical responses. Each instance consists of a clinical note and a target condition, requiring the model to classify the patient's history as either affirmative, negative, or uncertain [(Lopez et al., 2025)](https://www.nature.com/articles/s41746-024-01377-1).",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "MTSamples",
+          "href": "?group=mtsamples_replicate",
+          "markdown": false
+        },
+        {
+          "value": "MTSamples Replicate is a benchmark that provides transcribed medical reports from various specialties. It is used to evaluate a model's ability to generate clinically appropriate treatment plans based on unstructured patient documentation [(MTSamples, 2025)](https://mtsamples.com).",
+          "markdown": true
+        },
+        {
+          "value": "generation",
+          "markdown": false
+        },
+        {
+          "value": 10.0,
+          "description": "min=10, mean=10, max=10, sum=10 (1)",
+          "markdown": false
+        },
+        {
+          "value": 1.0,
+          "description": "min=1, mean=1, max=1, sum=3 (3)",
+          "markdown": false
+        },
+        {
+          "value": 2668.5,
+          "description": "min=889.5, mean=889.5, max=889.5, sum=2668.5 (3)",
+          "markdown": false
+        },
+        {
+          "value": 1536.0,
+          "description": "min=512, mean=512, max=512, sum=1536 (3)",
+          "markdown": false
+        },
+        {
+          "value": 1,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "Medec",
+          "href": "?group=medec",
+          "markdown": false
+        },
+        {
+          "value": "Medec is a benchmark composed of clinical narratives that include either correct documentation or medical errors. Each entry includes sentence-level identifiers and an associated correction task. The model must review the narrative and either identify the erroneous sentence and correct it, or confirm that the text is entirely accurate [(Abacha et al., 2025)](https://arxiv.org/abs/2412.19260).",
+          "markdown": true
+        },
+        {
+          "value": "generation",
+          "markdown": false
+        },
+        {
+          "value": 100.0,
+          "description": "min=100, mean=100, max=100, sum=100 (1)",
+          "markdown": false
+        },
+        {
+          "value": 1.0,
+          "description": "min=1, mean=1, max=1, sum=3 (3)",
+          "markdown": false
+        },
+        {
+          "value": 902.79,
+          "description": "min=300.93, mean=300.93, max=300.93, sum=902.79 (3)",
+          "markdown": false
+        },
+        {
+          "value": 54.84,
+          "description": "min=18.28, mean=18.28, max=18.28, sum=54.84 (3)",
+          "markdown": false
+        },
+        {
+          "value": 1,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "EHRSHOT",
+          "href": "?group=ehrshot",
+          "markdown": false
+        },
+        {
+          "value": "EHRSHOT is a benchmark designed to evaluate a model's ability to predict future clinical events using structured EHR code sequences. Each instance contains a patient's historical EHR data and a forward-looking clinical question about whether a particular diagnosis, lab result, or hospital event will occur [(Wornow et al., 2023)](https://arxiv.org/abs/2307.02028).",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "HeadQA",
+          "href": "?group=head_qa",
+          "markdown": false
+        },
+        {
+          "value": "HeadQA is a benchmark consisting of biomedical multiple-choice questions intended to evaluate a model's medical knowledge and reasoning. Each instance presents a clinical or scientific question with four answer options, requiring the model to select the most appropriate answer [(Vilares et al., 2019)](https://arxiv.org/abs/1906.04701).",
+          "markdown": true
+        },
+        {
+          "value": "multiple_choice_joint",
+          "markdown": false
+        },
+        {
+          "value": 100.0,
+          "description": "min=100, mean=100, max=100, sum=100 (1)",
+          "markdown": false
+        },
+        {
+          "value": 4.0,
+          "description": "min=4, mean=4, max=4, sum=12 (3)",
+          "markdown": false
+        },
+        {
+          "value": 455.34000000000003,
+          "description": "min=151.78, mean=151.78, max=151.78, sum=455.34 (3)",
+          "markdown": false
+        },
+        {
+          "value": 3.0,
+          "description": "min=1, mean=1, max=1, sum=3 (3)",
+          "markdown": false
+        },
+        {
+          "value": 1,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "Medbullets",
+          "href": "?group=medbullets",
+          "markdown": false
+        },
+        {
+          "value": "Medbullets is a benchmark of USMLE-style medical questions designed to assess a model's ability to understand and apply clinical knowledge. Each question is accompanied by a patient scenario and five multiple-choice options, similar to those found on Step 2 and Step 3 board exams [(MedBullets, 2025)](https://step2.medbullets.com).",
+          "markdown": true
+        },
+        {
+          "value": "multiple_choice_joint",
+          "markdown": false
+        },
+        {
+          "value": 100.0,
+          "description": "min=100, mean=100, max=100, sum=100 (1)",
+          "markdown": false
+        },
+        {
+          "value": 5.0,
+          "description": "min=5, mean=5, max=5, sum=15 (3)",
+          "markdown": false
+        },
+        {
+          "value": 1012.0500000000001,
+          "description": "min=337.35, mean=337.35, max=337.35, sum=1012.05 (3)",
+          "markdown": false
+        },
+        {
+          "value": 3.0,
+          "description": "min=1, mean=1, max=1, sum=3 (3)",
+          "markdown": false
+        },
+        {
+          "value": 1,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "MedAlign",
+          "href": "?group=medalign",
+          "markdown": false
+        },
+        {
+          "value": "MedAlign is a benchmark that evaluates a model's ability to interpret and follow instructions grounded in longitudinal electronic health records (EHR). Each instance includes an event-stream style patient record and a natural language question or task, requiring clinically informed reading comprehension and reasoning [(Fleming et al., 2023)](https://arxiv.org/abs/2308.14089).",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "ADHD-Behavior",
+          "href": "?group=shc_ptbm_med",
+          "markdown": false
+        },
+        {
+          "value": "ADHD-Behavior is a benchmark that evaluates a model's ability to detect whether a clinician recommends parent training in behavior management, an evidence-based first-line treatment for young children diagnosed with ADHD. Each instance includes a clinical note from a pediatric visit and a binary classification task [(Pillai et al., 2024)](https://doi.org/10.1093/jamia/ocae001).",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "ADHD-MedEffects",
+          "href": "?group=shc_sei_med",
+          "markdown": false
+        },
+        {
+          "value": "ADHD-MedEffects is a benchmark designed to evaluate whether clinical notes for pediatric ADHD visits document medication side effect monitoring, which is a key recommendation in clinical practice guidelines. The dataset supports binary classification to detect presence or absence of side effect inquiries (SEI) within notes [(Bannet et al., 2024)](https://doi.org/10.1542/peds.2024-067223).",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "DischargeMe",
+          "href": "?group=dischargeme",
+          "markdown": false
+        },
+        {
+          "value": "DischargeMe is a benchmark designed to evaluate clinical text generation. It pairs discharge summaries and radiology reports from MIMIC-IV with generation tasks such as writing discharge instructions or summarizing the brief hospital course. The benchmark assesses a model's ability to generate patient-facing documentation that is complete, empathetic, and clinically accurate [(Xu, 2024)](https://physionet.org/content/discharge-me/1.3/).",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "ACI-Bench",
+          "href": "?group=aci_bench",
+          "markdown": false
+        },
+        {
+          "value": "ACI-Bench is a benchmark of real-world patient-doctor conversations paired with structured clinical notes. The benchmark evaluates a model's ability to understand spoken medical dialogue and convert it into formal clinical documentation, covering sections such as history of present illness, physical exam findings, results, and assessment and plan [(Yim et al., 2024)](https://www.nature.com/articles/s41597-023-02487-3).",
+          "markdown": true
+        },
+        {
+          "value": "generation",
+          "markdown": false
+        },
+        {
+          "value": 10.0,
+          "description": "min=10, mean=10, max=10, sum=10 (1)",
+          "markdown": false
+        },
+        {
+          "value": 1.0,
+          "description": "min=1, mean=1, max=1, sum=3 (3)",
+          "markdown": false
+        },
+        {
+          "value": 4341.9,
+          "description": "min=1447.3, mean=1447.3, max=1447.3, sum=4341.9 (3)",
+          "markdown": false
+        },
+        {
+          "value": 1422.3000000000002,
+          "description": "min=474.1, mean=474.1, max=474.1, sum=1422.3 (3)",
+          "markdown": false
+        },
+        {
+          "value": 1,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "MTSamples Procedures",
+          "href": "?group=mtsamples_procedures",
+          "markdown": false
+        },
+        {
+          "value": "MTSamples Procedures is a benchmark composed of transcribed operative notes, focused on documenting surgical procedures. Each example presents a brief patient case involving a surgical intervention, and the model is tasked with generating a coherent and clinically accurate procedural summary or treatment plan.",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "MIMIC-RRS",
+          "href": "?group=mimic_rrs",
+          "markdown": false
+        },
+        {
+          "value": "MIMIC-RRS is a benchmark constructed from radiology reports in the MIMIC-III database. It contains pairs of \u2018Findings\u2018 and \u2018Impression\u2018 sections, enabling evaluation of a model's ability to summarize diagnostic imaging observations into concise, clinically relevant conclusions [(Chen et al., 2023)](https://arxiv.org/abs/2211.08584).",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "MIMIC-IV-BHC",
+          "href": "?group=mimic_bhc",
+          "markdown": false
+        },
+        {
+          "value": "MIMIC-BHC is a benchmark focused on summarization of discharge notes into Brief Hospital Course (BHC) sections. It consists of curated discharge notes from MIMIC-IV, each paired with its corresponding BHC summary. The benchmark evaluates a model's ability to condense detailed clinical information into accurate, concise summaries that reflect the patient's hospital stay [(Aali et al., 2024)](https://doi.org/10.1093/jamia/ocae312).",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "NoteExtract",
+          "href": "?group=chw_care_plan",
+          "markdown": false
+        },
+        {
+          "value": "NoteExtract is a benchmark that focuses on the structured extraction of information from free-form clinical text. It provides care plan notes authored by health workers and evaluates a model's ability to convert them into a predefined structured format, such as fields for Chief Complaint and History of Present Illness. The benchmark emphasizes faithful extraction without hallucination or inference.",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "MedicationQA",
+          "href": "?group=medication_qa",
+          "markdown": false
+        },
+        {
+          "value": "MedicationQA is a benchmark composed of open-ended consumer health questions specifically focused on medications. Each example consists of a free-form question and a corresponding medically grounded answer. The benchmark evaluates a model's ability to provide accurate, accessible, and informative medication-related responses for a lay audience.",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "PatientInstruct",
+          "href": "?group=starr_patient_instructions",
+          "markdown": false
+        },
+        {
+          "value": "PatientInstruct is a benchmark designed to evaluate models on generating personalized post-procedure instructions for patients. It includes real-world clinical case details, such as diagnosis, planned procedures, and history and physical notes, from which models must produce clear, actionable instructions appropriate for patients recovering from medical interventions.",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "MedDialog",
+          "href": "?group=med_dialog",
+          "markdown": false
+        },
+        {
+          "value": "MedDialog is a benchmark of real-world doctor-patient conversations focused on health-related concerns and advice. Each dialogue is paired with a one-sentence summary that reflects the core patient question or exchange. The benchmark evaluates a model's ability to condense medical dialogue into concise, informative summaries.",
+          "markdown": true
+        },
+        {
+          "value": "generation",
+          "markdown": false
+        },
+        {
+          "value": 10.0,
+          "description": "min=10, mean=10, max=10, sum=20 (2)",
+          "markdown": false
+        },
+        {
+          "value": 1.0,
+          "description": "min=1, mean=1, max=1, sum=6 (6)",
+          "markdown": false
+        },
+        {
+          "value": 1886.4,
+          "description": "min=248.3, mean=314.4, max=380.5, sum=1886.4 (6)",
+          "markdown": false
+        },
+        {
+          "value": 390.5999999999999,
+          "description": "min=63.3, mean=65.1, max=66.9, sum=390.6 (6)",
+          "markdown": false
+        },
+        {
+          "value": 1,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "MedConfInfo",
+          "href": "?group=shc_conf_med",
+          "markdown": false
+        },
+        {
+          "value": "MedConfInfo is a benchmark comprising clinical notes from adolescent patients. It is used to evaluate whether the content contains sensitive protected health information (PHI) that should be restricted from parental access, in accordance with adolescent confidentiality policies in clinical care. [(Rabbani et al., 2024)](https://jamanetwork.com/journals/jamapediatrics/fullarticle/2814109).",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "MEDIQA",
+          "href": "?group=medi_qa",
+          "markdown": false
+        },
+        {
+          "value": "MEDIQA is a benchmark designed to evaluate a model's ability to retrieve and generate medically accurate answers to patient-generated questions. Each instance includes a consumer health question, a set of candidate answers (used in ranking tasks), relevance annotations, and optionally, additional context. The benchmark focuses on supporting patient understanding and accessibility in health communication.",
+          "markdown": true
+        },
+        {
+          "value": "generation",
+          "markdown": false
+        },
+        {
+          "value": 10.0,
+          "description": "min=10, mean=10, max=10, sum=10 (1)",
+          "markdown": false
+        },
+        {
+          "value": 1.0,
+          "description": "min=1, mean=1, max=1, sum=3 (3)",
+          "markdown": false
+        },
+        {
+          "value": 115.80000000000001,
+          "description": "min=38.6, mean=38.6, max=38.6, sum=115.8 (3)",
+          "markdown": false
+        },
+        {
+          "value": 2233.8,
+          "description": "min=744.6, mean=744.6, max=744.6, sum=2233.8 (3)",
+          "markdown": false
+        },
+        {
+          "value": 1,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "MentalHealth",
+          "href": "?group=mental_health",
+          "markdown": false
+        },
+        {
+          "value": "MentalHealth is a benchmark focused on evaluating empathetic communication in mental health counseling. It includes real or simulated conversations between patients and counselors, where the task is to generate compassionate and appropriate counselor responses. The benchmark assesses a model's ability to support patients emotionally and meaningfully engage in therapeutic conversations.",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "ProxySender",
+          "href": "?group=shc_proxy_med",
+          "markdown": false
+        },
+        {
+          "value": "ProxySender is a benchmark composed of patient portal messages received by clinicians. It evaluates whether the message was sent by the patient or by a proxy user (e.g., parent, spouse), which is critical for understanding who is communicating with healthcare providers. [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "PrivacyDetection",
+          "href": "?group=shc_privacy_med",
+          "markdown": false
+        },
+        {
+          "value": "PrivacyDetection is a benchmark composed of patient portal messages submitted by patients or caregivers. The task is to determine whether the message contains any confidential or privacy-leaking information that should be protected [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "PubMedQA",
+          "href": "?group=pubmed_qa",
+          "markdown": false
+        },
+        {
+          "value": "PubMedQA is a biomedical question-answering dataset that evaluates a model's ability to interpret scientific literature. It consists of PubMed abstracts paired with yes/no/maybe questions derived from the content. The benchmark assesses a model's capability to reason over biomedical texts and provide factually grounded answers.",
+          "markdown": true
+        },
+        {
+          "value": "multiple_choice_joint",
+          "markdown": false
+        },
+        {
+          "value": 100.0,
+          "description": "min=100, mean=100, max=100, sum=100 (1)",
+          "markdown": false
+        },
+        {
+          "value": 3.0,
+          "description": "min=3, mean=3, max=3, sum=9 (3)",
+          "markdown": false
+        },
+        {
+          "value": 1174.5,
+          "description": "min=391.5, mean=391.5, max=391.5, sum=1174.5 (3)",
+          "markdown": false
+        },
+        {
+          "value": 3.0,
+          "description": "min=1, mean=1, max=1, sum=3 (3)",
+          "markdown": false
+        },
+        {
+          "value": 1,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "EHRSQL",
+          "href": "?group=ehr_sql",
+          "markdown": false
+        },
+        {
+          "value": "EHRSQL is a benchmark designed to evaluate models on generating structured queries for clinical research. Each example includes a natural language question and a database schema, and the task is to produce an SQL query that would return the correct result for a biomedical research objective. This benchmark assesses a model's understanding of medical terminology, data structures, and query construction.",
+          "markdown": true
+        },
+        {
+          "value": "generation",
+          "markdown": false
+        },
+        {
+          "value": 100.0,
+          "description": "min=100, mean=100, max=100, sum=100 (1)",
+          "markdown": false
+        },
+        {
+          "value": 1.0,
+          "description": "min=1, mean=1, max=1, sum=3 (3)",
+          "markdown": false
+        },
+        {
+          "value": 2891.43,
+          "description": "min=963.81, mean=963.81, max=963.81, sum=2891.43 (3)",
+          "markdown": false
+        },
+        {
+          "value": 320.31,
+          "description": "min=106.77, mean=106.77, max=106.77, sum=320.31 (3)",
+          "markdown": false
+        },
+        {
+          "value": 1,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "BMT-Status",
+          "href": "?group=shc_bmt_med",
+          "markdown": false
+        },
+        {
+          "value": "BMT-Status is a benchmark composed of clinical notes and associated binary questions related to bone marrow transplant (BMT), hematopoietic stem cell transplant (HSCT), or hematopoietic cell transplant (HCT) status. The goal is to determine whether the patient received a subsequent transplant based on the provided clinical documentation.",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "RaceBias",
+          "href": "?group=race_based_med",
+          "markdown": false
+        },
+        {
+          "value": "RaceBias is a benchmark used to evaluate language models for racially biased or inappropriate content in medical question-answering scenarios. Each instance consists of a medical question and a model-generated response. The task is to classify whether the response contains race-based, harmful, or inaccurate content. This benchmark supports research into bias detection and fairness in clinical AI systems.",
+          "markdown": true
+        },
+        {
+          "value": "multiple_choice_joint",
+          "markdown": false
+        },
+        {
+          "value": 100.0,
+          "description": "min=100, mean=100, max=100, sum=100 (1)",
+          "markdown": false
+        },
+        {
+          "value": 2.0,
+          "description": "min=2, mean=2, max=2, sum=6 (3)",
+          "markdown": false
+        },
+        {
+          "value": 1443.78,
+          "description": "min=481.26, mean=481.26, max=481.26, sum=1443.78 (3)",
+          "markdown": false
+        },
+        {
+          "value": 3.0,
+          "description": "min=1, mean=1, max=1, sum=3 (3)",
+          "markdown": false
+        },
+        {
+          "value": 1,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "N2C2-CT Matching",
+          "href": "?group=n2c2_ct_matching",
+          "markdown": false
+        },
+        {
+          "value": "A dataset that provides clinical notes and asks the model to classify whether the patient is a valid candidate for a provided clinical trial.",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "MedHallu",
+          "href": "?group=medhallu",
+          "markdown": false
+        },
+        {
+          "value": "MedHallu is a benchmark focused on evaluating factual correctness in biomedical question answering. Each instance contains a PubMed-derived knowledge snippet, a biomedical question, and a model-generated answer. The task is to classify whether the answer is factually correct or contains hallucinated (non-grounded) information. This benchmark is designed to assess the factual reliability of medical language models.",
+          "markdown": true
+        },
+        {
+          "value": "generation",
+          "markdown": false
+        },
+        {
+          "value": 100.0,
+          "description": "min=100, mean=100, max=100, sum=100 (1)",
+          "markdown": false
+        },
+        {
+          "value": 1.0,
+          "description": "min=1, mean=1, max=1, sum=3 (3)",
+          "markdown": false
+        },
+        {
+          "value": 2126.8500000000004,
+          "description": "min=708.95, mean=708.95, max=708.95, sum=2126.85 (3)",
+          "markdown": false
+        },
+        {
+          "value": 3.0,
+          "description": "min=1, mean=1, max=1, sum=3 (3)",
+          "markdown": false
+        },
+        {
+          "value": 1,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "HospiceReferral",
+          "href": "?group=shc_gip_med",
+          "markdown": false
+        },
+        {
+          "value": "HospiceReferral is a benchmark that evaluates model performance in identifying whether patients are eligible for hospice care based on palliative care clinical notes. The benchmark focuses on end-of-life care referral decisions.",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "MIMIC-IV Billing Code",
+          "href": "?group=mimiciv_billing_code",
+          "markdown": false
+        },
+        {
+          "value": "MIMIC-IV Billing Code is a benchmark derived from discharge summaries in the MIMIC-IV database, paired with their corresponding ICD-10 billing codes. The task requires models to extract structured billing codes based on free-text clinical notes, reflecting real-world hospital coding tasks for financial reimbursement.",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "ClinicReferral",
+          "href": "?group=shc_sequoia_med",
+          "markdown": false
+        },
+        {
+          "value": "ClinicReferral is a benchmark that determines patient eligibility for referral to the Sequoia Clinic based on information from palliative care notes. The dataset provides curated decisions on referral appropriateness to assist in automating clinic workflows.",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "CDI-QA",
+          "href": "?group=shc_cdi_med",
+          "markdown": false
+        },
+        {
+          "value": "CDI-QA is a benchmark constructed from Clinical Documentation Integrity (CDI) notes. It is used to evaluate a model's ability to verify clinical conditions based on documented evidence in patient records.",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ],
+      [
+        {
+          "value": "ENT-Referral",
+          "href": "?group=shc_ent_med",
+          "markdown": false
+        },
+        {
+          "value": "ENT-Referral is a benchmark designed to evaluate whether a patient's clinical note supports a referral to an Ear, Nose, and Throat (ENT) specialist. It helps assess models' abilities to make referral decisions based on unstructured clinical text",
+          "markdown": true
+        },
+        {
+          "value": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "value": 0,
+          "markdown": false
+        }
+      ]
+    ],
+    "links": []
+  }
+]

@@ -1,0 +1,417 @@
+{
+  "medhelm_scenarios": {
+    "display_name": "MedHELM Scenarios",
+    "description": "Scenarios for the medical domain",
+    "taxonomy": null
+  },
+  "clinical_decision_support": {
+    "display_name": "Clinical Decision Support",
+    "description": "Scenarios for clinical decision support",
+    "taxonomy": null
+  },
+  "clinical_note_generation": {
+    "display_name": "Clinical Note Generation",
+    "description": "Scenarios for clinical note generation",
+    "taxonomy": null
+  },
+  "patient_communication": {
+    "display_name": "Patient Communication and Education",
+    "description": "Scenarios for patient communication and education",
+    "taxonomy": null
+  },
+  "medical_research": {
+    "display_name": "Medical Research Assistance",
+    "description": "Scenarios for medical research assistance",
+    "taxonomy": null
+  },
+  "administration_and_workflow": {
+    "display_name": "Administration and Workflow",
+    "description": "Scenarios for administration and workflow",
+    "taxonomy": null
+  },
+  "medcalc_bench": {
+    "display_name": "MedCalc-Bench",
+    "description": "MedCalc-Bench is a benchmark designed to evaluate models on their ability to compute clinically relevant values from patient notes. Each instance consists of a clinical note describing the patient's condition, a diagnostic question targeting a specific medical value, and a ground truth response. [(Khandekar et al., 2024)](https://arxiv.org/abs/2406.12036).",
+    "taxonomy": {
+      "task": "Computational reasoning",
+      "what": "Compute a specific medical value from a patient note",
+      "when": "Any",
+      "who": "Clinician, Researcher",
+      "language": "English"
+    }
+  },
+  "clear": {
+    "display_name": "CLEAR",
+    "description": "CLEAR is a benchmark designed to evaluate models on their ability to detect medical conditions from patient notes using categorical responses. Each instance consists of a clinical note and a target condition, requiring the model to classify the patient's history as either affirmative, negative, or uncertain [(Lopez et al., 2025)](https://www.nature.com/articles/s41746-024-01377-1).",
+    "taxonomy": {
+      "task": "Classification",
+      "what": "Classify medical condition presence from patient notes",
+      "when": "Any",
+      "who": "Clinician",
+      "language": "English"
+    }
+  },
+  "mtsamples_replicate": {
+    "display_name": "MTSamples",
+    "description": "MTSamples Replicate is a benchmark that provides transcribed medical reports from various specialties. It is used to evaluate a model's ability to generate clinically appropriate treatment plans based on unstructured patient documentation [(MTSamples, 2025)](https://mtsamples.com).",
+    "taxonomy": {
+      "task": "Text generation",
+      "what": "Generate treatment plans based on clinical notes",
+      "when": "Post-diagnosis",
+      "who": "Clinician",
+      "language": "English"
+    }
+  },
+  "medec": {
+    "display_name": "Medec",
+    "description": "Medec is a benchmark composed of clinical narratives that include either correct documentation or medical errors. Each entry includes sentence-level identifiers and an associated correction task. The model must review the narrative and either identify the erroneous sentence and correct it, or confirm that the text is entirely accurate [(Abacha et al., 2025)](https://arxiv.org/abs/2412.19260).",
+    "taxonomy": {
+      "task": "Classification",
+      "what": "Detect and correct errors in medical narratives",
+      "when": "Any",
+      "who": "Researcher, Clinician",
+      "language": "English"
+    }
+  },
+  "ehrshot": {
+    "display_name": "EHRSHOT",
+    "description": "EHRSHOT is a benchmark designed to evaluate a model's ability to predict future clinical events using structured EHR code sequences. Each instance contains a patient's historical EHR data and a forward-looking clinical question about whether a particular diagnosis, lab result, or hospital event will occur [(Wornow et al., 2023)](https://arxiv.org/abs/2307.02028).",
+    "taxonomy": {
+      "task": "Classification",
+      "what": "Predict whether a medical event will occur in the future based on EHR codes",
+      "when": "Future prediction",
+      "who": "Clinician, Insurer",
+      "language": "English"
+    }
+  },
+  "head_qa": {
+    "display_name": "HeadQA",
+    "description": "HeadQA is a benchmark consisting of biomedical multiple-choice questions intended to evaluate a model's medical knowledge and reasoning. Each instance presents a clinical or scientific question with four answer options, requiring the model to select the most appropriate answer [(Vilares et al., 2019)](https://arxiv.org/abs/1906.04701).",
+    "taxonomy": {
+      "task": "Question answering",
+      "what": "Medical knowledge testing",
+      "when": "Any",
+      "who": "Medical student, Researcher",
+      "language": "English"
+    }
+  },
+  "medbullets": {
+    "display_name": "Medbullets",
+    "description": "Medbullets is a benchmark of USMLE-style medical questions designed to assess a model's ability to understand and apply clinical knowledge. Each question is accompanied by a patient scenario and five multiple-choice options, similar to those found on Step 2 and Step 3 board exams [(MedBullets, 2025)](https://step2.medbullets.com).",
+    "taxonomy": {
+      "task": "Question answering",
+      "what": "Medical knowledge testing",
+      "when": "Any",
+      "who": "Medical student, . Researcher",
+      "language": "English"
+    }
+  },
+  "medalign": {
+    "display_name": "MedAlign",
+    "description": "MedAlign is a benchmark that evaluates a model's ability to interpret and follow instructions grounded in longitudinal electronic health records (EHR). Each instance includes an event-stream style patient record and a natural language question or task, requiring clinically informed reading comprehension and reasoning [(Fleming et al., 2023)](https://arxiv.org/abs/2308.14089).",
+    "taxonomy": {
+      "task": "Text generation",
+      "what": "Answer questions and follow instructions over longitudinal EHR",
+      "when": "Any",
+      "who": "Clinician, Researcher",
+      "language": "English"
+    }
+  },
+  "shc_ptbm_med": {
+    "display_name": "ADHD-Behavior",
+    "description": "ADHD-Behavior is a benchmark that evaluates a model's ability to detect whether a clinician recommends parent training in behavior management, an evidence-based first-line treatment for young children diagnosed with ADHD. Each instance includes a clinical note from a pediatric visit and a binary classification task [(Pillai et al., 2024)](https://doi.org/10.1093/jamia/ocae001).",
+    "taxonomy": {
+      "task": "Classification",
+      "what": "Detect ADHD medication side effect monitoring",
+      "when": "During Treatment",
+      "who": "Clinician, Researcher",
+      "language": "English"
+    }
+  },
+  "shc_sei_med": {
+    "display_name": "ADHD-MedEffects",
+    "description": "ADHD-MedEffects is a benchmark designed to evaluate whether clinical notes for pediatric ADHD visits document medication side effect monitoring, which is a key recommendation in clinical practice guidelines. The dataset supports binary classification to detect presence or absence of side effect inquiries (SEI) within notes [(Bannet et al., 2024)](https://doi.org/10.1542/peds.2024-067223).",
+    "taxonomy": {
+      "task": "Classification",
+      "what": "Classify clinician recommendations for ADHD behavior management",
+      "when": "Early Intervention",
+      "who": "Clinician, Caregiver",
+      "language": "English"
+    }
+  },
+  "dischargeme": {
+    "display_name": "DischargeMe",
+    "description": "DischargeMe is a benchmark designed to evaluate clinical text generation. It pairs discharge summaries and radiology reports from MIMIC-IV with generation tasks such as writing discharge instructions or summarizing the brief hospital course. The benchmark assesses a model's ability to generate patient-facing documentation that is complete, empathetic, and clinically accurate [(Xu, 2024)](https://physionet.org/content/discharge-me/1.3/).",
+    "taxonomy": {
+      "task": "Text generation",
+      "what": "Generate discharge instructions from hospital notes",
+      "when": "Upon hospital discharge",
+      "who": "Clinician",
+      "language": "English"
+    }
+  },
+  "aci_bench": {
+    "display_name": "ACI-Bench",
+    "description": "ACI-Bench is a benchmark of real-world patient-doctor conversations paired with structured clinical notes. The benchmark evaluates a model's ability to understand spoken medical dialogue and convert it into formal clinical documentation, covering sections such as history of present illness, physical exam findings, results, and assessment and plan [(Yim et al., 2024)](https://www.nature.com/articles/s41597-023-02487-3).",
+    "taxonomy": {
+      "task": "Text generation",
+      "what": "Extract and structure information from patient-doctor conversations",
+      "when": "Any",
+      "who": "Clinician",
+      "language": "English"
+    }
+  },
+  "mtsamples_procedures": {
+    "display_name": "MTSamples Procedures",
+    "description": "MTSamples Procedures is a benchmark composed of transcribed operative notes, focused on documenting surgical procedures. Each example presents a brief patient case involving a surgical intervention, and the model is tasked with generating a coherent and clinically accurate procedural summary or treatment plan.",
+    "taxonomy": {
+      "task": "Text generation",
+      "what": "Document and extract information about medical procedures",
+      "when": "Post-procedure",
+      "who": "Clinician, Researcher",
+      "language": "English"
+    }
+  },
+  "mimic_rrs": {
+    "display_name": "MIMIC-RRS",
+    "description": "MIMIC-RRS is a benchmark constructed from radiology reports in the MIMIC-III database. It contains pairs of \u2018Findings\u2018 and \u2018Impression\u2018 sections, enabling evaluation of a model's ability to summarize diagnostic imaging observations into concise, clinically relevant conclusions [(Chen et al., 2023)](https://arxiv.org/abs/2211.08584).",
+    "taxonomy": {
+      "task": "Text generation",
+      "what": "Generate radiology report summaries from findings sections",
+      "when": "Post-imaging",
+      "who": "Radiologist",
+      "language": "English"
+    }
+  },
+  "mimic_bhc": {
+    "display_name": "MIMIC-IV-BHC",
+    "description": "MIMIC-BHC is a benchmark focused on summarization of discharge notes into Brief Hospital Course (BHC) sections. It consists of curated discharge notes from MIMIC-IV, each paired with its corresponding BHC summary. The benchmark evaluates a model's ability to condense detailed clinical information into accurate, concise summaries that reflect the patient's hospital stay [(Aali et al., 2024)](https://doi.org/10.1093/jamia/ocae312).",
+    "taxonomy": {
+      "task": "Text generation",
+      "what": "Summarize the clinical note into a brief hospital course",
+      "when": "Upon hospital discharge",
+      "who": "Clinician",
+      "language": "English"
+    }
+  },
+  "chw_care_plan": {
+    "display_name": "NoteExtract",
+    "description": "NoteExtract is a benchmark that focuses on the structured extraction of information from free-form clinical text. It provides care plan notes authored by health workers and evaluates a model's ability to convert them into a predefined structured format, such as fields for Chief Complaint and History of Present Illness. The benchmark emphasizes faithful extraction without hallucination or inference.",
+    "taxonomy": {
+      "task": "Text generation",
+      "what": "Convert general text care plans into structured formats",
+      "when": "Any",
+      "who": "Clinician, Researcher",
+      "language": "English"
+    }
+  },
+  "medication_qa": {
+    "display_name": "MedicationQA",
+    "description": "MedicationQA is a benchmark composed of open-ended consumer health questions specifically focused on medications. Each example consists of a free-form question and a corresponding medically grounded answer. The benchmark evaluates a model's ability to provide accurate, accessible, and informative medication-related responses for a lay audience.",
+    "taxonomy": {
+      "task": "Question answering",
+      "what": "Answer consumer medication-related questions",
+      "when": "Any",
+      "who": "Patient, Pharmacist",
+      "language": "English"
+    }
+  },
+  "starr_patient_instructions": {
+    "display_name": "PatientInstruct",
+    "description": "PatientInstruct is a benchmark designed to evaluate models on generating personalized post-procedure instructions for patients. It includes real-world clinical case details, such as diagnosis, planned procedures, and history and physical notes, from which models must produce clear, actionable instructions appropriate for patients recovering from medical interventions.",
+    "taxonomy": {
+      "task": "Text generation",
+      "what": "Generate customized post-procedure patient instructions",
+      "when": "Post-procedure",
+      "who": "Clinician",
+      "language": "English"
+    }
+  },
+  "med_dialog": {
+    "display_name": "MedDialog",
+    "description": "MedDialog is a benchmark of real-world doctor-patient conversations focused on health-related concerns and advice. Each dialogue is paired with a one-sentence summary that reflects the core patient question or exchange. The benchmark evaluates a model's ability to condense medical dialogue into concise, informative summaries.",
+    "taxonomy": {
+      "task": "Text generation",
+      "what": "Generate summaries of doctor-patient conversations",
+      "when": "Any",
+      "who": "Clinician",
+      "language": "English"
+    }
+  },
+  "shc_conf_med": {
+    "display_name": "MedConfInfo",
+    "description": "MedConfInfo is a benchmark comprising clinical notes from adolescent patients. It is used to evaluate whether the content contains sensitive protected health information (PHI) that should be restricted from parental access, in accordance with adolescent confidentiality policies in clinical care. [(Rabbani et al., 2024)](https://jamanetwork.com/journals/jamapediatrics/fullarticle/2814109).",
+    "taxonomy": {
+      "task": "Classification",
+      "what": "Identify sensitive health info in adolescent notes",
+      "when": "Any",
+      "who": "Clinician",
+      "language": "English"
+    }
+  },
+  "medi_qa": {
+    "display_name": "MEDIQA",
+    "description": "MEDIQA is a benchmark designed to evaluate a model's ability to retrieve and generate medically accurate answers to patient-generated questions. Each instance includes a consumer health question, a set of candidate answers (used in ranking tasks), relevance annotations, and optionally, additional context. The benchmark focuses on supporting patient understanding and accessibility in health communication.",
+    "taxonomy": {
+      "task": "Text generation",
+      "what": "Retrieve and rank answers based on medical question understanding",
+      "when": "Any",
+      "who": "Clinician, Medical Student",
+      "language": "English"
+    }
+  },
+  "mental_health": {
+    "display_name": "MentalHealth",
+    "description": "MentalHealth is a benchmark focused on evaluating empathetic communication in mental health counseling. It includes real or simulated conversations between patients and counselors, where the task is to generate compassionate and appropriate counselor responses. The benchmark assesses a model's ability to support patients emotionally and meaningfully engage in therapeutic conversations.",
+    "taxonomy": {
+      "task": "Text generation",
+      "what": "Generate empathetic counseling responses in mental health conversations",
+      "when": "Any",
+      "who": "Counselors, Patients",
+      "language": "English"
+    }
+  },
+  "shc_proxy_med": {
+    "display_name": "ProxySender",
+    "description": "ProxySender is a benchmark composed of patient portal messages received by clinicians. It evaluates whether the message was sent by the patient or by a proxy user (e.g., parent, spouse), which is critical for understanding who is communicating with healthcare providers. [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).",
+    "taxonomy": {
+      "task": "Classification",
+      "what": "Classify if a document was sent by a proxy user",
+      "when": "Any",
+      "who": "Clinician, Caregiver",
+      "language": "English"
+    }
+  },
+  "shc_privacy_med": {
+    "display_name": "PrivacyDetection",
+    "description": "PrivacyDetection is a benchmark composed of patient portal messages submitted by patients or caregivers. The task is to determine whether the message contains any confidential or privacy-leaking information that should be protected [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).",
+    "taxonomy": {
+      "task": "Classification",
+      "what": "Classify if a document leaks private information",
+      "when": "Any",
+      "who": "Clinician, Caregiver",
+      "language": "English"
+    }
+  },
+  "pubmed_qa": {
+    "display_name": "PubMedQA",
+    "description": "PubMedQA is a biomedical question-answering dataset that evaluates a model's ability to interpret scientific literature. It consists of PubMed abstracts paired with yes/no/maybe questions derived from the content. The benchmark assesses a model's capability to reason over biomedical texts and provide factually grounded answers.",
+    "taxonomy": {
+      "task": "Question answering",
+      "what": "Answer questions based on PubMed abstracts",
+      "when": "Any",
+      "who": "Researcher",
+      "language": "English"
+    }
+  },
+  "ehr_sql": {
+    "display_name": "EHRSQL",
+    "description": "EHRSQL is a benchmark designed to evaluate models on generating structured queries for clinical research. Each example includes a natural language question and a database schema, and the task is to produce an SQL query that would return the correct result for a biomedical research objective. This benchmark assesses a model's understanding of medical terminology, data structures, and query construction.",
+    "taxonomy": {
+      "task": "Code generation",
+      "what": "Generate SQL queries from natural language for clinical research",
+      "when": "Any",
+      "who": "Researcher",
+      "language": "English"
+    }
+  },
+  "shc_bmt_med": {
+    "display_name": "BMT-Status",
+    "description": "BMT-Status is a benchmark composed of clinical notes and associated binary questions related to bone marrow transplant (BMT), hematopoietic stem cell transplant (HSCT), or hematopoietic cell transplant (HCT) status. The goal is to determine whether the patient received a subsequent transplant based on the provided clinical documentation.",
+    "taxonomy": {
+      "task": "question answering",
+      "what": "Answer bone marrow transplant questions",
+      "when": "Any",
+      "who": "Researcher",
+      "language": "English"
+    }
+  },
+  "race_based_med": {
+    "display_name": "RaceBias",
+    "description": "RaceBias is a benchmark used to evaluate language models for racially biased or inappropriate content in medical question-answering scenarios. Each instance consists of a medical question and a model-generated response. The task is to classify whether the response contains race-based, harmful, or inaccurate content. This benchmark supports research into bias detection and fairness in clinical AI systems.",
+    "taxonomy": {
+      "task": "Classification",
+      "what": "Identify race-based bias in LLM-generated medical responses",
+      "when": "Any",
+      "who": "Researcher",
+      "language": "English"
+    }
+  },
+  "n2c2_ct_matching": {
+    "display_name": "N2C2-CT Matching",
+    "description": "A dataset that provides clinical notes and asks the model to classify whether the patient is a valid candidate for a provided clinical trial.",
+    "taxonomy": {
+      "task": "Classification",
+      "what": "Classify whether a patient is a valid candidate for a clinical trial based on clinical notes",
+      "when": "Pre-Trial",
+      "who": "Researcher",
+      "language": "English"
+    }
+  },
+  "medhallu": {
+    "display_name": "MedHallu",
+    "description": "MedHallu is a benchmark focused on evaluating factual correctness in biomedical question answering. Each instance contains a PubMed-derived knowledge snippet, a biomedical question, and a model-generated answer. The task is to classify whether the answer is factually correct or contains hallucinated (non-grounded) information. This benchmark is designed to assess the factual reliability of medical language models.",
+    "taxonomy": {
+      "task": "Classification",
+      "what": "Verify whether answers to questions from PubMed articles are factual or hallucinated",
+      "when": "Any",
+      "who": "Researcher",
+      "language": "English"
+    }
+  },
+  "shc_gip_med": {
+    "display_name": "HospiceReferral",
+    "description": "HospiceReferral is a benchmark that evaluates model performance in identifying whether patients are eligible for hospice care based on palliative care clinical notes. The benchmark focuses on end-of-life care referral decisions.",
+    "taxonomy": {
+      "task": "Classification",
+      "what": "Assess hospice referral appropriateness",
+      "when": "End-of-care",
+      "who": "Hospital Admistrator",
+      "language": "English"
+    }
+  },
+  "mimiciv_billing_code": {
+    "display_name": "MIMIC-IV Billing Code",
+    "description": "MIMIC-IV Billing Code is a benchmark derived from discharge summaries in the MIMIC-IV database, paired with their corresponding ICD-10 billing codes. The task requires models to extract structured billing codes based on free-text clinical notes, reflecting real-world hospital coding tasks for financial reimbursement.",
+    "taxonomy": {
+      "task": "Classification",
+      "what": "Predict ICD-10 billing codes from clinical discharge notes",
+      "when": "During or after patient discharge",
+      "who": "Hospital Admistrator",
+      "language": "English"
+    }
+  },
+  "shc_sequoia_med": {
+    "display_name": "ClinicReferral",
+    "description": "ClinicReferral is a benchmark that determines patient eligibility for referral to the Sequoia Clinic based on information from palliative care notes. The dataset provides curated decisions on referral appropriateness to assist in automating clinic workflows.",
+    "taxonomy": {
+      "task": "Classification",
+      "what": "Provide answers on clinic referrals",
+      "when": "Pre-referral",
+      "who": "Hospital Admistrator",
+      "language": "English"
+    }
+  },
+  "shc_cdi_med": {
+    "display_name": "CDI-QA",
+    "description": "CDI-QA is a benchmark constructed from Clinical Documentation Integrity (CDI) notes. It is used to evaluate a model's ability to verify clinical conditions based on documented evidence in patient records.",
+    "taxonomy": {
+      "task": "Classification",
+      "what": "Answer verification questions from CDI notes",
+      "when": "Any",
+      "who": "Hospital Admistrator",
+      "language": "English"
+    }
+  },
+  "shc_ent_med": {
+    "display_name": "ENT-Referral",
+    "description": "ENT-Referral is a benchmark designed to evaluate whether a patient's clinical note supports a referral to an Ear, Nose, and Throat (ENT) specialist. It helps assess models' abilities to make referral decisions based on unstructured clinical text",
+    "taxonomy": {
+      "task": "Classification",
+      "what": "Identify referrals for ENT specialists",
+      "when": "Any",
+      "who": "Hospital Admistrator",
+      "language": "English"
+    }
+  }
+}

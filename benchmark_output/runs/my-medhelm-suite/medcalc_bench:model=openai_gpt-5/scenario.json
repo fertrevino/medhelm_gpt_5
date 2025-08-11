@@ -1,0 +1,10 @@
+{
+  "name": "medcalc_bench",
+  "description": "MedCalc-Bench is a benchmark designed to evaluate models on their ability to computeclinically relevant values from patient notes. Each instance consists of a clinical notedescribing the patient's condition, a diagnostic question targeting a specific medicalvalue, and a ground truth response.",
+  "tags": [
+    "knowledge",
+    "reasoning",
+    "biomedical"
+  ],
+  "definition_path": "https://github.com/stanford-crfm/helm/blob/main/src/helm/benchmark/scenarios/medcalc_bench_scenario.py"
+}

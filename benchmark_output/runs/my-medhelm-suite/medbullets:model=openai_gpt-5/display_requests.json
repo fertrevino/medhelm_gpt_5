@@ -1,0 +1,1902 @@
+[
+  {
+    "instance_id": "id63",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 53-year-old man presents to the clinic with a non-tender mass in his right anterior neck. The mass has been slowly enlarging over the past 1 year. He reports no dysphagia, difficulty breathing, or changes to his voice. He also denies heat intolerance, palpitations, tremors, or diarrhea. He has hypertension and hyperlipidemia, for which he takes lisinopril and atorvastatin. He has never smoked cigarettes. His temperature is 37.1\u00b0C (98.8\u00b0F), blood pressure is 130/84 mmHg, pulse is 86/min, respirations are 12/min, and oxygen saturation is 99% on room air. Bedside ultrasound reveals a 1x2 cm hypoechogenic nodule with microcalcifications in the right thyroid lobe, which is biopsied. Pathology results are shown in Figure A. Which of the following is the most appropriate next step in management?\nA. Levothyroxine\nB. Methimazole\nC. Radioactive iodine\nD. Repeat ultrasound in 6 months\nE. Thyroidectomy followed by radioactive iodine\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id247",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 65-year-old man presents to his primary care physician for stiffness in his arm. He has been having trouble combing his hair and reaching objects that are high on the shelf. The patient has a medical history of type 2 diabetes mellitus, obesity, and hypertension. His current medications include metformin, insulin, lisinopril, and hydrochlorothiazide. The patient leads a sedentary life in which he tends to stay home and watch television. He does not engage in any physical or strenuous activity. His temperature is 98.6\u00b0F (37\u00b0C), blood pressure is 138/85 mmHg, pulse is 75/min, and respirations are 12/min. On physical exam, the patient has decreased passive and active range of motion of his shoulder. The strength of the patient's upper extremity is 4/5 limited by pain. Which of the following is the most likely diagnosis?\nA. Adhesive capsulitis\nB. Biceps tendinopathy\nC. Glenohumeral osteoarthritis\nD. Rotator cuff impingement\nE. Subacromial bursitis\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id293",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 68-year-old woman presents to her primary care provider for dizziness. She often feels lightheaded and like she may \u201cpass out\u201d but never actually loses consciousness. She denies dyspnea on exertion or orthopnea. The patient had a myocardial infarction 6 months ago, and she now has multiple drug-eluting stents. Her ECG upon discharge from that hospitalization was normal. The patient has been taking all of her medications as instructed. Her medical history is otherwise significant for rheumatoid arthritis and migraines. Her home medications include methotrexate, atorvastatin, clopidogrel, and aspirin. Her temperature is 98.6\u00b0F (37\u00b0C), blood pressure is 118/75 mmHg, pulse is 92/min, and respirations are 12/min. On physical exam, she has an irregular heartbeat with normal cardiac sounds. Her abdomen is non-distended and she has mild lower extremity edema. Her current ECG can be seen in Figure A. Which component of the cardiac conduction system is most likely affected in this patient?\nA. Atrioventricular node\nB. Bundle branches\nC. Bundle of His\nD. Purkinje fibers\nE. Sinoatrial node\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id124",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 72-year-old man with a history of type 2 diabetes mellitus, hypertension, and hyperlipidemia presents to his primary care provider for concerns about his cognitive decline. His wife has noticed that he has a worsening ability to organize, plan, and exhibit impulse control over the last month. The patient states that he is able to complete his activities of daily living without assistance, but has some weakness of his left upper and lower extremities that began 3 months prior. He needs reminders from his wife about daily tasks to complete. He enjoys spending time with his spouse, playing cards with his friends, and taking daily walks around his neighborhood. His temperature is 98.2\u00b0F (36.8\u00b0C), blood pressure is 149/87 mmHg, pulse is 87/min, and respirations are 12/min. Physical exam reveals an elderly man who is oriented to person, place, and time. He has 4/5 left-sided weakness of the upper and lower extremities and associated pronator drift of the left upper extremity. A mini-mental status exam reveals he is able to remember 2 out of 3 words after 4 minutes. He is able to appropriately draw a clock. A magnetic resonance imaging study of the brain is shown in Figure A. Which of the following is the most likely diagnosis?\nA. Alzheimer disease\nB. Mild cognitive impairment\nC. Normal aging\nD. Pseudodementia\nE. Vascular dementia\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id188",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 67-year-old man presents to the emergency department with shortness of breath. His dyspnea began 1 hour ago while he was sitting in a chair watching television. He also endorses lightheadedness and fatigue but denies chest pain. Two weeks ago, he had a mitral valve repair for mitral insufficiency secondary to myxomatous degeneration. His medical history is otherwise significant for hypertension and diabetes mellitus, for which he takes metformin and lisinopril. His temperature is 98.8\u00b0F (37.1\u00b0C), blood pressure is 85/54 mmHg, pulse is 48/min, and respirations are 22/min. On physical exam, he appears to be in moderate distress. He has normal cardiac sounds with an irregular rhythm. His lungs are clear to auscultation bilaterally, and his electrocardiogram can be seen in Figure A. The patient is given an initial dose of atropine but this has no effect. Which of the following is the most appropriate next step in management?\nA. Adenosine\nB. Atropine\nC. Cardioversion\nD. Procainamide\nE. Transvenous pacing\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id144",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 27-year-old man presents to his primary care physician for a checkup. He has no health concerns and has not seen a physician in years. The patient has a medical history of depression treated with fluoxetine and lithium. His temperature is 99.5\u00b0F (37.5\u00b0C), blood pressure is 122/78 mmHg, pulse is 90/min, respirations are 13/min, and oxygen saturation is 98% on room air. Physical exam is notable for the finding in Figure A. Which of the following represents the most likely risk factor for this patient's presenting condition?\nA. Alcohol consumption\nB. Antibiotic use\nC. Intravenous drug use\nD. Poor dental hygiene\nE. Sexual intercourse\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id299",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 68-year-old man presents for evaluation by a neurologist for an involuntary hand tremor that started approximately 3 months ago. The shaking improves when he reaches for objects but returns when he is not using his hand. His temperature is 98.6\u00b0F (37.0\u00b0C), blood pressure is 115/70 mmHg, pulse is 70/min, and respirations are 12/min. His left hand exhibits a 4-6 Hz tremor when resting on his lap. The tremor extinguishes with voluntary movement. In addition, his left upper extremity has increased tone with passive range of motion. Which of the following is the most likely diagnosis?\nA. Cerebellar stroke\nB. Essential tremor\nC. Huntington disease\nD. Lacunar stroke\nE. Parkinson disease\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id65",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 2-year-old boy is brought to the pediatrician\u2019s office for a well-child visit. The parents have no concerns at this time and note he is starting to run around and speak in 3-word sentences. He has no remarkable medical history and his mother had an uncomplicated full-term pregnancy and delivery. He is appropriately meeting the developmental milestones for his age. The patient\u2019s temperature is 98.4\u00b0F (36.9\u00b0C), blood pressure is 96/52 mmHg, pulse is 102/min, and respirations are 25/min. He is in the 55th percentile for height and 62nd percentile for weight, which is consistent with his documented growth curves. Fundoscopic exam shows the finding in Figure A. His pediatrician continues the ocular examination and further notes that the pupils are equal, round, and reactive, extraocular movements are full, and ocular alignment appears normal. Which of the following is the most appropriate next step in management?\nA. Biopsy\nB. Genetic testing\nC. Magnetic resonance imaging of the brain and orbits\nD. Ophthalmology referral\nE. Reevaluation at the next well-child visit\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id26",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 14-year-old boy is brought to the pediatrician for behavioral issues. At school, he interrupts class by making barking noises. His mother notes that he has been making throat-clearing noises daily for the past 2 years. He has no medical problems and takes no medications. He gets along with his 2 brothers, plays turn-taking games with his friends, and completes his chores. His temperature is 98.4\u00b0F (36.9\u00b0C), blood pressure is 118/72 mmHg, pulse is 72/min, and respirations are 16/min. On exam, he grimaces several times and blinks his eyes rapidly. He does not appear to be reacting to internal stimuli. His mood and affect are normal. Which of the following is the most appropriate treatment for this patient?\nA. Clozapine\nB. Dextroamphetamine\nC. Fluoxetine\nD. Haloperidol\nE. Methylphenidate\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id66",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 17-year-old boy presents to the emergency department after a car accident. He drove his car into a pole while speeding at night. He has no past medical history and takes no medications. The patient is unable to offer a history and repetitively asks the nurses what happened. He knows his name and address and is able to remember other information about himself. He is complaining of a headache. His temperature is 97.6\u00b0F (36.4\u00b0C), blood pressure is 122/74 mmHg, pulse is 90/min, respirations are 12/min, and oxygen saturation is 98% of room air. Physical exam reveals a confused young man. Cranial nerves 2-12 are intact and the patient has normal strength and sensation. He demonstrates a stable gait. Throughout the exam, he continuously asks what happened to him. A head CT scan is ordered. Which of the following is the most likely diagnosis?\nA. Cerebral contusion\nB. Concussion\nC. Diffuse axonal injury\nD. Epidural hematoma\nE. Subarachnoid hemorrhage\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id280",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 57-year-old woman presents to her primary care physician with weakness for the past 6 months with symptoms that have worsened recently. She feels fatigued, depressed, and has gained 10 pounds which she attributes to feeling too weak to go to the gym. She was recently treated for an ear infection with an antibiotic which she completed 3 weeks ago, and experienced a rash which she believes was an allergic reaction to her treatment. The patient has a medical history of diabetes mellitus that is well-controlled with insulin and metformin. She has been admitted multiple times for hypoglycemia secondary to missing meals. Her temperature is 99.5\u00b0F (37.5\u00b0C), blood pressure is 127/68 mmHg, pulse is 80/min, respirations are 17/min, and oxygen saturation is 98% on room air. Physical exam is notable for 2/5 strength in the patient's upper and lower extremities, sparse fine hair on her body, and a rash on her face and arms. Laboratory values are ordered as seen below. Serum: Na+: 139 mEq/L K+: 3.3 mEq/L Cl-: 100 mEq/L HCO3-: 25 mEq/L BUN: 20 mg/dL Glucose: 70 mg/dL Creatinine: 1.1 mg/dL Ca2+: 10.2 mg/dL AST: 12 U/L ALT: 10 U/L A muscle biopsy is obtained as seen in Figure A. Which of the following is the most likely explanation for this patient's presentation?\nA. Dermatomyositis\nB. Hypokalemia\nC. Hypothyroidism\nD. Inclusion body myositis\nE. Polymyositis\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id90",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 39-year-old man presents to his doctor for a wellness checkup. He is concerned about a rash that does not seem to be improving. He was recently exposed to his grandfather who has vesicular lesions on his skin and is being treated. He has a family history of skin cancer, colon cancer, and ovarian cancer. The patient has a medical history of asthma and seasonal allergies. His temperature is 98.6\u00b0F (37.0\u00b0C), blood pressure is 137/98 mmHg, pulse is 90/min, respirations are 14/min, and oxygen saturation is 98% on room air. Physical exam reveals the finding in Figure A. Which of the following describes this patient's most likely diagnosis?\nA. Benign capillary proliferation\nB. Edema of the epidermis\nC. Healthy dermatologic development\nD. Malignant blood vessel proliferation\nE. Viral infection\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id213",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 30-year-old man presents to the emergency department with diarrhea. He states he has had profuse, watery diarrhea for the past 24 hours. He notes that eating and drinking make him defecate more, thus he has been refraining from drinking. He is otherwise healthy and takes no medications. His temperature is 97.7\u00b0F (36.5\u00b0C), blood pressure is 84/64 mmHg, pulse is 130/min, respirations are 17/min, and oxygen saturation is 99% on room air. Physical exam reveals dry mucous membranes with an otherwise benign exam. The patient is given 1L of normal saline and drinks 1L of oral fluids. His blood pressure is subsequently 120/70 mmHg and pulse 95/min. Which of the following is the most appropriate next step in management?\nA. Ciprofloxacin\nB. Rest and oral rehydration\nC. Stool culture\nD. Stool ova and parasite study\nE. Stool PCR\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id55",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 46-year-old man presents with his wife to his primary care provider for depression and strange movements. His wife reports that her husband has not been himself for the last 2 months. Whereas he was previously outgoing and \u201cthe life of the party,\u201d the patient is now irritable and withdrawn. He is a partner at an accounting firm, but his colleagues are threatening to fire him if he continues to perform poorly at work. The patient cannot explain the recent changes to his mood and tearfully admits he fears there is something seriously wrong with him. His wife says that he is getting worse. The patient\u2019s medical history is significant for hypertension, for which he takes lisinopril. His family history is unknown as he was adopted. The patient met his mother once and never knew his father but was told he died in his 50s. He drinks a few glasses of wine per week and has never smoked. His temperature is 98.6\u00b0F (37\u00b0C), blood pressure is 141/87 mmHg, pulse is 81/min, and respirations are 12/min. On physical exam, the patient has a flat affect with a facial grimace and sudden jerky movements of his upper extremities. Which of the following is most likely to be seen on further workup?\nA. Alpha-synuclein aggregates on brain biopsy\nB. Dorsal striatum atrophy on head CT\nC. Frontotemporal atrophy on head CT\nD. Neurofibrillary tangles on brain biopsy\nE. Positive 14-3-3 CSF assay\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id22",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 25-year-old woman is brought to the emergency department by her family. They found her somnolent next to her computer with an empty pill bottle around 3 hours ago. The family cannot recall the types of pill bottles that they found and did not bring them to the ED. The patient's medical history is notable for anxiety, obesity, hypertension, and polycystic ovarian syndrome. She is currently not on any medications. She was given an exercise program but she has not been compliant with these exercises. Her temperature is 99.5\u00b0F (37.5\u00b0C), pulse is 82/min, blood pressure is 125/85 mmHg, respirations are 11/min, and oxygen saturation is 97% on room air. Physical exam is within normal limits. The patient begins communicating with the physician and states that she did take acetaminophen but it was only a few pills. Her parents are certain the bottle was new. Which of the following is the most appropriate next step in management?\nA. Blood acetaminophen levels\nB. Charcoal\nC. Lactated ringer bolus\nD. N-acetylcysteine\nE. Syrup of ipecac\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id200",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 68-year-old woman presents to the emergency room with several days of frequent, nonbloody, watery stools. She recently completed a course of clindamycin 2 weeks ago for a tooth infection. Her medical history is notable for hypertension and hyperlipidemia for which she takes amlodipine and atorvastatin. She traveled recently and has no sick contacts. Her temperature is 37.0\u00b0C (98.6\u00b0F), blood pressure is 118/82 mmHg, pulse is 98/min, respirations are 14/min, and oxygen saturation is 98% on room air. On exam, her abdomen is soft, non-distended, and non-tender to palpation; however she has diffuse discomfort upon palpation of the abdomen with no rebound, rigidity, or guarding. Which of the following is most likely to confirm the diagnosis?\nA. Abdominal radiograph\nB. CT imaging of abdomen and pelvis\nC. Flexible sigmoidoscopy\nD. Rectal swab for selective anaerobic culture\nE. Stool toxin assay\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id238",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 30-year-old man presents to the emergency room with a laceration over the 4th metacarpophalangeal (MCP) joint of his right hand. He reports that he is a mailman, and his closed fist was bitten by a dog while he was delivering mail yesterday. He reports pain but denies fevers, chills, drainage, or any other symptoms. The dog is up to date on vaccinations. His last tetanus vaccine was 3 years ago. He has no medical history and takes no medications. His temperature is 98.6\u00b0F (37.0\u00b0C), pulse is 80/min, blood pressure is 125/75 mmHg, and respirations are 16/min. Examination of the patient's right hand is shown in Figure A. Which of the following is the most appropriate next step in management?\nA. Amoxicillin-clavulanate\nB. Cephalexin\nC. Clindamycin\nD. Clindamycin plus doxycycline\nE. Wound closure and amoxicillin-clavulanate\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id230",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 32-year-old man presents to his primary care provider for a headache. He reports that he has headaches at night several times a week. He first developed these headaches over 1 year ago, but they started up again 3 weeks ago. The episodes start suddenly and feel like a stabbing, electrical pain over his left eye. He also reports tearing of the left eye during these episodes. The headaches self-resolve over the course of 2-3 hours, but the patient complains that he is avoiding going to sleep for fear of waking up in pain. His medical history includes type 1 diabetes mellitus and an episode of herpes zoster on his right flank 1 year ago. His only home medication is insulin. His temperature is 98.6\u00b0F (37\u00b0C), blood pressure is 112/69 mmHg, pulse is 61/min, and respirations are 14/min. On physical exam, his extraocular muscles are intact and his eyes are not injected. A CT of the head and sinuses shows no acute abnormalities. Which of the following is most likely to prevent future episodes of headache in this patient?\nA. Carbamazepine\nB. High-flow oxygen\nC. Sumatriptan\nD. Topiramate\nE. Verapamil\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id219",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 27-year-old woman presents to the emergency department with altered mental status. Her boyfriend found her at home next to a suicide note and brought her into the emergency department. According to her boyfriend, the patient has a medical history of bipolar disorder for which she takes lithium, as well as chronic lower back pain for which she sees a pain specialist. Her temperature is 100.5\u00b0F (38.1\u00b0C), blood pressure is 102/78 mmHg, pulse is 127/min, respirations are 19/min, and oxygen saturation is 99% on room air. An ECG is performed as seen in Figure A. Which of the following findings is also likely to be present at some point in this patient\u2019s course?\nA. Diaphoresis\nB. Jaundice\nC. Miosis\nD. Urinary retention\nE. Wheezing\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id246",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 36-year-old man presents to the office for follow up after initiating antidepressant therapy. Two months ago, he was started on citalopram after several weeks of depressed mood, loss of interest in activities, depressed appetite, and inability to sleep. Today, he reports minimal improvement in his symptoms. He had some nausea after starting the medication, but this has resolved. He denies thoughts of suicide or self-harm. His temperature is 98.6\u00b0F (37.0\u00b0C), pulse is 80/min, blood pressure is 120/80 mmHg, respirations are 22/min, and oxygen saturation is 97% on room air. Exam reveals a depressed, tired appearing man. Which of the following is the most appropriate next step in management?\nA. Add mirtazapine\nB. Electroconvulsive therapy\nC. Switch to amitriptyline\nD. Switch to paroxetine\nE. Switch to phenelzine\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id191",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 67-year-old man presents to the emergency room reporting sudden-onset abdominal and back pain that began 3 hours ago. He was eating dinner when he started feeling severe pain in his abdomen that made him lose his appetite. He denies any diarrhea or hematochezia and says the pain is not affected by movement. He has a history of hypertension, hyperlipidemia, and depression. He currently takes amlodipine and atorvastatin and is compliant with his medications. He has a 45-pack-year smoking history, but he does not drink alcohol or use any illicit drugs. His temperature is 98.6\u00b0F (37\u00b0C), his blood pressure is 110/64 mmHg, pulse is 97/min, and respirations are 15/min. Physical exam is notable for diffuse abdominal tenderness without rigidity or guarding. During evaluation, the patient becomes diaphoretic and pale and reports that he feels fatigued. Repeat blood pressure is 87/50 and pulse is 127. Intravenous fluid boluses are administered. Which of the following is the most likely diagnosis?\nA. Acute pancreatitis\nB. Aortic dissection\nC. Ischemic colitis\nD. Perforated viscus\nE. Ruptured abdominal aortic aneurysm\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id15",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 55-year-old woman is brought to the emergency department by her husband with a 1 hour history of an unremitting headache. The headache started suddenly while she was eating dinner and she says it feels like the \u201cworst headache of my life.\u201d An emergent CT scan of the head without contrast confirms the diagnosis, and a CT angiogram identifies the source of bleeding. The patient undergoes surgical management of her condition. On hospital day 3, she is found to be disoriented to person, place, and time. She also develops nausea and vomiting. Her medical problems consist of heart failure for which she takes furosemide, spironolactone, and metoprolol, which were continued at admission. Her temperature is 99.6\u00b0F (37.6\u00b0C), blood pressure is 100/60 mmHg, pulse is 112/min, and respirations are 16/min. Physical examination shows poor skin turgor. Capillary refill time is 4 seconds. Serum laboratory results are shown below: Na+: 120 mEq/L Cl-: 92 mEq/L K+: 3.9 mEq/L HCO3-: 26 mEq/L BUN: 32 mg/dL Creatinine: 1.0 mg/dL Serum osmolality is 265 mEq/L and urine osmolality is 340 mEq/L. Urine sodium is 44 mEq/L. Which of the following is the most likely diagnosis?\nA. Addison disease\nB. Cerebral salt wasting\nC. Diuretic overuse\nD. Primary polydipsia\nE. Syndrome of inappropriate anti-diuretic hormone\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id89",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 77-year-old man presents to the emergency department acutely obtunded. The patient lives alone and was found unresponsive by his son. Generally, the patient manages his own finances, medications, and works part-time. He has not been responding to phone calls for the past 3 days. The patient is unable to offer a history. He has a past medical history of hypothyroidism, depression, and diabetes. His temperature is 88.0\u00b0F (31.1\u00b0C), blood pressure is 92/62 mmHg, pulse is 35/min, respirations are 9/min, and oxygen saturation is 92% on room air. The patient is cold to the touch and moves all extremities to painful stimuli. His pupils are reactive and sluggish, and he does not follow commands. There are no signs of trauma or skin infections. The patient is started on IV fluids and hydrocortisone, is externally warmed, and is started on a norepinephrine drip. An ECG is performed as seen in Figure A. Which of the following is the most appropriate next step in management?\nA. Free T4 level\nB. Levothyroxine administration\nC. Thyroid stimulating hormone and free T4 level\nD. Thyroid stimulating hormone level\nE. Triiodothyronine administration\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id60",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 3-year-old boy presents with his parents to a pediatrician for a new patient visit. The child was recently adopted and little is known about his medical or family history. The child seems to be doing well, but the patient is much larger than any of the other 3-year-olds in his preschool class. He eats a varied diet at home and with limited juice and snack foods. His temperature is 98.6\u00b0F (37\u00b0C), blood pressure is 101/67 mmHg, pulse is 110/min, and respirations are 24/min. On physical exam, the patient is in the 73rd percentile for weight, 99th percentile for height, and 86th percentile for head circumference. He appears mildly developmentally delayed. He has a fair complexion and tall stature with a prominent sternum. The patient also has joint hypermobility and hyperelastic skin. He appears to have poor visual acuity and is referred to an ophthalmologist, who finds downward lens subluxation of the right eye. This child is most likely to develop which of the following complications?\nA. Aortic dissection\nB. Medullary thyroid cancer\nC. Osteoarthritis\nD. Thromboembolic stroke\nE. Wilms tumor\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id210",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 28-year-old man is brought to the emergency department by helicopter after a high speed motorcycle crash. He was intubated and 2 large bore IVs were placed in the field with administration of 2 liters of lactated ringer's solution while en route. On arrival to the emergency department, his temperature is 98.6\u00b0F (37.0\u00b0C), pulse is 130/min, blood pressure is 80/50 mmHg, respirations are 22/min, and oxygen saturation is 97%. Examination reveals an ill-appearing intubated patient. Endotracheal tube placement is confirmed with end tidal CO2, and bilateral breath sounds are present. No external bleeding or wounds are noted on exam. Pulses are present in all extremities but are weak and rapid. Significant bruising is noted over the abdomen. The pelvis is stable. Infusion of packed red blood cells is initiated. Which of the following is the most appropriate next step in management?\nA. Anterior-posterior and lateral radiographs of the abdomen and pelvis\nB. CT scan of the abdomen and pelvis with contrast\nC. Diagnostic peritoneal lavage\nD. FAST exam\nE. Norepinephrine infusion\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id12",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 30-year-old woman presents to the emergency department for palpitations. For 2 months, she has experienced intermittent palpitations along with menstrual irregularity and hair loss. At home, the air conditioner is at its coldest setting, but the patient still feels overheated. Her temperature is 99.5\u00b0F (37.5\u00b0C), blood pressure is 135/90 mmHg, pulse is 120/min, and respirations are 22/min. The patient is diaphoretic with tremulous hands, demonstrates thyromegaly, and protrusion of her eyes is noted. She is given atenolol in the emergency department with improvement of her palpitations and is instructed to follow up with her primary doctor for further management. Which of the following is most likely to be found in this patient after definitive treatment of her condition?\nA. Exophthalmos\nB. Hair loss\nC. Heat intolerance\nD. Menstrual irregularity\nE. Thyromegaly\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id74",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 65-year-old man presents to his primary care physician for a routine appointment. He has no concerns. His past medical history is significant for human immunodeficiency virus (HIV) infection, diagnosed 15 years ago. The patient is intermittently compliant with his antiretroviral therapy (ART). His temperature is 99.0\u00b0F (37.2\u00b0C), blood pressure is 130/84 mmHg, pulse is 92/min, and respirations are 11/min. His most recent lab work showed a cluster of differentiation CD4 count of 150 cells/\u00b5L. He received a dose of the 13-valent pneumococcal vaccine and a dose of the 23-valent pneumococcal vaccine 15 years ago, as well as a second dose of the 23-valent pneumococcal vaccine 10 years ago. In addition to encouraging greater compliance with his ART, which of the following is indicated in this patient?\nA. Azithromycin and pneumococcal vaccine\nB. Azithromycin and zoster vaccine\nC. Trimethoprim-sulfamethoxazole and pneumococcal vaccine\nD. Trimethoprim-sulfamethoxazole and varicella vaccine\nE. Trimethoprim-sulfamethoxazole and zoster vaccine\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id236",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 6-month-old boy is brought to the physician by his mother for abnormal movements. Several times a day, he experiences paroxysmal episodes of crying, bending at the waist, and jerking of the arms and legs. These episodes last 1-2 seconds, but occur in clusters every 20-30 seconds for several minutes. His mother's pregnancy, labor, delivery, and his neonatal course have been unremarkable. He is rolling over less frequently than before, has worse head control, and no longer smiles socially. His temperature is 98.6\u00b0F (37\u00b0C), blood pressure is 92/46 mmHg, pulse is 115/min, and respirations are 34/min. On examination, no dysmorphic features are noted. A 24-hour electroencephalography (EEG) is performed, during which the patient has one of these spells. A chaotic pattern of slowing and multifocal epileptiform charges is seen. Which of the following is the pathophysiology of this patient's condition?\nA. Abnormalities in T-type calcium channels\nB. Anti-N-methyl-D-aspartate (NMDA) receptor antibodies\nC. Decreased gamma aminobutyric acid (GABA) levels\nD. Excess of corticotropin releasing hormone\nE. Vitamin B6 deficiency\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id154",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 71-year-old man arrives to the emergency room appearing cyanotic and having weak, shallow respirations. He is brought in by his home care nurse, who reports that the patient has a history of myasthenia gravis and frequent urinary tract infections. The patient was in his normal state of health until 5 days ago when he developed a urinary tract infection. He was receiving gentamicin infusions for his infections. This morning, he experienced poor grip strength and progressive difficulty breathing. The patient\u2019s medications include pyridostigmine and aspirin, both of which he takes as prescribed. His temperature is 99.0\u00b0F (37.2\u00b0C), blood pressure is 128/78 mmHg, pulse is 92/min, and respirations are 28/min with an oxygen saturation of 86% O2 on room air. The patient has gray-blue skin, hypophonia, weak upper extremities, and normal leg strength. An arterial blood gas is drawn with results as shown below:\n\nPO2: 55 mmHg\nPCO2: 60 mmHg\npH: 7.30\n\nThe patient is intubated. Which of the following is the most appropriate next step in management?\nA. Atropine\nB. Edrophonium\nC. Neostigmine\nD. Plasmapheresis\nE. Thymectomy\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id81",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 51-year-old man presents for his annual wellness visit with his primary care physician. His wife has noticed a tremor while he is working on his car and knows that his father died of Parkinson disease. He says that the tremor is nothing to worry about and only occurs during a few activities such as pouring drinks, pointing the remote at the television, or fixing his car. The patient states his wife is just overreacting. His medical problems include hypertension, diabetes, and hyperlipidemia for which he takes lisinopril, metformin, and atorvastatin. He has 3-5 drinks of scotch per night before working on his car. On physical exam, the tremor is replicated during finger to nose testing. Romberg sign is negative. Cranial nerves II-XII are intact. The rest of the exam is benign. Which of the following is the most appropriate treatment for this patient's tremor?\nA. Alcoholics anonymous\nB. Aripiprazole\nC. Carbidopa\nD. Phenobarbital\nE. Propranolol\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id206",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 6-year-old boy is brought to the emergency department by his father for elbow pain. He was riding his bicycle when he fell onto his outstretched right hand. He immediately clutched his right elbow in pain and began crying. He refuses to move his elbow. He has no medical problems and takes no medications. His temperature is 98.4\u00b0F (36.9\u00b0C), blood pressure is 108/64 mmHg, pulse is 100/min, and respirations are 20/min. On exam, the boy is holding his right wrist with his left hand and cries upon palpation of a region that is 2 cm proximal to his elbow. The radial head is palpated just distal to the lateral epicondyle. He is unable to make a pincer with his right thumb and index finger. When asked to hold a pen between his right thumb and index fingers, he drops it. The radial pulse is diminished on the right. Which of the following is the most likely diagnosis?\nA. Both bone forearm fracture\nB. Distal radius fracture\nC. Monteggia fracture-dislocation\nD. Olecranon fracture\nE. Supracondylar humerus fracture\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id229",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 55-year-old man presents to the emergency department with chest pain and shortness of breath. He has a medical history of hypertension, diabetes, and obesity. His temperature is 98.6\u00b0F (37.0\u00b0C), blood pressure is 177/118 mmHg, pulse is 127/min, respirations are 11/min, and oxygen saturation is 98% on room air. An ECG is performed and notable for ST elevation in leads II, III, and aVF. The patient is treated appropriately and transferred to the medical floor. On the 2nd day of his hospitalization, the patient has abdominal pain. His serum lipase is 272 U/L and his creatinine is 1.6 mg/dL. A physical exam is notable for the finding in Figure A. He is requesting pain medication for his abdominal pain. Which of the following is the most likely underlying diagnosis?\nA. Cholesterol embolism\nB. Heart failure and reinfarction\nC. Medication side effect\nD. Pancreatitis\nE. Renal failure\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id132",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 26-year-old man presents to his primary care physician with a 6-month history of increasing lower back pain. He first felt the pain while lifting boxes at work but thought that he had just strained a muscle. The pain appears to be worse in the mornings and after rest. Exercise and physical activity appear to temporarily make the pain better. He has taken acetaminophen and ibuprofen for the pain. He has no significant medical history and takes no medications. His temperature is 98.6\u00b0F (37.0\u00b0C), blood pressure is 115/70 mmHg, pulse is 70/min, and respirations are 12/min. On physical exam, he is found to have limited flexion and extension of his spine as well as tenderness to palpation over the insertion of his patellar tendons bilaterally. Results from laboratory tests are shown below:\n\nSerum:\nErythrocyte sedimentation rate (ESR): 61 mm/hr\nC-reactive protein (CRP): 36 mg/L (normal <10 mg/L)\n\nWhich of the following is the most accurate test for this patient's condition?\nA. Bone scan\nB. Computed tomography\nC. Magnetic resonance imaging\nD. Radiograph\nE. Ultrasound\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id249",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 23-year-old woman presents to the emergency department with severe abdominal pain. The pain has been dull and progressive, but became suddenly worse while she was exercising. Her medical history is notable for depression, anxiety, and gonococcal urethritis that was appropriately treated. She is sexually active and does not use condoms. She admits to drinking at least 5 standard alcoholic drinks a day. The patient also recently lost a large amount of weight for a fitness show she planned on entering. The patient's current medications include oral contraceptive pills, fluoxetine, alprazolam, ibuprofen, acetaminophen, and folate. Her temperature is 99.5\u00b0F (37.5\u00b0C), blood pressure is 80/40 mmHg, pulse is 110/minute, and respirations are 15/minute with an oxygen saturation of 96% on room air. On physical exam, you note an athletic young woman with burly shoulders, a thick neck, and acne on her forehead and back. On abdominal exam you note diffuse tenderness with 10/10 pain upon palpation of the right upper quadrant. Intravenous fluids are started and labs are sent. A urinary \u00df-hCG has been ordered. Which of the following is the most likely the diagnosis?\nA. Ectopic implantation of a blastocyst\nB. Inflammation of the pancreas\nC. Obstruction of blood flow through the hepatic vein\nD. Obstruction of the common bile duct by radio-opaque stones\nE. Vascular ectasia within the liver\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id224",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 25-year-old man presents to his primary care physician with a chief complaint of \"failing health.\" He states that he typically can converse with animals via telepathy but is having trouble right now due to the weather. He has begun taking an assortment of Peruvian herbs to little avail. Otherwise, he is not currently taking any medications. The patient lives alone and works in a health food store. He states that his symptoms have persisted for the past 8 months. When obtaining the patient's medical history, there are several times he attempts to telepathically connect with the animals in the vicinity. His temperature is 98.6\u00b0F (37\u00b0C), blood pressure is 115/71 mmHg, pulse is 72/min, and respirations are 12/min. On physical exam, you note a healthy young man who is dressed in an all-burlap ensemble. Which of the following is the most likely diagnosis?\nA. Brief psychotic disorder\nB. Schizoid personality disorder\nC. Schizophrenia\nD. Schizophreniform disorder\nE. Schizotypal personality disorder\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id160",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 76-year-old woman is brought to a primary care physician by her daughter who is concerned about her mother's growing inability to take care of herself. Initially, she attributed her mother's forgetfulness and word-finding difficulties to normal aging, but over the past few years, her mother's memory has worsened, her mood has grown more irritable, and her mother has been found wandering the neighborhood unsure of how to get home. Her medical history includes type 2 diabetes mellitus which is well-controlled with metformin. On exam, her temperature is 98.2\u00b0F (36.8\u00b0C), blood pressure is 115/82 mmHg, pulse is 73/min, respirations are 12/min, and oxygen saturation is 99% on room air. Cardiopulmonary exam reveals normal S1 and S2, no murmurs, and clear lungs bilaterally. She scores 16/30 on the Montreal Cognitive Assessment (MoCA) test. Which of the following is the most likely diagnosis?\nA. Alzheimer dementia\nB. Creutzfeldt-Jakob disease\nC. Frontotemporal dementia\nD. Normal pressure hydrocephalus\nE. Vascular dementia\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id194",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 37-year-old woman presents to her physician for mood changes and recent falls over the course of 3 months. She feels more irritable with her husband and children and does not find pleasure in creating art anymore. Over the last 2 weeks, she has been sleeping approximately 5 hours a night and had a fall while walking in her home with the lights off. She denies any head trauma or loss of consciousness associated with the fall. She has a medical history of generalized anxiety disorder and hypothyroidism for which she takes escitalopram and levothyroxine. She had a Roux-en-Y gastric bypass 5 years ago. She has been in a monogamous relationship with her husband for the last 15 years and uses a copper intrauterine device. Physical examination is notable for a depressed affect. Pupils are equal, round, and reactive to light and accommodation. She has 4/5 strength in the bilateral lower extremities and brisk patellar reflexes. Which of the following is most likely the cause of this patient's symptoms?\nA. Poor iron absorption\nB. Prior Treponema pallidum exposure\nC. Reduced central nervous system dopamine and serotonin\nD. Reduced functional parietal cell count\nE. Subtherapeutic levothyroxine dose\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id239",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 59-year-old woman presents to her primary care physician for trouble sleeping. When she goes to bed at night, she has an urge to get up out of bed and walk around. The patient often wakes her husband when she does this which irritates him. There is a perpetual uneasiness and feeling of a need to move at night which is relieved by getting up and walking around. The patient denies symptoms during the day. She works as a mail carrier and is nearing retirement. She has a medical history of anxiety, depression, irritable bowel syndrome, and dysmenorrhea. She is not currently taking any medications. Her temperature is 99.5\u00b0F (37.5\u00b0C), blood pressure is 157/98 mmHg, pulse is 80/min, respirations are 17/min, and oxygen saturation is 98% on room air. Physical exam reveals 5/5 strength in the upper and lower extremities, 2+ reflexes in the upper and lower extremities, a stable gait pattern, and normal sensation. Cardiopulmonary and abdominal exams are within normal limits. Which of the following is the most appropriate initial step in management?\nA. Alprazolam\nB. Ferrous sulfate\nC. Iron studies\nD. Pramipexole\nE. Supportive therapy and an exercise routine\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id134",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 50-year-old man presents to the emergency department with chest pain. He states that the pain is dull in quality, started 30 minutes ago, has been gradually worsening, and is worse with exertion. He also endorses some shortness of breath. He also believes the pain is worse when leaning back and improved when leaning forward. His wife noticed he fainted after the pain started but regained consciousness shortly after. He has a medical history of diabetes and hypertension for which he is on metformin and losartan. His temperature is 99.2\u00b0F (37.3\u00b0C), blood pressure is 130/87 mmHg, pulse is 99/min, respirations are 22/min, and oxygen saturation is 100% on room air. Physical exam reveals an overweight man. A normal S1 and S2 are auscultated with clear breath sounds. An ECG is performed as seen in Figure A. Which of the following is the most likely diagnosis?\nA. Hyperkalemia\nB. Hypertrophic obstructive cardiomyopathy\nC. Hypokalemia\nD. Myocardial infarction\nE. Pericarditis\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id232",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 45-year-old man presents to his primary care physician with a rash. He first noticed the rash 2 weeks prior and he endorses intermittent itchiness from the rash. His medical history is significant for chronic hepatitis C infection, hypertension, type 2 diabetes mellitus, and heart failure. The patient works as a butcher at a local meat processing shop and is sexually active with several partners. He does not use barrier protection. His temperature is 98.6\u00b0F (37.0\u00b0C), pulse is 90/min, blood pressure is 155/95 mmHg, and respirations are 12/min. On physical exam, his skin has the finding shown in Figure A. Fine, lace-like white lines are also noted on the patient\u2019s buccal mucosa. Which of the following is the most likely diagnosis?\nA. Atopic dermatitis\nB. Lichen planus\nC. Prurigo nodularis\nD. Psoriasis\nE. Scabies\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id52",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: An 8-week-old boy presents with his mother to the pediatrician for a well visit. The patient has been breastfed since birth, and usually feeds for 30 minutes every 2-3 hours. The patient\u2019s mother is concerned that her milk production is not keeping up with the patient\u2019s nutritional requirements. She reports that about 2 weeks ago the patient began regurgitating breastmilk through his nose and mouth after some feeds. He seems mildly upset during the episodes of regurgitation but usually settles down quickly and is hungry again soon afterwards. His mother has already tried limiting the volume of each feed, which seems to have reduced the frequency of regurgitation. She denies any diarrhea, hematochezia, or family history of food allergies. Her older son had a similar problem with vomiting that resolved around 12 months of age. Four weeks ago, the patient\u2019s height and weight were in the 40th and 34th percentiles, respectively. His height and weight are now respectively in the 37th and 36th percentiles. His temperature is 98.6\u00b0F (37\u00b0C), blood pressure is 72/49 mmHg, pulse is 121/min, and respirations are 32/min. On physical exam, the patient is cooing in his mother\u2019s lap and smiles reciprocally with her. He lifts his head and shoulders off the examination table when placed in the supine position. His abdomen is soft, non-tender and non-distended. Bowel sounds are normoactive. Which of the following is the most appropriate next step in management?\nA. Initiate proton pump inhibitor\nB. Obtain abdominal ultrasound\nC. Reassurance and counseling on positioning\nD. Recommend modification of mother\u2019s diet\nE. Switch to hydrolyzed formula\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id64",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: An 84-year-old man presents to the physician with numbness and tingling in the right hand for the last 6 months. He reports these symptoms started intermittently in the middle finger after returning from a golfing trip but has progressed to being nearly constant. The thenar eminence, thumb, and other digits are spared. He reports no other symptoms. His medical problems include hypertension, hyperlipidemia, hypothyroidism, and chronic neck pain for which he takes amlodipine, hydrochlorothiazide, atorvastatin, levothyroxine, and duloxetine. Surgical history consists of posterior lumbar fusion and elective left total hip arthroplasty. He has a 90-pack-year smoking history and quit 10 years ago. The patient\u2019s temperature is 99.6\u00b0F (37.6\u00b0C), blood pressure is 134/80 mmHg, pulse is 90/min, and respirations are 16/min. Physical exam reveals 4/5 strength in elbow extension and wrist flexion on the right. He has 5/5 strength in the remainder of the motor exam on the right upper extremity and on the left upper extremity. The triceps reflex is 1+ on the right compared to 2+ on the left. There is no spasticity. His neck pain, which radiates down his right arm, is reproduced with axial loading during neck extension with simultaneous rightward rotation and lateral bending. Which of the following is the most likely diagnosis in this patient?\nA. Amyotrophic lateral sclerosis\nB. Carpal tunnel syndrome\nC. Cervical spondylosis\nD. Syringomyelia\nE. Transverse myelitis\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id161",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 33-year-old woman presents to the emergency department with foul-smelling vaginal discharge. She states that it started 1 day ago and has not improved with hygiene products. She is sexually active and uses condoms. She does not complain of any abdominal or pelvic pain but states she has some mild burning when urinating. Her temperature is 97.6\u00b0F (36.4\u00b0C), blood pressure is 111/74 mmHg, pulse is 81/min, respirations are 12/min, and oxygen saturation is 98% on room air. Physical exam is notable for thick, white discharge from the cervix. There is no cervical motion or adnexal tenderness or masses. Some whitish discharge is noted from the urethra. A urine pregnancy test is negative. Which of the following is the most appropriate treatment for this patient?\nA. Azithromycin\nB. Ceftriaxone\nC. Ceftriaxone and azithromycin\nD. Ceftriaxone and doxycycline\nE. Metronidazole\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id17",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 26-year-old man presents to his primary care physician with a 6-month history of increasing lower back pain. He first felt the pain while lifting boxes at work but thought that he had just strained a muscle. The pain appears to be worse in the mornings and after rest. Exercise and physical activity appear to temporarily make the pain better. He has taken acetaminophen and ibuprofen for the pain. He has no significant medical history and takes no medications. His temperature is 98.6\u00b0F (37.0\u00b0C), blood pressure is 115/70 mmHg, pulse is 70/min, and respirations are 12/min. On physical exam, he is found to have limited flexion and extension of his spine as well as tenderness to palpation over the insertion of his patellar tendons bilaterally. Results from laboratory tests are shown below:\n\nSerum:\nErythrocyte sedimentation rate (ESR): 61 mm/hr\nC-reactive protein (CRP): 36 mg/L (normal <10 mg/L)\n\nWhich of the following is the most accurate test for this patient's condition?\nA. Bone scan\nB. Computed tomography\nC. Magnetic resonance imaging\nD. Radiograph\nE. Ultrasound\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id135",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 31-year-old man presents to clinic for evaluation of a 3-year history of infertility. He has no significant medical history and takes no medications. He exercises twice a day, often with heavy weightlifting, and eats a high-protein diet. He reports occasional alcohol use and remote marijuana use. His temperature is 99.5\u00b0F (37.5\u00b0C), blood pressure is 148/90 mmHg, pulse is 84/min, and respirations are 15/min. He is sexually active with his wife and has no history of sexually transmitted infections. Physical exam reveals small testes and a receding hairline. He also has palpable tissue underneath his nipples bilaterally. His muscle tone is normal in his upper and lower extremities bilaterally. His laboratory values are below:\n\nSerum:\nCreatinine: 1.3 mg/dL\nGlucose: 110 mg/dL\nTotal bilirubin: 0.8 mg/dL\nAspartate aminotransferase (AST, GOT): 410 U/L\nAlanine aminotransferase (ALT, GPT): 275 U/L\n\nHemoglobin: 12 g/dL\nLeukocyte count: 5,300/mm^3\nPlatelet count: 250,000/mm^3\n\nWhich of the following is the most likely cause of this patient\u2019s infertility?\nA. Anabolic steroid use\nB. Cryptorchidism\nC. Excess growth hormone use\nD. Klinefelter syndrome\nE. Myotonic dystrophy\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id8",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 67-year-old man presents to the emergency department after fainting. He was outside tending to his lawn for several hours in the heat, when he stood up suddenly from pulling weeds and fainted. He denies any preceding symptoms and returned to baseline within 1 minute. The patient is not aware of any medical problems and just started seeing a primary care physician last week. He recently used a friend's prescription for ondansetron for nausea. His temperature is 99.3\u00b0F (37.4\u00b0C), blood pressure is 142/88 mmHg, pulse is 107/min, respirations are 14/min, and oxygen saturation is 99% on room air. Physical exam reveals intact cranial nerves, normal strength and sensation, and a stable gait. His abdomen is soft and nontender. An ECG is performed as seen in Figure A. Which of the following is the most likely diagnosis based on this patient\u2019s ECG?\nA. Acute myocardial infarction\nB. Hypokalemia\nC. Intermittent torsades des pointes\nD. Previous myocardial ischemia\nE. Pulmonary embolism\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id136",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 4-day-old girl is brought in by her mother for bilateral purulent eye discharge. Pregnancy and delivery were uncomplicated. The newborn had been sleeping regularly and feeding well. Then 1 day ago, the patient developed eyelid edema and eye redness. This morning, the newborn developed a thick yellow-white eye discharge. The mother denies that anyone in the house smokes. The family has a cat at home. The patient\u2019s rectal temperature is 99\u00b0F (37.2\u00b0C), blood pressure is 80/50 mmHg, pulse is 134/min, and respirations are 34/min with an oxygen saturation of 98% O2 on room air. Figure A shows a photograph of one of the patient's eyes. The patient's physical exam is otherwise unrevealing. Which of the following most appropriately would have prevented this infant's condition?\nA. Artificial tears\nB. Intramuscular ceftriaxone\nC. Oral erythromycin\nD. Topical bacitracin\nE. Topical erythromycin\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id168",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 77-year-old man presents to the emergency department with a complaint of sudden onset weakness in his right upper extremity. At home, the patient thought he was simply dehydrated, but he rapidly began to have trouble speaking. When his wife noted this she brought him into the hospital. On arrival to the emergency department, the patient is not responding to verbal stimuli and only withdraws his left upper extremity and lower extremity to pain. His past medical history is notable for hypertension and atrial fibrillation treated with metoprolol, apixaban, and lisinopril. His temperature is 99.0\u00b0F (37.2\u00b0C), blood pressure is 170/100 mmHg, pulse is 95/min, and respirations are 16/min. The patient has a seizure and subsequently demonstrates agonal breathing. He no longer responds to painful stimuli. A fingerstick blood glucose is 122 mg/dL. Which of the following is the most likely etiology of this patient's symptoms?\nA. Epidural hematoma\nB. Intracerebral hemorrhage\nC. Ischemic stroke\nD. Subarachnoid hemorrhage\nE. Subdural hematoma\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id122",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 59-year-old man presents accompanied by his wife with nausea and dizziness. He is unsure when his symptoms started, but they have been affecting him for \u201ca while.\u201d It began as episodes of \u201cunsteadiness\u201d that progressed to a feeling of \u201cspinning.\u201d He cannot tell if his symptoms change with position but reports that if he does not lie down he will become nauseous. He also has worsening hearing loss worse on his right side. The patient\u2019s medical history is significant for hypertension, alcohol use disorder, and chronic obstructive pulmonary disease. His medications include aspirin, amlodipine, and fluticasone-salmeterol. He drinks a glass of red wine every night with dinner and smokes a cigar on the weekends. His temperature is 98.6\u00b0F (37\u00b0C), blood pressure is 135/91 mmHg, pulse is 72/min, and respirations are 12/min. Examination shows delayed horizontal nystagmus. Which of the following is the most appropriate treatment for this patient's condition?\nA. CN VIII ablation\nB. Epley maneuver\nC. Low-salt diet\nD. Meclizine\nE. Thiamine\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id231",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 62-year-old man presents to the emergency department with skin lesions. He felt itchy recently, then noticed skin lesions that broke out prompting him to come to the emergency department. He recently went camping and hiking in the woods. The patient drinks 1-2 beers per day and smokes 1 pack of cigarettes per day. He is currently sexually active with multiple partners and does not use condoms. The patient was discharged 1 week ago for pneumonia which was treated with azithromycin; however, he feels that his symptoms may be returning. His temperature is 99.5\u00b0F (37.5\u00b0C), blood pressure is 157/78 mmHg, pulse is 90/min, respirations are 15/min, and oxygen saturation is 98% on room air. Physical exam reveals the findings in Figure A on the patient's arm. The skin lesions are thick and do not break when pressure is applied. Which of the following most appropriately describes the most likely diagnosis?\nA. IgG in a fish-net pattern\nB. Linear IgG along the basement membrane\nC. Multi-nucleated giant cells\nD. Panniculitis\nE. Type IV hypersensitivity reaction\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id198",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 47-year-old woman presents to the clinic with 3 weeks of increased thirst and urination. She has a history of obesity, hypertension, and depression for which she takes losartan and sertraline. She has smoked 1 pack of cigarettes per day for 30 years. Her temperature is 99.5\u00b0F (37.5\u00b0C), blood pressure is 148/90 mmHg, pulse is 84/min, and respirations are 15/min. Physical exam is unremarkable, including no costovertebral or suprapubic tenderness to palpation. Laboratory studies are performed and show:\n\nSerum:\nNa+: 140 mEq/L\nK+: 4.4 mEq/L\nHCO3-: 21 mEq/L\nBlood urea nitrogen (BUN): 38 mg/dL\nCreatinine: 1.1 mg/dL\nGlucose: 215 mg/dL\n\nWhich of the following is the most appropriate screening test for nephropathy in this patient?\nA. Creatinine clearance\nB. Hemoglobin A1c\nC. Oral glucose tolerance test\nD. Urine albumin-to-creatinine ratio\nE. Urine protein dipstick\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id176",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 17-year-old girl presents to the clinic reporting 7 months without a menstrual period. Menarche was at age 12 and she had regular periods up until 2 years ago. At that time, her periods became less regular until around 7 months ago when they ceased altogether. She is otherwise healthy, participates in multiple school sports teams, and has been training rigorously for upcoming competitions. She denies alcohol use, smoking, and recreational drugs. She is not sexually active and does not take oral contraceptives. Her temperature is 36.7\u00b0C (98\u00b0F), blood pressure is 121/80 mmHg, pulse is 62/min, respirations are 11/min, oxygen saturation is 100% on room air, and BMI is 20 kg/m^2. Her pelvic exam reveals an anteverted uterus, no adnexal masses, a normal-appearing cervix with no cervical motion tenderness, and normal vaginal anatomy. Which of the following is the most likely cause of this patient's amenorrhea?\nA. Anorexia nervosa\nB. Functional hypothalamic amenorrhea\nC. Hypothyroidism\nD. Polycystic ovarian syndrome\nE. Pregnancy\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id233",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 27-year-old woman presents to her primary care physician with new hair growth on her face and lower abdomen over the last month. She has started to develop pimples on her face and back over the last several months. Her last menstrual period was over 3 months ago and her periods have been irregular over the last year. She has been gaining weight recently. The patient has a medical history of obesity and prediabetes with a hemoglobin A1c of 6.0% last year. Her temperature is 98.5\u00b0F (36.9\u00b0C), pulse is 80/min, blood pressure is 139/88 mmHg, and respirations are 13/min. Cardiopulmonary exam is unremarkable, and the patient\u2019s abdomen appears slightly distended but exhibits no tenderness to palpation. The patient\u2019s face has coarse stubble along the jawline and on the upper lip, and there is similar hair along the midline of her lower abdomen. A pelvic exam reveals mild clitoromegaly, a normal anteverted uterus, and a large left adnexal mass that is mildly tender. Her laboratory test results are shown below:\n\nHemoglobin: 13.9 g/dL\nLeukocyte count: 8,000 cells/mm^3\nPlatelet count: 142,000/mm^3\n\nDHEAS: 73 ug/dL (Normal: 145-395 ug/dL)\nTestosterone: 256 ng/dL\n17-hydroxyprogesterone: 214 ng/dL (Normal: < 200 ng/dL)\n\nUltrasound findings are shown in Figure A. Which of the following is the most likely diagnosis in this patient?\nA. Adrenal tumor\nB. Congenital adrenal hyperplasia\nC. Ovarian hyperthecosis\nD. Ovarian tumor\nE. Polycystic ovary syndrome\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id5",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 9-year-old girl presents to the emergency department with a fever and a change in her behavior. She presented with similar symptoms 6 weeks ago and was treated for an Escherchia coli infection. She also was treated for a urinary tract infection 10 weeks ago. Her mother says that last night her daughter felt ill, and her condition has been worsening. Her daughter experienced a severe headache and had a stiff neck. This morning she was minimally responsive, vomited several times, and produced a small amount of dark cloudy urine. The patient was born at 39 weeks and met all her developmental milestones. She is currently up to date on her vaccinations and did not have infections during early childhood. Her parents are divorced and her father has noted she does not seem to get sick when he takes care of her. Her temperature is 99.5\u00b0F (37.5\u00b0C), blood pressure is 60/35 mmHg, pulse is 190/min, respirations are 33/min, and oxygen saturation is 98% on room air. The patient is started on intravenous fluids, vasopressors, and broad-spectrum antibiotics. Which of the following is the most appropriate underlying explanation for this patient's presentation?\nA. Gastroenteritis\nB. Immunodeficiency\nC. Intentional contamination\nD. Meningitis\nE. Urinary tract infection\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id59",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 38-year-old woman presents to the emergency department with difficulty eating. Over the past week, she has had increasing difficulty chewing her food and progressive pain in the left side of her jaw. This morning, she was unable to close her mouth for several minutes after taking a bite of her breakfast. Two months ago, the patient had a root canal on a left molar. Her medical history is significant for hyperlipidemia, mild intermittent asthma, and type 2 diabetes mellitus. She has never smoked and has 10-15 alcoholic drinks per week. She works as an aide at a nursing home. Her temperature is 100.8\u00b0F (38.2\u00b0C), blood pressure is 133/74 mmHg, pulse is 105/min, and respirations are 14/min. On physical exam, there is a bluish hue to the skin on the lower left side of the patient\u2019s face. A 3x4 cm non-tender mass can be palpated inferior to the angle of the left mandible. Thick exudate is draining from an opening in the skin. The gram stain of the exudate can be seen in Figure A. Which of the following is the most appropriate treatment for this patient?\nA. Amphotericin B\nB. Clindamycin\nC. Metronidazole\nD. Penicillin\nE. Trimethoprim-sulfamethoxazole\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id106",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 69-year-old man presents to his primary care physician for trouble sleeping. He recently retired from working the day shift at a cemetery. When the patient retired, his goal was to finally be able to go out with his wife; however, he finds that he is unable to stay awake past 6 pm in the evening. His wife is disappointed that they cannot do any activities in the evening together. The patient has tried drinking caffeine but finds that it does not help. The patient\u2019s wife claims that the patient seems to sleep peacefully, and the patient states he feels rested when he awakes. The patient has a medical history of irritable bowel syndrome which is managed with fiber supplements. His temperature is 98.6\u00b0F (37\u00b0C), blood pressure is 125/83 mmHg, pulse is 87/min, and respirations are 11/min. The patient\u2019s neurological exam is within normal limits. Which of the following is the most likely diagnosis?\nA. Advanced sleep phase disorder\nB. Chronic insomnia\nC. Delayed sleep phase disorder\nD. Normal aging\nE. Obstructive sleep apnea\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id256",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 62-year-old man presents to the emergency department with increased fatigue and changes in his vision. For the past month, he has felt abnormally tired and today noticed his vision is blurry. The patient also endorses increased sweating at night and new-onset headaches. He currently feels dizzy. The patient has a medical history of diabetes and hypertension. His current medications include insulin, metformin, and lisinopril. His temperature is 99.5\u00b0F (37.5\u00b0C), blood pressure is 157/98 mmHg, pulse is 90/min, respirations are 17/min, and oxygen saturation is 98% on room air. A cardiopulmonary exam is within normal limits. HEENT exam reveals non-tender posterior and anterior chain lymphadenopathy. Abdominal exam reveals splenomegaly and hepatomegaly. There are large, non-tender palpable lymph nodes in the patient's inguinal region. A neurological exam is notable for decreased sensation in the patient's hands and feet. He also complains of numbness and tingling pain in his extremities that has been persistent during this time. The dermatologic exam is notable for multiple bruises on his upper and lower extremities. Which of the following is most likely to be abnormal in this patient?\nA. Calcium\nB. IgA and IgG\nC. IgM\nD. Natural killer cells\nE. T-cells\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id34",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 55-year-old woman presents to a primary care physician with persistent nausea and abdominal discomfort. She has experienced these symptoms daily for the past 3 months. She feels bloated and has episodic loose and watery stools. She has a history of hypertension and hyperlipidemia for which she takes amlodipine and atorvastatin. She immigrated from Vietnam 6 months ago. Her temperature is 98.6\u00b0F (37.0\u00b0C), blood pressure is 110/60 mmHg, pulse is 70/min, and respirations are 18/min. Physical exam reveals a thin-appearing woman in no acute distress. Her mucous membranes are moist. Cardiac and lung examinations are unremarkable. Laboratory results are as follows: Leukocyte count: 13,000/mm^3 Segmented neutrophils: 54% Bands: 2% Eosinophils: 6% Basophils: 0.4% Lymphocytes: 30% Monocytes: 5% A vitamin D level is 26 ng/mL (reference: >= 30 ng/mL). Which of the following is the most appropriate test in making the diagnosis?\nA. Bowel wall biopsy\nB. CT scan of the abdomen\nC. Lower endoscopy\nD. Stool ova and parasite assay\nE. Stool toxin assay\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id108",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 66-year-old woman presents to the emergency room after experiencing a tonic-clonic seizure. She has been having worsening headaches and intermittent nausea over the past 5 months. The headaches are constant and dull, and they typically worsen when she sneezes or laughs. Recently, she has become increasingly nauseous and has vomited twice in the past 10 days. Her medical history is significant for type 2 diabetes mellitus and hypertension for which she takes metformin and losartan. Her temperature is 98.6\u00b0F (37.0\u00b0C), blood pressure is 115/70 mmHg, pulse is 70/min, and respirations are 12/min. She is noted to have papilledema on fundoscopy, but physical exam is otherwise normal. Her CT scan findings are presented in Figure A. Which of the following is the most likely diagnosis?\nA. Cerebral toxoplasmosis\nB. Glioblastoma multiforme\nC. Hemorrhagic stroke\nD. Metastatic brain tumor\nE. Neurosarcoidosis\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id33",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A newborn boy is evaluated in the hospital nursery 2 hours after birth. The patient was born at 39 weeks of gestation to a 30-year-old primigravid via vaginal delivery. The patient\u2019s mother received routine prenatal care and the pregnancy was uncomplicated. The patient\u2019s anatomy ultrasound at 20 weeks of gestation was unremarkable. The patient\u2019s mother denies any family history of genetic diseases. The patient\u2019s APGAR scores were notable for poor muscle tone at both 1 and 5 minutes of life. The patient\u2019s birth weight is 2.6 kg (5 lb 11 oz), which is at the 5th percentile. His height and head circumference are in the 15th and 3rd percentile, respectively. His temperature is 97.1\u00b0F (36.2\u00b0C), blood pressure is 57/42 mmHg, pulse is 140/min, and respirations are 38/min. On physical exam, the patient has a wide nasal bridge, down slanting palpebral fissures, and widely spaced eyes. He has good respiratory effort with a high-pitched cry. This patient is most likely to have experienced a deletion on which of the following chromosomes?\nA. 4p\nB. 5p\nC. 5q\nD. 7q\nE. 15q\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id21",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 25-year-old man presents to his gastroenterologist for trouble swallowing. Whenever he eats solids, he regurgitates them back up. Given this patient's suspected diagnosis, the gastroenterologist performs a diagnostic test. Several hours later, the patient presents to the emergency department with chest pain and shortness of breath. His temperature is 99.5\u00b0F (37.5\u00b0C), blood pressure is 130/85 mmHg, pulse is 60/min, respirations are 12/min, and oxygen saturation is 99% on room air. On physical exam, the patient demonstrates a normal cardiopulmonary exam. His physical exam demonstrates no tenderness of the neck, a normal oropharynx, palpable crepitus above the clavicles, and minor lymphadenopathy. Which of the following is the most appropriate next step in management?\nA. Barium swallow\nB. Gastrografin swallow\nC. Magnetic resonance imaging\nD. Ultrasound\nE. Urgent surgery\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id254",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 46-year-old farmer presents to the office for a follow-up visit. He was seen 4 days ago for a new lesion on his arm that had been present for 1 week prior to that visit. A photograph of the lesion is shown in Figure A. At that time, he was prescribed treatment for the lesion and instructed to follow up as necessary. Today, he reports that he became sunburned this morning within an hour of beginning his workday, despite wearing appropriate sunscreen. He has a medical history significant for type 2 diabetes mellitus that is controlled with metformin. He has no known medical allergies. He smokes 1 pack of cigarettes per day and denies alcohol or illicit drug use. His temperature is 98.6\u00b0F (37.0\u00b0C), blood pressure is 125/70 mmHg, pulse is 65/min, and respirations are 12/min. On exam, there is a blistering erythematous rash on the arms and shoulders. The previous skin lesion appears unchanged. Which of the following is the most likely explanation for the patient's new rash?\nA. Adverse effect of ciprofloxicin\nB. Adverse effect of doxycycline\nC. Allergic reaction to prescribed therapy\nD. Progression of disease and alternative therapy is indicated\nE. Progression of disease and surgical debridement is necessary\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id7",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 44-year-old nurse presents to the emergency department with confusion. This has happened several times this past month with increasing frequency. Each time her symptoms improved with eating. She is otherwise healthy. She lives with her mother who has diabetes whose medications include metformin, insulin, lisinopril, amlodipine, and glyburide. Her temperature is 98.0\u00b0F (36.7\u00b0C), blood pressure is 132/81 mmHg, pulse is 85/min, respirations are 16/min, and oxygen saturation is 98% on room air. Physical exam reveals a confused woman. She is moving all her extremities but follows commands poorly. Laboratory studies are ordered as seen below.\n\nHemoglobin: 14 g/dL\nHematocrit: 41%\nLeukocyte count: 7,500/mm^3 with normal differential\nPlatelet count: 199,000/mm^3\n\nSerum:\nNa+: 140 mEq/L\nCl-: 102 mEq/L\nK+: 4.0 mEq/L\nHCO3-: 23 mEq/L\nBUN: 30 mg/dL\nGlucose: 29 mg/dL\nCreatinine: 1.4 mg/dL\nCa2+: 10.2 mg/dL\nSulfonylurea level: undetectable\nC-peptide level: 55 ng/mL (normal < 5 ng/mL)\n\nWhich of the following is the most likely etiology of this patient\u2019s symptoms?\nA. Alpha cell tumor\nB. Beta cell destruction\nC. Beta cell tumor\nD. Insulin overdose\nE. Sulfonylurea overdose\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id45",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 43-year-old man presents to the emergency department with bright red blood in his stool this morning. He noticed this yesterday as well, but it was much scanter. The patient is otherwise healthy. He was celebrating his birthday last night and admits having \"too much to drink\" and vomited profusely overnight. He currently feels well and is not nauseous. He has no other significant medical history and does not take any medications. His temperature is 99.2\u00b0F (37.3\u00b0C), blood pressure is 110/75 mmHg, pulse is 82/min, respirations are 16/min, and oxygen saturation is 100% on room air. Physical exam reveals a nontender abdomen with normal bowel sounds. Rectal exam reveals grossly bloody stool. Laboratory studies are ordered as shown below.\n\nHemoglobin: 12 g/dL\nHematocrit: 36%\nLeukocyte count: 5,500/mm^3 with normal differential\nPlatelet count: 179,000/mm^3\n\nWhich of the following is the most likely cause of this patient's symptoms?\nA. Erosion into a gastric vessel\nB. Inflammation and infection of colonic outpouching\nC. Malignancy\nD. Submucosal esophageal tear\nE. Vascular malformation\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id97",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 36-year-old G3P2002 woman presents to her obstetrician\u2019s office for her 1st prenatal visit at 10 weeks and 2 days gestation. She has felt nauseous the last several mornings and has been tired for a few weeks. The patient has had 2 uncomplicated spontaneous vaginal deliveries at full term with her last child born 6 years ago. She is concerned about the risk of Down syndrome in this fetus, as her sister gave birth to an affected child at age 43. She has a history of generalized anxiety disorder, atopic dermatitis, and she is currently on escitalopram. Her temperature is 98.6\u00b0F (37.0\u00b0C), pulse is 70/min, blood pressure is 121/67 mmHg, and respirations are 13/min. The patient appears anxious, but overall comfortable, and cardiopulmonary and abdominal exams are unremarkable. Pelvic exam reveals normal external genitalia, a closed and soft cervix, a 10-week-sized uterus, and no adnexal masses. Which of the following is the most appropriate next step for definitively determining whether this patient\u2019s fetus has Down syndrome?\nA. Amniocentesis\nB. Anatomy ultrasound\nC. Chorionic villus sampling\nD. Genetic testing of patient\u2019s sister\nE. Nuchal translucency test\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id92",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 55-year-old man presents to the emergency department after fainting while moving furniture. He states that he has been working in a hot, humid attic all day and forgot his water bottle. He felt dizzy when standing up and then fainted and was unconscious for roughly 1 minute. He awoke at his neurologic baseline afterwards. The patient has a history of hypertension being managed by his primary care doctor. His temperature is 98.7\u00b0F (37.1\u00b0C), blood pressure is 149/82 mmHg, pulse is 86/min, respirations are 15/min, and oxygen saturation is 99% on room air. Physical exam reveals a diaphoretic man. He demonstrates an unremarkable cardiopulmonary exam. The patient walks with a steady gait and his neurologic exam is non-focal. An ECG is performed as seen in Figure A. The patient is given 2 liters of oral fluids and feels back to his baseline. Which of the following conditions is most likely to occur in this patient based on his current history and ECG?\nA. Atrial fibrillation\nB. Complete heart block\nC. Myocardial infarction\nD. Stroke\nE. Torsades des pointes\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id137",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 69-year-old man presents to his primary care physician with hip and back pain. He states this weekend he had a barbecue. When he was lifting a heavy object, he suddenly felt pain in his lower back. He describes the pain as in his buttocks but states that at times it travels down his leg. He states that it feels electrical and burning in nature. The patient has a medical history of obesity, diabetes, depression, anxiety, diverticulosis, constipation, and a surgical repair of his anterior cruciate ligament. His current medications include metformin, insulin, lisinopril, fluoxetine, and sodium docusate. His temperature is 98.6\u00b0F (37\u00b0C), blood pressure is 131/82 mmHg, pulse is 82/min, and respirations are 14/min. On physical exam, he is found to have an intact motor and sensory function in his lower extremities bilaterally. No clonus or Babinski sign is appreciated. An exam of the cranial nerves is intact bilaterally. Which of the following is most likely to help confirm the diagnosis?\nA. Flexion, abduction, and external rotation of the thigh\nB. Internal rotation of the extended hip\nC. Palpating the paraspinal muscles\nD. Radiography\nE. Straight leg raise\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id158",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 2-month-old girl is brought to the pediatrician by her mother for a follow-up visit. The patient was born at 29 weeks gestation to a G1P1 mother. Her postnatal course was complicated by a prolonged neonatal intensive care unit stay for neonatal respiratory distress syndrome (NRDS). Since discharge from the hospital, her mother reports that the patient has been doing well without health problems. She has been gaining weight appropriately. Her temperature is 98.6\u00b0F (37.0\u00b0C), blood pressure is 80/50 mmHg, pulse is 120/min, and respirations are 25/min. The patient's mother asks the pediatrician about potentially delaying the 2-month vaccine doses due to the baby's medical history. Which of the following is the correct vaccination plan for this infant in terms of the vaccinations below?\n- Diphtheria, Tetanus, and acellular Pertussis - DTaP\n- Hepatitis A - HAV\n- Hepatitis B - HBV\n- Haemophilus influenzae type B conjugate - HiB\n- Pneumococcal conjugate - PCV 13\nA. Administer DTaP, HAV, HBV, HiB, PCV 13, poliovirus, and rotavirus vaccines\nB. Administer DTaP, HBV, HiB, PCV 13, and poliovirus vaccines\nC. Administer DTaP, HBV, HiB, PCV 13, poliovirus, and rotavirus vaccines\nD. Delay all vaccines for 2 months due to the infant's history of NRDS\nE. Delay all vaccines for 2 months because the infant was born 2 months premature\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id275",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 32-year-old man presents to the emergency department for evaluation of headache. His symptoms started last night and have persisted. He occasionally has migraine headaches, but he has not had a headache like this in the past. He reports associated nausea, vomiting, fevers, and neck pain. He has a medical history of asthma. His temperature is 100.4\u00b0F (38.0\u00b0C), blood pressure is 110/60 mmHg, pulse is 95/min, respirations are 17/min, and oxygen saturation is 98% on room air. On physical exam, he appears uncomfortable. Neurologic exam reveals no focal deficits. There is pain with passive neck flexion. No edema or rashes are noted. Lungs are clear to auscultation bilaterally. Lumbar puncture is performed and CSF results are obtained as shown below. Cerebrospinal fluid (CSF): Cell count: 175/mm^3 RBCs: 0/mm^3 Cl-: 119 mEq/L Glucose: 49 mg/dL Pressure: 150 mmH2O Total protein: 55 mg/dL Based on these results, which of the following is the most appropriate treatment regimen for this patient?\nA. Acyclovir\nB. Amphotericin and 5-flucytosine\nC. Ceftriaxone and vancomycin\nD. Ceftriaxone, vancomycin and steroids\nE. Supportive care and monitoring\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id181",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 25-year-old man presents to his primary care provider for a routine appointment. He feels well and has no complaints. His medical and surgical history is significant for the reconstruction of a torn anterior cruciate ligament in his right knee. His family history is significant for a mother with \u201cthyroid problems\u201d and a father with coronary artery disease. The patient is an information technology specialist at a local company. He is sexually active with men. His temperature is 98.6\u00b0F (37.0\u00b0C), blood pressure is 124/82 mmHg, pulse is 71/min, and respirations are 12/min. On physical exam, the patient is tall and slender with a BMI of 21 kg/m2. A single nodule can be palpated on the patient\u2019s thyroid. He has palpable cervical lymphadenopathy. On cardiac exam, he has a normal S1/S2 with no murmurs, rubs, or gallops, and his lungs are clear bilaterally. His abdomen is soft and non-tender without hepatosplenomegaly. A physical exam of the perioral region can be seen in Figure A. Which of the following additional findings is most likely to be found in this patient?\nA. Elevated plasma metanephrines\nB. Elevated serum calcium level\nC. Elevated serum prolactin level\nD. Fasting hypoglycemia\nE. Positive fecal occult blood test\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id129",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 25-year-old woman presents to her primary care physician complaining of recent hair growth along her jawline, now requiring her to shave every 2 days. She has not shaved in about a week. She has also gained about 10 pounds in the last several months, and her periods have become irregular over the last year. Her last menstrual period was 3 months ago. Her temperature is 98.6\u00b0F (37.0\u00b0C), pulse is 72/min, blood pressure is 136/86 mmHg, and respirations are 13/min. Her BMI is 26 kg/m^2. Her skin exam reveals hirsutism along the jawline and acanthosis nigricans in the axillary folds. Cardiopulmonary and abdominal exams are unremarkable. A pelvic exam reveals normal external genitalia, a mobile and non-tender 6-week-sized uterus, and no adnexal masses or tenderness. Transvaginal ultrasound is performed and shown in Figure A. This patient is at increased future risk of which of the following?\nA. Endometrial carcinoma\nB. Ovarian cancer\nC. Ovarian cyst rupture\nD. Type 1 diabetes mellitus\nE. Virilization\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id103",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 55-year-old man presents to the emergency department with epistaxis for the past hour. He has never had epistaxis before and has been unable to control it with pressure, head elevation, and ice. The patient has a past medical history of atrial fibrillation and is currently taking metoprolol and warfarin. His temperature is 98.5\u00b0F (36.9\u00b0C), blood pressure is 123/81 mmHg, pulse is 90/min, respirations are 13/min, and oxygen saturation is 97% on room air. Physical exam reveals a comfortable man in no distress. Inspection reveals active bleeding in the anterior nares. There is not a clear, single bleeding vessel. Which of the following is the most appropriate initial step in management?\nA. Cauterization with silver nitrate\nB. Fresh frozen plasma and intravenous phytonadione\nC. Intravenous tranexamic acid\nD. Placement of posterior nasal packing\nE. Topical oxymetazoline\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id126",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 65-year-old man presents to the emergency department with anxiety and intermittent palpitations. He began feeling the palpitations 3 days ago while eating dinner. He denies chest pain, shortness of breath, or loss of consciousness. He has a history of hypertension, major depressive disorder, Raynaud disease, and chronic obstructive pulmonary disease (COPD) on 2 liters of oxygen at home. Current medications include lisinopril, inhaled umeclidinium-vilanterol, and as-needed albuterol. He drinks 4 beers a day and has smoked 1 pack of cigarettes a day for 40 years. His temperature is 98.9\u00b0 F (37.2\u00b0 C), blood pressure is 130/85 mmHg, pulse is 125/min, and respirations are 16/min. Physical exam is notable for an irregular pulse and scattered end-expiratory wheezes. An echocardiogram performed 1 month ago showed a left ventricular ejection fraction of 60-65%. The patient requires 3 liters of oxygen today. An ECG is performed as seen in Figure A. Which of the following is the most appropriate treatment for the patient\u2019s tachycardia?\nA. Amiodarone\nB. Clopidogrel\nC. Digoxin\nD. Metoprolol\nE. Verapamil\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id253",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 27-year-old woman presents to her primary care physician for an abnormal vaginal discharge. The patient has engaged in unprotected intercourse with 12 different partners. She has a medical history of asthma, IV drug abuse, and depression. She has 1 to 2 alcoholic drinks per day. She feels ashamed of her behavior and is requesting treatment for her condition and advice for safe sex. The patient is given antibiotics and is advised on safe sex practices. The patient presents to the emergency department 3 days later with a complaint of a rash. She states that every time she has sex a rash has emerged on her skin. Her temperature is 99.5\u00b0F (37.5\u00b0C), blood pressure is 127/68 mmHg, pulse is 91/min, respirations are 14/min, and oxygen saturation is 98% on room air. A physical exam is notable for the finding in Figure A. Which of the following is the most likely cause of this patient's symptoms?\nA. Antigen exposure\nB. Drug reaction\nC. Infection\nD. IV drug use\nE. Photosensitivity\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id73",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 34-year-old man presents to the emergency room with pain behind his eyes. He had a similar episode about 1 month ago which resolved after a few hours. The pain feels like a stabbing sensation behind his right eye. He denies any symptoms on the left side. The last time he had an episode like this, his eye was tearing. His temperature is 98.2\u00b0F (36.8\u00b0C), blood pressure is 120/90 mmHg, pulse is 110/min, and respirations are 12/min. Physical exam reveals a 2 mm pupil on the right and a 5 mm pupil on the left. Extraocular movements are intact bilaterally. The remainder of the neurologic exam is unremarkable. Which of the following is the most appropriate prophylactic treatment?\nA. Ibuprofen\nB. Oxygen\nC. Propranolol\nD. Sumatriptan\nE. Verapamil\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id301",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 55-year-old man presents to the emergency department with nausea and vomiting for the past week. He decided to come in when his symptoms worsened. He feels that his symptoms are exacerbated with large fatty meals and when he drinks alcohol. His wife recently returned from a cruise with symptoms of vomiting and diarrhea. The patient has a medical history of poorly managed diabetes, constipation, anxiety, dyslipidemia, and hypertension. His temperature is 99.5\u00b0F (37.5\u00b0C), blood pressure is 197/128 mmHg, pulse is 100/min, respirations are 17/min, and oxygen saturation is 95% on room air. Physical exam reveals a systolic murmur heard loudest along the left upper sternal border. Abdominal exam reveals an obese, tympanitic and distended abdomen with a 3 cm scar in the right lower quadrant. Vascular exam reveals weak pulses in the lower extremities. Which of the following is the most likely underlying etiology of this patient's symptoms?\nA. Adhesions\nB. Enteric nervous system damage\nC. Impacted stool\nD. Norovirus\nE. Twisting of the bowel\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id297",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 22-year-old man presents to the emergency department with difficulty breathing. He has experienced similar symptoms before. Today, he was hit in the face with a football, followed by significant swelling of his lips and tongue. The patient speaks with a muffled voice. His temperature is 98.1\u00b0F (36.7\u00b0C), blood pressure is 120/83 mmHg, pulse is 80/min, respirations are 16/min, and oxygen saturation is 98% on room air. Physical exam reveals swollen lips and a protruding, enlarged tongue. His breath sounds are clear. He demonstrates no rash and his abdomen is soft and nontender. Which of the following is the most effective therapy for this patient?\nA. Dexamethasone\nB. Diphenhydramine\nC. Epinephrine\nD. Fresh frozen plasma\nE. Tranexamic acid\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id101",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 4-day-old neonate is brought to the pediatrician with vaginal discharge for the last 2 days. Her daughter has been feeding and voiding well. The neonate was delivered at 39 weeks gestation via an uncomplicated vaginal delivery and was discharged home after 2 days. The prenatal course was complicated by chlamydia in the mother during the first trimester, for which she and the partner were both treated with a confirmatory test of cure. The biological father is no longer involved in the patient's life, but her mother\u2019s boyfriend has been caring for the baby whenever the mother rests. The neonate\u2019s temperature is 98.5\u00b0F (36.9\u00b0C), blood pressure is 56/35 mmHg, pulse is 138/min, and respirations are 51/min. She appears comfortable, and cardiopulmonary and abdominal exams are unremarkable. There are no bruises or marks on her skin. Examination of the genitals reveals no vulvar irritation or skin changes but there is scant pink mucoid discharge at the introitus. Which of the following is the most appropriate next step in management?\nA. Reassurance\nB. Report to child protective services\nC. Vaginal culture\nD. Vaginal exam under anesthesia\nE. Warm water irrigation of the vagina\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id260",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 55-year-old woman presents to the emergency department for evaluation of headache. She had a headache that was present for a few hours before subsiding 2 days ago, and then today she developed a headache that was sudden in onset and at maximal intensity within minutes. She has never had a headache like this in the past. Her temperature is 99.0\u00b0F (37.2\u00b0C), blood pressure is 157/99 mmHg, pulse is 90/min, respirations are 16/min, and oxygen saturation is 99% on room air. On exam, she has pain with passive and active movement of the neck. No focal neurologic deficits are appreciated. A non-contrast head CT is obtained as shown in Figure A. Which of the following is the most likely underlying etiology of this patient's headache?\nA. CNS vascular endothelial dysfunction\nB. Dehydration and stress\nC. Hypersensitivity of the trigeminal nerve\nD. Muscular pain and strain\nE. Rupture of a berry aneurysm\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id29",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 56-year-old woman presents to the emergency department with muscle weakness. Her symptoms have progressively worsened over the course of 2 weeks and are most significant in her lower extremities. She also notices increased urinary frequency. Approximately 1 month ago, she was diagnosed with calcium phosphate nephrolithiasis. Medical history is significant for rheumatoid arthritis diagnosed approximately 10 years ago and treated with methotrexate as well as type 2 diabetes mellitus treated with metformin. Her temperature is 98.6\u00b0F (37\u00b0C), blood pressure is 138/92 mmHg, pulse is 92/min, and respirations are 17/min. On physical exam, there is mild tenderness to palpation of the metacarpophalangeal and proximal interphalangeal joints. There is 4/5 power throughout the lower extremity. Laboratory testing is shown. Serum: Na+: 137 mEq/L Cl-: 106 mEq/L K+: 2.9 mEq/L HCO3-: 18 mEq/L Glucose: 115 mg/dL Creatinine: 1.0 mg/dL Urine pH: 5.6 Which of the following is the most appropriate next step in management?\nA. Administer hydrochlorothiazide\nB. Administer intravenous insulin\nC. Administer intravenous sodium bicarbonate\nD. Begin potassium replacement therapy with dextrose\nE. Increase methotrexate dose\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id152",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 4-year-old boy is brought in by his grandmother for worsening seizure activity. She reports that occasionally he \u201csuddenly drops\u201d when running around the house. She says that his first seizure occurred 1 year ago. Since then, he has been on valproic acid but the seizure activity remains unchanged. He was recently enrolled in daycare because she could no longer care for him full-time. Since then, the seizure activity has increased and the daycare facility also noted concerns over his lack of response to voice commands. Family history is significant for a cousin who died suddenly at a young age. His temperature is 98.6\u00b0F (37\u00b0C), blood pressure is 105/52 mmHg, pulse is 110/min, and respirations are 25/min. A physical exam is significant for lack of response to auditory stimulation. An EEG is performed, which is unrevealing. An ECG is shown in Figure A. The patient is then startled when a door is closed quickly and he suddenly loses consciousness. An ECG is quickly performed and is shown in Figure B. An electrolyte panel is drawn with the following findings:\n\nSerum:\nNa+: 142 mEq/L\nCl-: 88 mEq/dL\nK+: 3.4 mEq/L\nHCO3-: 24 mEq/L\nBUN: 11 mg/dL\nGlucose: 67 mg/dL\nCreatinine: 0.6 mg/dL\nMg2+: 1.7 mg/dL\n\nWhich of the following is the most appropriate next step in management?\nA. Administer intravenous lorazepam\nB. Implant a pacemaker\nC. Replete potassium and magnesium and start a beta-blocker\nD. Replete potassium and magnesium and start procainamide\nE. Start ethosuximide\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id20",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 4-week-old boy is brought to the pediatrician by his parents for an initial evaluation. His parents are concerned that he is not feeding well and has lost weight over the last 2 weeks. He was born at home via spontaneous vaginal delivery at 37 weeks of gestation to a G1P1 mother. His mother did not receive prenatal care. His blood pressure is 70/44 mmHg, pulse is 151/min, and respirations are 41/min. His weight is 3 kg (4th percentile) compared with 3.5 kg at birth (45th percentile). On physical exam, he is jaundiced with an enlarged liver and spleen. He does not appear to respond to visual stimuli, and further examination reveals bilateral clouding of the lens. Which of the following interventions could have avoided this patient's symptoms?\nA. Avoiding fruit juice and sweetened foods\nB. Changing to a soy based formula\nC. Providing imiglucerase enzyme replacement\nD. Removing phenylalanine from maternal diet during pregnancy\nE. Vitamin B6 supplementation\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id46",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 5-year-old girl presents to the emergency room due to difficulty walking. She has been complaining of pain in her right leg for the last few days. Her neighbor\u2019s cat bit her last week and her parents attributed the pain to her healing bite. At the time of the bite, they cleaned the wound and irrigated it with sterile saline water from a first aid kit. She has no medical history and has never been hospitalized. Her temperature is 102.2\u00b0F (39\u00b0C), blood pressure is 118/78 mmHg, pulse is 90/min, respirations are 21/min, and pulse oximetry is 99% on room air. The open wound remains present on the thigh with surrounding erythema and edema. MRI is consistent with osteomyelitis. Which of the following is the most appropriate next step in management?\nA. Amoxicillin and clavulanate\nB. Ampicillin and sulbactam\nC. Doxycycline\nD. Flucanozole\nE. Vancomycin\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id217",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 35-year-old G0P0000 woman presents to her gynecologist with complaints of irregular menstruation. She has had only 2 periods in the last year. She feels flushed without provocation and is experiencing occasional dyspareunia with post-coital spotting. She has also had more frequent headaches than usual. The patient has a medical history of Hashimoto thyroiditis and takes levothyroxine daily. Her mother has type 1 diabetes mellitus. Her temperature is 98.5\u00b0F (36.9\u00b0C), pulse is 70/min, blood pressure is 118/76 mmHg, and respirations are 13/min. Cardiopulmonary and abdominal exams are unremarkable. The patient has Tanner 5 breasts and pubic hair. A pelvic exam reveals a normal cervix, an anteverted uterus without tenderness, and no adnexal masses. The following laboratory studies are performed: Serum: Thyroid stimulating hormone (TSH): 28 \u00b5IU/mL (9-30 \u00b5IU/mL) Cycle day 3 follicle stimulating hormone (FSH): 49 mIU/mL (4.7-21.5 mIU/mL) Cycle day 3 estradiol: 8 pg/mL (27-123 pg/mL) Prolactin: 14 ng/mL (4-23 ng/mL) Testosterone: 42 ng/dL (15-70 ng/dL) Which of the following is the most appropriate next step in management?\nA. Brain MRI\nB. Combined oral contraceptive\nC. Estradiol patch with oral medroxyprogesterone\nD. Increase levothyroxine dose\nE. Vaginal estradiol gel\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id245",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 35-year-old man presents to the emergency department for evaluation of chest pain. The pain starts in his chest and moves into his back, arms, and abdomen. He describes the pain as tearing. He has no known medical history and takes no medications. His temperature is 37.0\u00b0C (98.6\u00b0F), pulse is 130/min, blood pressure is 210/145 mmHg, respirations are 22/min, and pulse oximetry is 98% on room air. Exam reveals a diaphoretic, anxious-appearing man. Pulses are diminished over the left wrist when compared to the right. A chest radiograph is obtained as shown in Figure A. Which of the following is the most appropriate next step in management?\nA. Aspirin\nB. CT angiography of the chest, abdomen, and pelvis\nC. Echocardiography\nD. Lorazepam\nE. Serum troponin testing\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id215",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: Figure A is the lateral radiograph of a 44-year-old male who sustained a fall on his outstretched hand while rollerblading. The patient reports pain localized to the posterior elbow and refuses to attempt elbow extension secondary to pain and swelling. Which of the following is the most likely diagnosis in this patient?\nA. Exacerbation of elbow arthritis\nB. Triceps rupture\nC. Olecranon bursitis\nD. Lateral collateral ligament tear\nE. Anconeus avulsion fracture\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id190",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 25-year-old man presents to his primary care physician with anxiety and fatigue. During this past week, he has been unable to properly study and prepare for final exams because he is exhausted. He has been going to bed early but is unable to get a good night\u2019s sleep. He admits to occasional cocaine and marijuana use. Otherwise, the patient has no significant medical history and is not taking any medications. His temperature is 98.6\u00b0F (37\u00b0C), blood pressure is 115/71 mmHg, pulse is 72/min, and respirations are 12/min. On physical exam, the patient is a tired and anxious appearing young man. His neurological exam is within normal limits. The patient states that he fears he will fail his courses if he does not come up with a solution. Which of the following is the most appropriate initial step in management?\nA. Alprazolam\nB. Melatonin\nC. Polysomnography\nD. Sleep hygiene education\nE. Zolpidem\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id27",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 38-year-old man presents to the emergency department with nasal congestion, blurry vision, and diplopia. His nasal congestion started about 1 week ago and he noticed the blurry vision this morning when he struggled to read the words on his television screen. His medical history is significant for IV drug use, HIV (CD4: 47/mm^3), hypertension, hyperlipidemia, diabetes mellitus, and seasonal allergies. His home medications include hydrochlorothiazide, atorvastatin, metformin, cetirizine, darunavir, tenofovir, and emtricitabine. He denies recent IV drug use. His temperature is 100.8\u00b0F (38.2\u00b0C), blood pressure is 127/85 mmHg, pulse is 78/min, and respirations are 12/min. He has injected conjunctiva and rhinorrhea. His cranial nerves are intact, and his motor and sensory neurologic exam is normal. A MRI of the brain is performed and can be seen in Figure A. Which of the following is the most appropriate next step in management?\nA. Brain biopsy\nB. Empiric treatment with pyrimethamine-sulfadiazine\nC. Empiric treatment with dexamethasone\nD. Lumbar puncture\nE. Serology for anti-John Cunningham (JC) virus antibodies\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id157",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 59-year-old man presents to the emergency department after a sudden onset of slurred speech and right upper extremity weakness. His symptoms lasted 20 minutes but by the time he arrived at the emergency department he was symptom-free. The patient denies any preceding symptoms. He has a history of diabetes, obesity, and hypertension but does not see a physician for his underlying conditions. His temperature is 99.2\u00b0F (37.3\u00b0C), blood pressure is 140/85 mmHg, pulse is 82/min, respirations are 16/min, and oxygen saturation is 100% on room air. Physical exam reveals normal vision, strength, and sensation with a stable gait. Finger-nose testing and tandem gait are unremarkable. A CT scan of the head is performed and is unremarkable. Which of the following is the most appropriate next step in management?\nA. Aspirin\nB. Atorvastatin\nC. CTA head/neck\nD. Labetalol\nE. MRI brain\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id266",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 30-year-old man is evaluated in the post-anesthesia care unit for neck pain. He underwent a laparoscopic appendectomy and was treated for post-operative nausea and vomiting with metoclopramide. Approximately 20 minutes after receiving the medication, he developed pain and stiffness in his neck and eventually was unable to move his neck. His temperature is 98.6\u00b0F (37.0\u00b0C), pulse is 90/min, blood pressure is 130/80 mmHg, respirations are 16/min, and oxygen saturation is 98% on room air. Examination reveals an uncomfortable appearing man. His neck is rotated to the right and is unable to return to midline. Examination of the patient is shown in Figure A. Which of the following is the most appropriate next step in management?\nA. Botulinum toxin injection\nB. Diphenhydramine\nC. Haloperidol\nD. Observation\nE. Ondansetron\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id37",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 2-year-old boy is brought to the emergency room by his mother, who states that her son has been coughing uncontrollably for 3 hours. The child has a medical history of obesity and atopic dermatitis and uses topical steroid cream. His birth history is unremarkable. His family history is notable for asthma in his older sister and irritable bowel syndrome in his father. His temperature is 98.5\u00b0F (36.9\u00b0C), pulse is 120/min, blood pressure is 90/52 mmHg, and respirations are 32/min. On exam, he appears uncomfortable, is coughing continuously, and is drooling. Cardiopulmonary and abdominal exams are unremarkable. A chest radiograph is performed and the results are shown in Figures A and B. Which of the following is the most appropriate next step in management?\nA. Balloon catheter removal\nB. Endoscopic removal\nC. Ipecac administration\nD. Observation\nE. Surgical extraction\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id116",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 59-year-old woman comes to the clinic due to a 3-month history of \u201calways feeling the urge to urinate\u201d as well as vaginal pruritis. She states that she has had involuntary loss of urine about 4 times each day over the past 3 months. It is not associated with coughing or sneezing. Menopause occurred at age 52. She has a history of chlamydial infection in her 20's and has had 3 urinary tract infections over the past year. The patient has not been sexually active with her husband due to pain with intercourse. She has no other significant medical history and does not take any medications. Her temperature is 98.6\u00b0F (37.0\u00b0C), blood pressure is 115/70 mmHg, pulse is 70/min, and respirations are 12/min. On physical examination, the vulvar skin is pale and atrophic with reduced elasticity and multiple areas of petechiae. The vaginal mucosa also has a loss of rugae and several areas of friable irritation. There is minimal clear vaginal discharge. Urinalysis is normal and fecal occult blood test is negative. Pelvic ultrasound reveals a small, retroverted uterus. Which of the following is the most appropriate next step in management?\nA. Metronidazole\nB. Nitrofurantoin\nC. Topical clobetasol\nD. Topical estrogen\nE. Vaginal moisturizers\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id175",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 70-year-old woman is brought to the emergency department by ambulance. She was found on the floor of her apartment after her neighbor called 911. She is confused and is unable to provide any history, but complains of generalized pain. Her temperature is 99.2\u00b0F (37.3\u00b0C), blood pressure is 129/64 mmHg, pulse is 63/min, respirations are 13/min, and oxygen saturation is 99% on room air. Physical exam reveals, a confused, ill-appearing woman. Lungs are clear to auscultation bilaterally. An electrocardiogram is obtained as shown in Figure A. Dipstick urinalysis is notable for 4+ blood and dark colored urine. Which of the following is the most appropriate next step in management?\nA. Albuterol and IV fluid resuscitation\nB. Calcium gluconate\nC. Insulin, glucose, and IV fluid resuscitation\nD. IV fluid resuscitation\nE. Sodium polystyrene sulfonate\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id241",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 24-year-old man with epilepsy refractory to valproic acid, phenytoin, and levetiracetam undergoes magnetic resonance imaging of his brain while monitored by anesthetic care. He wakes up screaming in pain due to an electrocardiogram lead having caused a significant thermal burn circumferentially around his left leg. He is admitted to the medical intensive care unit for continuous electroencephalogram monitoring while on a midazolam infusion for seizure suppression and supportive care for his burn. Overnight, the nurse continued to increase the patient's midazolam infusion rate, but she also noticed that his left toes were cold to the touch with significant edema. His temperature is now 100\u00b0F (37.8\u00b0C), blood pressure is 110/75 mmHg, pulse is 80/min, respirations are 10/min and oxygen saturation is 95% on 2 liters nasal cannula. No dorsalis pedis or posterior tibial pulses are detected on the left lower extremity. A delta pressure of 25 mmHg is obtained in the left leg. What is the most appropriate next step in management?\nA. Amputation\nB. Escharotomy\nC. Fasciotomy\nD. Intravenous fluid infusion based on Parkland formula\nE. Transfer to burn center\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id237",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 23-year-old woman is admitted to the inpatient psychiatry unit after her boyfriend reported she was \u201cacting funny and refusing to talk.\u201d The patient\u2019s boyfriend states that he came home from work and found the patient sitting up in bed staring at the wall. When he said her name or waved his hand in front of her, she did not respond. When he tried to move her, she would remain in whatever position she was placed. Her temperature is 99\u00b0F (37.2\u00b0C), blood pressure is 122/79 mmHg, pulse is 68/min, and respirations are 12/min with an oxygen saturation of 98% on room air. The patient is lying on the bed with her left arm raised and pointing at the ceiling. She resists any attempt to change her position. The patient remains mute and ignores any external stimuli. The patient\u2019s medical history is significant for depression. She was recently switched from phenelzine to fluoxetine. Which of the following is the most appropriate initial therapy?\nA. Benztropine\nB. Cyproheptadine\nC. Electroconvulsive therapy\nD. Haloperidol\nE. Lorazepam\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id167",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 17-year-old high school student was in shop class when he accidentally sawed off a portion of his right index finger. The teacher applied dressings and pressure to the patient's injured digit and immediately transported the patient to the emergency department. He arrived within 20 minutes of the accident. The patient has a medical history of asthma and his only medication is albuterol. His temperature is 98.0\u00b0F (36.6\u00b0C), blood pressure is 120/70 mmHg, pulse is 105/min, and respirations are 17/min. Exam was significant for pulsatile bleeding from a clean-cut wound on his right second finger. Radiography of the hand revealed a complete amputation of the right finger from the distal interphalangeal joint. The wound was cleaned, compression applied, analgesics administered, and the hand surgeons were notified. The teacher states that he left the amputated finger in the classroom, but the principal would be transporting it to the hospital. Which of the following is the correct method for transporting the amputated finger?\nA. Rinse the finger in normal saline, wrap the finger in moist gauze, put in a plastic bag, and place the bag in ice water\nB. Rinse the finger with hydrogen peroxide, wrap the finger in moist gauze, and place on ice\nC. Submerge the finger in ice water\nD. Wrap the finger in moist gauze and place in a plastic bag\nE. Wrap the finger in moist gauze and place on ice\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id173",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 33-year-old man presents to the emergency department with dizziness. He states he has a constant sensation that the room is spinning. He is now having trouble walking and has been vomiting intermittently. He has no past medical history and takes no medications. His temperature is 98.0\u00b0F (36.7\u00b0C), blood pressure is 122/84 mmHg, pulse is 80/min, respirations are 16/min, and oxygen saturation is 98% on room air. Physical exam reveals a young man who is vomiting. His gait is ataxic and he exhibits rightward nystagmus. His dizziness is constant and unchanged with performance of the Dix-Hallpike maneuver. The head impulse test reveals a corrective saccade and there is no skew deviation. Which of the following is the most appropriate next step in management?\nA. CT head\nB. Epley maneuver\nC. MRI brain\nD. Prednisone\nE. Tissue plasminogen activator\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id291",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 57-year-old man is brought to a neurologist by his wife for abnormal behavior. He was normal until around 3 months ago when he started forgetting important meetings and misplacing items around the house. One month ago, the patient was fired from his job as a software engineer after attempting to grope a coworker. The patient expresses frustration that he is no longer able to concentrate enough to enjoy his hobby of solving puzzles. His medical history is significant for gastroesophageal reflux disease for which he takes omeprazole. He has no family history of neurologic disease. His temperature is 98.6\u00b0F (37.0\u00b0C), blood pressure is 120/75 mmHg, pulse is 70/min, and respirations are 16/min. During the examination, the patient\u2019s cell phone rings unexpectedly causing the patient to suddenly jerk his arms and legs. Further diagnostic investigation is performed which reveals an elevated 14-3-3 protein on cerebrospinal fluid analysis. Which of the following is the most likely diagnosis?\nA. Alzheimer disease\nB. Creutzfeldt-Jacob disease\nC. Dementia with Lewy bodies\nD. Frontotemporal dementia\nE. Subcortical leukoencephalopathy\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id218",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 27-year-old man presents to his primary care physician for exposure to toxic materials. The patient states that when he left for work this morning he was certain that he had closed the door to his pantry. Upon returning home, he saw that the door to his pantry was wide open. The patient is certain that his neighbors have been tampering with his food and potentially poisoned him. He further states that he knows they have been trying to break into his house and steal his things. He has tried multiple times to get them evicted from the building to no avail. It is for this reason that he is certain that they are trying to get their revenge upon him. His temperature is 98.6\u00b0F (37\u00b0C), blood pressure is 115/71 mmHg, pulse is 72/min, and respirations are 12/min. The physician performs a physical exam and tells the patient that he thinks there is nothing to be concerned about, but that he should call him or come into the office if he experiences any symptoms. The patient is outraged at this news and requests a competent doctor who is not colluding with his enemies. He storms out of the office angrily, stating that he deserves the best in medical care. Which of the following is the most likely disorder that this patient is suffering from?\nA. Borderline personality disorder\nB. Intermittent explosive disorder\nC. Narcissistic personality disorder\nD. Paranoid personality disorder\nE. Schizoid personality disorder\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id145",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n\nClinical Scenario: A 32-year-old man presents to the emergency department for evaluation of headache. His symptoms started last night and have persisted. He occasionally has migraine headaches, but he has not had a headache like this in the past. He reports associated nausea, vomiting, fevers, and neck pain. He has a medical history of asthma. His temperature is 100.4\u00b0F (38.0\u00b0C), blood pressure is 110/60 mmHg, pulse is 95/min, respirations are 17/min, and oxygen saturation is 98% on room air. On physical exam, he appears uncomfortable. Neurologic exam reveals no focal deficits. There is pain with passive neck flexion. No edema or rashes are noted. Lungs are clear to auscultation bilaterally. Lumbar puncture is performed and CSF results are obtained as shown below. Cerebrospinal fluid (CSF): Cell count: 175/mm^3 RBCs: 0/mm^3 Cl-: 119 mEq/L Glucose: 49 mg/dL Pressure: 150 mmH2O Total protein: 55 mg/dL Based on these results, which of the following is the most appropriate treatment regimen for this patient?\nA. Acyclovir\nB. Amphotericin and 5-flucytosine\nC. Ceftriaxone and vancomycin\nD. Ceftriaxone, vancomycin and steroids\nE. Supportive care and monitoring\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  }
+]

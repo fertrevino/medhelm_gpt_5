@@ -1,0 +1,131 @@
+{
+  "title": "Efficiency",
+  "header": [
+    {
+      "value": "Model",
+      "markdown": false,
+      "metadata": {}
+    },
+    {
+      "value": "Mean win rate",
+      "description": "How many models this model outperforms on average (over columns).",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {}
+    },
+    {
+      "value": "DischargeMe - Observed inference time (s)",
+      "description": "DischargeMe is a benchmark designed to evaluate clinical text generation. It pairs discharge summaries and radiology reports from MIMIC-IV with generation tasks such as writing discharge instructions or summarizing the brief hospital course. The benchmark assesses a model's ability to generate patient-facing documentation that is complete, empathetic, and clinically accurate [(Xu, 2024)](https://physionet.org/content/discharge-me/1.3/).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "DischargeMe"
+      }
+    },
+    {
+      "value": "ACI-Bench - Observed inference time (s)",
+      "description": "ACI-Bench is a benchmark of real-world patient-doctor conversations paired with structured clinical notes. The benchmark evaluates a model's ability to understand spoken medical dialogue and convert it into formal clinical documentation, covering sections such as history of present illness, physical exam findings, results, and assessment and plan [(Yim et al., 2024)](https://www.nature.com/articles/s41597-023-02487-3).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "ACI-Bench"
+      }
+    },
+    {
+      "value": "MTSamples Procedures - Observed inference time (s)",
+      "description": "MTSamples Procedures is a benchmark composed of transcribed operative notes, focused on documenting surgical procedures. Each example presents a brief patient case involving a surgical intervention, and the model is tasked with generating a coherent and clinically accurate procedural summary or treatment plan.\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "MTSamples Procedures"
+      }
+    },
+    {
+      "value": "MIMIC-RRS - Observed inference time (s)",
+      "description": "MIMIC-RRS is a benchmark constructed from radiology reports in the MIMIC-III database. It contains pairs of \u2018Findings\u2018 and \u2018Impression\u2018 sections, enabling evaluation of a model's ability to summarize diagnostic imaging observations into concise, clinically relevant conclusions [(Chen et al., 2023)](https://arxiv.org/abs/2211.08584).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "MIMIC-RRS"
+      }
+    },
+    {
+      "value": "MIMIC-BHC - Observed inference time (s)",
+      "description": "MIMIC-BHC is a benchmark focused on summarization of discharge notes into Brief Hospital Course (BHC) sections. It consists of curated discharge notes from MIMIC-IV, each paired with its corresponding BHC summary. The benchmark evaluates a model's ability to condense detailed clinical information into accurate, concise summaries that reflect the patient's hospital stay [(Aali et al., 2024)](https://doi.org/10.1093/jamia/ocae312).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "MIMIC-BHC"
+      }
+    },
+    {
+      "value": "NoteExtract - Observed inference time (s)",
+      "description": "NoteExtract is a benchmark that focuses on the structured extraction of information from free-form clinical text. It provides care plan notes authored by health workers and evaluates a model's ability to convert them into a predefined structured format, such as fields for Chief Complaint and History of Present Illness. The benchmark emphasizes faithful extraction without hallucination or inference.\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "NoteExtract"
+      }
+    }
+  ],
+  "rows": [
+    [
+      {
+        "value": "GPT 5",
+        "description": "",
+        "markdown": false
+      },
+      {
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "value": 35.712009525299074,
+        "description": "min=35.712, mean=35.712, max=35.712, sum=35.712 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "aci_bench:model=openai_gpt-5"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      }
+    ]
+  ],
+  "links": [
+    {
+      "text": "LaTeX",
+      "href": "benchmark_output/runs/my-medhelm-suite/groups/latex/clinical_note_generation_efficiency.tex"
+    },
+    {
+      "text": "JSON",
+      "href": "benchmark_output/runs/my-medhelm-suite/groups/json/clinical_note_generation_efficiency.json"
+    }
+  ],
+  "name": "efficiency"
+}

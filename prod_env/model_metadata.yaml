@@ -1,0 +1,26 @@
+# Model metadata registry (HELM-style)
+# Purpose: human-facing attributes for reporting & leaderboard aggregation.
+# Separate from deployment config (model_deployments.yaml) which defines runtime client routing.
+# Fields:
+#   - name: Stable identifier (must match deployment & run entries)
+#   - display_name: Short label for tables / UI
+#   - description: Concise model summary (no marketing claims)
+#   - creator_organization_name: Owning org
+#   - access: open | gated | closed (used for filtering in reports)
+#   - release_date: ISO date (YYYY-MM-DD) for chronological comparisons
+# Optional (not currently used here): tags, modalities, parameter counts. Omitted to keep surface minimal.
+# Append-only: do not retroactively edit prior entries except to fix factual errors.
+models:
+  - name: openai/gpt-4.1-nano-2025-04-14
+    display_name: GPT 4.1 Nano
+    description: Compact OpenAI model snapshot for baseline efficiency comparisons.
+    creator_organization_name: OpenAI
+    access: open
+    release_date: 2025-04-14
+
+  - name: openai/gpt-5
+    display_name: GPT 5
+    description: Latest OpenAI frontier model integrated for longitudinal MedHELM tracking.
+    creator_organization_name: OpenAI
+    access: open
+    release_date: 2025-08-08

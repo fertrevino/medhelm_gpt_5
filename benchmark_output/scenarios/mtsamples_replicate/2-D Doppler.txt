@@ -1,0 +1,7 @@
+Medical Specialty:Radiology
+Sample Name: 2-D Doppler
+Description: Normal left ventricle, moderate biatrial enlargement, and mild tricuspid regurgitation, but only mild increase in right heart pressures.
+(Medical Transcription Sample Report)
+2-D STUDY1. Mild aortic stenosis, widely calcified, minimally restricted.2. Mild left ventricular hypertrophy but normal systolic function.3. Moderate biatrial enlargement.4. Normal right ventricle.5. Normal appearance of the tricuspid and mitral valves.6. Normal left ventricle and left ventricular systolic function.DOPPLER1. There is 1 to 2+ aortic regurgitation easily seen, but no aortic stenosis.
+2. Mild tricuspid regurgitation with only mild increase in right heart pressures, 30-35 mmHg maximum.SUMMARY1. Normal left ventricle.2. Moderate biatrial enlargement.3. Mild tricuspid regurgitation, but only mild increase in right heart pressures.
+Keywords: radiology, 2-d study, doppler, tricuspid regurgitation, heart pressures, stenosis, ventricular, heart, ventricle, tricuspid, regurgitation,

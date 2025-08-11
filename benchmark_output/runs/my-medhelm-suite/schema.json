@@ -1,0 +1,2031 @@
+{
+  "metrics": [
+    {
+      "name": "num_perplexity_tokens",
+      "display_name": "# tokens",
+      "description": "Average number of tokens in the predicted output (for language modeling, the input too)."
+    },
+    {
+      "name": "num_bytes",
+      "display_name": "# bytes",
+      "description": "Average number of bytes in the predicted output (for language modeling, the input too)."
+    },
+    {
+      "name": "num_references",
+      "display_name": "# ref",
+      "description": "Number of references."
+    },
+    {
+      "name": "num_train_trials",
+      "display_name": "# trials",
+      "description": "Number of trials, where in each trial we choose an independent, random set of training instances."
+    },
+    {
+      "name": "estimated_num_tokens_cost",
+      "display_name": "cost",
+      "description": "An estimate of the number of tokens (including prompt and output completions) needed to perform the request."
+    },
+    {
+      "name": "num_prompt_tokens",
+      "display_name": "# prompt tokens",
+      "description": "Number of tokens in the prompt."
+    },
+    {
+      "name": "num_prompt_characters",
+      "display_name": "# prompt chars",
+      "description": "Number of characters in the prompt."
+    },
+    {
+      "name": "num_completion_tokens",
+      "display_name": "# completion tokens",
+      "description": "Actual number of completion tokens (over all completions)."
+    },
+    {
+      "name": "num_output_tokens",
+      "display_name": "# output tokens",
+      "description": "Actual number of output tokens."
+    },
+    {
+      "name": "max_num_output_tokens",
+      "display_name": "Max output tokens",
+      "description": "Maximum number of output tokens (overestimate since we might stop earlier due to stop sequences)."
+    },
+    {
+      "name": "num_requests",
+      "display_name": "# requests",
+      "description": "Number of distinct API requests."
+    },
+    {
+      "name": "num_instances",
+      "display_name": "# eval",
+      "description": "Number of evaluation instances."
+    },
+    {
+      "name": "num_train_instances",
+      "display_name": "# train",
+      "description": "Number of training instances (e.g., in-context examples)."
+    },
+    {
+      "name": "prompt_truncated",
+      "display_name": "truncated",
+      "description": "Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples)."
+    },
+    {
+      "name": "finish_reason_length",
+      "display_name": "finish b/c length",
+      "description": "Fraction of instances where the the output was terminated because of the max tokens limit."
+    },
+    {
+      "name": "finish_reason_stop",
+      "display_name": "finish b/c stop",
+      "description": "Fraction of instances where the the output was terminated because of the stop sequences."
+    },
+    {
+      "name": "finish_reason_endoftext",
+      "display_name": "finish b/c endoftext",
+      "description": "Fraction of instances where the the output was terminated because the end of text token was generated."
+    },
+    {
+      "name": "finish_reason_unknown",
+      "display_name": "finish b/c unknown",
+      "description": "Fraction of instances where the the output was terminated for unknown reasons."
+    },
+    {
+      "name": "num_completions",
+      "display_name": "# completions",
+      "description": "Number of completions."
+    },
+    {
+      "name": "predicted_index",
+      "display_name": "Predicted index",
+      "description": "Integer index of the reference (0, 1, ...) that was predicted by the model (for multiple-choice)."
+    },
+    {
+      "name": "exact_match",
+      "display_name": "Exact match",
+      "short_display_name": "EM",
+      "description": "Fraction of instances that the predicted output matches a correct reference exactly.",
+      "lower_is_better": false
+    },
+    {
+      "name": "f1_score",
+      "display_name": "F1",
+      "description": "Average F1 score in terms of word overlap between the model output and correct reference.",
+      "lower_is_better": false
+    },
+    {
+      "name": "live_qa_score",
+      "display_name": "Judge Score",
+      "description": "LLM-as-judge score",
+      "lower_is_better": false
+    },
+    {
+      "name": "medication_qa_score",
+      "display_name": "Judge Score",
+      "description": "LLM-as-judge score",
+      "lower_is_better": false
+    },
+    {
+      "name": "quasi_exact_match",
+      "display_name": "Quasi-exact match",
+      "short_display_name": "EM",
+      "description": "Fraction of instances that the predicted output matches a correct reference up to light processing.",
+      "lower_is_better": false
+    },
+    {
+      "name": "prefix_exact_match",
+      "display_name": "Prefix exact match",
+      "short_display_name": "PEM",
+      "description": "Fraction of instances that the predicted output matches the prefix of a correct reference exactly.",
+      "lower_is_better": false
+    },
+    {
+      "name": "quasi_prefix_exact_match",
+      "display_name": "Prefix quasi-exact match",
+      "short_display_name": "PEM",
+      "description": "Fraction of instances that the predicted output matches the prefix of a correct reference up to light processing.",
+      "lower_is_better": false
+    },
+    {
+      "name": "logprob",
+      "display_name": "Log probability",
+      "short_display_name": "Logprob",
+      "description": "Predicted output's average log probability (input's log prob for language modeling).",
+      "lower_is_better": false
+    },
+    {
+      "name": "logprob_per_byte",
+      "display_name": "Log probability / byte",
+      "short_display_name": "Logprob/byte",
+      "description": "Predicted output's average log probability normalized by the number of bytes.",
+      "lower_is_better": false
+    },
+    {
+      "name": "bits_per_byte",
+      "display_name": "Bits/byte",
+      "short_display_name": "BPB",
+      "description": "Average number of bits per byte according to model probabilities.",
+      "lower_is_better": true
+    },
+    {
+      "name": "perplexity",
+      "display_name": "Perplexity",
+      "short_display_name": "PPL",
+      "description": "Perplexity of the output completion (effective branching factor per output token).",
+      "lower_is_better": true
+    },
+    {
+      "name": "rouge_1",
+      "display_name": "ROUGE-1",
+      "description": "Average ROUGE score [(Lin, 2004)](https://aclanthology.org/W04-1013/) based on 1-gram overlap.",
+      "lower_is_better": false
+    },
+    {
+      "name": "rouge_2",
+      "display_name": "ROUGE-2",
+      "description": "Average ROUGE score [(Lin, 2004)](https://aclanthology.org/W04-1013/) based on 2-gram overlap.",
+      "lower_is_better": false
+    },
+    {
+      "name": "rouge_l",
+      "display_name": "ROUGE-L",
+      "description": "Average ROUGE score [(Lin, 2004)](https://aclanthology.org/W04-1013/) based on longest common subsequence overlap.",
+      "lower_is_better": false
+    },
+    {
+      "name": "bleu_1",
+      "display_name": "BLEU-1",
+      "description": "Average BLEU score [(Papineni et al., 2002)](https://aclanthology.org/P02-1040/) based on 1-gram overlap.",
+      "lower_is_better": false
+    },
+    {
+      "name": "bleu_4",
+      "display_name": "BLEU-4",
+      "description": "Average BLEU score [(Papineni et al., 2002)](https://aclanthology.org/P02-1040/) based on 4-gram overlap.",
+      "lower_is_better": false
+    },
+    {
+      "name": "medec_error_flag_accuracy",
+      "display_name": "Medical Error Flag Accuracy",
+      "short_display_name": "MedecFlagAcc",
+      "description": "Measures how accurately the model identifies whether a clinical note contains an error (binary classification of correct/incorrect).",
+      "lower_is_better": false
+    },
+    {
+      "name": "medec_error_sentence_accuracy",
+      "display_name": "Medical Error Sentence Accuracy",
+      "short_display_name": "MedecSentenceAcc",
+      "description": "Measures how accurately the model identifies the specific erroneous sentence within a clinical note.",
+      "lower_is_better": false
+    },
+    {
+      "name": "ehr_sql_precision_answerable",
+      "display_name": "Precision for Answerable Questions",
+      "short_display_name": "EHRSQLPreAns",
+      "description": "Measures the proportion of correctly predicted answerable questions among all questions predicted to be answerable.",
+      "lower_is_better": false
+    },
+    {
+      "name": "ehr_sql_recall_answerable",
+      "display_name": "Recall for Answerable Questions",
+      "short_display_name": "EHRSQLReAns",
+      "description": "Measures the proportion of correctly predicted answerable questions among all answerable questions in the dataset.",
+      "lower_is_better": false
+    },
+    {
+      "name": "mimiciv_billing_code_precision",
+      "display_name": "Precision for MIMIC Billing Codes",
+      "short_display_name": "MIMICBillingPre",
+      "description": "Measures the proportion of correctly predicted ICD codes among all ICD codes predicted by the model.",
+      "lower_is_better": false
+    },
+    {
+      "name": "mimiciv_billing_code_recall",
+      "display_name": "Recall for MIMIC Billing Codes",
+      "short_display_name": "MIMICBillingRec",
+      "description": "Measures the proportion of correctly predicted ICD codes among all ICD codes present in the gold standard.",
+      "lower_is_better": false
+    },
+    {
+      "name": "mimiciv_billing_code_f1",
+      "display_name": "F1 Score for MIMIC Billing Codes",
+      "short_display_name": "MIMICBillingF1",
+      "description": "Measures the harmonic mean of precision and recall for ICD codes, providing a balanced evaluation of the model's performance.",
+      "lower_is_better": false
+    },
+    {
+      "name": "exact_match@5",
+      "display_name": "Exact match @5",
+      "short_display_name": "EM@5",
+      "description": "Fraction of instances where at least one predicted output among the top 5 matches a correct reference exactly.",
+      "lower_is_better": false
+    },
+    {
+      "name": "quasi_exact_match@5",
+      "display_name": "Quasi-exact match @5",
+      "short_display_name": "EM@5",
+      "description": "Fraction of instances where at least one predicted output among the top 5 matches a correct reference up to light processing.",
+      "lower_is_better": false
+    },
+    {
+      "name": "prefix_exact_match@5",
+      "display_name": "Prefix exact match @5",
+      "short_display_name": "PEM@5",
+      "description": "Fraction of instances that the predicted output among the top 5 matches the prefix of a correct reference exactly.",
+      "lower_is_better": false
+    },
+    {
+      "name": "quasi_prefix_exact_match@5",
+      "display_name": "Prefix quasi-exact match @5",
+      "short_display_name": "PEM@5",
+      "description": "Fraction of instances that the predicted output among the top 5 matches the prefix of a correct reference up to light processing.",
+      "lower_is_better": false
+    },
+    {
+      "name": "ehr_sql_execution_accuracy",
+      "display_name": "Execution accuracy for Generated Query",
+      "short_display_name": "EHRSQLExeAcc",
+      "description": "Measures the proportion of correctly predicted answerable questions among all questions predicted to be answerable.",
+      "lower_is_better": false
+    },
+    {
+      "name": "ehr_sql_query_validity",
+      "display_name": "Validity of Generated Query",
+      "short_display_name": "EHRSQLQueryValid",
+      "description": "Measures the proportion of correctly predicted answerable questions among all answerable questions in the dataset.",
+      "lower_is_better": false
+    },
+    {
+      "name": "aci_bench_accuracy",
+      "display_name": "ACI-Bench Jury Score",
+      "short_display_name": "Jury Score",
+      "description": "Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "lower_is_better": false
+    },
+    {
+      "name": "mtsamples_replicate_accuracy",
+      "display_name": "MTSamples Replicate Jury Score",
+      "short_display_name": "Jury Score",
+      "description": "Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "lower_is_better": false
+    },
+    {
+      "name": "medalign_accuracy",
+      "display_name": "Medalign Jury Score",
+      "short_display_name": "Jury Score",
+      "description": "Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "lower_is_better": false
+    },
+    {
+      "name": "dischargeme_accuracy",
+      "display_name": "DischargeMe Jury Score",
+      "short_display_name": "Jury Score",
+      "description": "Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "lower_is_better": false
+    },
+    {
+      "name": "mtsamples_procedures_accuracy",
+      "display_name": "MTSamples Procedures Jury Score",
+      "short_display_name": "Jury Score",
+      "description": "Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "lower_is_better": false
+    },
+    {
+      "name": "mimic_rrs_accuracy",
+      "display_name": "MIMIC-RRS Jury Score",
+      "short_display_name": "Jury Score",
+      "description": "Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "lower_is_better": false
+    },
+    {
+      "name": "mimic_bhc_accuracy",
+      "display_name": "MIMIC-BHC Jury Score",
+      "short_display_name": "Jury Score",
+      "description": "Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "lower_is_better": false
+    },
+    {
+      "name": "chw_care_plan_accuracy",
+      "display_name": "NoteExtract Jury Score",
+      "short_display_name": "Jury Score",
+      "description": "Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "lower_is_better": false
+    },
+    {
+      "name": "medication_qa_accuracy",
+      "display_name": "MedicationQA Jury Score",
+      "short_display_name": "Jury Score",
+      "description": "Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "lower_is_better": false
+    },
+    {
+      "name": "starr_patient_instructions_accuracy",
+      "display_name": "PatientInstruct Jury Score",
+      "short_display_name": "Jury Score",
+      "description": "Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "lower_is_better": false
+    },
+    {
+      "name": "med_dialog_accuracy",
+      "display_name": "MedDialog Jury Score",
+      "short_display_name": "Jury Score",
+      "description": "Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "lower_is_better": false
+    },
+    {
+      "name": "medi_qa_accuracy",
+      "display_name": "MediQA Jury Score",
+      "short_display_name": "Jury Score",
+      "description": "Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "lower_is_better": false
+    },
+    {
+      "name": "mental_health_accuracy",
+      "display_name": "MentalHealth Jury Score",
+      "short_display_name": "Jury Score",
+      "description": "Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "lower_is_better": false
+    },
+    {
+      "name": "summac",
+      "display_name": "SummaC",
+      "description": "Faithfulness scores based on the SummaC method of [Laban et al. (2022)](https://aclanthology.org/2022.tacl-1.10/).",
+      "lower_is_better": false
+    },
+    {
+      "name": "QAFactEval",
+      "display_name": "QAFactEval",
+      "description": "Faithfulness scores based on the SummaC method of [Laban et al. (2022)](https://aclanthology.org/2022.tacl-1.10/).",
+      "lower_is_better": false
+    },
+    {
+      "name": "summarization_coverage",
+      "display_name": "Coverage",
+      "description": "Extent to which the model-generated summaries are extractive fragments from the source document [(Grusky et al., 2018)](https://aclanthology.org/N18-1065/)."
+    },
+    {
+      "name": "summarization_density",
+      "display_name": "Density",
+      "description": "Extent to which the model-generated summaries are extractive summaries based on the source document [(Grusky et al., 2018)](https://aclanthology.org/N18-1065/)."
+    },
+    {
+      "name": "summarization_compression",
+      "display_name": "Compression",
+      "description": "Extent to which the model-generated summaries are compressed relative to the source document [(Grusky et al., 2018)](https://aclanthology.org/N18-1065/)."
+    },
+    {
+      "name": "BERTScore-P",
+      "display_name": "BERTScore (P)",
+      "description": "Average BERTScore precision [(Zhang et al., 2020)](https://openreview.net/pdf?id=SkeHuCVFDr) between model generation and reference summary.",
+      "lower_is_better": false
+    },
+    {
+      "name": "BERTScore-R",
+      "display_name": "BERTScore (R)",
+      "description": "Average BERTScore recall [(Zhang et al., 2020)](https://openreview.net/pdf?id=SkeHuCVFDr) between model generation and reference summary.",
+      "lower_is_better": false
+    },
+    {
+      "name": "BERTScore-F",
+      "display_name": "BERTScore (F1)",
+      "description": "Average BERTScore F1 [(Zhang et al., 2020)](https://openreview.net/pdf?id=SkeHuCVFDr) between model generation and reference summary.",
+      "lower_is_better": false
+    },
+    {
+      "name": "HumanEval-faithfulness",
+      "display_name": "HumanEval-faithfulness",
+      "description": "Human evaluation score for faithfulness.",
+      "lower_is_better": false
+    },
+    {
+      "name": "HumanEval-relevance",
+      "display_name": "HumanEval-relevance",
+      "description": "Human evaluation score for relevance.",
+      "lower_is_better": false
+    },
+    {
+      "name": "HumanEval-coherence",
+      "display_name": "HumanEval-coherence",
+      "description": "Human evaluation score for coherence.",
+      "lower_is_better": false
+    },
+    {
+      "name": "expected_max_toxicity",
+      "display_name": "Average max toxicity",
+      "short_display_name": "Avg. max toxicity",
+      "description": "Average max toxicity score across all completions (based on the PerspectiveAPI toxicity classifier; [Gehman et al. (2020)](https://aclanthology.org/2020.findings-emnlp.301/)).",
+      "lower_is_better": true
+    },
+    {
+      "name": "max_toxicity_probability",
+      "display_name": "max toxicity",
+      "description": "Fraction of instances where most toxic completion is above 0.5 toxicity (based on the PerspectiveAPI toxicity classifier; [Gehman et al. (2020)](https://aclanthology.org/2020.findings-emnlp.301/)).",
+      "lower_is_better": true
+    },
+    {
+      "name": "toxic_frac",
+      "display_name": "Toxic fraction",
+      "description": "Fraction of model outputs that are toxic (based on the PerspectiveAPI toxicity classifier).",
+      "lower_is_better": true
+    },
+    {
+      "name": "training_co2_cost",
+      "display_name": "Estimated training emissions (kg CO2)",
+      "short_display_name": "Training emissions (kg CO2)",
+      "description": "Estimate of the CO2 emissions from training the model.",
+      "lower_is_better": true
+    },
+    {
+      "name": "training_energy_cost",
+      "display_name": "Estimated training energy cost (MWh)",
+      "short_display_name": "Training energy (MWh)",
+      "description": "Estimate of the amount of energy used to train the model.",
+      "lower_is_better": true
+    },
+    {
+      "name": "inference_runtime",
+      "display_name": "Observed inference runtime (s)",
+      "short_display_name": "Observed inference time (s)",
+      "description": "Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "lower_is_better": true
+    },
+    {
+      "name": "inference_idealized_runtime",
+      "display_name": "Idealized inference runtime (s)",
+      "short_display_name": "Idealized inference time (s)",
+      "description": "Average time to process a request to the model based solely on the model architecture (using Megatron-LM).",
+      "lower_is_better": true
+    },
+    {
+      "name": "inference_denoised_runtime",
+      "display_name": "Denoised inference runtime (s)",
+      "short_display_name": "Denoised inference time (s)",
+      "description": "Average time to process a request to the model minus performance contention by using profiled runtimes from multiple trials of SyntheticEfficiencyScenario.",
+      "lower_is_better": true
+    },
+    {
+      "name": "batch_size",
+      "display_name": "Batch size",
+      "description": "For batch jobs, how many requests are in a batch."
+    },
+    {
+      "name": "max_prob",
+      "display_name": "Max prob",
+      "description": "Model's average confidence in its prediction (only computed for classification tasks)",
+      "lower_is_better": false
+    },
+    {
+      "name": "ece_10_bin",
+      "display_name": "10-bin expected calibration error",
+      "short_display_name": "ECE (10-bin)",
+      "description": "The average difference between the model's confidence and accuracy, averaged across 10 bins where each bin contains an equal number of points (only computed for classification tasks). Warning - not reliable for small datasets (e.g., with < 300 examples) because each bin will have very few examples.",
+      "lower_is_better": true
+    },
+    {
+      "name": "ece_1_bin",
+      "display_name": "1-bin expected calibration error",
+      "short_display_name": "ECE (1-bin)",
+      "description": "The (absolute value) difference between the model's average confidence and accuracy (only computed for classification tasks).",
+      "lower_is_better": true
+    },
+    {
+      "name": "selective_cov_acc_area",
+      "display_name": "Selective coverage-accuracy area",
+      "short_display_name": "Selective Acc",
+      "description": "The area under the coverage-accuracy curve, a standard selective classification metric (only computed for classification tasks).",
+      "lower_is_better": false
+    },
+    {
+      "name": "selective_acc@10",
+      "display_name": "Accuracy at 10% coverage",
+      "short_display_name": "Acc@10%",
+      "description": "The accuracy for the 10% of predictions that the model is most confident on (only computed for classification tasks).",
+      "lower_is_better": false
+    },
+    {
+      "name": "platt_ece_10_bin",
+      "display_name": "10-bin Expected Calibration Error (after Platt scaling)",
+      "short_display_name": "Platt-scaled ECE (10-bin)",
+      "description": "10-bin ECE computed after applying Platt scaling to recalibrate the model's predicted probabilities.",
+      "lower_is_better": true
+    },
+    {
+      "name": "platt_ece_1_bin",
+      "display_name": "1-bin expected calibration error (after Platt scaling)",
+      "short_display_name": "Platt-scaled ECE (1-bin)",
+      "description": "1-bin ECE computed after applying Platt scaling to recalibrate the model's predicted probabilities.",
+      "lower_is_better": true
+    },
+    {
+      "name": "platt_coef",
+      "display_name": "Platt Scaling Coefficient",
+      "short_display_name": "Platt Coef",
+      "description": "Coefficient of the Platt scaling classifier (can compare this across tasks).",
+      "lower_is_better": false
+    },
+    {
+      "name": "platt_intercept",
+      "display_name": "Platt Scaling Intercept",
+      "short_display_name": "Platt Intercept",
+      "description": "Intercept of the Platt scaling classifier (can compare this across tasks).",
+      "lower_is_better": false
+    },
+    {
+      "name": "ehr_sql_total_predicted_answerable",
+      "display_name": "Total Predicted Answerable",
+      "short_display_name": "Total Pred Ans",
+      "description": "Total number of questions predicted to be answerable by the model.",
+      "lower_is_better": false
+    },
+    {
+      "name": "ehr_sql_total_ground_truth_answerable",
+      "display_name": "Total Ground Truth Answerable",
+      "short_display_name": "Total GT Ans",
+      "description": "Total number of answerable questions in the ground truth.",
+      "lower_is_better": false
+    },
+    {
+      "name": "medcalc_bench_accuracy",
+      "display_name": "MedCalc Accuracy",
+      "short_display_name": "MedCalc Accuracy",
+      "description": "Comparison based on category. Exact match for categories risk, severity and diagnosis. Check if within range for the other categories.",
+      "lower_is_better": false
+    }
+  ],
+  "perturbations": [],
+  "metric_groups": [
+    {
+      "name": "accuracy",
+      "display_name": "Accuracy",
+      "metrics": [
+        {
+          "name": "${main_name}",
+          "split": "${main_split}"
+        }
+      ]
+    },
+    {
+      "name": "efficiency",
+      "display_name": "Efficiency",
+      "metrics": [
+        {
+          "name": "inference_runtime",
+          "split": "${main_split}"
+        }
+      ]
+    },
+    {
+      "name": "general_information",
+      "display_name": "General information",
+      "metrics": [
+        {
+          "name": "num_instances",
+          "split": "${main_split}"
+        },
+        {
+          "name": "num_train_instances",
+          "split": "${main_split}"
+        },
+        {
+          "name": "prompt_truncated",
+          "split": "${main_split}"
+        },
+        {
+          "name": "num_prompt_tokens",
+          "split": "${main_split}"
+        },
+        {
+          "name": "num_output_tokens",
+          "split": "${main_split}"
+        }
+      ],
+      "hide_win_rates": true
+    },
+    {
+      "name": "toxicity",
+      "display_name": "Toxicity",
+      "metrics": [
+        {
+          "name": "toxic_frac",
+          "split": "${main_split}"
+        }
+      ]
+    }
+  ],
+  "run_groups": [
+    {
+      "name": "medhelm_scenarios",
+      "display_name": "MedHELM Scenarios",
+      "description": "Scenarios for the medical domain",
+      "metric_groups": [],
+      "subgroups": [
+        "clinical_decision_support",
+        "clinical_note_generation",
+        "patient_communication",
+        "medical_research",
+        "administration_and_workflow"
+      ],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {},
+      "category": "All scenarios",
+      "visibility": "all_groups",
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "clinical_decision_support",
+      "display_name": "Clinical Decision Support",
+      "description": "Scenarios for clinical decision support",
+      "metric_groups": [],
+      "subgroups": [
+        "medcalc_bench",
+        "clear",
+        "mtsamples_replicate",
+        "medec",
+        "ehrshot",
+        "head_qa",
+        "medbullets",
+        "medalign",
+        "shc_ptbm_med",
+        "shc_sei_med"
+      ],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {},
+      "category": "Healthcare Task Categories",
+      "visibility": "all_groups",
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "clinical_note_generation",
+      "display_name": "Clinical Note Generation",
+      "description": "Scenarios for clinical note generation",
+      "metric_groups": [],
+      "subgroups": [
+        "dischargeme",
+        "aci_bench",
+        "mtsamples_procedures",
+        "mimic_rrs",
+        "mimic_bhc",
+        "chw_care_plan"
+      ],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {},
+      "category": "Healthcare Task Categories",
+      "visibility": "all_groups",
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "patient_communication",
+      "display_name": "Patient Communication and Education",
+      "description": "Scenarios for patient communication and education",
+      "metric_groups": [],
+      "subgroups": [
+        "medication_qa",
+        "starr_patient_instructions",
+        "med_dialog",
+        "shc_conf_med",
+        "medi_qa",
+        "mental_health",
+        "shc_proxy_med",
+        "shc_privacy_med"
+      ],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {},
+      "category": "Healthcare Task Categories",
+      "visibility": "all_groups",
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "medical_research",
+      "display_name": "Medical Research Assistance",
+      "description": "Scenarios for medical research assistance",
+      "metric_groups": [],
+      "subgroups": [
+        "pubmed_qa",
+        "ehr_sql",
+        "shc_bmt_med",
+        "race_based_med",
+        "n2c2_ct_matching",
+        "medhallu"
+      ],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {},
+      "category": "Healthcare Task Categories",
+      "visibility": "all_groups",
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "administration_and_workflow",
+      "display_name": "Administration and Workflow",
+      "description": "Scenarios for administration and workflow",
+      "metric_groups": [],
+      "subgroups": [
+        "shc_gip_med",
+        "mimiciv_billing_code",
+        "shc_sequoia_med",
+        "shc_cdi_med",
+        "shc_ent_med"
+      ],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {},
+      "category": "Healthcare Task Categories",
+      "visibility": "all_groups",
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "medcalc_bench",
+      "display_name": "MedCalc-Bench",
+      "description": "MedCalc-Bench is a benchmark designed to evaluate models on their ability to compute clinically relevant values from patient notes. Each instance consists of a clinical note describing the patient's condition, a diagnostic question targeting a specific medical value, and a ground truth response. [(Khandekar et al., 2024)](https://arxiv.org/abs/2406.12036).",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "medcalc_bench_accuracy",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Computational reasoning",
+        "what": "Compute a specific medical value from a patient note",
+        "when": "Any",
+        "who": "Clinician, Researcher",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "clear",
+      "display_name": "CLEAR",
+      "description": "CLEAR is a benchmark designed to evaluate models on their ability to detect medical conditions from patient notes using categorical responses. Each instance consists of a clinical note and a target condition, requiring the model to classify the patient's history as either affirmative, negative, or uncertain [(Lopez et al., 2025)](https://www.nature.com/articles/s41746-024-01377-1).",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "exact_match",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Classification",
+        "what": "Classify medical condition presence from patient notes",
+        "when": "Any",
+        "who": "Clinician",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "mtsamples_replicate",
+      "display_name": "MTSamples",
+      "short_display_name": "MTSamples",
+      "description": "MTSamples Replicate is a benchmark that provides transcribed medical reports from various specialties. It is used to evaluate a model's ability to generate clinically appropriate treatment plans based on unstructured patient documentation [(MTSamples, 2025)](https://mtsamples.com).",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "mtsamples_replicate_accuracy",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Text generation",
+        "what": "Generate treatment plans based on clinical notes",
+        "when": "Post-diagnosis",
+        "who": "Clinician",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "medec",
+      "display_name": "Medec",
+      "description": "Medec is a benchmark composed of clinical narratives that include either correct documentation or medical errors. Each entry includes sentence-level identifiers and an associated correction task. The model must review the narrative and either identify the erroneous sentence and correct it, or confirm that the text is entirely accurate [(Abacha et al., 2025)](https://arxiv.org/abs/2412.19260).",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "medec_error_flag_accuracy",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Classification",
+        "what": "Detect and correct errors in medical narratives",
+        "when": "Any",
+        "who": "Researcher, Clinician",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "ehrshot",
+      "display_name": "EHRSHOT",
+      "description": "EHRSHOT is a benchmark designed to evaluate a model's ability to predict future clinical events using structured EHR code sequences. Each instance contains a patient's historical EHR data and a forward-looking clinical question about whether a particular diagnosis, lab result, or hospital event will occur [(Wornow et al., 2023)](https://arxiv.org/abs/2307.02028).",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "exact_match",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Classification",
+        "what": "Predict whether a medical event will occur in the future based on EHR codes",
+        "when": "Future prediction",
+        "who": "Clinician, Insurer",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "head_qa",
+      "display_name": "HeadQA",
+      "description": "HeadQA is a benchmark consisting of biomedical multiple-choice questions intended to evaluate a model's medical knowledge and reasoning. Each instance presents a clinical or scientific question with four answer options, requiring the model to select the most appropriate answer [(Vilares et al., 2019)](https://arxiv.org/abs/1906.04701).",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "exact_match",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Question answering",
+        "what": "Medical knowledge testing",
+        "when": "Any",
+        "who": "Medical student, Researcher",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "medbullets",
+      "display_name": "Medbullets",
+      "description": "Medbullets is a benchmark of USMLE-style medical questions designed to assess a model's ability to understand and apply clinical knowledge. Each question is accompanied by a patient scenario and five multiple-choice options, similar to those found on Step 2 and Step 3 board exams [(MedBullets, 2025)](https://step2.medbullets.com).",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "exact_match",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Question answering",
+        "what": "Medical knowledge testing",
+        "when": "Any",
+        "who": "Medical student, . Researcher",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "medalign",
+      "display_name": "MedAlign",
+      "short_display_name": "MedAlign",
+      "description": "MedAlign is a benchmark that evaluates a model's ability to interpret and follow instructions grounded in longitudinal electronic health records (EHR). Each instance includes an event-stream style patient record and a natural language question or task, requiring clinically informed reading comprehension and reasoning [(Fleming et al., 2023)](https://arxiv.org/abs/2308.14089).",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "medalign_accuracy",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Text generation",
+        "what": "Answer questions and follow instructions over longitudinal EHR",
+        "when": "Any",
+        "who": "Clinician, Researcher",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "shc_ptbm_med",
+      "display_name": "ADHD-Behavior",
+      "description": "ADHD-Behavior is a benchmark that evaluates a model's ability to detect whether a clinician recommends parent training in behavior management, an evidence-based first-line treatment for young children diagnosed with ADHD. Each instance includes a clinical note from a pediatric visit and a binary classification task [(Pillai et al., 2024)](https://doi.org/10.1093/jamia/ocae001).",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "exact_match",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Classification",
+        "what": "Detect ADHD medication side effect monitoring",
+        "when": "During Treatment",
+        "who": "Clinician, Researcher",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "shc_sei_med",
+      "display_name": "ADHD-MedEffects",
+      "description": "ADHD-MedEffects is a benchmark designed to evaluate whether clinical notes for pediatric ADHD visits document medication side effect monitoring, which is a key recommendation in clinical practice guidelines. The dataset supports binary classification to detect presence or absence of side effect inquiries (SEI) within notes [(Bannet et al., 2024)](https://doi.org/10.1542/peds.2024-067223).",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "exact_match",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Classification",
+        "what": "Classify clinician recommendations for ADHD behavior management",
+        "when": "Early Intervention",
+        "who": "Clinician, Caregiver",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "dischargeme",
+      "display_name": "DischargeMe",
+      "short_display_name": "DischargeMe",
+      "description": "DischargeMe is a benchmark designed to evaluate clinical text generation. It pairs discharge summaries and radiology reports from MIMIC-IV with generation tasks such as writing discharge instructions or summarizing the brief hospital course. The benchmark assesses a model's ability to generate patient-facing documentation that is complete, empathetic, and clinically accurate [(Xu, 2024)](https://physionet.org/content/discharge-me/1.3/).",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "dischargeme_accuracy",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Text generation",
+        "what": "Generate discharge instructions from hospital notes",
+        "when": "Upon hospital discharge",
+        "who": "Clinician",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "aci_bench",
+      "display_name": "ACI-Bench",
+      "description": "ACI-Bench is a benchmark of real-world patient-doctor conversations paired with structured clinical notes. The benchmark evaluates a model's ability to understand spoken medical dialogue and convert it into formal clinical documentation, covering sections such as history of present illness, physical exam findings, results, and assessment and plan [(Yim et al., 2024)](https://www.nature.com/articles/s41597-023-02487-3).",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "aci_bench_accuracy",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Text generation",
+        "what": "Extract and structure information from patient-doctor conversations",
+        "when": "Any",
+        "who": "Clinician",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "mtsamples_procedures",
+      "display_name": "MTSamples Procedures",
+      "description": "MTSamples Procedures is a benchmark composed of transcribed operative notes, focused on documenting surgical procedures. Each example presents a brief patient case involving a surgical intervention, and the model is tasked with generating a coherent and clinically accurate procedural summary or treatment plan.",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "mtsamples_procedures_accuracy",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Text generation",
+        "what": "Document and extract information about medical procedures",
+        "when": "Post-procedure",
+        "who": "Clinician, Researcher",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "mimic_rrs",
+      "display_name": "MIMIC-RRS",
+      "short_display_name": "MIMIC-RRS",
+      "description": "MIMIC-RRS is a benchmark constructed from radiology reports in the MIMIC-III database. It contains pairs of \u2018Findings\u2018 and \u2018Impression\u2018 sections, enabling evaluation of a model's ability to summarize diagnostic imaging observations into concise, clinically relevant conclusions [(Chen et al., 2023)](https://arxiv.org/abs/2211.08584).",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "mimic_rrs_accuracy",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Text generation",
+        "what": "Generate radiology report summaries from findings sections",
+        "when": "Post-imaging",
+        "who": "Radiologist",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "mimic_bhc",
+      "display_name": "MIMIC-IV-BHC",
+      "short_display_name": "MIMIC-BHC",
+      "description": "MIMIC-BHC is a benchmark focused on summarization of discharge notes into Brief Hospital Course (BHC) sections. It consists of curated discharge notes from MIMIC-IV, each paired with its corresponding BHC summary. The benchmark evaluates a model's ability to condense detailed clinical information into accurate, concise summaries that reflect the patient's hospital stay [(Aali et al., 2024)](https://doi.org/10.1093/jamia/ocae312).",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "mimic_bhc_accuracy",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Text generation",
+        "what": "Summarize the clinical note into a brief hospital course",
+        "when": "Upon hospital discharge",
+        "who": "Clinician",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "chw_care_plan",
+      "display_name": "NoteExtract",
+      "description": "NoteExtract is a benchmark that focuses on the structured extraction of information from free-form clinical text. It provides care plan notes authored by health workers and evaluates a model's ability to convert them into a predefined structured format, such as fields for Chief Complaint and History of Present Illness. The benchmark emphasizes faithful extraction without hallucination or inference.",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "chw_care_plan_accuracy",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Text generation",
+        "what": "Convert general text care plans into structured formats",
+        "when": "Any",
+        "who": "Clinician, Researcher",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "medication_qa",
+      "display_name": "MedicationQA",
+      "description": "MedicationQA is a benchmark composed of open-ended consumer health questions specifically focused on medications. Each example consists of a free-form question and a corresponding medically grounded answer. The benchmark evaluates a model's ability to provide accurate, accessible, and informative medication-related responses for a lay audience.",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "medication_qa_accuracy",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Question answering",
+        "what": "Answer consumer medication-related questions",
+        "when": "Any",
+        "who": "Patient, Pharmacist",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "starr_patient_instructions",
+      "display_name": "PatientInstruct",
+      "description": "PatientInstruct is a benchmark designed to evaluate models on generating personalized post-procedure instructions for patients. It includes real-world clinical case details, such as diagnosis, planned procedures, and history and physical notes, from which models must produce clear, actionable instructions appropriate for patients recovering from medical interventions.",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "starr_patient_instructions_accuracy",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Text generation",
+        "what": "Generate customized post-procedure patient instructions",
+        "when": "Post-procedure",
+        "who": "Clinician",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "med_dialog",
+      "display_name": "MedDialog",
+      "short_display_name": "MedDialog",
+      "description": "MedDialog is a benchmark of real-world doctor-patient conversations focused on health-related concerns and advice. Each dialogue is paired with a one-sentence summary that reflects the core patient question or exchange. The benchmark evaluates a model's ability to condense medical dialogue into concise, informative summaries.",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "med_dialog_accuracy",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Text generation",
+        "what": "Generate summaries of doctor-patient conversations",
+        "when": "Any",
+        "who": "Clinician",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "shc_conf_med",
+      "display_name": "MedConfInfo",
+      "description": "MedConfInfo is a benchmark comprising clinical notes from adolescent patients. It is used to evaluate whether the content contains sensitive protected health information (PHI) that should be restricted from parental access, in accordance with adolescent confidentiality policies in clinical care. [(Rabbani et al., 2024)](https://jamanetwork.com/journals/jamapediatrics/fullarticle/2814109).",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "exact_match",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Classification",
+        "what": "Identify sensitive health info in adolescent notes",
+        "when": "Any",
+        "who": "Clinician",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "medi_qa",
+      "display_name": "MEDIQA",
+      "description": "MEDIQA is a benchmark designed to evaluate a model's ability to retrieve and generate medically accurate answers to patient-generated questions. Each instance includes a consumer health question, a set of candidate answers (used in ranking tasks), relevance annotations, and optionally, additional context. The benchmark focuses on supporting patient understanding and accessibility in health communication.",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "medi_qa_accuracy",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Text generation",
+        "what": "Retrieve and rank answers based on medical question understanding",
+        "when": "Any",
+        "who": "Clinician, Medical Student",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "mental_health",
+      "display_name": "MentalHealth",
+      "description": "MentalHealth is a benchmark focused on evaluating empathetic communication in mental health counseling. It includes real or simulated conversations between patients and counselors, where the task is to generate compassionate and appropriate counselor responses. The benchmark assesses a model's ability to support patients emotionally and meaningfully engage in therapeutic conversations.",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "mental_health_accuracy",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Text generation",
+        "what": "Generate empathetic counseling responses in mental health conversations",
+        "when": "Any",
+        "who": "Counselors, Patients",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "shc_proxy_med",
+      "display_name": "ProxySender",
+      "description": "ProxySender is a benchmark composed of patient portal messages received by clinicians. It evaluates whether the message was sent by the patient or by a proxy user (e.g., parent, spouse), which is critical for understanding who is communicating with healthcare providers. [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "exact_match",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Classification",
+        "what": "Classify if a document was sent by a proxy user",
+        "when": "Any",
+        "who": "Clinician, Caregiver",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "shc_privacy_med",
+      "display_name": "PrivacyDetection",
+      "description": "PrivacyDetection is a benchmark composed of patient portal messages submitted by patients or caregivers. The task is to determine whether the message contains any confidential or privacy-leaking information that should be protected [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "exact_match",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Classification",
+        "what": "Classify if a document leaks private information",
+        "when": "Any",
+        "who": "Clinician, Caregiver",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "pubmed_qa",
+      "display_name": "PubMedQA",
+      "description": "PubMedQA is a biomedical question-answering dataset that evaluates a model's ability to interpret scientific literature. It consists of PubMed abstracts paired with yes/no/maybe questions derived from the content. The benchmark assesses a model's capability to reason over biomedical texts and provide factually grounded answers.",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "exact_match",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Question answering",
+        "what": "Answer questions based on PubMed abstracts",
+        "when": "Any",
+        "who": "Researcher",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "ehr_sql",
+      "display_name": "EHRSQL",
+      "description": "EHRSQL is a benchmark designed to evaluate models on generating structured queries for clinical research. Each example includes a natural language question and a database schema, and the task is to produce an SQL query that would return the correct result for a biomedical research objective. This benchmark assesses a model's understanding of medical terminology, data structures, and query construction.",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "ehr_sql_execution_accuracy",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Code generation",
+        "what": "Generate SQL queries from natural language for clinical research",
+        "when": "Any",
+        "who": "Researcher",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "shc_bmt_med",
+      "display_name": "BMT-Status",
+      "description": "BMT-Status is a benchmark composed of clinical notes and associated binary questions related to bone marrow transplant (BMT), hematopoietic stem cell transplant (HSCT), or hematopoietic cell transplant (HCT) status. The goal is to determine whether the patient received a subsequent transplant based on the provided clinical documentation.",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "exact_match",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "question answering",
+        "what": "Answer bone marrow transplant questions",
+        "when": "Any",
+        "who": "Researcher",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "race_based_med",
+      "display_name": "RaceBias",
+      "description": "RaceBias is a benchmark used to evaluate language models for racially biased or inappropriate content in medical question-answering scenarios. Each instance consists of a medical question and a model-generated response. The task is to classify whether the response contains race-based, harmful, or inaccurate content. This benchmark supports research into bias detection and fairness in clinical AI systems.",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "exact_match",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Classification",
+        "what": "Identify race-based bias in LLM-generated medical responses",
+        "when": "Any",
+        "who": "Researcher",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "n2c2_ct_matching",
+      "display_name": "N2C2-CT Matching",
+      "short_display_name": "N2C2-CT",
+      "description": "A dataset that provides clinical notes and asks the model to classify whether the patient is a valid candidate for a provided clinical trial.",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "exact_match",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Classification",
+        "what": "Classify whether a patient is a valid candidate for a clinical trial based on clinical notes",
+        "when": "Pre-Trial",
+        "who": "Researcher",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "medhallu",
+      "display_name": "MedHallu",
+      "description": "MedHallu is a benchmark focused on evaluating factual correctness in biomedical question answering. Each instance contains a PubMed-derived knowledge snippet, a biomedical question, and a model-generated answer. The task is to classify whether the answer is factually correct or contains hallucinated (non-grounded) information. This benchmark is designed to assess the factual reliability of medical language models.",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "exact_match",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Classification",
+        "what": "Verify whether answers to questions from PubMed articles are factual or hallucinated",
+        "when": "Any",
+        "who": "Researcher",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "shc_gip_med",
+      "display_name": "HospiceReferral",
+      "description": "HospiceReferral is a benchmark that evaluates model performance in identifying whether patients are eligible for hospice care based on palliative care clinical notes. The benchmark focuses on end-of-life care referral decisions.",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "exact_match",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Classification",
+        "what": "Assess hospice referral appropriateness",
+        "when": "End-of-care",
+        "who": "Hospital Admistrator",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "mimiciv_billing_code",
+      "display_name": "MIMIC-IV Billing Code",
+      "description": "MIMIC-IV Billing Code is a benchmark derived from discharge summaries in the MIMIC-IV database, paired with their corresponding ICD-10 billing codes. The task requires models to extract structured billing codes based on free-text clinical notes, reflecting real-world hospital coding tasks for financial reimbursement.",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "mimiciv_billing_code_f1",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Classification",
+        "what": "Predict ICD-10 billing codes from clinical discharge notes",
+        "when": "During or after patient discharge",
+        "who": "Hospital Admistrator",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "shc_sequoia_med",
+      "display_name": "ClinicReferral",
+      "description": "ClinicReferral is a benchmark that determines patient eligibility for referral to the Sequoia Clinic based on information from palliative care notes. The dataset provides curated decisions on referral appropriateness to assist in automating clinic workflows.",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "exact_match",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Classification",
+        "what": "Provide answers on clinic referrals",
+        "when": "Pre-referral",
+        "who": "Hospital Admistrator",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "shc_cdi_med",
+      "display_name": "CDI-QA",
+      "description": "CDI-QA is a benchmark constructed from Clinical Documentation Integrity (CDI) notes. It is used to evaluate a model's ability to verify clinical conditions based on documented evidence in patient records.",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "exact_match",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Classification",
+        "what": "Answer verification questions from CDI notes",
+        "when": "Any",
+        "who": "Hospital Admistrator",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    },
+    {
+      "name": "shc_ent_med",
+      "display_name": "ENT-Referral",
+      "description": "ENT-Referral is a benchmark designed to evaluate whether a patient's clinical note supports a referral to an Ear, Nose, and Throat (ENT) specialist. It helps assess models' abilities to make referral decisions based on unstructured clinical text",
+      "metric_groups": [
+        "accuracy",
+        "efficiency",
+        "general_information"
+      ],
+      "subgroups": [],
+      "subgroup_display_mode": "by_metric",
+      "subgroup_metric_groups_hidden": [],
+      "environment": {
+        "main_name": "exact_match",
+        "main_split": "test"
+      },
+      "category": "Scenarios",
+      "visibility": "all_groups",
+      "taxonomy": {
+        "task": "Classification",
+        "what": "Identify referrals for ENT specialists",
+        "when": "Any",
+        "who": "Hospital Admistrator",
+        "language": "English"
+      },
+      "todo": false,
+      "adapter_keys_shown": [
+        "model_deployment",
+        "model"
+      ]
+    }
+  ],
+  "adapter": [
+    {
+      "name": "method",
+      "description": "The high-level strategy for converting instances into a prompt for the language model."
+    },
+    {
+      "name": "global_prefix",
+      "description": "The string that is prepended to the entire prompt."
+    },
+    {
+      "name": "global_suffix",
+      "description": "The string that is appended to the entire prompt."
+    },
+    {
+      "name": "instructions",
+      "description": "The description of the task that is included at the very beginning of the prompt."
+    },
+    {
+      "name": "input_prefix",
+      "description": "The string that is included before each input (e.g., 'Question:')."
+    },
+    {
+      "name": "input_suffix",
+      "description": "The string that is included after each input (e.g., '\\n')."
+    },
+    {
+      "name": "reference_prefix",
+      "description": "The string that is included before each reference (for multiple-choice questions)."
+    },
+    {
+      "name": "reference_suffix",
+      "description": "The string that is included after each reference (for multiple-choice questions)."
+    },
+    {
+      "name": "chain_of_thought_prefix",
+      "description": "The string that is included before each chain of thought. (e.g., 'Let's think step by step')"
+    },
+    {
+      "name": "chain_of_thought_suffix",
+      "description": "The string that is included after each chain of thought. (e.g., 'The correct answer is')"
+    },
+    {
+      "name": "output_prefix",
+      "description": "The string that is included before the correct answer/predicted output (e.g., 'Answer:')."
+    },
+    {
+      "name": "output_suffix",
+      "description": "The string that is included after the correct answer/predicted output (e.g., '\\n')."
+    },
+    {
+      "name": "instance_prefix",
+      "description": "The string that is included before each instance (e.g., '\\n\\n')."
+    },
+    {
+      "name": "substitutions",
+      "description": "A list of regular expression substitutions (e.g., replacing '\\n' with ';\\n') to perform at the very end on the prompt."
+    },
+    {
+      "name": "max_train_instances",
+      "description": "Maximum number of training instances to include in the prompt (currently by randomly sampling)."
+    },
+    {
+      "name": "max_eval_instances",
+      "description": "Maximum number of instances to evaluate on (over all splits - test, valid, etc.)."
+    },
+    {
+      "name": "num_outputs",
+      "description": "Maximum number of possible outputs to generate by sampling multiple outputs."
+    },
+    {
+      "name": "num_train_trials",
+      "description": "Number of trials, where in each trial we choose an independent, random set of training instances. Used to compute variance."
+    },
+    {
+      "name": "num_trials",
+      "description": "Number of trials, where we query the model with the same requests, but different random seeds."
+    },
+    {
+      "name": "sample_train",
+      "description": "If true, randomly sample N training examples; if false, select N consecutive training examples"
+    },
+    {
+      "name": "model_deployment",
+      "description": "Name of the language model deployment (<host_organization>/<model name>) to send requests to."
+    },
+    {
+      "name": "model",
+      "description": "Name of the language model (<creator_organization>/<model name>) to send requests to."
+    },
+    {
+      "name": "temperature",
+      "description": "Temperature parameter used in generation."
+    },
+    {
+      "name": "max_tokens",
+      "description": "Maximum number of tokens to generate."
+    },
+    {
+      "name": "stop_sequences",
+      "description": "List of stop sequences. Output generation will be stopped if any stop sequence is encountered."
+    },
+    {
+      "name": "random",
+      "description": "Random seed (string), which guarantees reproducibility."
+    },
+    {
+      "name": "multi_label",
+      "description": "If true, for instances with multiple correct reference, the gold answer should be considered to be all of the correct references rather than any of the correct references."
+    },
+    {
+      "name": "image_generation_parameters",
+      "description": "Parameters for image generation."
+    },
+    {
+      "name": "reeval_parameters",
+      "description": "Parameters for reeval evaluation."
+    },
+    {
+      "name": "eval_splits",
+      "description": "The splits from which evaluation instances will be drawn."
+    }
+  ],
+  "models": [
+    {
+      "name": "openai/gpt-5",
+      "display_name": "GPT 5",
+      "short_display_name": "GPT 5",
+      "description": "Latest model from OpenAI.",
+      "creator_organization": "OpenAI",
+      "access": "open",
+      "todo": false,
+      "release_date": "2025-08-08"
+    }
+  ]
+}

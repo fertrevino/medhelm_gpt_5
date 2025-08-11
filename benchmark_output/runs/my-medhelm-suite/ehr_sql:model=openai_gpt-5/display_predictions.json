@@ -1,0 +1,2330 @@
+[
+  {
+    "instance_id": "id9852",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT COUNT(*) \nFROM (\n  SELECT p.uniquepid\n  FROM patient p\n  JOIN medication m ON m.patientunitstayid = p.patientunitstayid\n  WHERE m.drugstarttime >= CURRENT_TIMESTAMP - INTERVAL '1 year'\n    AND m.drugstarttime <= CURRENT_TIMESTAMP\n    AND m.drugname ILIKE '%antihypertensive%'\n  GROUP BY p.uniquepid\n  HAVING COUNT(*) = 2\n) AS x;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 963.0,
+      "num_output_tokens": 94.0,
+      "inference_runtime": 28.202011108398438,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": "near \"'1 year'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id11083",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT date_trunc('month', l.labresulttime) AS month, AVG(l.labresult) AS avg_ptt\nFROM lab l\nJOIN patient p ON p.patientunitstayid = l.patientunitstayid\nWHERE p.uniquepid = '010-33597'\n  AND l.labname ILIKE '%PTT%'\n  AND l.labresulttime < '2105-01-01'\nGROUP BY 1\nORDER BY 1;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 961.0,
+      "num_output_tokens": 92.0,
+      "inference_runtime": 19.627701997756958,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "010-33597",
+          "ptt"
+        ],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id10529",
+    "train_trial_index": 0,
+    "predicted_text": "WITH this_visit AS (\n  SELECT patienthealthsystemstayid\n  FROM patient\n  WHERE uniquepid = '030-42006'\n  ORDER BY (hospitaldischargetime IS NULL) DESC, hospitaladmittime DESC\n  LIMIT 1\n),\nlast_rx AS (\n  SELECT MAX(m.drugstarttime) AS last_time\n  FROM medication m\n  JOIN patient p ON p.patientunitstayid = m.patientunitstayid\n  WHERE p.uniquepid = '030-42006'\n    AND p.patienthealthsystemstayid = (SELECT patienthealthsystemstayid FROM this_visit)\n    AND m.drugname ILIKE '%glucagon inj%'\n)\nSELECT CASE\n         WHEN last_time IS NULL THEN NULL\n         ELSE EXTRACT(EPOCH FROM (CURRENT_TIMESTAMP - last_time)) / 86400.0\n       END AS days_since_last_glucagon_inj\nFROM last_rx;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 969.0,
+      "num_output_tokens": 188.0,
+      "inference_runtime": 30.7216477394104,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "glucagon inj",
+          "030-42006"
+        ],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id10924",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT CASE\n         WHEN EXISTS (\n           SELECT 1\n           FROM patient\n           WHERE uniquepid = '004-7984'\n             AND hospitaladmittime < TIMESTAMP '2103-01-01 00:00:00'\n         ) THEN 'Yes'\n         ELSE 'No'\n       END AS admitted_until_2102;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 960.0,
+      "num_output_tokens": 69.0,
+      "inference_runtime": 12.571676015853882,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": "near \"'2103-01-01 00:00:00'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id9937",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT t.treatmentname, COUNT(DISTINCT t.treatmentid) AS procedure_count\nFROM diagnosis d\nJOIN treatment t\n  ON t.patientunitstayid = d.patientunitstayid\n AND t.treatmenttime >= d.diagnosistime\n AND t.treatmenttime < d.diagnosistime + INTERVAL '2 months'\nWHERE d.diagnosisname ILIKE '%chronic%respiratory%failure%'\n  AND d.diagnosistime < CURRENT_DATE - INTERVAL '2 years'\nGROUP BY t.treatmentname\nORDER BY procedure_count DESC, t.treatmentname\nLIMIT 5;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 972.0,
+      "num_output_tokens": 128.0,
+      "inference_runtime": 48.89884376525879,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "chronic respiratory failure"
+        ],
+        "query_error": "near \"'2 months'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id9784",
+    "train_trial_index": 0,
+    "predicted_text": "WITH target_stays AS (\n  SELECT DISTINCT p.patienthealthsystemstayid\n  FROM treatment t\n  JOIN patient p ON p.patientunitstayid = t.patientunitstayid\n  WHERE t.treatmentname ILIKE '%removal of thoracostomy tube%'\n    AND t.treatmenttime <= CURRENT_TIMESTAMP - INTERVAL '1 year'\n),\nstay_costs AS (\n  SELECT c.patienthealthsystemstayid,\n         SUM(c.cost) AS total_cost\n  FROM cost c\n  JOIN target_stays ts ON ts.patienthealthsystemstayid = c.patienthealthsystemstayid\n  WHERE c.chargetime <= CURRENT_TIMESTAMP - INTERVAL '1 year'\n  GROUP BY c.patienthealthsystemstayid\n)\nSELECT AVG(total_cost) AS average_cost\nFROM stay_costs;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 969.0,
+      "num_output_tokens": 159.0,
+      "inference_runtime": 57.20800161361694,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            null
+          ]
+        ],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id9888",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT COUNT(DISTINCT p.uniquepid)\nFROM lab l\nJOIN patient p ON p.patientunitstayid = l.patientunitstayid\nWHERE l.labname ILIKE '%phenobarbital%';",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 955.0,
+      "num_output_tokens": 42.0,
+      "inference_runtime": 6.340139150619507,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id11964",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 1.0,
+      "num_prompt_tokens": 951.0,
+      "num_output_tokens": 0.0,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "No query generated"
+      }
+    }
+  },
+  {
+    "instance_id": "id11763",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 1.0,
+      "num_prompt_tokens": 965.0,
+      "num_output_tokens": 0.0,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "No query generated"
+      }
+    }
+  },
+  {
+    "instance_id": "id10206",
+    "train_trial_index": 0,
+    "predicted_text": "WITH p AS (\n  SELECT patientunitstayid\n  FROM patient\n  WHERE uniquepid = '010-16627'\n),\nrem AS (\n  SELECT t.patientunitstayid, MIN(t.treatmenttime) AS removal_time\n  FROM treatment t\n  JOIN p ON p.patientunitstayid = t.patientunitstayid\n  WHERE t.treatmentname ILIKE '%endotracheal%' AND (t.treatmentname ILIKE '%remov%' OR t.treatmentname ILIKE '%extubat%')\n  GROUP BY t.patientunitstayid\n),\nins AS (\n  SELECT r.patientunitstayid,\n         (SELECT t2.treatmenttime\n          FROM treatment t2\n          WHERE t2.patientunitstayid = r.patientunitstayid\n            AND t2.treatmenttime <= r.removal_time\n            AND t2.treatmentname ILIKE '%endotracheal%'\n            AND (t2.treatmentname ILIKE '%insert%' OR t2.treatmentname ILIKE '%intubat%')\n          ORDER BY t2.treatmenttime DESC\n          LIMIT 1) AS insertion_time,\n         r.removal_time\n  FROM rem r\n)\nSELECT i.patientunitstayid,\n       i.insertion_time,\n       i.removal_time,\n       (i.removal_time - i.insertion_time) AS duration\nFROM ins i\nWHERE i.insertion_time IS NOT NULL;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 962.0,
+      "num_output_tokens": 296.0,
+      "inference_runtime": 78.36390399932861,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id10119",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT CASE WHEN EXISTS (\n  SELECT 1\n  FROM treatment t\n  JOIN patient p ON p.patientunitstayid = t.patientunitstayid\n  WHERE p.uniquepid = '027-4309'\n    AND DATE(t.treatmenttime) = CURRENT_DATE\n) THEN 'Yes' ELSE 'No' END AS has_appointment_today;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 958.0,
+      "num_output_tokens": 72.0,
+      "inference_runtime": 42.3342559337616,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [
+          [
+            "No"
+          ]
+        ],
+        "ground_truth_result": [],
+        "query_error": null
+      }
+    }
+  },
+  {
+    "instance_id": "id9576",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT MAX(io.intakeoutputtime) AS last_intake_time\nFROM intakeoutput io\nJOIN patient p ON p.patientunitstayid = io.patientunitstayid\nWHERE p.uniquepid = '021-114154'\n  AND io.intakeoutputtime <= NOW() - INTERVAL '1701 days'\n  AND (LOWER(io.celllabel) LIKE '%enteral%' OR LOWER(io.cellpath) LIKE '%enteral%')\n  AND (LOWER(io.celllabel) LIKE '%glucerna 1.5%' OR LOWER(io.cellpath) LIKE '%glucerna 1.5%')\n  AND io.cellvaluenumeric = 40\n  AND (\n    LOWER(io.celllabel) LIKE '%ml/hour%' OR\n    LOWER(io.celllabel) LIKE '%ml/hr%' OR\n    LOWER(io.celllabel) LIKE '%rate%'\n  );",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 977.0,
+      "num_output_tokens": 176.0,
+      "inference_runtime": 39.92046117782593,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "enteral glucerna 1.5 40ml/hour",
+          "021-114154"
+        ],
+        "query_error": "near \"'1701 days'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id12079",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 1.0,
+      "num_prompt_tokens": 960.0,
+      "num_output_tokens": 0.0,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "No query generated"
+      }
+    }
+  },
+  {
+    "instance_id": "id10061",
+    "train_trial_index": 0,
+    "predicted_text": "WITH headache AS (\n  SELECT patientunitstayid, MIN(diagnosistime) AS headache_time\n  FROM diagnosis\n  WHERE diagnosisname ILIKE '%headache%'\n     OR diagnosisname ILIKE '%migraine%'\n     OR icd9code LIKE '7840%'\n     OR icd9code LIKE '784.0%'\n     OR icd9code LIKE '346%'\n  GROUP BY patientunitstayid\n),\nhypertension AS (\n  SELECT DISTINCT patientunitstayid\n  FROM diagnosis\n  WHERE diagnosisname ILIKE '%hypertension%'\n     OR icd9code LIKE '401%'\n     OR icd9code LIKE '402%'\n     OR icd9code LIKE '403%'\n     OR icd9code LIKE '404%'\n     OR icd9code LIKE '405%'\n)\nSELECT m.drugname, COUNT(*) AS times_administered\nFROM medication m\nJOIN headache h ON h.patientunitstayid = m.patientunitstayid\nJOIN hypertension ht ON ht.patientunitstayid = m.patientunitstayid\nWHERE m.drugstarttime BETWEEN h.headache_time - INTERVAL '12 hours' AND h.headache_time + INTERVAL '12 hours'\nGROUP BY m.drugname\nORDER BY times_administered DESC\nLIMIT 10;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 955.0,
+      "num_output_tokens": 264.0,
+      "inference_runtime": 19.37457799911499,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id9518",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT EXTRACT(EPOCH FROM COALESCE(unitdischargetime, hospitaldischargetime) - unitadmittime) / 86400.0 AS los\nFROM patient\nWHERE uniquepid = '027-22704'\nORDER BY unitadmittime DESC\nLIMIT 1;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 961.0,
+      "num_output_tokens": 61.0,
+      "inference_runtime": 11.960916996002197,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "027-22704"
+        ],
+        "query_error": "near \"FROM\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id10193",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 1.0,
+      "num_prompt_tokens": 958.0,
+      "num_output_tokens": 0.0,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "No query generated"
+      }
+    }
+  },
+  {
+    "instance_id": "id10357",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT\n  m.drugname,\n  m.routeadmin,\n  m.dosage,\n  COUNT(DISTINCT m.patientunitstayid) AS patient_count,\n  MIN(m.drugstarttime) AS first_used,\n  MAX(COALESCE(m.drugstoptime, m.drugstarttime)) AS last_used\nFROM medication m\nJOIN diagnosis d ON d.patientunitstayid = m.patientunitstayid\nWHERE\n  LOWER(d.diagnosisname) LIKE '%cancer%'\n  OR LOWER(d.diagnosisname) LIKE '%malignan%'\n  OR LOWER(d.diagnosisname) LIKE '%carcin%'\n  OR LOWER(d.diagnosisname) LIKE '%neoplasm%'\n  OR (\n    d.icd9code IS NOT NULL\n    AND CAST(NULLIF(regexp_replace(d.icd9code, '[^0-9].*', ''), '') AS INT) BETWEEN 140 AND 239\n  )\nGROUP BY m.drugname, m.routeadmin, m.dosage\nORDER BY patient_count DESC, m.drugname, m.routeadmin, m.dosage;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 958.0,
+      "num_output_tokens": 226.0,
+      "inference_runtime": 17.13482093811035,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "no such function: regexp_replace"
+      }
+    }
+  },
+  {
+    "instance_id": "id11037",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT CASE\n         WHEN EXISTS (\n             SELECT 1\n             FROM microlab ml\n             JOIN patient p ON p.patientunitstayid = ml.patientunitstayid\n             WHERE p.uniquepid = '031-23724'\n               AND ml.culturetakentime >= CURRENT_TIMESTAMP - INTERVAL '1 year'\n         )\n         THEN 'Yes' ELSE 'No'\n       END AS has_microbiology_test;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 965.0,
+      "num_output_tokens": 85.0,
+      "inference_runtime": 17.86922025680542,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": "near \"'1 year'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id10666",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT m.organism\nFROM microlab m\nJOIN patient p ON p.patientunitstayid = m.patientunitstayid\nWHERE p.uniquepid = '031-24513'\n  AND m.culturesite ILIKE 'urine, voided specimen%'\n  AND m.culturetakentime <= NOW() - INTERVAL '11 months'\n  AND m.culturetakentime = (\n    SELECT MIN(m2.culturetakentime)\n    FROM microlab m2\n    JOIN patient p2 ON p2.patientunitstayid = m2.patientunitstayid\n    WHERE p2.uniquepid = '031-24513'\n      AND m2.culturesite ILIKE 'urine, voided specimen%'\n      AND m2.culturetakentime <= NOW() - INTERVAL '11 months'\n  );",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 973.0,
+      "num_output_tokens": 176.0,
+      "inference_runtime": 42.226014137268066,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "urine, voided specimen",
+          "031-24513"
+        ],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id9733",
+    "train_trial_index": 0,
+    "predicted_text": "WITH first_visit AS (\n  SELECT p.patienthealthsystemstayid\n  FROM patient p\n  WHERE p.uniquepid = '013-27480'\n  ORDER BY p.hospitaladmittime\n  LIMIT 1\n)\nSELECT COUNT(*) AS counseling_count\nFROM treatment t\nJOIN patient p ON p.patientunitstayid = t.patientunitstayid\nJOIN first_visit fv ON fv.patienthealthsystemstayid = p.patienthealthsystemstayid\nWHERE p.uniquepid = '013-27480'\n  AND t.treatmentname ILIKE '%smoking cessation counseling%';",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 965.0,
+      "num_output_tokens": 119.0,
+      "inference_runtime": 43.02515006065369,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id9292",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT DISTINCT gender\nFROM patient\nWHERE uniquepid = '027-144847';",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 954.0,
+      "num_output_tokens": 17.0,
+      "inference_runtime": 3.530592918395996,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "027-144847"
+        ],
+        "query_error": null
+      }
+    }
+  },
+  {
+    "instance_id": "id10508",
+    "train_trial_index": 0,
+    "predicted_text": "WITH current_encounter AS (\n  SELECT patienthealthsystemstayid\n  FROM patient\n  WHERE uniquepid = '015-59552'\n  ORDER BY CASE WHEN hospitaldischargetime IS NULL THEN 1 ELSE 0 END DESC,\n           hospitaladmittime DESC\n  LIMIT 1\n),\nfirst_ward_entry AS (\n  SELECT MIN(p.unitadmittime) AS first_time\n  FROM patient p\n  JOIN current_encounter ce ON ce.patienthealthsystemstayid = p.patienthealthsystemstayid\n  WHERE p.wardid = 601\n)\nSELECT EXTRACT(EPOCH FROM (CURRENT_TIMESTAMP - fwe.first_time)) / 3600.0 AS hours_passed\nFROM first_ward_entry fwe;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 969.0,
+      "num_output_tokens": 152.0,
+      "inference_runtime": 31.298891067504883,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "015-59552",
+          601
+        ],
+        "query_error": "near \"FROM\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id11127",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT patienthealthsystemstayid, COUNT(*) AS icu_visits\nFROM patient\nWHERE uniquepid = '007-849'\nGROUP BY patienthealthsystemstayid;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 961.0,
+      "num_output_tokens": 35.0,
+      "inference_runtime": 23.74189782142639,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": null
+      }
+    }
+  },
+  {
+    "instance_id": "id9581",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT MAX(io.intakeoutputtime) AS last_intake_time\nFROM intakeoutput io\nJOIN patient p ON p.patientunitstayid = io.patientunitstayid\nWHERE p.uniquepid = '017-12240'\n  AND (LOWER(io.cellpath) LIKE '%intake%' OR LOWER(io.celllabel) LIKE '%intake%')\n  AND io.intakeoutputtime <= NOW() - INTERVAL '1019 days';",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 962.0,
+      "num_output_tokens": 88.0,
+      "inference_runtime": 8.477553129196167,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "017-12240"
+        ],
+        "query_error": "near \"'1019 days'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id9688",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT CASE \n         WHEN EXISTS (\n           SELECT 1\n           FROM vitalperiodic v\n           JOIN patient p ON p.patientunitstayid = v.patientunitstayid\n           WHERE p.uniquepid = '022-76925'\n             AND v.observationtime >= CURRENT_TIMESTAMP - INTERVAL '27 months'\n             AND v.sao2 > 85.0\n         ) THEN 1 \n         ELSE 0 \n       END AS sao2_gt_85_since_27_months;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 967.0,
+      "num_output_tokens": 100.0,
+      "inference_runtime": 15.038203001022339,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": "near \"'27 months'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id9387",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT admissionweight\nFROM patient\nWHERE uniquepid = '018-86978'\n  AND hospitaladmittime <= NOW() - INTERVAL '4 months'\nORDER BY hospitaladmittime ASC\nLIMIT 1;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 964.0,
+      "num_output_tokens": 44.0,
+      "inference_runtime": 21.14957594871521,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "018-86978"
+        ],
+        "query_error": "near \"'4 months'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id10049",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 1.0,
+      "num_prompt_tokens": 960.0,
+      "num_output_tokens": 0.0,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "No query generated"
+      }
+    }
+  },
+  {
+    "instance_id": "id9565",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT l.labresulttime\nFROM patient p\nJOIN lab l ON l.patientunitstayid = p.patientunitstayid\nWHERE p.uniquepid = '030-21071'\n  AND l.labname ILIKE '%mch%'\n  AND l.labresulttime >= p.unitadmittime - INTERVAL '1 month'\n  AND l.labresulttime < p.unitadmittime\nORDER BY l.labresult DESC, l.labresulttime ASC\nLIMIT 1;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 961.0,
+      "num_output_tokens": 96.0,
+      "inference_runtime": 43.71541714668274,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "mch",
+          "030-21071"
+        ],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id12075",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT DISTINCT a.drugname\nFROM treatment t\nJOIN allergy a ON a.patientunitstayid = t.patientunitstayid\nWHERE t.treatmentname ILIKE 'antiemetic - anticholinergic'\n  AND a.drugname IS NOT NULL;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 967.0,
+      "num_output_tokens": 54.0,
+      "inference_runtime": 27.8694851398468,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id9452",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT l.labname\nFROM lab l\nJOIN patient p ON p.patientunitstayid = l.patientunitstayid\nWHERE p.uniquepid = '031-15417'\n  AND l.labresulttime >= NOW() - INTERVAL '116 months'\nORDER BY l.labresulttime ASC\nLIMIT 1;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 968.0,
+      "num_output_tokens": 63.0,
+      "inference_runtime": 13.605025053024292,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "031-15417"
+        ],
+        "query_error": "near \"'116 months'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id10204",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT COALESCE(SUM(EXTRACT(EPOCH FROM (m.drugstoptime - m.drugstarttime)))/3600.0, 0) AS total_duration_hours\nFROM patient p\nJOIN medication m ON m.patientunitstayid = p.patientunitstayid\nWHERE p.uniquepid = '013-12480'\n  AND LOWER(m.drugname) LIKE '%influenza%'\n  AND m.drugstarttime IS NOT NULL\n  AND m.drugstoptime IS NOT NULL;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 961.0,
+      "num_output_tokens": 106.0,
+      "inference_runtime": 26.20410394668579,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "near \"FROM\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id9867",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT COUNT(*) AS administrations_count\nFROM treatment\nWHERE treatmentname ILIKE '%hypotonic fluid administration - half-normal saline solution%'\n  AND treatmenttime >= CURRENT_TIMESTAMP - INTERVAL '4 years';",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 964.0,
+      "num_output_tokens": 40.0,
+      "inference_runtime": 9.202613115310669,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id9777",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 980.0,
+      "num_output_tokens": 0.0,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            null
+          ]
+        ],
+        "query_error": "No query generated"
+      }
+    }
+  },
+  {
+    "instance_id": "id9870",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT COUNT(DISTINCT p.uniquepid)\nFROM medication m\nJOIN patient p ON p.patientunitstayid = m.patientunitstayid\nWHERE LOWER(m.drugname) LIKE '%zolpidem%'\n  AND m.drugstarttime >= CURRENT_DATE - INTERVAL '6 years';",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 959.0,
+      "num_output_tokens": 58.0,
+      "inference_runtime": 10.536082744598389,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": "near \"'6 years'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id11305",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT COUNT(DISTINCT p.uniquepid)\nFROM treatment t\nJOIN patient p ON p.patientunitstayid = t.patientunitstayid\nWHERE LOWER(t.treatmentname) = 'non-cardiac angiography - pulmonary angiography'\n  AND t.treatmenttime >= CURRENT_DATE - INTERVAL '1 year';",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 967.0,
+      "num_output_tokens": 63.0,
+      "inference_runtime": 23.334201097488403,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": "near \"'1 year'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id11860",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 1.0,
+      "num_prompt_tokens": 961.0,
+      "num_output_tokens": 0.0,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "No query generated"
+      }
+    }
+  },
+  {
+    "instance_id": "id10948",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT CASE WHEN EXISTS (\n  SELECT 1\n  FROM treatment t\n  JOIN patient p ON p.patientunitstayid = t.patientunitstayid\n  WHERE p.uniquepid = '016-18575'\n    AND t.treatmenttime >= TIMESTAMP '2105-01-01 00:00:00'\n    AND t.treatmentname ILIKE '%physical%therap%'\n    AND t.treatmentname ILIKE '%consult%'\n) THEN 'Yes' ELSE 'No' END AS had_physical_therapy_consult;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 961.0,
+      "num_output_tokens": 109.0,
+      "inference_runtime": 19.953387022018433,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": "near \"'2105-01-01 00:00:00'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id11417",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT t2.diagnosisname, COUNT(*) AS freq\nFROM diagnosis t1\nJOIN diagnosis t2\n  ON t2.patientunitstayid = t1.patientunitstayid\n AND t2.diagnosistime > t1.diagnosistime\n AND date_trunc('month', t2.diagnosistime) = date_trunc('month', t1.diagnosistime)\nWHERE t1.diagnosisname ILIKE '%third spacing%'\n  AND t1.diagnosistime >= '2105-01-01'\n  AND t2.diagnosisname NOT ILIKE '%third spacing%'\nGROUP BY t2.diagnosisname\nORDER BY freq DESC\nLIMIT 3;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 970.0,
+      "num_output_tokens": 146.0,
+      "inference_runtime": 14.626394748687744,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "third spacing"
+        ],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id11193",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 968.0,
+      "num_output_tokens": 0.0,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            null
+          ]
+        ],
+        "query_error": "No query generated"
+      }
+    }
+  },
+  {
+    "instance_id": "id10457",
+    "train_trial_index": 0,
+    "predicted_text": "WITH last_stay AS (\n  SELECT p.patienthealthsystemstayid\n  FROM patient p\n  WHERE p.uniquepid = '027-10308'\n  ORDER BY p.hospitaladmittime DESC\n  LIMIT 1\n),\nlabs_filtered AS (\n  SELECT l.labid, l.labresult, l.labresulttime\n  FROM lab l\n  JOIN patient p ON p.patientunitstayid = l.patientunitstayid\n  JOIN last_stay s ON s.patienthealthsystemstayid = p.patienthealthsystemstayid\n  WHERE lower(l.labname) LIKE '%glucose%' AND (lower(l.labname) LIKE '%bedside%' OR lower(l.labname) LIKE '%finger%')\n)\nSELECT (labresult - LEAD(labresult) OVER (ORDER BY labresulttime DESC, labid DESC)) AS glucose_difference\nFROM labs_filtered\nORDER BY labresulttime DESC, labid DESC\nLIMIT 1;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 979.0,
+      "num_output_tokens": 194.0,
+      "inference_runtime": 639.6894860267639,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            null
+          ]
+        ],
+        "query_error": null
+      }
+    }
+  },
+  {
+    "instance_id": "id10872",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT MIN(m.culturetakentime) AS first_micro_test_time\nFROM microlab m\nJOIN patient p ON p.patientunitstayid = m.patientunitstayid\nWHERE p.uniquepid = '031-3355'\n  AND m.culturesite ILIKE '%blood%'\n  AND m.culturesite ILIKE '%venipuncture%';",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 969.0,
+      "num_output_tokens": 76.0,
+      "inference_runtime": 21.39230513572693,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "031-3355",
+          "blood, venipuncture"
+        ],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id10571",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT t.treatmentname\nFROM treatment t\nJOIN patient p ON p.patientunitstayid = t.patientunitstayid\nWHERE p.uniquepid = '027-8953'\n  AND t.treatmenttime >= CURRENT_TIMESTAMP - INTERVAL '1 year'\nORDER BY t.treatmenttime DESC\nLIMIT 1;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 961.0,
+      "num_output_tokens": 64.0,
+      "inference_runtime": 11.64600920677185,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "027-8953"
+        ],
+        "query_error": "near \"'1 year'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id10180",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT EXTRACT(MONTH FROM drugstarttime) AS month_num,\n       TRIM(TO_CHAR(drugstarttime, 'Month')) AS month_name,\n       COUNT(*) AS prescription_count\nFROM medication\nWHERE drugstarttime IS NOT NULL\n  AND (\n    drugname ILIKE '%antihist%'\n    OR drugname ILIKE '%diphenhydramine%'\n    OR drugname ILIKE '%loratadine%'\n    OR drugname ILIKE '%cetirizine%'\n    OR drugname ILIKE '%fexofenadine%'\n    OR drugname ILIKE '%chlorpheniramine%'\n    OR drugname ILIKE '%promethazine%'\n  )\nGROUP BY 1, 2\nORDER BY prescription_count DESC\nLIMIT 1;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 958.0,
+      "num_output_tokens": 158.0,
+      "inference_runtime": 9.610641717910767,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "near \"FROM\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id10744",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT AVG(v.sao2) AS average_sao2\nFROM patient p\nJOIN vitalperiodic v ON v.patientunitstayid = p.patientunitstayid\nWHERE p.uniquepid = '027-69449'\nAND v.observationtime >= TIMESTAMP '2105-04-13 00:00:00'\nAND v.observationtime < TIMESTAMP '2105-04-14 00:00:00';",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 966.0,
+      "num_output_tokens": 88.0,
+      "inference_runtime": 9.709575891494751,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            null
+          ]
+        ],
+        "query_error": "near \"'2105-04-13 00:00:00'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id10353",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 1.0,
+      "num_prompt_tokens": 960.0,
+      "num_output_tokens": 0.0,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "No query generated"
+      }
+    }
+  },
+  {
+    "instance_id": "id12038",
+    "train_trial_index": 0,
+    "predicted_text": "WITH first_unit_per_stay AS (\n  SELECT p.patienthealthsystemstayid,\n         MIN(p.unitadmittime) AS first_time\n  FROM patient p\n  WHERE p.uniquepid = '006-81423'\n  GROUP BY p.patienthealthsystemstayid\n),\nfirst_ward AS (\n  SELECT p.patienthealthsystemstayid,\n         p.wardid\n  FROM patient p\n  JOIN first_unit_per_stay f\n    ON p.patienthealthsystemstayid = f.patienthealthsystemstayid\n   AND p.unitadmittime = f.first_time\n)\nSELECT DISTINCT d.diagnosisname\nFROM diagnosis d\nJOIN patient p ON p.patientunitstayid = d.patientunitstayid\nJOIN first_ward fw ON p.patienthealthsystemstayid = fw.patienthealthsystemstayid\nWHERE p.uniquepid = '006-81423'\n  AND p.wardid <> fw.wardid\n;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 959.0,
+      "num_output_tokens": 191.0,
+      "inference_runtime": 39.58129119873047,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": null
+      }
+    }
+  },
+  {
+    "instance_id": "id11365",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT COUNT(DISTINCT pd.uniquepid)\nFROM diagnosis d\nJOIN patient pd ON pd.patientunitstayid = d.patientunitstayid\nJOIN patient pm ON pm.patienthealthsystemstayid = pd.patienthealthsystemstayid\nJOIN medication m ON m.patientunitstayid = pm.patientunitstayid\nWHERE d.diagnosisname ILIKE '%protein-calorie malnutrition%'\n  AND m.drugname ILIKE '%sodium chloride 0.45% 1000 ml lvp%'\n  AND COALESCE(m.drugstarttime, m.drugstoptime) > d.diagnosistime\n  AND COALESCE(m.drugstarttime, m.drugstoptime) >= NOW() - INTERVAL '1 year';",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 983.0,
+      "num_output_tokens": 152.0,
+      "inference_runtime": 27.269432067871094,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id11249",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT COUNT(DISTINCT p.uniquepid)\nFROM diagnosis d\nJOIN patient p ON p.patientunitstayid = d.patientunitstayid\nWHERE d.diagnosistime >= NOW() - INTERVAL '2 years'\n  AND d.diagnosisname ILIKE '%obstruction%'\n  AND (d.diagnosisname ILIKE '%trachea%' OR d.diagnosisname ILIKE '%bronch%')\n  AND p.hospitaldischargestatus ILIKE 'Expired%'\n  AND p.hospitaldischargetime IS NOT NULL\n  AND p.hospitaldischargetime >= d.diagnosistime\n  AND date_trunc('month', p.hospitaldischargetime) = date_trunc('month', d.diagnosistime);",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 970.0,
+      "num_output_tokens": 156.0,
+      "inference_runtime": 20.207280158996582,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": "near \"'2 years'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id9572",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT MIN(m.culturetakentime) AS first_sputum_tracheal_specimen_time\nFROM microlab m\nJOIN patient p ON p.patientunitstayid = m.patientunitstayid\nWHERE p.uniquepid = '025-44495'\n  AND m.culturetakentime >= date_trunc('month', CURRENT_TIMESTAMP)\n  AND m.culturetakentime < date_trunc('month', CURRENT_TIMESTAMP) + INTERVAL '1 month'\n  AND (\n    LOWER(m.culturesite) = 'sputum, tracheal specimen'\n    OR (m.culturesite ILIKE '%sputum%' AND m.culturesite ILIKE '%tracheal%')\n  );",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 968.0,
+      "num_output_tokens": 152.0,
+      "inference_runtime": 10.532494068145752,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "025-44495",
+          "sputum, tracheal specimen"
+        ],
+        "query_error": "near \"'1 month'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id11565",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT io.celllabel, COUNT(*) AS event_count\nFROM intakeoutput io\nWHERE io.intakeoutputtime <= NOW() - INTERVAL '4 years'\n  AND (io.cellpath ILIKE '%intake%' OR io.celllabel ILIKE '%intake%')\nGROUP BY io.celllabel\nORDER BY event_count DESC, io.celllabel\nLIMIT 5;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 957.0,
+      "num_output_tokens": 74.0,
+      "inference_runtime": 12.880918979644775,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "near \"'4 years'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id9388",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT t.weight\nFROM (\n  SELECT p.unitdischargetime AS event_time, p.dischargeweight AS weight\n  FROM patient p\n  WHERE p.uniquepid = '033-32465'\n    AND p.dischargeweight IS NOT NULL\n    AND p.unitdischargetime >= '2102-05-01' AND p.unitdischargetime < '2102-06-01'\n  UNION ALL\n  SELECT p.unitadmittime AS event_time, p.admissionweight AS weight\n  FROM patient p\n  WHERE p.uniquepid = '033-32465'\n    AND p.admissionweight IS NOT NULL\n    AND p.unitadmittime >= '2102-05-01' AND p.unitadmittime < '2102-06-01'\n) t\nORDER BY t.event_time DESC\nLIMIT 1;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 962.0,
+      "num_output_tokens": 181.0,
+      "inference_runtime": 15.446292161941528,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "033-32465"
+        ],
+        "query_error": null
+      }
+    }
+  },
+  {
+    "instance_id": "id12025",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT DISTINCT wardid\nFROM patient\nWHERE uniquepid = '006-1629';",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 961.0,
+      "num_output_tokens": 18.0,
+      "inference_runtime": 8.892788171768188,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": null
+      }
+    }
+  },
+  {
+    "instance_id": "id11454",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT drugname, COUNT(*) AS prescription_count\nFROM medication\nWHERE COALESCE(drugstarttime, drugstoptime) >= NOW() - INTERVAL '1 year'\nGROUP BY drugname\nORDER BY prescription_count DESC, drugname ASC\nLIMIT 4;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 955.0,
+      "num_output_tokens": 54.0,
+      "inference_runtime": 16.290750980377197,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "near \"'1 year'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id10384",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 1.0,
+      "num_prompt_tokens": 955.0,
+      "num_output_tokens": 0.0,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "No query generated"
+      }
+    }
+  },
+  {
+    "instance_id": "id10076",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 1.0,
+      "num_prompt_tokens": 957.0,
+      "num_output_tokens": 0.0,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "No query generated"
+      }
+    }
+  },
+  {
+    "instance_id": "id11388",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT diagnosisname, COUNT(*) AS freq\nFROM diagnosis\nWHERE diagnosistime < '2105-01-01'\nGROUP BY diagnosisname\nORDER BY freq DESC, diagnosisname\nLIMIT 4;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 956.0,
+      "num_output_tokens": 43.0,
+      "inference_runtime": 6.697962999343872,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [
+          [
+            "atrial fibrillation - with rapid ventricular response",
+            2
+          ],
+          [
+            "seizures",
+            2
+          ],
+          [
+            "acute renal failure",
+            1
+          ],
+          [
+            "brain tumor - suspected",
+            1
+          ]
+        ],
+        "ground_truth_result": [],
+        "query_error": null
+      }
+    }
+  },
+  {
+    "instance_id": "id9801",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT DISTINCT patientunitstayid\nFROM diagnosis\nWHERE LOWER(TRIM(diagnosisname)) LIKE 'fever - kidney transplant - postop < 2 weeks%';",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 964.0,
+      "num_output_tokens": 34.0,
+      "inference_runtime": 13.0977201461792,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "fever - kidney transplant - postop < 2 weeks"
+        ],
+        "query_error": null
+      }
+    }
+  },
+  {
+    "instance_id": "id12155",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT p.uniquepid, 'treatment' AS source, t.treatmentname AS event_name, t.treatmenttime AS event_time\nFROM patient p\nJOIN treatment t ON t.patientunitstayid = p.patientunitstayid\nWHERE p.uniquepid = '005-77687'\nAND (t.treatmentname ILIKE '%additional blood%' OR t.treatmentname ILIKE '%venipuncture%')\nUNION ALL\nSELECT p.uniquepid, 'lab' AS source, l.labname AS event_name, l.labresulttime AS event_time\nFROM patient p\nJOIN lab l ON l.patientunitstayid = p.patientunitstayid\nWHERE p.uniquepid = '005-77687'\nAND l.labname ILIKE '%venipuncture%'\nORDER BY event_time;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 961.0,
+      "num_output_tokens": 161.0,
+      "inference_runtime": 16.26406717300415,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id10331",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 1.0,
+      "num_prompt_tokens": 956.0,
+      "num_output_tokens": 0.0,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "No query generated"
+      }
+    }
+  },
+  {
+    "instance_id": "id10444",
+    "train_trial_index": 0,
+    "predicted_text": "WITH first_hosp AS (\n  SELECT patienthealthsystemstayid\n  FROM patient\n  WHERE uniquepid = '006-161415'\n  ORDER BY hospitaladmittime\n  LIMIT 1\n),\nadmit_wt AS (\n  SELECT admissionweight\n  FROM patient p\n  JOIN first_hosp fh USING (patienthealthsystemstayid)\n  WHERE p.admissionweight IS NOT NULL\n  ORDER BY p.unitadmittime\n  LIMIT 1\n),\nlast_wt AS (\n  SELECT dischargeweight\n  FROM patient p\n  JOIN first_hosp fh USING (patienthealthsystemstayid)\n  WHERE p.dischargeweight IS NOT NULL\n  ORDER BY COALESCE(p.unitdischargetime, p.hospitaldischargetime, p.unitadmittime) DESC\n  LIMIT 1\n)\nSELECT last_wt.dischargeweight - admit_wt.admissionweight AS body_weight_change\nFROM admit_wt\nCROSS JOIN last_wt;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 977.0,
+      "num_output_tokens": 207.0,
+      "inference_runtime": 48.817440032958984,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            null
+          ]
+        ],
+        "query_error": null
+      }
+    }
+  },
+  {
+    "instance_id": "id11235",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT DISTINCT patientunitstayid\nFROM diagnosis\nWHERE diagnosisname ILIKE '%bradycardia - symptomatic%'\n  AND diagnosistime >= TIMESTAMP '2103-01-01 00:00:00';",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 965.0,
+      "num_output_tokens": 47.0,
+      "inference_runtime": 13.095151901245117,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "bradycardia - symptomatic"
+        ],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id11946",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 1.0,
+      "num_prompt_tokens": 965.0,
+      "num_output_tokens": 0.0,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "No query generated"
+      }
+    }
+  },
+  {
+    "instance_id": "id11994",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT p.uniquepid,\n       l.patientunitstayid,\n       'lab' AS source,\n       l.labname AS testname,\n       CAST(l.labresult AS TEXT) AS result,\n       l.labresulttime AS resulttime\nFROM patient p\nJOIN lab l ON l.patientunitstayid = p.patientunitstayid\nWHERE p.uniquepid = '030-53416'\n  AND (LOWER(l.labname) LIKE '%covid%' OR LOWER(l.labname) LIKE '%sars%' OR LOWER(l.labname) LIKE '%coronavirus%')\nUNION ALL\nSELECT p.uniquepid,\n       m.patientunitstayid,\n       'microlab' AS source,\n       m.culturesite AS testname,\n       m.organism AS result,\n       m.culturetakentime AS resulttime\nFROM patient p\nJOIN microlab m ON m.patientunitstayid = p.patientunitstayid\nWHERE p.uniquepid = '030-53416'\n  AND (LOWER(m.organism) LIKE '%covid%' OR LOWER(m.organism) LIKE '%sars%' OR LOWER(m.organism) LIKE '%coronavirus%' OR LOWER(m.culturesite) LIKE '%covid%' OR LOWER(m.culturesite) LIKE '%sars%' OR LOWER(m.culturesite) LIKE '%coronavirus%')\nORDER BY resulttime;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 958.0,
+      "num_output_tokens": 284.0,
+      "inference_runtime": 29.783880949020386,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": null
+      }
+    }
+  },
+  {
+    "instance_id": "id10959",
+    "train_trial_index": 0,
+    "predicted_text": "WITH current_stay AS (\n  SELECT patienthealthsystemstayid, hospitaladmittime, hospitaldischargetime\n  FROM patient\n  WHERE uniquepid = '027-136480'\n  ORDER BY hospitaladmittime DESC\n  LIMIT 1\n)\nSELECT CASE WHEN EXISTS (\n  SELECT 1\n  FROM patient p\n  JOIN treatment t ON t.patientunitstayid = p.patientunitstayid\n  JOIN current_stay cs ON cs.patienthealthsystemstayid = p.patienthealthsystemstayid\n  WHERE p.uniquepid = '027-136480'\n    AND t.treatmentname ILIKE '%analgesics - continuous parenteral analgesics%'\n    AND t.treatmenttime >= cs.hospitaladmittime\n    AND (cs.hospitaldischargetime IS NULL OR t.treatmenttime <= cs.hospitaldischargetime)\n) THEN 'Yes' ELSE 'No' END AS has_procedure;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 969.0,
+      "num_output_tokens": 195.0,
+      "inference_runtime": 24.76276183128357,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id9362",
+    "train_trial_index": 0,
+    "predicted_text": "WITH current_stay AS (\n  SELECT patienthealthsystemstayid\n  FROM patient\n  WHERE uniquepid = '004-79017' AND hospitaldischargetime IS NULL\n  ORDER BY hospitaladmittime DESC\n  LIMIT 1\n),\nfirst_furosemide AS (\n  SELECT MIN(m.drugstarttime) AS first_time\n  FROM medication m\n  JOIN patient p ON p.patientunitstayid = m.patientunitstayid\n  JOIN current_stay cs ON cs.patienthealthsystemstayid = p.patienthealthsystemstayid\n  WHERE LOWER(m.drugname) LIKE '%furosemide%'\n)\nSELECT (CURRENT_DATE - DATE(first_time)) AS days_since_first_furosemide\nFROM first_furosemide;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 968.0,
+      "num_output_tokens": 156.0,
+      "inference_runtime": 38.98485708236694,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [
+          [
+            null
+          ]
+        ],
+        "ground_truth_result": [
+          "004-79017",
+          "furosemide"
+        ],
+        "query_error": null
+      }
+    }
+  },
+  {
+    "instance_id": "id10830",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT m1.drugstarttime AS last_common_prescribed_time\nFROM medication m1\nJOIN medication m2\n  ON m1.patientunitstayid = m2.patientunitstayid\n AND m1.drugstarttime IS NOT NULL\n AND m1.drugstarttime = m2.drugstarttime\nJOIN patient p\n  ON p.patientunitstayid = m1.patientunitstayid\nWHERE p.uniquepid = '007-9853'\n  AND m1.drugname ILIKE '%tylenol%'\n  AND m2.drugname ILIKE '%calcium carbonate 200 mg calcium (500 mg) oral chew tab%'\n  AND m1.drugstarttime >= '2012-10-01'\n  AND m1.drugstarttime < '2012-11-01'\nORDER BY m1.drugstarttime DESC\nLIMIT 1;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 984.0,
+      "num_output_tokens": 176.0,
+      "inference_runtime": 33.384297132492065,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "tylenol",
+          "calcium carbonate 200 mg calcium (500 mg) oral chew tab",
+          "007-9853"
+        ],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id9692",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT p.uniquepid,\n       CASE\n         WHEN COUNT(v.respiration) = 0 THEN NULL\n         WHEN SUM(CASE WHEN v.respiration BETWEEN 12 AND 20 THEN 1 ELSE 0 END) = COUNT(v.respiration) THEN 'Yes'\n         ELSE 'No'\n       END AS respiration_normal_last_month\nFROM patient p\nLEFT JOIN vitalperiodic v\n  ON v.patientunitstayid = p.patientunitstayid\n AND v.observationtime >= date_trunc('month', CURRENT_DATE) - INTERVAL '1 month'\n AND v.observationtime < date_trunc('month', CURRENT_DATE)\nWHERE p.uniquepid = '010-26737'\nGROUP BY p.uniquepid;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 958.0,
+      "num_output_tokens": 146.0,
+      "inference_runtime": 16.47772526741028,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "010-26737",
+          "respiration",
+          26.0
+        ],
+        "query_error": "near \"'1 month'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id10598",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT m.drugname\nFROM medication m\nJOIN patient p ON p.patientunitstayid = m.patientunitstayid\nWHERE p.uniquepid = '006-7325'\n  AND m.drugstarttime IS NOT NULL\n  AND m.drugstarttime <= CURRENT_TIMESTAMP - INTERVAL '15 months'\nORDER BY m.drugstarttime ASC\nLIMIT 1;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 964.0,
+      "num_output_tokens": 74.0,
+      "inference_runtime": 19.523719787597656,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "006-7325"
+        ],
+        "query_error": "near \"'15 months'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id11385",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT COUNT(DISTINCT p.uniquepid)\nFROM patient p\nJOIN (\n  SELECT io.patientunitstayid\n  FROM intakeoutput io\n  WHERE (LOWER(io.celllabel) LIKE '%per iv flush: upper arm l%' OR LOWER(io.cellpath) LIKE '%per iv flush: upper arm l%')\n    AND io.intakeoutputtime < TIMESTAMP '2103-01-01 00:00:00'\n  UNION\n  SELECT t.patientunitstayid\n  FROM treatment t\n  WHERE LOWER(t.treatmentname) LIKE '%per iv flush: upper arm l%'\n    AND t.treatmenttime < TIMESTAMP '2103-01-01 00:00:00'\n) x ON x.patientunitstayid = p.patientunitstayid;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 962.0,
+      "num_output_tokens": 158.0,
+      "inference_runtime": 29.47377109527588,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": "near \"'2103-01-01 00:00:00'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id9568",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT MIN(m.culturetakentime) AS first_microlab_time\nFROM microlab m\nJOIN patient p ON p.patientunitstayid = m.patientunitstayid\nWHERE p.uniquepid = '031-15417'\n  AND m.culturetakentime <= CURRENT_TIMESTAMP - INTERVAL '25 months';",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 963.0,
+      "num_output_tokens": 69.0,
+      "inference_runtime": 10.334888935089111,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "031-15417"
+        ],
+        "query_error": "near \"'25 months'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id11129",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT COUNT(*) AS visit_count\nFROM patient\nWHERE uniquepid = '033-24126'\n  AND unitadmittime <= (CURRENT_DATE - INTERVAL '2 years');",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 964.0,
+      "num_output_tokens": 36.0,
+      "inference_runtime": 8.177704095840454,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": "near \"'2 years'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id9836",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT COUNT(DISTINCT p.patienthealthsystemstayid) AS num_patients\nFROM diagnosis d_dm\nJOIN patient p ON p.patientunitstayid = d_dm.patientunitstayid\nWHERE d_dm.diagnosisname = 'diabetes mellitus - type ii'\n  AND EXTRACT(YEAR FROM d_dm.diagnosistime) = 2102\n  AND EXISTS (\n    SELECT 1\n    FROM diagnosis d_lc\n    JOIN patient p2 ON p2.patientunitstayid = d_lc.patientunitstayid\n    WHERE d_lc.diagnosisname = 'malignancy - primary lung cancer'\n      AND p2.patienthealthsystemstayid = p.patienthealthsystemstayid\n      AND d_lc.diagnosistime < d_dm.diagnosistime\n  );",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 977.0,
+      "num_output_tokens": 164.0,
+      "inference_runtime": 43.71335291862488,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": "near \"FROM\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id11087",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT to_char(date_trunc('month', l.labresulttime), 'YYYY-MM') AS month, MAX(l.labresult) AS max_bedside_glucose\nFROM lab l\nJOIN patient p ON p.patientunitstayid = l.patientunitstayid\nWHERE p.uniquepid = '017-49375'\n  AND l.labname ILIKE '%glucose%'\n  AND l.labname ILIKE '%bedside%'\n  AND l.labresulttime >= date_trunc('year', CURRENT_DATE)\n  AND l.labresulttime < date_trunc('year', CURRENT_DATE) + INTERVAL '1 year'\nGROUP BY date_trunc('month', l.labresulttime)\nORDER BY date_trunc('month', l.labresulttime);",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 961.0,
+      "num_output_tokens": 150.0,
+      "inference_runtime": 11.867563962936401,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "bedside glucose",
+          "017-49375"
+        ],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id9303",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT\n  MAX(dischargeweight) - MIN(admissionweight) AS weight_change\nFROM patient\nWHERE uniquepid = '017-101426'\n  AND patienthealthsystemstayid = (\n    SELECT patienthealthsystemstayid\n    FROM patient\n    WHERE uniquepid = '017-101426'\n    ORDER BY hospitaladmittime\n    LIMIT 1\n  );",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 1.0,
+      "num_prompt_tokens": 976.0,
+      "num_output_tokens": 80.0,
+      "inference_runtime": 28.926286935806274,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [
+          [
+            null
+          ]
+        ],
+        "ground_truth_result": [
+          [
+            null
+          ]
+        ],
+        "query_error": null
+      }
+    }
+  },
+  {
+    "instance_id": "id9374",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT hospitaladmitsource\nFROM patient\nWHERE uniquepid = '021-155303'\nORDER BY hospitaladmittime DESC\nLIMIT 1;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 956.0,
+      "num_output_tokens": 31.0,
+      "inference_runtime": 10.017956018447876,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "021-155303"
+        ],
+        "query_error": null
+      }
+    }
+  },
+  {
+    "instance_id": "id10247",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT ml.microlabid, ml.culturesite, ml.organism, ml.culturetakentime\nFROM microlab ml\nJOIN patient p ON p.patientunitstayid = ml.patientunitstayid\nWHERE p.uniquepid = '028-22327'\nORDER BY ml.culturetakentime;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 961.0,
+      "num_output_tokens": 69.0,
+      "inference_runtime": 23.74471616744995,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": null
+      }
+    }
+  },
+  {
+    "instance_id": "id11250",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT COUNT(DISTINCT p.uniquepid)\nFROM patient p\nJOIN diagnosis d ON d.patientunitstayid = p.patientunitstayid\nWHERE LOWER(d.diagnosisname) = 'ards - pulmonary etiology'\n  AND d.diagnosistime >= TIMESTAMP '2105-01-01 00:00:00'\n  AND d.diagnosistime < TIMESTAMP '2106-01-01 00:00:00'\n  AND p.hospitaldischargetime IS NOT NULL\n  AND NOT EXISTS (\n    SELECT 1\n    FROM patient p2\n    WHERE p2.uniquepid = p.uniquepid\n      AND p2.hospitaladmittime > p.hospitaldischargetime\n      AND p2.hospitaladmittime <= p.hospitaldischargetime + INTERVAL '2 months'\n  );",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 972.0,
+      "num_output_tokens": 175.0,
+      "inference_runtime": 24.66820502281189,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": "near \"'2105-01-01 00:00:00'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id11002",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT CASE WHEN EXISTS (\n  SELECT 1\n  FROM lab l\n  JOIN patient p ON p.patientunitstayid = l.patientunitstayid\n  WHERE p.uniquepid = '031-4423'\n    AND EXTRACT(YEAR FROM l.labresulttime) = EXTRACT(YEAR FROM CURRENT_DATE - INTERVAL '1 year')\n    AND EXTRACT(MONTH FROM l.labresulttime) = 7\n) THEN 'Yes' ELSE 'No' END AS had_lab_in_july_last_year;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 962.0,
+      "num_output_tokens": 106.0,
+      "inference_runtime": 34.50190615653992,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": "near \"FROM\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id10551",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT admissionheight\nFROM patient\nWHERE uniquepid = '021-79544'\n  AND EXTRACT(YEAR FROM unitadmittime) = EXTRACT(YEAR FROM CURRENT_DATE)\n  AND EXTRACT(MONTH FROM unitadmittime) = 12\nORDER BY unitadmittime ASC\nLIMIT 1;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 962.0,
+      "num_output_tokens": 67.0,
+      "inference_runtime": 17.696274042129517,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "021-79544"
+        ],
+        "query_error": "near \"FROM\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id11328",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT COUNT(DISTINCT t.patientunitstayid)\nFROM treatment t\nWHERE t.treatmentname ILIKE 'analgesics - narcotic analgesic'\n  AND t.treatmenttime <= CURRENT_DATE - INTERVAL '3 years'\n  AND EXISTS (\n    SELECT 1\n    FROM diagnosis d\n    WHERE d.patientunitstayid = t.patientunitstayid\n      AND d.diagnosisname ILIKE '%nutritional deficiency%'\n      AND t.treatmenttime >= d.diagnosistime\n      AND t.treatmenttime < d.diagnosistime + INTERVAL '1 month'\n  );",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 973.0,
+      "num_output_tokens": 124.0,
+      "inference_runtime": 23.037944793701172,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id10329",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 1.0,
+      "num_prompt_tokens": 958.0,
+      "num_output_tokens": 0.0,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "No query generated"
+      }
+    }
+  },
+  {
+    "instance_id": "id11710",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 1.0,
+      "num_prompt_tokens": 955.0,
+      "num_output_tokens": 0.0,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "No query generated"
+      }
+    }
+  },
+  {
+    "instance_id": "id9680",
+    "train_trial_index": 0,
+    "predicted_text": "WITH cutoff AS (\n  SELECT CURRENT_TIMESTAMP - INTERVAL '66 months' AS dt\n)\nSELECT CASE\n         WHEN EXISTS (\n           SELECT 1\n           FROM medication m\n           JOIN patient p ON p.patientunitstayid = m.patientunitstayid\n           CROSS JOIN cutoff c\n           WHERE p.uniquepid = '030-49739'\n             AND m.drugname ILIKE '%propofol%'\n             AND (\n               COALESCE(m.drugstoptime, CURRENT_TIMESTAMP) >= c.dt\n               OR (m.drugstarttime IS NOT NULL AND m.drugstarttime >= c.dt)\n             )\n         )\n         THEN 'Yes'\n         ELSE 'No'\n       END AS had_propofol_since_66_months;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 961.0,
+      "num_output_tokens": 149.0,
+      "inference_runtime": 24.3988139629364,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": "near \"AS\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id10368",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 1.0,
+      "num_prompt_tokens": 952.0,
+      "num_output_tokens": 0.0,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "No query generated"
+      }
+    }
+  },
+  {
+    "instance_id": "id12099",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT m.drugname, m.dosage\nFROM medication m\nJOIN patient p ON p.patientunitstayid = m.patientunitstayid\nWHERE p.uniquepid = '009-5351'\n  AND m.drugname ~* '(morphine|oxycodone|hydromorphone|hydrocodone|fentanyl|methadone|codeine|tramadol|buprenorphine|meperidine|oxymorphone|tapentadol|opium)';",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 957.0,
+      "num_output_tokens": 105.0,
+      "inference_runtime": 16.066699981689453,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "near \"~\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id11802",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT antihistamine, COUNT(*) AS prescription_count\nFROM (\n  SELECT CASE\n    WHEN drugname ~* 'diphenhydramine' THEN 'diphenhydramine'\n    WHEN drugname ~* 'loratadine' THEN 'loratadine'\n    WHEN drugname ~* 'cetirizine' THEN 'cetirizine'\n    WHEN drugname ~* 'fexofenadine' THEN 'fexofenadine'\n    WHEN drugname ~* 'chlorpheniramine' THEN 'chlorpheniramine'\n    WHEN drugname ~* 'brompheniramine' THEN 'brompheniramine'\n    WHEN drugname ~* 'promethazine' THEN 'promethazine'\n    WHEN drugname ~* 'hydroxyzine' THEN 'hydroxyzine'\n    WHEN drugname ~* 'doxylamine' THEN 'doxylamine'\n    WHEN drugname ~* 'meclizine' THEN 'meclizine'\n    WHEN drugname ~* 'levocetirizine' THEN 'levocetirizine'\n    WHEN drugname ~* 'desloratadine' THEN 'desloratadine'\n    WHEN drugname ~* 'cyproheptadine' THEN 'cyproheptadine'\n    WHEN drugname ~* 'clemastine' THEN 'clemastine'\n    WHEN drugname ~* 'dimenhydrinate' THEN 'dimenhydrinate'\n    WHEN drugname ~* 'carbinoxamine' THEN 'carbinoxamine'\n    WHEN drugname ~* 'azelastine' THEN 'azelastine'\n    WHEN drugname ~* 'ketotifen' THEN 'ketotifen'\n    WHEN drugname ~* 'olopatadine' THEN 'olopatadine'\n    ELSE NULL\n  END AS antihistamine\n  FROM medication\n) m\nWHERE antihistamine IS NOT NULL\nGROUP BY antihistamine\nORDER BY prescription_count DESC;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 953.0,
+      "num_output_tokens": 438.0,
+      "inference_runtime": 18.41586995124817,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "near \"~\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id10285",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 1.0,
+      "num_prompt_tokens": 960.0,
+      "num_output_tokens": 0.0,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "No query generated"
+      }
+    }
+  },
+  {
+    "instance_id": "id11031",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT ml.microlabid, ml.patientunitstayid, ml.culturesite, ml.organism, ml.culturetakentime\nFROM microlab ml\nJOIN patient p ON p.patientunitstayid = ml.patientunitstayid\nJOIN (\n  SELECT uniquepid, patienthealthsystemstayid\n  FROM (\n    SELECT uniquepid, patienthealthsystemstayid, hospitaladmittime,\n           ROW_NUMBER() OVER (PARTITION BY uniquepid ORDER BY hospitaladmittime) AS rn\n    FROM patient\n    WHERE uniquepid = '031-3355'\n  ) s\n  WHERE rn = 1\n) f ON f.uniquepid = p.uniquepid AND f.patienthealthsystemstayid = p.patienthealthsystemstayid\nORDER BY ml.culturetakentime;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 963.0,
+      "num_output_tokens": 168.0,
+      "inference_runtime": 34.32075023651123,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": null
+      }
+    }
+  },
+  {
+    "instance_id": "id10275",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT CASE WHEN EXISTS (\n  SELECT 1\n  FROM patient p\n  JOIN treatment t ON t.patientunitstayid = p.patientunitstayid\n  LEFT JOIN diagnosis d ON d.patientunitstayid = p.patientunitstayid\n    AND d.diagnosistime BETWEEN t.treatmenttime AND t.treatmenttime + INTERVAL '24 hours'\n  LEFT JOIN allergy a ON a.patientunitstayid = p.patientunitstayid\n    AND a.allergytime BETWEEN t.treatmenttime AND t.treatmenttime + INTERVAL '24 hours'\n  WHERE p.uniquepid = '016-26867'\n    AND t.treatmentname ILIKE '%transfusion%'\n    AND (\n      (d.diagnosisname ILIKE '%transfusion reaction%' OR d.icd9code ILIKE '9996%' OR d.icd9code ILIKE '9998%')\n      OR (a.allergyname ILIKE '%transfusion reaction%' OR (a.allergyname ILIKE '%reaction%' AND a.drugname ILIKE '%blood%'))\n    )\n) THEN 'Yes' ELSE 'No' END AS experienced_side_effect_during_transfusion;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 962.0,
+      "num_output_tokens": 236.0,
+      "inference_runtime": 47.422200202941895,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "near \"'24 hours'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id10747",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT MIN(v.systemicsystolic) AS min_systemicsystolic\nFROM vitalperiodic v\nJOIN patient p ON p.patientunitstayid = v.patientunitstayid\nWHERE p.uniquepid = '015-92657'\n  AND v.observationtime >= TIMESTAMP '2103-02-19 00:00:00';",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 968.0,
+      "num_output_tokens": 70.0,
+      "inference_runtime": 14.315643072128296,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            null
+          ]
+        ],
+        "query_error": "near \"'2103-02-19 00:00:00'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id10182",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT to_char(drugstarttime, 'FMMonth') AS month_of_year\nFROM medication\nWHERE drugstarttime IS NOT NULL\n  AND (\n    drugname ILIKE '%antihist%' OR\n    drugname ILIKE '%diphenhydramine%' OR\n    drugname ILIKE '%loratadine%' OR\n    drugname ILIKE '%cetirizine%' OR\n    drugname ILIKE '%fexofenadine%' OR\n    drugname ILIKE '%chlorpheniramine%' OR\n    drugname ILIKE '%promethazine%' OR\n    drugname ILIKE '%hydroxyzine%' OR\n    drugname ILIKE '%meclizine%' OR\n    drugname ILIKE '%doxylamine%' OR\n    drugname ILIKE '%levocetirizine%' OR\n    drugname ILIKE '%desloratadine%' OR\n    drugname ILIKE '%azelastine%' OR\n    drugname ILIKE '%olopatadine%' OR\n    drugname ILIKE '%brompheniramine%' OR\n    drugname ILIKE '%triprolidine%' OR\n    drugname ILIKE '%carbinoxamine%' OR\n    drugname ILIKE '%clemastine%' OR\n    drugname ILIKE '%cyproheptadine%'\n  )\nGROUP BY 1, EXTRACT(MONTH FROM drugstarttime)\nORDER BY COUNT(*) DESC\nLIMIT 1;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 958.0,
+      "num_output_tokens": 309.0,
+      "inference_runtime": 38.089864015579224,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id9587",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT io.intakeoutputtime\nFROM intakeoutput io\nJOIN patient p ON p.patientunitstayid = io.patientunitstayid\nWHERE p.uniquepid = '002-62161'\n  AND p.unitadmittime = (\n    SELECT MAX(unitadmittime) FROM patient WHERE uniquepid = '002-62161'\n  )\n  AND io.celllabel = 'y (ml)-chest tube y - a #1 right b #2 right anterior output'\nORDER BY io.intakeoutputtime DESC\nLIMIT 1;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 980.0,
+      "num_output_tokens": 109.0,
+      "inference_runtime": 16.23755979537964,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "output y (ml)-chest tube y - a #1 right b #2 right anterior",
+          "002-62161"
+        ],
+        "query_error": null
+      }
+    }
+  },
+  {
+    "instance_id": "id10643",
+    "train_trial_index": 0,
+    "predicted_text": "WITH current_stay AS (\n  SELECT patienthealthsystemstayid\n  FROM patient\n  WHERE uniquepid = '011-55642'\n  ORDER BY (hospitaldischargetime IS NULL) DESC, hospitaladmittime DESC\n  LIMIT 1\n)\nSELECT AVG(l.labresult) AS avg_rdw\nFROM lab l\nJOIN patient p ON p.patientunitstayid = l.patientunitstayid\nJOIN current_stay cs ON cs.patienthealthsystemstayid = p.patienthealthsystemstayid\nWHERE p.uniquepid = '011-55642'\n  AND l.labname ILIKE '%rdw%';",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 963.0,
+      "num_output_tokens": 129.0,
+      "inference_runtime": 23.989224910736084,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            null
+          ]
+        ],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id11963",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 1.0,
+      "num_prompt_tokens": 959.0,
+      "num_output_tokens": 0.0,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "No query generated"
+      }
+    }
+  },
+  {
+    "instance_id": "id11286",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT COUNT(DISTINCT gi.uniquepid) AS patient_count\nFROM (\n  SELECT p.uniquepid, d.diagnosistime AS gi_time\n  FROM diagnosis d\n  JOIN patient p ON p.patientunitstayid = d.patientunitstayid\n  WHERE d.diagnosisname ILIKE '%gi bleed%' OR d.diagnosisname ILIKE '%gastrointestinal bleed%'\n) gi\nJOIN (\n  SELECT p.uniquepid, d.diagnosistime AS anx_time\n  FROM diagnosis d\n  JOIN patient p ON p.patientunitstayid = d.patientunitstayid\n  WHERE d.diagnosisname ILIKE '%anxiety%'\n) anx\n  ON gi.uniquepid = anx.uniquepid\n AND EXTRACT(YEAR FROM anx.anx_time) = EXTRACT(YEAR FROM gi.gi_time) + 1\n AND EXTRACT(MONTH FROM anx.anx_time) = EXTRACT(MONTH FROM gi.gi_time)\n;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 965.0,
+      "num_output_tokens": 197.0,
+      "inference_runtime": 32.81326699256897,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id11381",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT COUNT(DISTINCT io.patientunitstayid) AS num_patients\nFROM intakeoutput io\nWHERE LOWER(io.cellpath || ' ' || io.celllabel) LIKE '%enteral%'\n  AND LOWER(io.cellpath || ' ' || io.celllabel) LIKE '%pivot 1.5%'\n  AND LOWER(io.cellpath || ' ' || io.celllabel) LIKE '%tf%'\n  AND io.intakeoutputtime < '2105-01-01';",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 1.0,
+      "num_prompt_tokens": 965.0,
+      "num_output_tokens": 95.0,
+      "inference_runtime": 17.4797420501709,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [
+          [
+            0
+          ]
+        ],
+        "ground_truth_result": [
+          [
+            0
+          ]
+        ],
+        "query_error": null
+      }
+    }
+  },
+  {
+    "instance_id": "id10558",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT weight\nFROM (\n  SELECT unitadmittime AS measure_time, admissionweight AS weight\n  FROM patient\n  WHERE uniquepid = '027-154299' AND admissionweight IS NOT NULL AND unitadmittime IS NOT NULL\n  UNION ALL\n  SELECT unitdischargetime AS measure_time, dischargeweight AS weight\n  FROM patient\n  WHERE uniquepid = '027-154299' AND dischargeweight IS NOT NULL AND unitdischargetime IS NOT NULL\n) t\nORDER BY measure_time DESC\nLIMIT 1;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 958.0,
+      "num_output_tokens": 118.0,
+      "inference_runtime": 11.52871823310852,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "027-154299"
+        ],
+        "query_error": null
+      }
+    }
+  },
+  {
+    "instance_id": "id10909",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT MIN(v.observationtime) AS first_time\nFROM vitalperiodic v\nJOIN patient p ON p.patientunitstayid = v.patientunitstayid\nWHERE p.uniquepid = '013-38992'\n  AND v.heartrate < 94\n  AND v.observationtime >= TIMESTAMP '2105-12-31 00:00:00'\n  AND v.observationtime < TIMESTAMP '2106-01-01 00:00:00';",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 975.0,
+      "num_output_tokens": 99.0,
+      "inference_runtime": 13.460716962814331,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          "013-38992",
+          "heartrate",
+          94.0
+        ],
+        "query_error": "near \"'2105-12-31 00:00:00'\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id12137",
+    "train_trial_index": 0,
+    "predicted_text": "SELECT CASE \n  WHEN EXISTS (\n    SELECT 1\n    FROM patient p\n    JOIN lab l ON l.patientunitstayid = p.patientunitstayid\n    WHERE p.uniquepid = '008-40862'\n      AND (\n        l.labname ILIKE '%gene%' OR\n        l.labname ILIKE '%genetic%' OR\n        l.labname ILIKE '%genotype%' OR\n        l.labname ILIKE '%genomic%' OR\n        l.labname ILIKE '%mutation%' OR\n        l.labname ILIKE '%PCR%' OR\n        l.labname ILIKE '%sequenc%' OR\n        l.labname ILIKE '%FISH%' OR\n        l.labname ILIKE '%BRCA%' OR\n        l.labname ILIKE '%EGFR%' OR\n        l.labname ILIKE '%KRAS%' OR\n        l.labname ILIKE '%BRAF%'\n      )\n  )\n  OR EXISTS (\n    SELECT 1\n    FROM patient p\n    JOIN treatment t ON t.patientunitstayid = p.patientunitstayid\n    WHERE p.uniquepid = '008-40862'\n      AND (\n        t.treatmentname ILIKE '%genetic%' OR\n        t.treatmentname ILIKE '%gene%' OR\n        t.treatmentname ILIKE '%genotype%' OR\n        t.treatmentname ILIKE '%genomic%' OR\n        t.treatmentname ILIKE '%PCR%' OR\n        t.treatmentname ILIKE '%sequenc%' OR\n        t.treatmentname ILIKE '%FISH%'\n      )\n  )\n  OR EXISTS (\n    SELECT 1\n    FROM patient p\n    JOIN diagnosis d ON d.patientunitstayid = p.patientunitstayid\n    WHERE p.uniquepid = '008-40862'\n      AND (\n        d.diagnosisname ILIKE '%genetic test%' OR\n        d.diagnosisname ILIKE '%genetic%' OR\n        d.diagnosisname ILIKE '%gene%' OR\n        d.diagnosisname ILIKE '%genotype%' OR\n        d.diagnosisname ILIKE '%genomic%' OR\n        d.diagnosisname ILIKE '%mutation%' OR\n        d.diagnosisname ILIKE '%BRCA%' OR\n        d.diagnosisname ILIKE '%EGFR%' OR\n        d.diagnosisname ILIKE '%KRAS%' OR\n        d.diagnosisname ILIKE '%BRAF%'\n      )\n  )\n  THEN 'Yes' ELSE 'No' END AS had_gene_testing;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 957.0,
+      "num_output_tokens": 523.0,
+      "inference_runtime": 31.936749935150146,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [],
+        "query_error": "near \"ILIKE\": syntax error"
+      }
+    }
+  },
+  {
+    "instance_id": "id10461",
+    "train_trial_index": 0,
+    "predicted_text": "WITH first_visit AS (\n  SELECT p.patienthealthsystemstayid\n  FROM patient p\n  WHERE p.uniquepid = '016-3041'\n  ORDER BY p.hospitaladmittime\n  LIMIT 1\n),\nunits AS (\n  SELECT p.patientunitstayid\n  FROM patient p\n  JOIN first_visit fv ON p.patienthealthsystemstayid = fv.patienthealthsystemstayid\n),\nsodiums AS (\n  SELECT l.labresult, l.labresulttime,\n         ROW_NUMBER() OVER (ORDER BY l.labresulttime) AS rn\n  FROM lab l\n  JOIN units u ON l.patientunitstayid = u.patientunitstayid\n  WHERE LOWER(l.labname) LIKE '%sodium%'\n)\nSELECT s2.labresult - s1.labresult AS sodium_difference\nFROM (SELECT labresult FROM sodiums WHERE rn = 1) s1\nJOIN (SELECT labresult FROM sodiums WHERE rn = 2) s2 ON 1=1;",
+    "base64_images": [],
+    "stats": {
+      "ehr_sql_execution_accuracy": 0.0,
+      "num_prompt_tokens": 977.0,
+      "num_output_tokens": 204.0,
+      "inference_runtime": 18.312510013580322,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    },
+    "annotations": {
+      "ehr_sql": {
+        "predicted_result": [],
+        "ground_truth_result": [
+          [
+            null
+          ]
+        ],
+        "query_error": null
+      }
+    }
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "name": "head_qa",
+  "description": "HeadQA is a benchmark consisting of biomedical multiple-choice questions intended toevaluate a model's medical knowledge and reasoning. Each instance presents a clinicalor scientific question with four answer options, requiring the model to select the mostappropriate answer.",
+  "tags": [
+    "question_answering",
+    "biomedical",
+    "medicine"
+  ],
+  "definition_path": "https://github.com/stanford-crfm/helm/blob/main/src/helm/benchmark/scenarios/headqa_scenario.py"
+}

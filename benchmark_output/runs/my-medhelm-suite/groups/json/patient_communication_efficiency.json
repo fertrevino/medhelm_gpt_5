@@ -1,0 +1,167 @@
+{
+  "title": "Efficiency",
+  "header": [
+    {
+      "value": "Model",
+      "markdown": false,
+      "metadata": {}
+    },
+    {
+      "value": "Mean win rate",
+      "description": "How many models this model outperforms on average (over columns).",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {}
+    },
+    {
+      "value": "MedicationQA - Observed inference time (s)",
+      "description": "MedicationQA is a benchmark composed of open-ended consumer health questions specifically focused on medications. Each example consists of a free-form question and a corresponding medically grounded answer. The benchmark evaluates a model's ability to provide accurate, accessible, and informative medication-related responses for a lay audience.\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "MedicationQA"
+      }
+    },
+    {
+      "value": "PatientInstruct - Observed inference time (s)",
+      "description": "PatientInstruct is a benchmark designed to evaluate models on generating personalized post-procedure instructions for patients. It includes real-world clinical case details, such as diagnosis, planned procedures, and history and physical notes, from which models must produce clear, actionable instructions appropriate for patients recovering from medical interventions.\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "PatientInstruct"
+      }
+    },
+    {
+      "value": "MedDialog - Observed inference time (s)",
+      "description": "MedDialog is a benchmark of real-world doctor-patient conversations focused on health-related concerns and advice. Each dialogue is paired with a one-sentence summary that reflects the core patient question or exchange. The benchmark evaluates a model's ability to condense medical dialogue into concise, informative summaries.\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "MedDialog"
+      }
+    },
+    {
+      "value": "MedConfInfo - Observed inference time (s)",
+      "description": "MedConfInfo is a benchmark comprising clinical notes from adolescent patients. It is used to evaluate whether the content contains sensitive protected health information (PHI) that should be restricted from parental access, in accordance with adolescent confidentiality policies in clinical care. [(Rabbani et al., 2024)](https://jamanetwork.com/journals/jamapediatrics/fullarticle/2814109).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "MedConfInfo"
+      }
+    },
+    {
+      "value": "MEDIQA - Observed inference time (s)",
+      "description": "MEDIQA is a benchmark designed to evaluate a model's ability to retrieve and generate medically accurate answers to patient-generated questions. Each instance includes a consumer health question, a set of candidate answers (used in ranking tasks), relevance annotations, and optionally, additional context. The benchmark focuses on supporting patient understanding and accessibility in health communication.\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "MEDIQA"
+      }
+    },
+    {
+      "value": "MentalHealth - Observed inference time (s)",
+      "description": "MentalHealth is a benchmark focused on evaluating empathetic communication in mental health counseling. It includes real or simulated conversations between patients and counselors, where the task is to generate compassionate and appropriate counselor responses. The benchmark assesses a model's ability to support patients emotionally and meaningfully engage in therapeutic conversations.\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "MentalHealth"
+      }
+    },
+    {
+      "value": "ProxySender - Observed inference time (s)",
+      "description": "ProxySender is a benchmark composed of patient portal messages received by clinicians. It evaluates whether the message was sent by the patient or by a proxy user (e.g., parent, spouse), which is critical for understanding who is communicating with healthcare providers. [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "ProxySender"
+      }
+    },
+    {
+      "value": "PrivacyDetection - Observed inference time (s)",
+      "description": "PrivacyDetection is a benchmark composed of patient portal messages submitted by patients or caregivers. The task is to determine whether the message contains any confidential or privacy-leaking information that should be protected [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "PrivacyDetection"
+      }
+    }
+  ],
+  "rows": [
+    [
+      {
+        "value": "GPT 5",
+        "description": "",
+        "markdown": false
+      },
+      {
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "value": 6.872510290145874,
+        "description": "min=6.421, mean=6.873, max=7.324, sum=13.745 (2)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "med_dialog,subset=healthcaremagic:model=openai_gpt-5",
+          "med_dialog,subset=icliniq:model=openai_gpt-5"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "value": 45.059830737113955,
+        "description": "min=45.06, mean=45.06, max=45.06, sum=45.06 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "medi_qa:model=openai_gpt-5"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      }
+    ]
+  ],
+  "links": [
+    {
+      "text": "LaTeX",
+      "href": "benchmark_output/runs/my-medhelm-suite/groups/latex/patient_communication_efficiency.tex"
+    },
+    {
+      "text": "JSON",
+      "href": "benchmark_output/runs/my-medhelm-suite/groups/json/patient_communication_efficiency.json"
+    }
+  ],
+  "name": "efficiency"
+}

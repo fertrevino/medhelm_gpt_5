@@ -1,0 +1,941 @@
+[
+  {
+    "title": "Accuracy",
+    "header": [
+      {
+        "value": "Model",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "Mean win rate",
+        "description": "How many models this model outperforms on average (over columns).",
+        "markdown": false,
+        "lower_is_better": false,
+        "metadata": {}
+      },
+      {
+        "value": "MedicationQA - Jury Score",
+        "description": "MedicationQA is a benchmark composed of open-ended consumer health questions specifically focused on medications. Each example consists of a free-form question and a corresponding medically grounded answer. The benchmark evaluates a model's ability to provide accurate, accessible, and informative medication-related responses for a lay audience.\n\nMedicationQA Jury Score: Measures the average score assigned by an LLM-based jury evaluating task performance.",
+        "markdown": false,
+        "lower_is_better": false,
+        "metadata": {
+          "metric": "Jury Score",
+          "run_group": "MedicationQA"
+        }
+      },
+      {
+        "value": "PatientInstruct - Jury Score",
+        "description": "PatientInstruct is a benchmark designed to evaluate models on generating personalized post-procedure instructions for patients. It includes real-world clinical case details, such as diagnosis, planned procedures, and history and physical notes, from which models must produce clear, actionable instructions appropriate for patients recovering from medical interventions.\n\nPatientInstruct Jury Score: Measures the average score assigned by an LLM-based jury evaluating task performance.",
+        "markdown": false,
+        "lower_is_better": false,
+        "metadata": {
+          "metric": "Jury Score",
+          "run_group": "PatientInstruct"
+        }
+      },
+      {
+        "value": "MedDialog - Jury Score",
+        "description": "MedDialog is a benchmark of real-world doctor-patient conversations focused on health-related concerns and advice. Each dialogue is paired with a one-sentence summary that reflects the core patient question or exchange. The benchmark evaluates a model's ability to condense medical dialogue into concise, informative summaries.\n\nMedDialog Jury Score: Measures the average score assigned by an LLM-based jury evaluating task performance.",
+        "markdown": false,
+        "lower_is_better": false,
+        "metadata": {
+          "metric": "Jury Score",
+          "run_group": "MedDialog"
+        }
+      },
+      {
+        "value": "MedConfInfo - EM",
+        "description": "MedConfInfo is a benchmark comprising clinical notes from adolescent patients. It is used to evaluate whether the content contains sensitive protected health information (PHI) that should be restricted from parental access, in accordance with adolescent confidentiality policies in clinical care. [(Rabbani et al., 2024)](https://jamanetwork.com/journals/jamapediatrics/fullarticle/2814109).\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+        "markdown": false,
+        "lower_is_better": false,
+        "metadata": {
+          "metric": "EM",
+          "run_group": "MedConfInfo"
+        }
+      },
+      {
+        "value": "MEDIQA - Jury Score",
+        "description": "MEDIQA is a benchmark designed to evaluate a model's ability to retrieve and generate medically accurate answers to patient-generated questions. Each instance includes a consumer health question, a set of candidate answers (used in ranking tasks), relevance annotations, and optionally, additional context. The benchmark focuses on supporting patient understanding and accessibility in health communication.\n\nMediQA Jury Score: Measures the average score assigned by an LLM-based jury evaluating task performance.",
+        "markdown": false,
+        "lower_is_better": false,
+        "metadata": {
+          "metric": "Jury Score",
+          "run_group": "MEDIQA"
+        }
+      },
+      {
+        "value": "MentalHealth - Jury Score",
+        "description": "MentalHealth is a benchmark focused on evaluating empathetic communication in mental health counseling. It includes real or simulated conversations between patients and counselors, where the task is to generate compassionate and appropriate counselor responses. The benchmark assesses a model's ability to support patients emotionally and meaningfully engage in therapeutic conversations.\n\nMentalHealth Jury Score: Measures the average score assigned by an LLM-based jury evaluating task performance.",
+        "markdown": false,
+        "lower_is_better": false,
+        "metadata": {
+          "metric": "Jury Score",
+          "run_group": "MentalHealth"
+        }
+      },
+      {
+        "value": "ProxySender - EM",
+        "description": "ProxySender is a benchmark composed of patient portal messages received by clinicians. It evaluates whether the message was sent by the patient or by a proxy user (e.g., parent, spouse), which is critical for understanding who is communicating with healthcare providers. [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+        "markdown": false,
+        "lower_is_better": false,
+        "metadata": {
+          "metric": "EM",
+          "run_group": "ProxySender"
+        }
+      },
+      {
+        "value": "PrivacyDetection - EM",
+        "description": "PrivacyDetection is a benchmark composed of patient portal messages submitted by patients or caregivers. The task is to determine whether the message contains any confidential or privacy-leaking information that should be protected [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+        "markdown": false,
+        "lower_is_better": false,
+        "metadata": {
+          "metric": "EM",
+          "run_group": "PrivacyDetection"
+        }
+      }
+    ],
+    "rows": [
+      [
+        {
+          "value": "GPT 5",
+          "description": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "value": 1.0,
+          "description": "min=1, mean=1, max=1, sum=2 (2)",
+          "style": {
+            "font-weight": "bold"
+          },
+          "markdown": false,
+          "run_spec_names": [
+            "med_dialog,subset=healthcaremagic:model=openai_gpt-5",
+            "med_dialog,subset=icliniq:model=openai_gpt-5"
+          ]
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "value": 1.0,
+          "description": "min=1, mean=1, max=1, sum=1 (1)",
+          "style": {
+            "font-weight": "bold"
+          },
+          "markdown": false,
+          "run_spec_names": [
+            "medi_qa:model=openai_gpt-5"
+          ]
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        }
+      ]
+    ],
+    "links": [
+      {
+        "text": "LaTeX",
+        "href": "benchmark_output/runs/my-medhelm-suite/groups/latex/patient_communication_accuracy.tex"
+      },
+      {
+        "text": "JSON",
+        "href": "benchmark_output/runs/my-medhelm-suite/groups/json/patient_communication_accuracy.json"
+      }
+    ],
+    "name": "accuracy"
+  },
+  {
+    "title": "Efficiency",
+    "header": [
+      {
+        "value": "Model",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "Mean win rate",
+        "description": "How many models this model outperforms on average (over columns).",
+        "markdown": false,
+        "lower_is_better": false,
+        "metadata": {}
+      },
+      {
+        "value": "MedicationQA - Observed inference time (s)",
+        "description": "MedicationQA is a benchmark composed of open-ended consumer health questions specifically focused on medications. Each example consists of a free-form question and a corresponding medically grounded answer. The benchmark evaluates a model's ability to provide accurate, accessible, and informative medication-related responses for a lay audience.\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+        "markdown": false,
+        "lower_is_better": true,
+        "metadata": {
+          "metric": "Observed inference time (s)",
+          "run_group": "MedicationQA"
+        }
+      },
+      {
+        "value": "PatientInstruct - Observed inference time (s)",
+        "description": "PatientInstruct is a benchmark designed to evaluate models on generating personalized post-procedure instructions for patients. It includes real-world clinical case details, such as diagnosis, planned procedures, and history and physical notes, from which models must produce clear, actionable instructions appropriate for patients recovering from medical interventions.\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+        "markdown": false,
+        "lower_is_better": true,
+        "metadata": {
+          "metric": "Observed inference time (s)",
+          "run_group": "PatientInstruct"
+        }
+      },
+      {
+        "value": "MedDialog - Observed inference time (s)",
+        "description": "MedDialog is a benchmark of real-world doctor-patient conversations focused on health-related concerns and advice. Each dialogue is paired with a one-sentence summary that reflects the core patient question or exchange. The benchmark evaluates a model's ability to condense medical dialogue into concise, informative summaries.\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+        "markdown": false,
+        "lower_is_better": true,
+        "metadata": {
+          "metric": "Observed inference time (s)",
+          "run_group": "MedDialog"
+        }
+      },
+      {
+        "value": "MedConfInfo - Observed inference time (s)",
+        "description": "MedConfInfo is a benchmark comprising clinical notes from adolescent patients. It is used to evaluate whether the content contains sensitive protected health information (PHI) that should be restricted from parental access, in accordance with adolescent confidentiality policies in clinical care. [(Rabbani et al., 2024)](https://jamanetwork.com/journals/jamapediatrics/fullarticle/2814109).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+        "markdown": false,
+        "lower_is_better": true,
+        "metadata": {
+          "metric": "Observed inference time (s)",
+          "run_group": "MedConfInfo"
+        }
+      },
+      {
+        "value": "MEDIQA - Observed inference time (s)",
+        "description": "MEDIQA is a benchmark designed to evaluate a model's ability to retrieve and generate medically accurate answers to patient-generated questions. Each instance includes a consumer health question, a set of candidate answers (used in ranking tasks), relevance annotations, and optionally, additional context. The benchmark focuses on supporting patient understanding and accessibility in health communication.\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+        "markdown": false,
+        "lower_is_better": true,
+        "metadata": {
+          "metric": "Observed inference time (s)",
+          "run_group": "MEDIQA"
+        }
+      },
+      {
+        "value": "MentalHealth - Observed inference time (s)",
+        "description": "MentalHealth is a benchmark focused on evaluating empathetic communication in mental health counseling. It includes real or simulated conversations between patients and counselors, where the task is to generate compassionate and appropriate counselor responses. The benchmark assesses a model's ability to support patients emotionally and meaningfully engage in therapeutic conversations.\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+        "markdown": false,
+        "lower_is_better": true,
+        "metadata": {
+          "metric": "Observed inference time (s)",
+          "run_group": "MentalHealth"
+        }
+      },
+      {
+        "value": "ProxySender - Observed inference time (s)",
+        "description": "ProxySender is a benchmark composed of patient portal messages received by clinicians. It evaluates whether the message was sent by the patient or by a proxy user (e.g., parent, spouse), which is critical for understanding who is communicating with healthcare providers. [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+        "markdown": false,
+        "lower_is_better": true,
+        "metadata": {
+          "metric": "Observed inference time (s)",
+          "run_group": "ProxySender"
+        }
+      },
+      {
+        "value": "PrivacyDetection - Observed inference time (s)",
+        "description": "PrivacyDetection is a benchmark composed of patient portal messages submitted by patients or caregivers. The task is to determine whether the message contains any confidential or privacy-leaking information that should be protected [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+        "markdown": false,
+        "lower_is_better": true,
+        "metadata": {
+          "metric": "Observed inference time (s)",
+          "run_group": "PrivacyDetection"
+        }
+      }
+    ],
+    "rows": [
+      [
+        {
+          "value": "GPT 5",
+          "description": "",
+          "markdown": false
+        },
+        {
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "value": 6.872510290145874,
+          "description": "min=6.421, mean=6.873, max=7.324, sum=13.745 (2)",
+          "style": {
+            "font-weight": "bold"
+          },
+          "markdown": false,
+          "run_spec_names": [
+            "med_dialog,subset=healthcaremagic:model=openai_gpt-5",
+            "med_dialog,subset=icliniq:model=openai_gpt-5"
+          ]
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "value": 45.059830737113955,
+          "description": "min=45.06, mean=45.06, max=45.06, sum=45.06 (1)",
+          "style": {
+            "font-weight": "bold"
+          },
+          "markdown": false,
+          "run_spec_names": [
+            "medi_qa:model=openai_gpt-5"
+          ]
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        }
+      ]
+    ],
+    "links": [
+      {
+        "text": "LaTeX",
+        "href": "benchmark_output/runs/my-medhelm-suite/groups/latex/patient_communication_efficiency.tex"
+      },
+      {
+        "text": "JSON",
+        "href": "benchmark_output/runs/my-medhelm-suite/groups/json/patient_communication_efficiency.json"
+      }
+    ],
+    "name": "efficiency"
+  },
+  {
+    "title": "General information",
+    "header": [
+      {
+        "value": "Model",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "MedicationQA - # eval",
+        "description": "MedicationQA is a benchmark composed of open-ended consumer health questions specifically focused on medications. Each example consists of a free-form question and a corresponding medically grounded answer. The benchmark evaluates a model's ability to provide accurate, accessible, and informative medication-related responses for a lay audience.\n\n# eval: Number of evaluation instances.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# eval",
+          "run_group": "MedicationQA"
+        }
+      },
+      {
+        "value": "MedicationQA - # train",
+        "description": "MedicationQA is a benchmark composed of open-ended consumer health questions specifically focused on medications. Each example consists of a free-form question and a corresponding medically grounded answer. The benchmark evaluates a model's ability to provide accurate, accessible, and informative medication-related responses for a lay audience.\n\n# train: Number of training instances (e.g., in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "# train",
+          "run_group": "MedicationQA"
+        }
+      },
+      {
+        "value": "MedicationQA - truncated",
+        "description": "MedicationQA is a benchmark composed of open-ended consumer health questions specifically focused on medications. Each example consists of a free-form question and a corresponding medically grounded answer. The benchmark evaluates a model's ability to provide accurate, accessible, and informative medication-related responses for a lay audience.\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "truncated",
+          "run_group": "MedicationQA"
+        }
+      },
+      {
+        "value": "MedicationQA - # prompt tokens",
+        "description": "MedicationQA is a benchmark composed of open-ended consumer health questions specifically focused on medications. Each example consists of a free-form question and a corresponding medically grounded answer. The benchmark evaluates a model's ability to provide accurate, accessible, and informative medication-related responses for a lay audience.\n\n# prompt tokens: Number of tokens in the prompt.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# prompt tokens",
+          "run_group": "MedicationQA"
+        }
+      },
+      {
+        "value": "MedicationQA - # output tokens",
+        "description": "MedicationQA is a benchmark composed of open-ended consumer health questions specifically focused on medications. Each example consists of a free-form question and a corresponding medically grounded answer. The benchmark evaluates a model's ability to provide accurate, accessible, and informative medication-related responses for a lay audience.\n\n# output tokens: Actual number of output tokens.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# output tokens",
+          "run_group": "MedicationQA"
+        }
+      },
+      {
+        "value": "PatientInstruct - # eval",
+        "description": "PatientInstruct is a benchmark designed to evaluate models on generating personalized post-procedure instructions for patients. It includes real-world clinical case details, such as diagnosis, planned procedures, and history and physical notes, from which models must produce clear, actionable instructions appropriate for patients recovering from medical interventions.\n\n# eval: Number of evaluation instances.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# eval",
+          "run_group": "PatientInstruct"
+        }
+      },
+      {
+        "value": "PatientInstruct - # train",
+        "description": "PatientInstruct is a benchmark designed to evaluate models on generating personalized post-procedure instructions for patients. It includes real-world clinical case details, such as diagnosis, planned procedures, and history and physical notes, from which models must produce clear, actionable instructions appropriate for patients recovering from medical interventions.\n\n# train: Number of training instances (e.g., in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "# train",
+          "run_group": "PatientInstruct"
+        }
+      },
+      {
+        "value": "PatientInstruct - truncated",
+        "description": "PatientInstruct is a benchmark designed to evaluate models on generating personalized post-procedure instructions for patients. It includes real-world clinical case details, such as diagnosis, planned procedures, and history and physical notes, from which models must produce clear, actionable instructions appropriate for patients recovering from medical interventions.\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "truncated",
+          "run_group": "PatientInstruct"
+        }
+      },
+      {
+        "value": "PatientInstruct - # prompt tokens",
+        "description": "PatientInstruct is a benchmark designed to evaluate models on generating personalized post-procedure instructions for patients. It includes real-world clinical case details, such as diagnosis, planned procedures, and history and physical notes, from which models must produce clear, actionable instructions appropriate for patients recovering from medical interventions.\n\n# prompt tokens: Number of tokens in the prompt.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# prompt tokens",
+          "run_group": "PatientInstruct"
+        }
+      },
+      {
+        "value": "PatientInstruct - # output tokens",
+        "description": "PatientInstruct is a benchmark designed to evaluate models on generating personalized post-procedure instructions for patients. It includes real-world clinical case details, such as diagnosis, planned procedures, and history and physical notes, from which models must produce clear, actionable instructions appropriate for patients recovering from medical interventions.\n\n# output tokens: Actual number of output tokens.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# output tokens",
+          "run_group": "PatientInstruct"
+        }
+      },
+      {
+        "value": "MedDialog - # eval",
+        "description": "MedDialog is a benchmark of real-world doctor-patient conversations focused on health-related concerns and advice. Each dialogue is paired with a one-sentence summary that reflects the core patient question or exchange. The benchmark evaluates a model's ability to condense medical dialogue into concise, informative summaries.\n\n# eval: Number of evaluation instances.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# eval",
+          "run_group": "MedDialog"
+        }
+      },
+      {
+        "value": "MedDialog - # train",
+        "description": "MedDialog is a benchmark of real-world doctor-patient conversations focused on health-related concerns and advice. Each dialogue is paired with a one-sentence summary that reflects the core patient question or exchange. The benchmark evaluates a model's ability to condense medical dialogue into concise, informative summaries.\n\n# train: Number of training instances (e.g., in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "# train",
+          "run_group": "MedDialog"
+        }
+      },
+      {
+        "value": "MedDialog - truncated",
+        "description": "MedDialog is a benchmark of real-world doctor-patient conversations focused on health-related concerns and advice. Each dialogue is paired with a one-sentence summary that reflects the core patient question or exchange. The benchmark evaluates a model's ability to condense medical dialogue into concise, informative summaries.\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "truncated",
+          "run_group": "MedDialog"
+        }
+      },
+      {
+        "value": "MedDialog - # prompt tokens",
+        "description": "MedDialog is a benchmark of real-world doctor-patient conversations focused on health-related concerns and advice. Each dialogue is paired with a one-sentence summary that reflects the core patient question or exchange. The benchmark evaluates a model's ability to condense medical dialogue into concise, informative summaries.\n\n# prompt tokens: Number of tokens in the prompt.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# prompt tokens",
+          "run_group": "MedDialog"
+        }
+      },
+      {
+        "value": "MedDialog - # output tokens",
+        "description": "MedDialog is a benchmark of real-world doctor-patient conversations focused on health-related concerns and advice. Each dialogue is paired with a one-sentence summary that reflects the core patient question or exchange. The benchmark evaluates a model's ability to condense medical dialogue into concise, informative summaries.\n\n# output tokens: Actual number of output tokens.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# output tokens",
+          "run_group": "MedDialog"
+        }
+      },
+      {
+        "value": "MedConfInfo - # eval",
+        "description": "MedConfInfo is a benchmark comprising clinical notes from adolescent patients. It is used to evaluate whether the content contains sensitive protected health information (PHI) that should be restricted from parental access, in accordance with adolescent confidentiality policies in clinical care. [(Rabbani et al., 2024)](https://jamanetwork.com/journals/jamapediatrics/fullarticle/2814109).\n\n# eval: Number of evaluation instances.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# eval",
+          "run_group": "MedConfInfo"
+        }
+      },
+      {
+        "value": "MedConfInfo - # train",
+        "description": "MedConfInfo is a benchmark comprising clinical notes from adolescent patients. It is used to evaluate whether the content contains sensitive protected health information (PHI) that should be restricted from parental access, in accordance with adolescent confidentiality policies in clinical care. [(Rabbani et al., 2024)](https://jamanetwork.com/journals/jamapediatrics/fullarticle/2814109).\n\n# train: Number of training instances (e.g., in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "# train",
+          "run_group": "MedConfInfo"
+        }
+      },
+      {
+        "value": "MedConfInfo - truncated",
+        "description": "MedConfInfo is a benchmark comprising clinical notes from adolescent patients. It is used to evaluate whether the content contains sensitive protected health information (PHI) that should be restricted from parental access, in accordance with adolescent confidentiality policies in clinical care. [(Rabbani et al., 2024)](https://jamanetwork.com/journals/jamapediatrics/fullarticle/2814109).\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "truncated",
+          "run_group": "MedConfInfo"
+        }
+      },
+      {
+        "value": "MedConfInfo - # prompt tokens",
+        "description": "MedConfInfo is a benchmark comprising clinical notes from adolescent patients. It is used to evaluate whether the content contains sensitive protected health information (PHI) that should be restricted from parental access, in accordance with adolescent confidentiality policies in clinical care. [(Rabbani et al., 2024)](https://jamanetwork.com/journals/jamapediatrics/fullarticle/2814109).\n\n# prompt tokens: Number of tokens in the prompt.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# prompt tokens",
+          "run_group": "MedConfInfo"
+        }
+      },
+      {
+        "value": "MedConfInfo - # output tokens",
+        "description": "MedConfInfo is a benchmark comprising clinical notes from adolescent patients. It is used to evaluate whether the content contains sensitive protected health information (PHI) that should be restricted from parental access, in accordance with adolescent confidentiality policies in clinical care. [(Rabbani et al., 2024)](https://jamanetwork.com/journals/jamapediatrics/fullarticle/2814109).\n\n# output tokens: Actual number of output tokens.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# output tokens",
+          "run_group": "MedConfInfo"
+        }
+      },
+      {
+        "value": "MEDIQA - # eval",
+        "description": "MEDIQA is a benchmark designed to evaluate a model's ability to retrieve and generate medically accurate answers to patient-generated questions. Each instance includes a consumer health question, a set of candidate answers (used in ranking tasks), relevance annotations, and optionally, additional context. The benchmark focuses on supporting patient understanding and accessibility in health communication.\n\n# eval: Number of evaluation instances.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# eval",
+          "run_group": "MEDIQA"
+        }
+      },
+      {
+        "value": "MEDIQA - # train",
+        "description": "MEDIQA is a benchmark designed to evaluate a model's ability to retrieve and generate medically accurate answers to patient-generated questions. Each instance includes a consumer health question, a set of candidate answers (used in ranking tasks), relevance annotations, and optionally, additional context. The benchmark focuses on supporting patient understanding and accessibility in health communication.\n\n# train: Number of training instances (e.g., in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "# train",
+          "run_group": "MEDIQA"
+        }
+      },
+      {
+        "value": "MEDIQA - truncated",
+        "description": "MEDIQA is a benchmark designed to evaluate a model's ability to retrieve and generate medically accurate answers to patient-generated questions. Each instance includes a consumer health question, a set of candidate answers (used in ranking tasks), relevance annotations, and optionally, additional context. The benchmark focuses on supporting patient understanding and accessibility in health communication.\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "truncated",
+          "run_group": "MEDIQA"
+        }
+      },
+      {
+        "value": "MEDIQA - # prompt tokens",
+        "description": "MEDIQA is a benchmark designed to evaluate a model's ability to retrieve and generate medically accurate answers to patient-generated questions. Each instance includes a consumer health question, a set of candidate answers (used in ranking tasks), relevance annotations, and optionally, additional context. The benchmark focuses on supporting patient understanding and accessibility in health communication.\n\n# prompt tokens: Number of tokens in the prompt.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# prompt tokens",
+          "run_group": "MEDIQA"
+        }
+      },
+      {
+        "value": "MEDIQA - # output tokens",
+        "description": "MEDIQA is a benchmark designed to evaluate a model's ability to retrieve and generate medically accurate answers to patient-generated questions. Each instance includes a consumer health question, a set of candidate answers (used in ranking tasks), relevance annotations, and optionally, additional context. The benchmark focuses on supporting patient understanding and accessibility in health communication.\n\n# output tokens: Actual number of output tokens.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# output tokens",
+          "run_group": "MEDIQA"
+        }
+      },
+      {
+        "value": "MentalHealth - # eval",
+        "description": "MentalHealth is a benchmark focused on evaluating empathetic communication in mental health counseling. It includes real or simulated conversations between patients and counselors, where the task is to generate compassionate and appropriate counselor responses. The benchmark assesses a model's ability to support patients emotionally and meaningfully engage in therapeutic conversations.\n\n# eval: Number of evaluation instances.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# eval",
+          "run_group": "MentalHealth"
+        }
+      },
+      {
+        "value": "MentalHealth - # train",
+        "description": "MentalHealth is a benchmark focused on evaluating empathetic communication in mental health counseling. It includes real or simulated conversations between patients and counselors, where the task is to generate compassionate and appropriate counselor responses. The benchmark assesses a model's ability to support patients emotionally and meaningfully engage in therapeutic conversations.\n\n# train: Number of training instances (e.g., in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "# train",
+          "run_group": "MentalHealth"
+        }
+      },
+      {
+        "value": "MentalHealth - truncated",
+        "description": "MentalHealth is a benchmark focused on evaluating empathetic communication in mental health counseling. It includes real or simulated conversations between patients and counselors, where the task is to generate compassionate and appropriate counselor responses. The benchmark assesses a model's ability to support patients emotionally and meaningfully engage in therapeutic conversations.\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "truncated",
+          "run_group": "MentalHealth"
+        }
+      },
+      {
+        "value": "MentalHealth - # prompt tokens",
+        "description": "MentalHealth is a benchmark focused on evaluating empathetic communication in mental health counseling. It includes real or simulated conversations between patients and counselors, where the task is to generate compassionate and appropriate counselor responses. The benchmark assesses a model's ability to support patients emotionally and meaningfully engage in therapeutic conversations.\n\n# prompt tokens: Number of tokens in the prompt.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# prompt tokens",
+          "run_group": "MentalHealth"
+        }
+      },
+      {
+        "value": "MentalHealth - # output tokens",
+        "description": "MentalHealth is a benchmark focused on evaluating empathetic communication in mental health counseling. It includes real or simulated conversations between patients and counselors, where the task is to generate compassionate and appropriate counselor responses. The benchmark assesses a model's ability to support patients emotionally and meaningfully engage in therapeutic conversations.\n\n# output tokens: Actual number of output tokens.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# output tokens",
+          "run_group": "MentalHealth"
+        }
+      },
+      {
+        "value": "ProxySender - # eval",
+        "description": "ProxySender is a benchmark composed of patient portal messages received by clinicians. It evaluates whether the message was sent by the patient or by a proxy user (e.g., parent, spouse), which is critical for understanding who is communicating with healthcare providers. [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).\n\n# eval: Number of evaluation instances.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# eval",
+          "run_group": "ProxySender"
+        }
+      },
+      {
+        "value": "ProxySender - # train",
+        "description": "ProxySender is a benchmark composed of patient portal messages received by clinicians. It evaluates whether the message was sent by the patient or by a proxy user (e.g., parent, spouse), which is critical for understanding who is communicating with healthcare providers. [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).\n\n# train: Number of training instances (e.g., in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "# train",
+          "run_group": "ProxySender"
+        }
+      },
+      {
+        "value": "ProxySender - truncated",
+        "description": "ProxySender is a benchmark composed of patient portal messages received by clinicians. It evaluates whether the message was sent by the patient or by a proxy user (e.g., parent, spouse), which is critical for understanding who is communicating with healthcare providers. [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "truncated",
+          "run_group": "ProxySender"
+        }
+      },
+      {
+        "value": "ProxySender - # prompt tokens",
+        "description": "ProxySender is a benchmark composed of patient portal messages received by clinicians. It evaluates whether the message was sent by the patient or by a proxy user (e.g., parent, spouse), which is critical for understanding who is communicating with healthcare providers. [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).\n\n# prompt tokens: Number of tokens in the prompt.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# prompt tokens",
+          "run_group": "ProxySender"
+        }
+      },
+      {
+        "value": "ProxySender - # output tokens",
+        "description": "ProxySender is a benchmark composed of patient portal messages received by clinicians. It evaluates whether the message was sent by the patient or by a proxy user (e.g., parent, spouse), which is critical for understanding who is communicating with healthcare providers. [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).\n\n# output tokens: Actual number of output tokens.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# output tokens",
+          "run_group": "ProxySender"
+        }
+      },
+      {
+        "value": "PrivacyDetection - # eval",
+        "description": "PrivacyDetection is a benchmark composed of patient portal messages submitted by patients or caregivers. The task is to determine whether the message contains any confidential or privacy-leaking information that should be protected [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).\n\n# eval: Number of evaluation instances.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# eval",
+          "run_group": "PrivacyDetection"
+        }
+      },
+      {
+        "value": "PrivacyDetection - # train",
+        "description": "PrivacyDetection is a benchmark composed of patient portal messages submitted by patients or caregivers. The task is to determine whether the message contains any confidential or privacy-leaking information that should be protected [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).\n\n# train: Number of training instances (e.g., in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "# train",
+          "run_group": "PrivacyDetection"
+        }
+      },
+      {
+        "value": "PrivacyDetection - truncated",
+        "description": "PrivacyDetection is a benchmark composed of patient portal messages submitted by patients or caregivers. The task is to determine whether the message contains any confidential or privacy-leaking information that should be protected [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "truncated",
+          "run_group": "PrivacyDetection"
+        }
+      },
+      {
+        "value": "PrivacyDetection - # prompt tokens",
+        "description": "PrivacyDetection is a benchmark composed of patient portal messages submitted by patients or caregivers. The task is to determine whether the message contains any confidential or privacy-leaking information that should be protected [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).\n\n# prompt tokens: Number of tokens in the prompt.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# prompt tokens",
+          "run_group": "PrivacyDetection"
+        }
+      },
+      {
+        "value": "PrivacyDetection - # output tokens",
+        "description": "PrivacyDetection is a benchmark composed of patient portal messages submitted by patients or caregivers. The task is to determine whether the message contains any confidential or privacy-leaking information that should be protected [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).\n\n# output tokens: Actual number of output tokens.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# output tokens",
+          "run_group": "PrivacyDetection"
+        }
+      }
+    ],
+    "rows": [
+      [
+        {
+          "value": "GPT 5",
+          "description": "",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "value": 10.0,
+          "description": "min=10, mean=10, max=10, sum=20 (2)",
+          "style": {},
+          "markdown": false,
+          "run_spec_names": [
+            "med_dialog,subset=healthcaremagic:model=openai_gpt-5",
+            "med_dialog,subset=icliniq:model=openai_gpt-5"
+          ]
+        },
+        {
+          "value": 0.0,
+          "description": "min=0, mean=0, max=0, sum=0 (2)",
+          "style": {},
+          "markdown": false,
+          "run_spec_names": [
+            "med_dialog,subset=healthcaremagic:model=openai_gpt-5",
+            "med_dialog,subset=icliniq:model=openai_gpt-5"
+          ]
+        },
+        {
+          "value": 0.0,
+          "description": "min=0, mean=0, max=0, sum=0 (2)",
+          "style": {},
+          "markdown": false,
+          "run_spec_names": [
+            "med_dialog,subset=healthcaremagic:model=openai_gpt-5",
+            "med_dialog,subset=icliniq:model=openai_gpt-5"
+          ]
+        },
+        {
+          "value": 314.4,
+          "description": "min=248.3, mean=314.4, max=380.5, sum=628.8 (2)",
+          "style": {},
+          "markdown": false,
+          "run_spec_names": [
+            "med_dialog,subset=healthcaremagic:model=openai_gpt-5",
+            "med_dialog,subset=icliniq:model=openai_gpt-5"
+          ]
+        },
+        {
+          "value": 65.1,
+          "description": "min=63.3, mean=65.1, max=66.9, sum=130.2 (2)",
+          "style": {},
+          "markdown": false,
+          "run_spec_names": [
+            "med_dialog,subset=healthcaremagic:model=openai_gpt-5",
+            "med_dialog,subset=icliniq:model=openai_gpt-5"
+          ]
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "value": 10.0,
+          "description": "min=10, mean=10, max=10, sum=10 (1)",
+          "style": {},
+          "markdown": false,
+          "run_spec_names": [
+            "medi_qa:model=openai_gpt-5"
+          ]
+        },
+        {
+          "value": 0.0,
+          "description": "min=0, mean=0, max=0, sum=0 (1)",
+          "style": {},
+          "markdown": false,
+          "run_spec_names": [
+            "medi_qa:model=openai_gpt-5"
+          ]
+        },
+        {
+          "value": 0.0,
+          "description": "min=0, mean=0, max=0, sum=0 (1)",
+          "style": {},
+          "markdown": false,
+          "run_spec_names": [
+            "medi_qa:model=openai_gpt-5"
+          ]
+        },
+        {
+          "value": 38.6,
+          "description": "min=38.6, mean=38.6, max=38.6, sum=38.6 (1)",
+          "style": {},
+          "markdown": false,
+          "run_spec_names": [
+            "medi_qa:model=openai_gpt-5"
+          ]
+        },
+        {
+          "value": 744.6,
+          "description": "min=744.6, mean=744.6, max=744.6, sum=744.6 (1)",
+          "style": {},
+          "markdown": false,
+          "run_spec_names": [
+            "medi_qa:model=openai_gpt-5"
+          ]
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        },
+        {
+          "description": "No matching runs",
+          "markdown": false
+        }
+      ]
+    ],
+    "links": [
+      {
+        "text": "LaTeX",
+        "href": "benchmark_output/runs/my-medhelm-suite/groups/latex/patient_communication_general_information.tex"
+      },
+      {
+        "text": "JSON",
+        "href": "benchmark_output/runs/my-medhelm-suite/groups/json/patient_communication_general_information.json"
+      }
+    ],
+    "name": "general_information"
+  }
+]

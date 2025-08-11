@@ -1,0 +1,615 @@
+{
+  "title": "Accuracy",
+  "header": [
+    {
+      "value": "Model",
+      "markdown": false,
+      "metadata": {}
+    },
+    {
+      "value": "Mean win rate",
+      "description": "How many models this model outperforms on average (over columns).",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {}
+    },
+    {
+      "value": "MedCalc-Bench - MedCalc Accuracy",
+      "description": "MedCalc-Bench is a benchmark designed to evaluate models on their ability to compute clinically relevant values from patient notes. Each instance consists of a clinical note describing the patient's condition, a diagnostic question targeting a specific medical value, and a ground truth response. [(Khandekar et al., 2024)](https://arxiv.org/abs/2406.12036).\n\nMedCalc Accuracy: Comparison based on category. Exact match for categories risk, severity and diagnosis. Check if within range for the other categories.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "MedCalc Accuracy",
+        "run_group": "MedCalc-Bench"
+      }
+    },
+    {
+      "value": "CLEAR - EM",
+      "description": "CLEAR is a benchmark designed to evaluate models on their ability to detect medical conditions from patient notes using categorical responses. Each instance consists of a clinical note and a target condition, requiring the model to classify the patient's history as either affirmative, negative, or uncertain [(Lopez et al., 2025)](https://www.nature.com/articles/s41746-024-01377-1).\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "CLEAR"
+      }
+    },
+    {
+      "value": "MTSamples - Jury Score",
+      "description": "MTSamples Replicate is a benchmark that provides transcribed medical reports from various specialties. It is used to evaluate a model's ability to generate clinically appropriate treatment plans based on unstructured patient documentation [(MTSamples, 2025)](https://mtsamples.com).\n\nMTSamples Replicate Jury Score: Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "Jury Score",
+        "run_group": "MTSamples"
+      }
+    },
+    {
+      "value": "Medec - MedecFlagAcc",
+      "description": "Medec is a benchmark composed of clinical narratives that include either correct documentation or medical errors. Each entry includes sentence-level identifiers and an associated correction task. The model must review the narrative and either identify the erroneous sentence and correct it, or confirm that the text is entirely accurate [(Abacha et al., 2025)](https://arxiv.org/abs/2412.19260).\n\nMedical Error Flag Accuracy: Measures how accurately the model identifies whether a clinical note contains an error (binary classification of correct/incorrect).",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "MedecFlagAcc",
+        "run_group": "Medec"
+      }
+    },
+    {
+      "value": "EHRSHOT - EM",
+      "description": "EHRSHOT is a benchmark designed to evaluate a model's ability to predict future clinical events using structured EHR code sequences. Each instance contains a patient's historical EHR data and a forward-looking clinical question about whether a particular diagnosis, lab result, or hospital event will occur [(Wornow et al., 2023)](https://arxiv.org/abs/2307.02028).\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "EHRSHOT"
+      }
+    },
+    {
+      "value": "HeadQA - EM",
+      "description": "HeadQA is a benchmark consisting of biomedical multiple-choice questions intended to evaluate a model's medical knowledge and reasoning. Each instance presents a clinical or scientific question with four answer options, requiring the model to select the most appropriate answer [(Vilares et al., 2019)](https://arxiv.org/abs/1906.04701).\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "HeadQA"
+      }
+    },
+    {
+      "value": "Medbullets - EM",
+      "description": "Medbullets is a benchmark of USMLE-style medical questions designed to assess a model's ability to understand and apply clinical knowledge. Each question is accompanied by a patient scenario and five multiple-choice options, similar to those found on Step 2 and Step 3 board exams [(MedBullets, 2025)](https://step2.medbullets.com).\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "Medbullets"
+      }
+    },
+    {
+      "value": "MedAlign - Jury Score",
+      "description": "MedAlign is a benchmark that evaluates a model's ability to interpret and follow instructions grounded in longitudinal electronic health records (EHR). Each instance includes an event-stream style patient record and a natural language question or task, requiring clinically informed reading comprehension and reasoning [(Fleming et al., 2023)](https://arxiv.org/abs/2308.14089).\n\nMedalign Jury Score: Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "Jury Score",
+        "run_group": "MedAlign"
+      }
+    },
+    {
+      "value": "ADHD-Behavior - EM",
+      "description": "ADHD-Behavior is a benchmark that evaluates a model's ability to detect whether a clinician recommends parent training in behavior management, an evidence-based first-line treatment for young children diagnosed with ADHD. Each instance includes a clinical note from a pediatric visit and a binary classification task [(Pillai et al., 2024)](https://doi.org/10.1093/jamia/ocae001).\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "ADHD-Behavior"
+      }
+    },
+    {
+      "value": "ADHD-MedEffects - EM",
+      "description": "ADHD-MedEffects is a benchmark designed to evaluate whether clinical notes for pediatric ADHD visits document medication side effect monitoring, which is a key recommendation in clinical practice guidelines. The dataset supports binary classification to detect presence or absence of side effect inquiries (SEI) within notes [(Bannet et al., 2024)](https://doi.org/10.1542/peds.2024-067223).\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "ADHD-MedEffects"
+      }
+    },
+    {
+      "value": "DischargeMe - Jury Score",
+      "description": "DischargeMe is a benchmark designed to evaluate clinical text generation. It pairs discharge summaries and radiology reports from MIMIC-IV with generation tasks such as writing discharge instructions or summarizing the brief hospital course. The benchmark assesses a model's ability to generate patient-facing documentation that is complete, empathetic, and clinically accurate [(Xu, 2024)](https://physionet.org/content/discharge-me/1.3/).\n\nDischargeMe Jury Score: Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "Jury Score",
+        "run_group": "DischargeMe"
+      }
+    },
+    {
+      "value": "ACI-Bench - Jury Score",
+      "description": "ACI-Bench is a benchmark of real-world patient-doctor conversations paired with structured clinical notes. The benchmark evaluates a model's ability to understand spoken medical dialogue and convert it into formal clinical documentation, covering sections such as history of present illness, physical exam findings, results, and assessment and plan [(Yim et al., 2024)](https://www.nature.com/articles/s41597-023-02487-3).\n\nACI-Bench Jury Score: Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "Jury Score",
+        "run_group": "ACI-Bench"
+      }
+    },
+    {
+      "value": "MTSamples Procedures - Jury Score",
+      "description": "MTSamples Procedures is a benchmark composed of transcribed operative notes, focused on documenting surgical procedures. Each example presents a brief patient case involving a surgical intervention, and the model is tasked with generating a coherent and clinically accurate procedural summary or treatment plan.\n\nMTSamples Procedures Jury Score: Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "Jury Score",
+        "run_group": "MTSamples Procedures"
+      }
+    },
+    {
+      "value": "MIMIC-RRS - Jury Score",
+      "description": "MIMIC-RRS is a benchmark constructed from radiology reports in the MIMIC-III database. It contains pairs of \u2018Findings\u2018 and \u2018Impression\u2018 sections, enabling evaluation of a model's ability to summarize diagnostic imaging observations into concise, clinically relevant conclusions [(Chen et al., 2023)](https://arxiv.org/abs/2211.08584).\n\nMIMIC-RRS Jury Score: Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "Jury Score",
+        "run_group": "MIMIC-RRS"
+      }
+    },
+    {
+      "value": "MIMIC-BHC - Jury Score",
+      "description": "MIMIC-BHC is a benchmark focused on summarization of discharge notes into Brief Hospital Course (BHC) sections. It consists of curated discharge notes from MIMIC-IV, each paired with its corresponding BHC summary. The benchmark evaluates a model's ability to condense detailed clinical information into accurate, concise summaries that reflect the patient's hospital stay [(Aali et al., 2024)](https://doi.org/10.1093/jamia/ocae312).\n\nMIMIC-BHC Jury Score: Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "Jury Score",
+        "run_group": "MIMIC-BHC"
+      }
+    },
+    {
+      "value": "NoteExtract - Jury Score",
+      "description": "NoteExtract is a benchmark that focuses on the structured extraction of information from free-form clinical text. It provides care plan notes authored by health workers and evaluates a model's ability to convert them into a predefined structured format, such as fields for Chief Complaint and History of Present Illness. The benchmark emphasizes faithful extraction without hallucination or inference.\n\nNoteExtract Jury Score: Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "Jury Score",
+        "run_group": "NoteExtract"
+      }
+    },
+    {
+      "value": "MedicationQA - Jury Score",
+      "description": "MedicationQA is a benchmark composed of open-ended consumer health questions specifically focused on medications. Each example consists of a free-form question and a corresponding medically grounded answer. The benchmark evaluates a model's ability to provide accurate, accessible, and informative medication-related responses for a lay audience.\n\nMedicationQA Jury Score: Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "Jury Score",
+        "run_group": "MedicationQA"
+      }
+    },
+    {
+      "value": "PatientInstruct - Jury Score",
+      "description": "PatientInstruct is a benchmark designed to evaluate models on generating personalized post-procedure instructions for patients. It includes real-world clinical case details, such as diagnosis, planned procedures, and history and physical notes, from which models must produce clear, actionable instructions appropriate for patients recovering from medical interventions.\n\nPatientInstruct Jury Score: Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "Jury Score",
+        "run_group": "PatientInstruct"
+      }
+    },
+    {
+      "value": "MedDialog - Jury Score",
+      "description": "MedDialog is a benchmark of real-world doctor-patient conversations focused on health-related concerns and advice. Each dialogue is paired with a one-sentence summary that reflects the core patient question or exchange. The benchmark evaluates a model's ability to condense medical dialogue into concise, informative summaries.\n\nMedDialog Jury Score: Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "Jury Score",
+        "run_group": "MedDialog"
+      }
+    },
+    {
+      "value": "MedConfInfo - EM",
+      "description": "MedConfInfo is a benchmark comprising clinical notes from adolescent patients. It is used to evaluate whether the content contains sensitive protected health information (PHI) that should be restricted from parental access, in accordance with adolescent confidentiality policies in clinical care. [(Rabbani et al., 2024)](https://jamanetwork.com/journals/jamapediatrics/fullarticle/2814109).\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "MedConfInfo"
+      }
+    },
+    {
+      "value": "MEDIQA - Jury Score",
+      "description": "MEDIQA is a benchmark designed to evaluate a model's ability to retrieve and generate medically accurate answers to patient-generated questions. Each instance includes a consumer health question, a set of candidate answers (used in ranking tasks), relevance annotations, and optionally, additional context. The benchmark focuses on supporting patient understanding and accessibility in health communication.\n\nMediQA Jury Score: Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "Jury Score",
+        "run_group": "MEDIQA"
+      }
+    },
+    {
+      "value": "MentalHealth - Jury Score",
+      "description": "MentalHealth is a benchmark focused on evaluating empathetic communication in mental health counseling. It includes real or simulated conversations between patients and counselors, where the task is to generate compassionate and appropriate counselor responses. The benchmark assesses a model's ability to support patients emotionally and meaningfully engage in therapeutic conversations.\n\nMentalHealth Jury Score: Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "Jury Score",
+        "run_group": "MentalHealth"
+      }
+    },
+    {
+      "value": "ProxySender - EM",
+      "description": "ProxySender is a benchmark composed of patient portal messages received by clinicians. It evaluates whether the message was sent by the patient or by a proxy user (e.g., parent, spouse), which is critical for understanding who is communicating with healthcare providers. [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "ProxySender"
+      }
+    },
+    {
+      "value": "PrivacyDetection - EM",
+      "description": "PrivacyDetection is a benchmark composed of patient portal messages submitted by patients or caregivers. The task is to determine whether the message contains any confidential or privacy-leaking information that should be protected [(Tse G, et al., 2025)](https://doi.org/10.1001/jamapediatrics.2024.4438).\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "PrivacyDetection"
+      }
+    },
+    {
+      "value": "PubMedQA - EM",
+      "description": "PubMedQA is a biomedical question-answering dataset that evaluates a model's ability to interpret scientific literature. It consists of PubMed abstracts paired with yes/no/maybe questions derived from the content. The benchmark assesses a model's capability to reason over biomedical texts and provide factually grounded answers.\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "PubMedQA"
+      }
+    },
+    {
+      "value": "EHRSQL - EHRSQLExeAcc",
+      "description": "EHRSQL is a benchmark designed to evaluate models on generating structured queries for clinical research. Each example includes a natural language question and a database schema, and the task is to produce an SQL query that would return the correct result for a biomedical research objective. This benchmark assesses a model's understanding of medical terminology, data structures, and query construction.\n\nExecution accuracy for Generated Query: Measures the proportion of correctly predicted answerable questions among all questions predicted to be answerable.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EHRSQLExeAcc",
+        "run_group": "EHRSQL"
+      }
+    },
+    {
+      "value": "BMT-Status - EM",
+      "description": "BMT-Status is a benchmark composed of clinical notes and associated binary questions related to bone marrow transplant (BMT), hematopoietic stem cell transplant (HSCT), or hematopoietic cell transplant (HCT) status. The goal is to determine whether the patient received a subsequent transplant based on the provided clinical documentation.\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "BMT-Status"
+      }
+    },
+    {
+      "value": "RaceBias - EM",
+      "description": "RaceBias is a benchmark used to evaluate language models for racially biased or inappropriate content in medical question-answering scenarios. Each instance consists of a medical question and a model-generated response. The task is to classify whether the response contains race-based, harmful, or inaccurate content. This benchmark supports research into bias detection and fairness in clinical AI systems.\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "RaceBias"
+      }
+    },
+    {
+      "value": "N2C2-CT - EM",
+      "description": "A dataset that provides clinical notes and asks the model to classify whether the patient is a valid candidate for a provided clinical trial.\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "N2C2-CT"
+      }
+    },
+    {
+      "value": "MedHallu - EM",
+      "description": "MedHallu is a benchmark focused on evaluating factual correctness in biomedical question answering. Each instance contains a PubMed-derived knowledge snippet, a biomedical question, and a model-generated answer. The task is to classify whether the answer is factually correct or contains hallucinated (non-grounded) information. This benchmark is designed to assess the factual reliability of medical language models.\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "MedHallu"
+      }
+    },
+    {
+      "value": "HospiceReferral - EM",
+      "description": "HospiceReferral is a benchmark that evaluates model performance in identifying whether patients are eligible for hospice care based on palliative care clinical notes. The benchmark focuses on end-of-life care referral decisions.\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "HospiceReferral"
+      }
+    },
+    {
+      "value": "MIMIC-IV Billing Code - MIMICBillingF1",
+      "description": "MIMIC-IV Billing Code is a benchmark derived from discharge summaries in the MIMIC-IV database, paired with their corresponding ICD-10 billing codes. The task requires models to extract structured billing codes based on free-text clinical notes, reflecting real-world hospital coding tasks for financial reimbursement.\n\nF1 Score for MIMIC Billing Codes: Measures the harmonic mean of precision and recall for ICD codes, providing a balanced evaluation of the model's performance.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "MIMICBillingF1",
+        "run_group": "MIMIC-IV Billing Code"
+      }
+    },
+    {
+      "value": "ClinicReferral - EM",
+      "description": "ClinicReferral is a benchmark that determines patient eligibility for referral to the Sequoia Clinic based on information from palliative care notes. The dataset provides curated decisions on referral appropriateness to assist in automating clinic workflows.\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "ClinicReferral"
+      }
+    },
+    {
+      "value": "CDI-QA - EM",
+      "description": "CDI-QA is a benchmark constructed from Clinical Documentation Integrity (CDI) notes. It is used to evaluate a model's ability to verify clinical conditions based on documented evidence in patient records.\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "CDI-QA"
+      }
+    },
+    {
+      "value": "ENT-Referral - EM",
+      "description": "ENT-Referral is a benchmark designed to evaluate whether a patient's clinical note supports a referral to an Ear, Nose, and Throat (ENT) specialist. It helps assess models' abilities to make referral decisions based on unstructured clinical text\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "ENT-Referral"
+      }
+    }
+  ],
+  "rows": [
+    [
+      {
+        "value": "GPT 5",
+        "description": "",
+        "markdown": false
+      },
+      {
+        "markdown": false
+      },
+      {
+        "value": 0.353,
+        "description": "min=0.353, mean=0.353, max=0.353, sum=0.353 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "medcalc_bench:model=openai_gpt-5"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "value": 1.0,
+        "description": "min=1, mean=1, max=1, sum=1 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "mtsamples_replicate:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 0.66,
+        "description": "min=0.66, mean=0.66, max=0.66, sum=0.66 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "medec:model=openai_gpt-5"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "value": 0.93,
+        "description": "min=0.93, mean=0.93, max=0.93, sum=0.93 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "head_qa:language=en,category=None,model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 0.89,
+        "description": "min=0.89, mean=0.89, max=0.89, sum=0.89 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "medbullets:model=openai_gpt-5"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "value": 1.0,
+        "description": "min=1, mean=1, max=1, sum=1 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "aci_bench:model=openai_gpt-5"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "value": 1.0,
+        "description": "min=1, mean=1, max=1, sum=2 (2)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "med_dialog,subset=healthcaremagic:model=openai_gpt-5",
+          "med_dialog,subset=icliniq:model=openai_gpt-5"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "value": 1.0,
+        "description": "min=1, mean=1, max=1, sum=1 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "medi_qa:model=openai_gpt-5"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "value": 0.67,
+        "description": "min=0.67, mean=0.67, max=0.67, sum=0.67 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "pubmed_qa:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 0.18,
+        "description": "min=0.18, mean=0.18, max=0.18, sum=0.18 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "ehr_sql:model=openai_gpt-5"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "value": 0.72,
+        "description": "min=0.72, mean=0.72, max=0.72, sum=0.72 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "race_based_med:model=openai_gpt-5"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "value": 0.88,
+        "description": "min=0.88, mean=0.88, max=0.88, sum=0.88 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "medhallu:model=openai_gpt-5"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      }
+    ]
+  ],
+  "links": [
+    {
+      "text": "LaTeX",
+      "href": "benchmark_output/runs/my-medhelm-suite/groups/latex/medhelm_scenarios_accuracy.tex"
+    },
+    {
+      "text": "JSON",
+      "href": "benchmark_output/runs/my-medhelm-suite/groups/json/medhelm_scenarios_accuracy.json"
+    }
+  ],
+  "name": "accuracy"
+}

@@ -1,0 +1,1502 @@
+[
+  {
+    "instance_id": "id63",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Thyroidectomy followed by radioactive iodine",
+    "stats": {
+      "num_prompt_tokens": 322.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 18.256415128707886,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id247",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Adhesive capsulitis",
+    "stats": {
+      "num_prompt_tokens": 317.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 8.963892936706543,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id293",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Atrioventricular node",
+    "stats": {
+      "num_prompt_tokens": 346.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 32.41783285140991,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id124",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Vascular dementia",
+    "stats": {
+      "num_prompt_tokens": 380.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 16.885622024536133,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id188",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Transvenous pacing",
+    "stats": {
+      "num_prompt_tokens": 329.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 9.805675029754639,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id144",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Intravenous drug use",
+    "stats": {
+      "num_prompt_tokens": 231.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 55.92542386054993,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id299",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Parkinson disease",
+    "stats": {
+      "num_prompt_tokens": 248.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.904686689376831,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id65",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Ophthalmology referral",
+    "stats": {
+      "num_prompt_tokens": 318.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 24.829729080200195,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id26",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Haloperidol",
+    "stats": {
+      "num_prompt_tokens": 277.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 7.230226755142212,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id66",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Concussion",
+    "stats": {
+      "num_prompt_tokens": 308.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 13.611500978469849,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id280",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Dermatomyositis",
+    "stats": {
+      "num_prompt_tokens": 447.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 22.90039324760437,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id90",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Benign capillary proliferation",
+    "stats": {
+      "num_prompt_tokens": 267.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 30.887090921401978,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id213",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Rest and oral rehydration",
+    "stats": {
+      "num_prompt_tokens": 292.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 7.038197994232178,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id55",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Dorsal striatum atrophy on head CT",
+    "stats": {
+      "num_prompt_tokens": 403.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 6.729053974151611,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id22",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Charcoal",
+    "stats": {
+      "num_prompt_tokens": 330.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 27.62919807434082,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id200",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Stool toxin assay",
+    "stats": {
+      "num_prompt_tokens": 307.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 5.812819957733154,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id238",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Amoxicillin-clavulanate",
+    "stats": {
+      "num_prompt_tokens": 306.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 8.503169059753418,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id230",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Verapamil",
+    "stats": {
+      "num_prompt_tokens": 342.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 4.8003997802734375,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id219",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Urinary retention",
+    "stats": {
+      "num_prompt_tokens": 259.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 11.592037916183472,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id246",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Switch to paroxetine",
+    "stats": {
+      "num_prompt_tokens": 278.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 7.260545015335083,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id191",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Ruptured abdominal aortic aneurysm",
+    "stats": {
+      "num_prompt_tokens": 351.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 5.015921115875244,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id15",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Cerebral salt wasting",
+    "stats": {
+      "num_prompt_tokens": 426.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 13.307370901107788,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id89",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Levothyroxine administration",
+    "stats": {
+      "num_prompt_tokens": 353.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 7.469218730926514,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id60",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Thromboembolic stroke",
+    "stats": {
+      "num_prompt_tokens": 341.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.3444032669067383,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id210",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "FAST exam",
+    "stats": {
+      "num_prompt_tokens": 334.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 5.927808046340942,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id12",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Exophthalmos",
+    "stats": {
+      "num_prompt_tokens": 284.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 9.92634892463684,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id74",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Trimethoprim-sulfamethoxazole and pneumococcal vaccine",
+    "stats": {
+      "num_prompt_tokens": 356.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 15.549507141113281,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id236",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Excess of corticotropin releasing hormone",
+    "stats": {
+      "num_prompt_tokens": 358.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 6.058799982070923,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id154",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Plasmapheresis",
+    "stats": {
+      "num_prompt_tokens": 366.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 14.891808032989502,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id81",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Propranolol",
+    "stats": {
+      "num_prompt_tokens": 306.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 13.525727033615112,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id206",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Supracondylar humerus fracture",
+    "stats": {
+      "num_prompt_tokens": 328.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 6.6198790073394775,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id229",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Pancreatitis",
+    "stats": {
+      "num_prompt_tokens": 302.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 46.37909126281738,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id132",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Magnetic resonance imaging",
+    "stats": {
+      "num_prompt_tokens": 341.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 5.729367971420288,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id249",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Vascular ectasia within the liver",
+    "stats": {
+      "num_prompt_tokens": 403.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 19.63459014892578,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id224",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Schizotypal personality disorder",
+    "stats": {
+      "num_prompt_tokens": 305.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 20.605571031570435,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id160",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Alzheimer dementia",
+    "stats": {
+      "num_prompt_tokens": 328.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 6.342702150344849,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id194",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Reduced functional parietal cell count",
+    "stats": {
+      "num_prompt_tokens": 346.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 29.884031772613525,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id239",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Iron studies",
+    "stats": {
+      "num_prompt_tokens": 357.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 9.008831262588501,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id134",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Pericarditis",
+    "stats": {
+      "num_prompt_tokens": 320.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 14.956695079803467,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id232",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Lichen planus",
+    "stats": {
+      "num_prompt_tokens": 281.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 5.55548095703125,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id52",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Reassurance and counseling on positioning",
+    "stats": {
+      "num_prompt_tokens": 448.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 19.518485069274902,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id64",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Cervical spondylosis",
+    "stats": {
+      "num_prompt_tokens": 437.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 9.718301057815552,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id161",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Ceftriaxone and doxycycline",
+    "stats": {
+      "num_prompt_tokens": 304.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 31.225801944732666,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id17",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Magnetic resonance imaging",
+    "stats": {
+      "num_prompt_tokens": 341.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 5.729367971420288,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id135",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Anabolic steroid use",
+    "stats": {
+      "num_prompt_tokens": 406.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 15.520457029342651,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id8",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Intermittent torsades des pointes",
+    "stats": {
+      "num_prompt_tokens": 321.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 13.513536930084229,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id136",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Topical erythromycin",
+    "stats": {
+      "num_prompt_tokens": 300.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 7.875208139419556,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id168",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Intracerebral hemorrhage",
+    "stats": {
+      "num_prompt_tokens": 327.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 7.817265272140503,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id122",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Low-salt diet",
+    "stats": {
+      "num_prompt_tokens": 329.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 18.648069143295288,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id231",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Linear IgG along the basement membrane",
+    "stats": {
+      "num_prompt_tokens": 325.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 13.970509767532349,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id198",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Urine albumin-to-creatinine ratio",
+    "stats": {
+      "num_prompt_tokens": 334.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 4.439260959625244,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id176",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Functional hypothalamic amenorrhea",
+    "stats": {
+      "num_prompt_tokens": 330.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 4.754619836807251,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id233",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Ovarian tumor",
+    "stats": {
+      "num_prompt_tokens": 473.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 10.937811851501465,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id5",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Intentional contamination",
+    "stats": {
+      "num_prompt_tokens": 361.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 18.012641668319702,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id59",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Penicillin",
+    "stats": {
+      "num_prompt_tokens": 372.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 8.231781005859375,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id106",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Advanced sleep phase disorder",
+    "stats": {
+      "num_prompt_tokens": 308.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 5.092814207077026,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id256",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "IgM",
+    "stats": {
+      "num_prompt_tokens": 374.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 11.776278018951416,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id34",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Stool ova and parasite assay",
+    "stats": {
+      "num_prompt_tokens": 366.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 15.654191970825195,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id108",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Metastatic brain tumor",
+    "stats": {
+      "num_prompt_tokens": 304.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 10.231401920318604,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id33",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "5p",
+    "stats": {
+      "num_prompt_tokens": 357.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 6.542051076889038,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id21",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Gastrografin swallow",
+    "stats": {
+      "num_prompt_tokens": 287.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 9.372725009918213,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id254",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Adverse effect of doxycycline",
+    "stats": {
+      "num_prompt_tokens": 364.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 17.50239062309265,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id7",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Beta cell tumor",
+    "stats": {
+      "num_prompt_tokens": 432.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 8.897953033447266,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id45",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Vascular malformation",
+    "stats": {
+      "num_prompt_tokens": 357.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 21.81087899208069,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id97",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Chorionic villus sampling",
+    "stats": {
+      "num_prompt_tokens": 364.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 4.238275051116943,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id92",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Torsades des pointes",
+    "stats": {
+      "num_prompt_tokens": 336.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 36.43610167503357,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id137",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Straight leg raise",
+    "stats": {
+      "num_prompt_tokens": 355.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 7.357624053955078,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id158",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Administer DTaP, HBV, HiB, PCV 13, poliovirus, and rotavirus vaccines",
+    "stats": {
+      "num_prompt_tokens": 441.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 9.559335947036743,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id275",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Supportive care and monitoring",
+    "stats": {
+      "num_prompt_tokens": 392.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 18.25876784324646,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id181",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Elevated plasma metanephrines",
+    "stats": {
+      "num_prompt_tokens": 376.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 7.501494884490967,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id129",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Endometrial carcinoma",
+    "stats": {
+      "num_prompt_tokens": 336.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 6.45480489730835,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id103",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Topical oxymetazoline",
+    "stats": {
+      "num_prompt_tokens": 291.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 6.488138914108276,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id126",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Verapamil",
+    "stats": {
+      "num_prompt_tokens": 367.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 18.074778079986572,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id253",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Antigen exposure",
+    "stats": {
+      "num_prompt_tokens": 306.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 8.440795183181763,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id73",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Verapamil",
+    "stats": {
+      "num_prompt_tokens": 273.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 4.082387924194336,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id301",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Enteric nervous system damage",
+    "stats": {
+      "num_prompt_tokens": 323.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 14.597000122070312,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id297",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Fresh frozen plasma",
+    "stats": {
+      "num_prompt_tokens": 264.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 8.190278768539429,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id101",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Reassurance",
+    "stats": {
+      "num_prompt_tokens": 349.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 6.3393731117248535,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id260",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Rupture of a berry aneurysm",
+    "stats": {
+      "num_prompt_tokens": 296.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 4.806374788284302,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id29",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Administer intravenous sodium bicarbonate",
+    "stats": {
+      "num_prompt_tokens": 388.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 51.008137941360474,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id152",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Replete potassium and magnesium and start a beta-blocker",
+    "stats": {
+      "num_prompt_tokens": 458.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 14.384459972381592,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id20",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Changing to a soy based formula",
+    "stats": {
+      "num_prompt_tokens": 305.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 15.652431964874268,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id46",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Ampicillin and sulbactam",
+    "stats": {
+      "num_prompt_tokens": 298.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 15.32031512260437,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id217",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Estradiol patch with oral medroxyprogesterone",
+    "stats": {
+      "num_prompt_tokens": 432.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 14.267571926116943,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id245",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "CT angiography of the chest, abdomen, and pelvis",
+    "stats": {
+      "num_prompt_tokens": 278.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 14.129127740859985,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id215",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Triceps rupture",
+    "stats": {
+      "num_prompt_tokens": 184.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 16.138615131378174,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id190",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Sleep hygiene education",
+    "stats": {
+      "num_prompt_tokens": 289.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 6.645794153213501,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id27",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Empiric treatment with pyrimethamine-sulfadiazine",
+    "stats": {
+      "num_prompt_tokens": 370.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 19.89420795440674,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id157",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Aspirin",
+    "stats": {
+      "num_prompt_tokens": 294.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 26.959891319274902,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id266",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Diphenhydramine",
+    "stats": {
+      "num_prompt_tokens": 279.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.265015125274658,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id37",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Endoscopic removal",
+    "stats": {
+      "num_prompt_tokens": 288.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 23.64682388305664,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id116",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Topical estrogen",
+    "stats": {
+      "num_prompt_tokens": 380.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 8.472101211547852,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id175",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Calcium gluconate",
+    "stats": {
+      "num_prompt_tokens": 297.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 9.247069358825684,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id241",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Escharotomy",
+    "stats": {
+      "num_prompt_tokens": 352.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 40.530730962753296,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id237",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Lorazepam",
+    "stats": {
+      "num_prompt_tokens": 324.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.5962071418762207,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id167",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Rinse the finger in normal saline, wrap the finger in moist gauze, put in a plastic bag, and place the bag in ice water",
+    "stats": {
+      "num_prompt_tokens": 400.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 4.96317195892334,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id173",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Prednisone",
+    "stats": {
+      "num_prompt_tokens": 288.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 6.631620168685913,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id291",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Creutzfeldt-Jacob disease",
+    "stats": {
+      "num_prompt_tokens": 338.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 4.44902491569519,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id218",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Paranoid personality disorder",
+    "stats": {
+      "num_prompt_tokens": 382.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 6.347836256027222,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id145",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Supportive care and monitoring",
+    "stats": {
+      "num_prompt_tokens": 392.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 18.25876784324646,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  }
+]

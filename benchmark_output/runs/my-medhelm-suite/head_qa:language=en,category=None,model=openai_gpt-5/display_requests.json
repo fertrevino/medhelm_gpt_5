@@ -1,0 +1,1902 @@
+[
+  {
+    "instance_id": "id1827",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: In the stools of a 6-year-old boy with diarrhea and abdominal pain, a packet of parasite eggs surrounded by a transparent membrane is observed. Which treatment do you consider most appropriate ?:\nA. Praziquantel\nB. Azithromycin\nC. Metronidazole\nD. Albendazole\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id217",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: In relation to the cestodes is called strobilus a:\nA. The protruding anterior part of the scolex of some tapeworms.\nB. The longitudinal groove in the pseudo-phylloxene scolex.\nC. Each segment of the tape.\nD. The body of the tapeworm.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2204",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Regarding the sensitivity analyzes in pharmacoeconomic evaluations, indicate the FALSE answer:\nA. It is an analysis of uncertainty.\nB. They can be multivariate.\nC. Endpoint sensitivity analysis is univariate.\nD. Monte Carlo simulation is a type of probabilistic sensitivity analysis.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id728",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: About celiac disease, which of the following statements is FALSE?\nA. Serological studies for the diagnosis of celiac disease should be performed with the individual on a diet that includes gluten.\nB. The most common cause of persistence of high serological titers is the lack of dietary compliance or the inadvertent intake of gluten.\nC. The initial serological test for celiac disease screening is anti-transglutaminase IgA.\nD. The investigation of HLA-DQ2 / DQ8 should be used routinely to rule out the existence of celiac disease.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1213",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: In the Second Order Nucleophilic Substitution reactions (SN2) occurs:\nA. Retention of the configuration.\nB. Racemization.\nC. Investment of the configuration.\nD. Transpositions.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1030",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: What kind of cognitive error consists in attributing responsibility for external errors or events to oneself even though there is no basis for it ?:\nA. Self-reference\nB. Personalization.\nC. Absolutist thinking.\nD. Self-attribution\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1798",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: The metabolic reaction of amine dealkylation begins with the hydroxylation of the carbon atom attached to the nitrogen to cause an unstable metabolite. Of what nature is this metabolite ?:\nA. Hemiacetal.\nB. Hydroxylamine.\nC. Hemiaminal\nD. Cyanhydrin\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1869",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: In Cushing's syndrome occurs:\nA. An increase in the release of glucocorticoids.\nB. A decrease in the release of glucocorticoids.\nC. An increase in mineralocorticoid release.\nD. A decrease in mineralocorticoid release.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1058",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: The value of a physical dimension, above or below which a stimulus is detected or not detected, or the minimum amount of stimulation capable of producing a sensation 50% of the time is known as:\nA. Differential threshold\nB. Absolute threshold.\nC. Download threshold.\nD. Recognition threshold.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id909",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: The completion of the process of psychological evaluation in clinic involves a report, which:\nA. It is enough that it is offered verbally without going into explanations about etiology and / or therapy that the patient will not understand.\nB. It must consist, exclusively, in a written document facing the future possibility of being required by sanitary or legal authorities.\nC. It can be presented both orally and / or in writing.\nD. If presented in writing, it will not be considered a legal document, nor as a source of information for a subject, because it would break the right to privacy.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2460",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: In gas chromatography, if we compare an electronic capture detector with a flame ionization detector, it can be stated that:\nA. Both detectors have the same selectivity.\nB. The flame ionization detector is more sensitive to halogen-containing compounds in its molecule than the electronic capture detector.\nC. The electronic capture detector is more selective than the flame ionization detector.\nD. The flame ionization detector is more selective than the electronic capture detector.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id443",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: For the focused evaluation of the abdomen of Antonio G.M. employs a technique that involves tapping the body surface with the fingertips to vibrate the underlying tissues and organs (what can be felt with touch) and what emits different sounds (which can be heard) depending on the density which is hit. Point out the name of the described physical examination technique:\nA. Auscultation.\nB. Palpation.\nC. Inspection.\nD. Percussion.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id791",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: In a patient who presents with an asthma attack, which of the following findings is the one that indicates worse evolution?\nA. Auscultatory silence.\nB. Tachypnea.\nC. Prolonged expiration.\nD. Presence of wheezing on auscultation.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2574",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Where mainly the synthesis of ketone bodies takes place:\nA. In the brain.\nB. In the adipose tissue.\nC. In the kidney.\nD. In the liver\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1231",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: How many stereoisomers of 2-bromo-3-chlorobutane are possible ?:\nA. Two.\nB. Three.\nC. Four.\nD. Five.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id716",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Which of the following is NOT considered a general complication of laparoscopic access in abdominal surgery?\nA. Hemorrhage of solid organs.\nB. Paralytic ileus.\nC. Hernia in the abdominal access holes.\nD. Pneumomediastinum.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id446",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: In a cohort study, we want to study the association between the appearance of hepatitis B infections in nursing professionals and the use of gloves. The results of the Relative Risk (RR) and its Confidence Interval (CI) at 95% RR use of gloves are shown: 0.5 (95% CI: 0.1 - 0.9). How would you interpret the results?\nA. People who wear gloves have a 50% higher risk of infection with hepatitis B, showing statistically significant differences.\nB. People who wear gloves have 50% less risk of infection with hepatitis B, showing statistically significant differences.\nC. People who wear gloves have a 50% lower risk of infection with hepatitis B, without showing statistically significant differences.\nD. People who wear gloves have a 50% higher risk of hepatitis B infection, without showing statistically significant differences.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id610",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: In a separation by high performance liquid chromatography (HPLC) with elution with gradients:\nA. The composition of the mobile phase varies throughout the chromatography.\nB. The temperature of the mobile phase varies throughout the chromatography.\nC. The pressure of the mobile phase varies throughout the chromatography.\nD. The composition, temperature and pressure of the mobile phase are constant throughout the chromatography.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1210",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: How many members is the ring of a \u03b2-lactam ?:\nA. Three.\nB. Four.\nC. Five.\nD. Six.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1611",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: During ventricular contraction of the heart:\nA. The tricuspid and mitral valves are open and the semilunar valves are closed.\nB. The semilunar and mitral valves are open and the tricuspid valve is closed.\nC. The tricuspid valve and the semilunar valves are closed and the mitral valve is open.\nD. The semilunar valves are open and the tricuspid and mitral valves are closed.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id306",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Within the classification TNM (Tumor, Ganglion [Node], Metastasis). What would indicate the classification T1N0M0:\nA. There is no evidence of a primary tumor.\nB. There is involvement of regional lymph nodes.\nC. There is distant metastasis.\nD. There is no distant metastasis.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id891",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: The Grid Technique, derived from Kelly's theory of personal constructs, is considered, more properly, a test:\nA. Projective\nB. Subjective\nC. Psychometric\nD. Objective\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2095",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: A 36-year-old woman who attended the clinic for having suffered three spontaneous abortions in the first trimester. He has not had any pregnancy to term. Among the studies that you will request in the first place, the following is NOT included:\nA. Hysterosalpingography.\nB. Karyotype in peripheral blood of both members of the couple.\nC. Determination of antiphospholipid antibodies.\nD. Vaginal ultrasound.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1301",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: The polymerase chain reaction (PCR):\nA. It allows to amplify exponentially specific fragments of DNA.\nB. It is based on the use of a thermolabile RNA polymerase.\nC. It requires, among other components, the four ribonucleoside triphosphates.\nD. Requires a ribonucleic acid template.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id452",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: The Boc (t-butoxycarbonyl) group is frequently used in combinatorial chemistry to protect the amino group from amino acids in the synthesis of solid phase peptides. What reagent is used for its subsequent elimination ?:\nA. Trifluoroacetic acid.\nB. Piperidine in dimethylformamide.\nC. Hydrogenolysis\nD. Hydrobromic acid.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1235",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: The existence of a proton gradient from one side of the membrane to the other is essential for the operation:\nA. From the core.\nB. Of the mitochondria.\nC. From the endoplasmic reticulum.\nD. From the Golgi complex.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id687",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Indicate which of the following statements regarding the physiology and structuring of the dream is true:\nA. During REM sleep, the sleep spindles and the K complexes appear.\nB. Body temperature decreases slightly during sleep.\nC. The first REM sleep period is usually longer than the rest.\nD. Phase I of non-REM sleep constitutes 30% of the total sleep time.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2510",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: How are the saturated solutions of bromine in neutral water at room temperature ?:\nA. Very diluted and slightly pale pink color.\nB. Unstable due to disproportionation of bromine in HBr and HBrO4.\nC. Unstable by oxidation of water to hydrogen peroxide.\nD. Unstable to sunlight due to oxygen emission.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1356",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Pepsin:\nA. It secretes the pancreas in an inactive form.\nB. It secretes the stomach in an inactive form.\nC. It is activated in the intestine by enterokinase or enteropeptidase.\nD. It works by activating trypsinogen.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2556",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: The most suitable reaction sequence for the preparation of 5-phenyl-4-hydroxypentan-2-one from acetone (propan-2-one) and 2-phenylacetaldehyde is:\nA. a) Acetone + LDA, -78 \u00b0 C; b) 2-Phenylacetaldehyde; c) H2O.\nB. a) 2-Phenylacetaldehyde + LDA, -78 \u00b0 C; b) Acetone; c) H2O.\nC. a) Acetone + NaOH, 25 \u00b0 C; b) 2-Phenylacetaldehyde; c) H2O.\nD. a) 2-Phenylacetaldehyde + NaOH, 25\u00ba; b) Acetone; c) H2O.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1698",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Which of the following options is NOT a recommendation of physical activity for the adult population ?:\nA. The long sedentary periods should be reduced.\nB. Minimum aerobic activity of 150 minutes per week of moderate physical activity.\nC. It must be done in blocks of a minimum duration of 30 minutes, to have effects on health.\nD. To obtain greater benefits, aerobic activity can be increased to 300 minutes of moderate or 150 minutes of vigorous to the week, or an equivalent combination of both.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1284",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Point out which of the affirmations about the gangliosides is CERTAIN:\nA. In your molecule there is sialic acid.\nB. They are formed from sphingomyelin by the addition of one or more monosaccharide residues.\nC. N-acetylmuramic acid derivatives are involved in its composition.\nD. They contain N-acetylglucosamine esterifying the phosphate group of the ceramides.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id195",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: What compound is the final product of the degradation of purines in humans ?:\nA. Urea.\nB. Ammonia.\nC. Uric acid.\nD. Hypoxanthine\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id298",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Mar\u00eda, 81 years old, is the main caretaker of her husband for 3 years. A few months ago when going to his home, we identified a diagnosis of \"Low situational self-esteem\". Among all the activities we can do, which would be more appropriate to help Maria overcome this situation ?:\nA. Promote the learning of the necessary techniques for the care of the dependent person.\nB. Assess both the physical and psychological symptoms and refer to medical consultation for prescription of pharmacological treatment.\nC. Insist on the importance of taking time for your own care and help find alternatives to share time with friends and carry out leisure activities.\nD. Facilitate knowledge and skills on basic self-care actions for daily life activities.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id926",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: The aspects of a person's self-concept that are based on their group membership are called:\nA. Social identity\nB. Collectivism.\nC. Self esteem.\nD. Endogroup.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id895",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Which of the following aspects is NOT a relevant parameter for aerobic physical exercise to be healthy ?:\nA. A sufficient intensity for the heart rate to rise to a certain level.\nB. The time or duration in which the heart rate is maintained at that level.\nC. The frequency or number of days in which physical exercise is performed per week.\nD. The age at which physical exercise begins.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id806",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: What is the name of the movement disorder characterized by simultaneous contraction of agonist and antagonist muscles, which induces postural changes and abnormal movements?\nA. Myoclonus\nB. Dystonia\nC. Korea.\nD. Acatisia\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id526",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Proton pump inhibitor drugs:\nA. They act selectively and irreversibly on the parietal cell of the mucosa.\nB. They present a furanic ring as a common structural core.\nC. They have no activity on basal gastric acid secretion.\nD. React with the hydrochloric acid of the gastric light, neutralizing it.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2313",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: What projective test applicable to children is of an expressive type ?:\nA. Test of the Koch tree.\nB. Thematic apperception test by Murray.\nC. Fables of D\u00fcss.\nD. Test Black leg of Corman.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id847",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Which of the following is NOT an indication of vertebroplasty?\nA. Acute lumbar osteoporotic fracture.\nB. Painful vertebral metastasis.\nC. Fracture burst in thoracolumbar hinge.\nD. Painful sequelae due to osteoporotic fracture less than 2 years old.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id963",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Which of the following factors makes a situation more stressful ?:\nA. The fact that it is unpredictable.\nB. The fact that it is controllable.\nC. The fact that it specifically affects the work environment.\nD. The fact that it occurs during adolescence.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1349",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: The reabsorption of glucose and amino acids in the nephron occurs in:\nA. Proximal tubule\nB. Henle's handle.\nC. Distal tubule.\nD. Collecting tubule.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2128",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: A woman goes to the emergency room three days after being subjected to extracorporeal shock wave lithotripsy on a calculation of 2.1 cm maximum diameter located in the left kidney. He presented poor general condition, pain in the left renal fossa, nausea and fever of 39.2\u00baC. Simple Rx is performed in which several small calculi are seen in the area of \u200b\u200bthe left distal ureter. The radiologist informs us that on ultrasound he observes the existence of left pyelocalicial grade II dilatation. The next step should be:\nA. Urinary ureteroscopy given the existence of obstructive uropathy of lithiasic cause.\nB. Income with intravenous hydration, as well as antibiotic treatment, given the suspicion of urinary infection.\nC. Urgent urinary diversion (ureteral catheterization or percutaneous nephrostomy) given the suspicion of complicated obstructive uropathy.\nD. New session of extracorporeal shock wave lithotripsy, previous symptomatic treatment of the patient with anti-inflammatory, antibiotic treatment and intravenous hydration.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1756",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Studies carried out in our field, highlight the high prevalence of malnutrition and the risk of malnutrition in dependent persons assisted at home. Indicate the parameter that is NOT assessed with the Mini Nutritional Assessment:\nA. Loss of appetite\nB. Recent weight loss.\nC. Consideration of the patient on his health compared to people his age.\nD. Presence of osteoporosis.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id296",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: A patient enters our nursing consultation accompanied by a family member holding his arm, seems to walk with a broad, irregular and insecure base, as if he could not keep his balance well, with difficulty in coordinating the steps, resulting in an unstable wandering. What type of gear could we say that this patient has ?:\nA. March with \"fallen foot\".\nB. March of the \"lacunares\".\nC. March \"spastic\".\nD. March \"ataxic\".\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id104",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: To which genus do bacteria that cause diseases such as scarlet fever, rheumatic fever or dental caries belong ?:\nA. Streptococcus\nB. Fusobacterium.\nC. Actinomyces.\nD. Nocardia\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id852",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Which of these measures would NOT be indicated in the emergency treatment in a patient who has a deep second degree flame burn with 50% of body surface burned?\nA. Absolute diet.\nB. Administration of lactate ringer according to the Parkland formula.\nC. Prophylactic administration of intravenous antibiotics.\nD. Heparin administration for antithrombotic prophylaxis.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2476",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: A selective fluoride electrode:\nA. It uses a LaF3 crystal doped with strontium.\nB. It has an internal solution of 0.1M KCl.\nC. Being a solid state electrode does not need internal dissolution.\nD. It has an internal solution of 0.1M NaF and 0.1M NaCl.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2593",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: What is the effect of adrenaline on glycogen metabolism in the liver ?:\nA. Acts synergistically with insulin.\nB. Stimulates the degradation of glycogen.\nC. Stimulates glycogen biosynthesis.\nD. It has no effect\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2560",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: The treatment of pyridine with bromine in fuming sulfuric acid (H2SO4, SO3) results in:\nA. 2,4,6-Tribromopyridine.\nB. 3-Bromopyridine.\nC. 2-Bromopyridine.\nD. 2,4-Dibromopyridine.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id196",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Which enzyme catalyzes the reduction of oxygen to water ?:\nA. ATP synthase.\nB. Cytochrome c oxidase.\nC. Cyclooxygenase.\nD. NADPH reductase.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id124",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: During an inflammation, the vascular endothelium activates the expression of the adhesion molecule:\nA. VCAM-1.\nB. LFA-1.\nC. Selectina-L.\nD. PSGL-1 (P-Selectin Glycoprotein Ligand-1).\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1038",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Decrease the high Expressed Emotion (Leff and Vaughn, 1989) is the goal of different family intervention programs in schizophrenia. Which of the following dimensions does NOT correspond to this construct of \"Expressed Family Emotion\" ?:\nA. Hot.\nB. Overemplication.\nC. Ambivalence.\nD. Hostility.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id776",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: It is desired to know the degree of association that exists between the metabolic syndrome and the vitamin D deficit in the general population. To do this, a sample of a health center is selected from among patients older than 18 years of age, they are scheduled and at the visit a clinical examination is performed to determine if they meet the metabolic syndrome criteria and blood is drawn to measure the concentrations Serum levels of 25 hidoxivitamin D. What is the design of this study ?:\nA. Prospective cohort study.\nB. Cross-sectional study.\nC. Cases and controls study.\nD. Case-crossover study (or \"case-crossover\").\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1096",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: In the early stages of language acquisition, children can say \"I savo\" instead of \"I know\" or \"has been broken\" instead of \"has been broken\". What is the name of this type of error ?:\nA. Overregulation.\nB. Overextension\nC. Over-restriction.\nD. Lexical Offset.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2193",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: A 22-year-old medical student, with a family history in the same sense of her discomfort, consults for fear, from childhood, to observing scenes that contain blood or physical damage, which causes fainting with loss of consciousness and falling soil, with full recovery in a few minutes. What are the correct diagnostic orientation and therapeutic attitude?\nA. He suffers from a conversion disorder and requires analytic psychotherapy.\nB. He suffers from agoraphobia and requires treatment with monoamine oxidase inhibitors.\nC. He suffers from a simple phobia and requires cognitive-behavioral treatment.\nD. He suffers from a specific phobia and does not require treatment.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2321",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: In Rett's disorder, it appears (n):\nA. Pre and perinatal alterations.\nB. A circumference of the skull smaller than normal at birth.\nC. An acceleration of the cranial growth from the first year.\nD. A normal motor development until the first five months.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2242",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Indicate which phenomenon explains that, when the sound of the visual reading of the lips does not coincide with the one presented auditorily, the way of listening to it is modified:\nA. The Stroop effect.\nB. The McGurk effect.\nC. The suffix effect.\nD. The meridian effect.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2031",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: The histological finding that allows a diagnosis of Barret's esophagus in a biopsy is the presence of:\nA. Papillomatous flat epithelium.\nB. Specialized columnar epithelium with goblet cells.\nC. Inflammatory infiltrate mononuclear.\nD. Glycogenic acanthosis.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id713",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: In relation to the clinical forms of erythema multiforme, all of the following statements are correct EXCEPT:\nA. Minor forms are associated with Herpes simplex virus infection and are characterized by so-called target lesions.\nB. The major forms, or Stevens Johnson syndrome, are characterized by the absence of mucous membrane involvement.\nC. Mucosal involvement in minor forms is observed in about 25% of cases and is limited to the oral mucosa.\nD. The toxic epidermal necrolysis, characterized by the detachment of large areas of the skin, represents the most severe form of erythema multiforme major and is related to the intake of drugs.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1646",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: The diet of a person with intestinal diverticulosis should be:\nA. Hyperproteic.\nB. Hypercaloric.\nC. Rich in fiber.\nD. Hyposodic.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2409",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: The treatment program \"Coping Cat\" (Kendall) aims to treat:\nA. Infantile anxiety\nB. Childhood depression\nC. Hyperactivity\nD. The pervasive developmental disorders.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id855",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: In relation to the treatment of a smoking patient with a non-small cell lung cancer of 4 cm in diameter, located in the peripheral region of the right upper lobe, which invades the visceral pleura and is accompanied by ipsilateral hilar lymph node involvement. Which of the following therapeutic options is more appropriate?\nA. Radiotherapy on lymph node involvement and evaluate surgery later.\nB. Neoadjuvant chemotherapy and subsequently evaluate surgery.\nC. Initial chemotherapy and then assess radiotherapy.\nD. Surgery and evaluate adjuvant chemotherapy later.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1709",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Which of the following sources of scientific information specifically contains reviews on a certain topic ?:\nA. Medline.\nB. Cochrane Library.\nC. Scielo\nD. Take care\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1263",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: The 2,4-dinitrophenol added to a cell in aerobic respiration causes:\nA. Increase the transmembrane electrochemical gradient in the mitochondria.\nB. Decrease oxygen consumption.\nC. Stop or decrease the production of ATP.\nD. Increase oxygen consumption and ATP production.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1254",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Indicate among the following answers the one that contains ONLY names of glycerophospholipids:\nA. Phosphatidic acid, phosphatidylcholine, phosphatidylinositol.\nB. Phosphatidylethanolamine, sphingomyelin, ceramide.\nC. Phosphatidylcholine, phosphatidylserine, cholesterol.\nD. Phosphatidylcholine, phosphatidylinositol, sphingomyelin.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id703",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: From the following list of antimicrobials, which one would you NOT choose as a sequential treatment in a patient who is going to be discharged from your home?\nA. Amoxicillin clavulanic.\nB. Clarithromycin\nC. Gentamicin\nD. Ciprofloxacin\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id958",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: What is the defining characteristic of vaginismus ?:\nA. Genital pain that occurs in women after sexual intercourse.\nB. Spasms in the musculature of the external third of the vagina that interfere with intercourse.\nC. Partial or complete failure in obtaining or maintaining the vaginal swelling and lubrication response.\nD. Absence or delay of orgasm in women during sexual activity.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id487",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: What are the operations, including packaging and labeling, called to which a product in bulk must be submitted to become a finished product ?:\nA. Conditioning.\nB. Calibration.\nC. Elaboration.\nD. Preparation.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2088",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: A 24-year-old woman complained of low abdominal pain of two weeks evolution that has worsened with the last sexual intercourse. He refers to having a recent partner with whom he only occasionally uses a condom. The examination presents regular general condition. T\u00ba of 38.6\u00baC, leucocytes 16,000 / uL (85% neutrophils); PCR 30 mg / L. The speculum examination evidences abundant abnormal vaginal discharge and painful cervical mobilization. Indicate the FALSE answer:\nA. We would start antibiotic treatment as soon as we suspect the diagnosis.\nB. We would indicate as a complementary preferential test a hysterosalpingography for tubal evaluation.\nC. The delay in diagnosis and treatment increases the appearance of sequelae.\nD. The presence of abscess would be a criterion for hospitalization.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id558",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Which of the following factors does NOT modify the absorption ?:\nA. The gastric pH.\nB. Gastric emptying.\nC. The physicochemical properties of the compound.\nD. The gastric blood flow.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id53",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: In men the LH:\nA. Stimulates the secretion of androgens by Leydig cells.\nB. It favors the development of the corpus luteum.\nC. It is regulated by inhibin.\nD. It segregates cyclically.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2482",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: In the technique of liquid chromatography of distribution in normal phase:\nA. The stationary phase is less polar than the mobile phase.\nB. The mobile phase is an aqueous solution.\nC. The stationary phase is polar and the mobile phase is non-polar.\nD. The stationary phase has the same polarity as the mobile phase.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id179",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: The initial cause that triggers the termination of the translation is:\nA. The arrival of the ribosome at the end of the mRNA.\nB. The interaction of the ribosome with the release factor.\nC. The dissociation of the two subunits of the ribosome.\nD. The appearance of a stop codon in the A site of the ribosome.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id701",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Prior to performing an organ transplant, the serological status (presence of antibodies) of both the donor and the possible recipient is systematically determined against certain microorganisms, including cytomegalovirus (CMV). In which of the following situations does the highest incidence of CMV disease occur in recipients of a solid organ transplant?\nA. When both the donor and the recipient of the organ have positive serology against CMV.\nB. When the donor has negative serology against CMV and the positive receptor.\nC. When both the donor and the recipient of the organ have negative serology against CMV.\nD. When the donor has positive serology against CMV and the negative receptor.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1396",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: To which of the following human endocrine glands belong the C or parafollicular cells ?:\nA. Hypophysis.\nB. Adrenal cortex\nC. Adrenal medulla\nD. Thyroid.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id92",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: The so-called Small Soluble Acid Proteins (SASP) are a component of bacterial spores whose function is:\nA. Synthesize dipicolinate.\nB. Give mechanical resistance to the exospore.\nC. Join large amounts of Ca2 + ions.\nD. Join the DNA protecting it from heat and ultraviolet radiation.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1453",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Each cycle of \u03b2-oxidation of fatty acids follows the following sequence of reactions:\nA. NAD + -dependent oxidation; FAD-dependent oxidation; hydration; thiolysis.\nB. FAD-dependent oxidation; NAD + -dependent oxidation; hydration; thiolysis.\nC. FAD-dependent oxidation; hydration; NAD + -dependent oxidation; thiolysis.\nD. Thiolysis; FAD-dependent oxidation; hydration; NAD + -dependent oxidation.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2127",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: A 35-year-old man visited the emergency room for a 48-hour history of fever of 39\u00baC, shivering, poor general condition, frequency, dysuria, bladder tenesmus and perianal pain. In the analytical sample, it showed creatinine values \u200b\u200bof 0.9 mg / dL, procalcitonin of 1.5 ng / mL, leukocytes of 20,000 / uL and PSA of 45 ng / mL. What is the attitude to follow in this patient?\nA. Serotherapy, antipyretics, urine culture, antibiotherapy and thoracoabdominal CT.\nB. Serotherapy, antipyretics and antibiotic therapy prior to prostate biopsy.\nC. Sueroterapia, antit\u00e9rmicos and antibioterapia during three weeks and to repeat levels of PSA in three months.\nD. Sueroterapia, antit\u00e9rmicos and antibioterapia. Request levels of prostatic acid phosphatase.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id688",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: A vulnerable arteriosclerotic plaque is characterized by:\nA. Present a size greater than 70%.\nB. An increase in fibroblast growth factors.\nC. Decrease in metalloproteases and fibrolysins.\nD. An increase in macrophages with a high content of lipid material.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1267",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: What compound is formed as the final product of the degradation of purines ?:\nA. Glutamic acid.\nB. Ammonia.\nC. Urea.\nD. Uric acid.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1077",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: What are emotional stagings ?:\nA. A training modality in social skills.\nB. A modality of cognitive restructuring.\nC. A type of relaxation training.\nD. A mode of exposure.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1052",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: The aim of the behavioral intervention aimed at preventing the risk of cardiovascular disease is to modify, among other factors:\nA. The blood pressure levels.\nB. The lifestyles.\nC. The Type B Behavior Pattern\nD. The self-esteem.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2258",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: What is the essential characteristic of dissociative disorders ?:\nA. A disturbance in the integration of the functions of consciousness, memory, identity and perception.\nB. An inability to remember important personal information in stressful situations.\nC. A fragmentation in different identities that take control of the behavior of the individual in an alternative way.\nD. One or more symptoms that affect voluntary motor functions and suggest a neurological disease.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1983",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Indicate which of the following toxic substances could come from polycarbonate food containers:\nA. Melamine.\nB. Nitrosamines.\nC. Semicarbazide\nD. Bisphenol A.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2232",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: In Costa and McCrae's Model of the Big Five, the Opening to experience is characterized by the following characteristics:\nA. Original, independent, creative, daring.\nB. Kind, tender, trusting, courteous.\nC. Careful, reliable, hardworking, organized.\nD. Sociable, loquacious, fun, affectionate.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id868",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: A medicalized ambulance is mobilized to care for a young man who is traumatized by a traffic accident. On physical examination, right anisocoria with arreactive mydriatic pupil, coma with 4 points on the Glasgow coma scale (eye response 1, motor response 2, verbal response 1), blood pressure 180/100 mmHg, heart rate 56 beats per minute , respiratory rate 8 breaths per minute, oxygen saturation by pulse oximetry 90% breathing room air. What should be the first action of the out-of-hospital emergency team?\nA. Insert a laryngeal mask.\nB. Channel a peripheral venous line and administer intravenous mannitol.\nC. Endotracheal intubation with control of the cervical spine.\nD. Oxygen therapy with ventimask-type mask and immediate transfer to a hospital with a neurosurgeon on duty.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1942",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: The polymerase chain reaction is a technique used to:\nA. Sequence a DNA fragment.\nB. Generate multiple copies of a DNA fragment.\nC. Suppress the information of a fragment of DNA.\nD. Denature a fragment of DNA.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1691",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Which of the following vaccines should be indicated in people with heart failure ?:\nA. Hepatitis C.\nB. Hepatitis B.\nC. Pneumococcus.\nD. Chickenpox.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2340",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Point out which of the following is the most effective treatment for borderline personality disorder:\nA. Dialectical-behavioral therapy.\nB. Short psychoanalytic therapy.\nC. Systemic therapy\nD. Strategic therapy of the self.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2361",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: One of the most frequent psychopathological characteristics of patients who have an anxiety disorder due to illness is:\nA. The high somatosensory amplification.\nB. The high tolerance to somatic uncertainty.\nC. The rejection of reassuring information.\nD. Adaptive beliefs about health: they are \"good patients\".\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id562",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: If a drug has zero-order elimination kinetics, what formula would have the graph that describes the evolution of elimination (concentrations versus time), on an untransformed scale ?:\nA. Exponential curve\nB. Straight line.\nC. Descending asymptotic.\nD. Hyperbola.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id224",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Which of the following autoimmune diseases is caused by autoantibodies that block the function of the target cell ?:\nA. Graves disease.\nB. Myasthenia gravis\nC. Pemphigus vulgaris.\nD. Goodpasture syndrome.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1358",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Cortisol stimulates the:\nA. Glucose uptake in many tissues.\nB. Synthesis of lipids.\nC. Synthesis of proteins in muscle.\nD. Synthesis of glucose.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1642",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Antonio, 75, with no personal history of interest, goes to the emergency department for a syncopal picture, with loss of knowledge. On arrival at the emergency room, cardiac auscultation detected bradycardia of 30-40 beats / minute, confirming, on the electrocardiogram (ECG) performed, the existence of a third-degree atrioventricular block, with ventricular escape of 32 beats / minute, Which drug would be the most indicated to use in this situation until the placement of a pacemaker ?:\nA. Atenolol.\nB. Propafenone\nC. Atropine.\nD. Digoxin\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id914",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: The WHO Quality of Life Questionnaire \"WHOQOL\" (WHO, 1998) evaluates:\nA. It is designed to evaluate the quality of life in chronically mentally ill patients.\nB. The functional deterioration.\nC. The quality of life measured objectively by adaptation indexes.\nD. The perceived quality of life, including areas such as spirituality.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id436",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: The most recommendable way to carry out Health Education in school is:\nA. Constitute a specific subject on health.\nB. Organize talks by experts at the school.\nC. Introduce Health Education transverse in school curricula.\nD. Inform parents and teachers of the main health problems.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1857",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: A \"leukoerythroblastic reaction\" is defined as the presence in blood of precursor myeloid cells (myelocytes and metamyelocytes), nucleated red cells (erythroblasts) and dacryocytes or cells in tears. What disease frequently presents this finding in the peripheral blood in its advanced phase as a reflection of its pathogenesis ?:\nA. Chronic myeloid leukemia\nB. Multiple myeloma.\nC. Chronic lymphatic leukemia.\nD. Primary myelofibrosis\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id1513",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: Ribotyping is a method to identify microorganisms from the analysis of:\nA. Map of ribosomal peptides.\nB. Sequences of the beta subunit gene of RNA polymerase.\nC. Sequences of the alpha subunit gene of RNA polymerase.\nD. Restriction fragments of ribosomal RNA genes.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id2072",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n\nQuestion: A 39-year-old woman diagnosed with type 1 diabetes mellitus more than 20 years ago. For several months he has reported nausea, with some vomiting and abdominal distension. He has lost 6 Kg of weight. Gastroscopy: normal esophagus, stomach with alimentary remains and rest of the exploration until second duodenal portion without alterations. What evidence do you think is most useful for your diagnosis?\nA. Ultrasound of the abdomen.\nB. Esophageal manometry\nC. CT of the abdomen.\nD. Isotopic study of gastric emptying.\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 1,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  }
+]

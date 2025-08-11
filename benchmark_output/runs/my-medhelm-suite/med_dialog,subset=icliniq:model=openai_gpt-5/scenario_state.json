@@ -1,0 +1,3315 @@
+{
+  "adapter_spec": {
+    "method": "generation",
+    "global_prefix": "",
+    "global_suffix": "",
+    "instructions": "Generate a one sentence summary of this patient-doctor conversation.\n",
+    "input_prefix": "Patient-Doctor: ",
+    "input_suffix": "\n",
+    "reference_prefix": "A. ",
+    "reference_suffix": "\n",
+    "chain_of_thought_prefix": "",
+    "chain_of_thought_suffix": "\n",
+    "output_prefix": "Summary: ",
+    "output_suffix": "\n",
+    "instance_prefix": "\n",
+    "substitutions": [],
+    "max_train_instances": 0,
+    "max_eval_instances": 10,
+    "num_outputs": 1,
+    "num_train_trials": 1,
+    "num_trials": 1,
+    "sample_train": true,
+    "model_deployment": "openai/gpt-5",
+    "model": "openai/gpt-5",
+    "temperature": 0.0,
+    "max_tokens": 80,
+    "stop_sequences": [],
+    "multi_label": false
+  },
+  "request_states": [
+    {
+      "instance": {
+        "input": {
+          "text": "Patient: Hello doctor, My fiancee and I had unprotected sex a few days back, but I did not ejaculate inside her. Just to be on the safer side, we wanted to use the emergency contraceptive pill. But due to some restriction in the country where we live, Plan B or emergency contraceptive pills are not available. I read that Yasmin, which is used as a regular contraceptive pill can be used as an emergency contraceptive pill at a higher dosage. Can Yasmin be used as an emergency contraceptive pill? And at what dosage? Doctor: Hi. How are you doing? Yes, as you have heard, Yasmin can be used as an emergency pill. Even if you have not ejaculated into her, she stands a chance of pregnancy if the pre-seminal fluid, the clear fluid that comes out before semen, which is rich in young healthy sperms, comes in contact with her genitals. As soon as possible, earlier the better, I suggest taking four tablets of Yasmin (combination of Ethinyl Estradiol and Drospirenone) at the time, repeat four more tablets after 12 hours. This being a high dose of hormones, it will suddenly increase the inner lining of the uterus. Then as it is a single dose, the inner lining will fall off. This makes it unfavorable for the possible embryo or baby to settle into the uterus. She will get her periods within 7 to 10 days of the last pill. But do not keep repeating this frequently, it can disturb the hormonal balance and can reduce the effectiveness of the pill. Consult your specialist doctor, discuss with him or her and start taking the medicines after their consent. This is an old method, but it is an effective emergency method. Just do not delay the pills. As time passes by, the effectiveness reduces. Hope I have clarified your query, do write back. All the best. For further queries consult an obstetrician and gynaecologist online --> https://www.icliniq.com/ask-a-doctor-online/obstetrician-and-gynaecologist"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Can Yasmin birth control pill be used as an emergency contraceptive pill?"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id1287"
+      },
+      "train_trial_index": 0,
+      "request": {
+        "model_deployment": "openai/gpt-5",
+        "model": "openai/gpt-5",
+        "embedding": false,
+        "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: Hello doctor, My fiancee and I had unprotected sex a few days back, but I did not ejaculate inside her. Just to be on the safer side, we wanted to use the emergency contraceptive pill. But due to some restriction in the country where we live, Plan B or emergency contraceptive pills are not available. I read that Yasmin, which is used as a regular contraceptive pill can be used as an emergency contraceptive pill at a higher dosage. Can Yasmin be used as an emergency contraceptive pill? And at what dosage? Doctor: Hi. How are you doing? Yes, as you have heard, Yasmin can be used as an emergency pill. Even if you have not ejaculated into her, she stands a chance of pregnancy if the pre-seminal fluid, the clear fluid that comes out before semen, which is rich in young healthy sperms, comes in contact with her genitals. As soon as possible, earlier the better, I suggest taking four tablets of Yasmin (combination of Ethinyl Estradiol and Drospirenone) at the time, repeat four more tablets after 12 hours. This being a high dose of hormones, it will suddenly increase the inner lining of the uterus. Then as it is a single dose, the inner lining will fall off. This makes it unfavorable for the possible embryo or baby to settle into the uterus. She will get her periods within 7 to 10 days of the last pill. But do not keep repeating this frequently, it can disturb the hormonal balance and can reduce the effectiveness of the pill. Consult your specialist doctor, discuss with him or her and start taking the medicines after their consent. This is an old method, but it is an effective emergency method. Just do not delay the pills. As time passes by, the effectiveness reduces. Hope I have clarified your query, do write back. All the best. For further queries consult an obstetrician and gynaecologist online --> https://www.icliniq.com/ask-a-doctor-online/obstetrician-and-gynaecologist\nSummary:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 1,
+        "max_tokens": 80,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "After unprotected sex, the patient asked if Yasmin could be used as emergency contraception, and the doctor confirmed it can, advising four tablets immediately and four more 12 hours later as soon as possible, cautioning against frequent use due to hormonal effects and reduced efficacy, noting expected bleeding in 7\u201310 days, and recommending specialist consultation.",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": "After",
+                "logprob": 0
+              },
+              {
+                "text": " unprotected",
+                "logprob": 0
+              },
+              {
+                "text": " sex",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " patient",
+                "logprob": 0
+              },
+              {
+                "text": " asked",
+                "logprob": 0
+              },
+              {
+                "text": " if",
+                "logprob": 0
+              },
+              {
+                "text": " Yas",
+                "logprob": 0
+              },
+              {
+                "text": "min",
+                "logprob": 0
+              },
+              {
+                "text": " could",
+                "logprob": 0
+              },
+              {
+                "text": " be",
+                "logprob": 0
+              },
+              {
+                "text": " used",
+                "logprob": 0
+              },
+              {
+                "text": " as",
+                "logprob": 0
+              },
+              {
+                "text": " emergency",
+                "logprob": 0
+              },
+              {
+                "text": " contraception",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " doctor",
+                "logprob": 0
+              },
+              {
+                "text": " confirmed",
+                "logprob": 0
+              },
+              {
+                "text": " it",
+                "logprob": 0
+              },
+              {
+                "text": " can",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " advising",
+                "logprob": 0
+              },
+              {
+                "text": " four",
+                "logprob": 0
+              },
+              {
+                "text": " tablets",
+                "logprob": 0
+              },
+              {
+                "text": " immediately",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " four",
+                "logprob": 0
+              },
+              {
+                "text": " more",
+                "logprob": 0
+              },
+              {
+                "text": " ",
+                "logprob": 0
+              },
+              {
+                "text": "12",
+                "logprob": 0
+              },
+              {
+                "text": " hours",
+                "logprob": 0
+              },
+              {
+                "text": " later",
+                "logprob": 0
+              },
+              {
+                "text": " as",
+                "logprob": 0
+              },
+              {
+                "text": " soon",
+                "logprob": 0
+              },
+              {
+                "text": " as",
+                "logprob": 0
+              },
+              {
+                "text": " possible",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " caution",
+                "logprob": 0
+              },
+              {
+                "text": "ing",
+                "logprob": 0
+              },
+              {
+                "text": " against",
+                "logprob": 0
+              },
+              {
+                "text": " frequent",
+                "logprob": 0
+              },
+              {
+                "text": " use",
+                "logprob": 0
+              },
+              {
+                "text": " due",
+                "logprob": 0
+              },
+              {
+                "text": " to",
+                "logprob": 0
+              },
+              {
+                "text": " hormonal",
+                "logprob": 0
+              },
+              {
+                "text": " effects",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " reduced",
+                "logprob": 0
+              },
+              {
+                "text": " efficacy",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " noting",
+                "logprob": 0
+              },
+              {
+                "text": " expected",
+                "logprob": 0
+              },
+              {
+                "text": " bleeding",
+                "logprob": 0
+              },
+              {
+                "text": " in",
+                "logprob": 0
+              },
+              {
+                "text": " ",
+                "logprob": 0
+              },
+              {
+                "text": "7",
+                "logprob": 0
+              },
+              {
+                "text": "\u2013",
+                "logprob": 0
+              },
+              {
+                "text": "10",
+                "logprob": 0
+              },
+              {
+                "text": " days",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " recommending",
+                "logprob": 0
+              },
+              {
+                "text": " specialist",
+                "logprob": 0
+              },
+              {
+                "text": " consultation",
+                "logprob": 0
+              },
+              {
+                "text": ".",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "stop"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 7.550602197647095,
+        "request_datetime": 1754761678
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0,
+      "annotations": {
+        "med_dialog": {
+          "prompt_text": "You are a medical expert tasked with evaluating the quality of medical dialogue summaries.\n\nYour goal is to assess how well the summary captures the patient-doctor conversation,\nand how it compares to the gold response in terms of accuracy, completeness, and clarity.\n\nThe patient-doctor conversation will be provided in these tags:\n<conversation>\nPatient: Hello doctor, My fiancee and I had unprotected sex a few days back, but I did not ejaculate inside her. Just to be on the safer side, we wanted to use the emergency contraceptive pill. But due to some restriction in the country where we live, Plan B or emergency contraceptive pills are not available. I read that Yasmin, which is used as a regular contraceptive pill can be used as an emergency contraceptive pill at a higher dosage. Can Yasmin be used as an emergency contraceptive pill? And at what dosage? Doctor: Hi. How are you doing? Yes, as you have heard, Yasmin can be used as an emergency pill. Even if you have not ejaculated into her, she stands a chance of pregnancy if the pre-seminal fluid, the clear fluid that comes out before semen, which is rich in young healthy sperms, comes in contact with her genitals. As soon as possible, earlier the better, I suggest taking four tablets of Yasmin (combination of Ethinyl Estradiol and Drospirenone) at the time, repeat four more tablets after 12 hours. This being a high dose of hormones, it will suddenly increase the inner lining of the uterus. Then as it is a single dose, the inner lining will fall off. This makes it unfavorable for the possible embryo or baby to settle into the uterus. She will get her periods within 7 to 10 days of the last pill. But do not keep repeating this frequently, it can disturb the hormonal balance and can reduce the effectiveness of the pill. Consult your specialist doctor, discuss with him or her and start taking the medicines after their consent. This is an old method, but it is an effective emergency method. Just do not delay the pills. As time passes by, the effectiveness reduces. Hope I have clarified your query, do write back. All the best. For further queries consult an obstetrician and gynaecologist online --> https://www.icliniq.com/ask-a-doctor-online/obstetrician-and-gynaecologist\n</conversation>\n\nThe response will be provided in these tags:\n<response>\nAfter unprotected sex, the patient asked if Yasmin could be used as emergency contraception, and the doctor confirmed it can, advising four tablets immediately and four more 12 hours later as soon as possible, cautioning against frequent use due to hormonal effects and reduced efficacy, noting expected bleeding in 7\u201310 days, and recommending specialist consultation.\n</response>\n\nThe reference response will be provided in these tags:\n<gold_response>\nCan Yasmin birth control pill be used as an emergency contraceptive pill?\n</gold_response>\n\nCarefully review the <response> and compare it to the <gold_response> when needed.\n\nPlease evaluate the generated summary on a scale of 1-5 (1 = poor, 5 = excellent)\nfor each of these three key dimensions:\n\nEvaluation Criteria:\nAccuracy (1-5)\n- Does the summary correctly capture the main medical issue and clinical details from the conversation?\n\nCompleteness (1-5)\n- Does the summary include all important medical information from the conversation?\n\nClarity (1-5)\n- Is the summary easy to understand for clinical use?\n\nOutput Format:\nOutput your evaluation as a single valid JSON object matching the following structure:\n{\n    \"accuracy\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"completeness\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"clarity\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    }\n}\n\nEnsure the output is valid JSON:\n- Use **double quotes** (\") for all keys and string values.\n- When quoting text or sections inside the explanations, use escaped double quotes (\") to\n  maintain valid JSON formatting.\n- Do not include any additional information in the output.\n"
+        }
+      }
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Patient: Hi doctor, This question is not about me. But it is about a family member that I truly love and want the best for him. For the past years, my brother has had a big crush on his manager. He would always talk about her when he would come home from work. He would talk about her constantly. Sometimes even saying that she also likes him and that he knows they are going to end up together. He had the biggest crush and still till this day talks about her. He lost his job a few months ago and started acting weird. His manager is a different race. So when he was home after he got fired, he would constantly be outside wanting to get tanner because he said thats the way she likes guys. To be tanned how his old manager's race is. He would sit outside every single day wanting to get sunburned. He did indeed. Then weeks went by and he told my mom that his mission of sitting down outside was over and that he will start going to walk instead. At this moment all he does is wake up and go walk anywhere and walk to different places for no reason. He constantly says that he is married already with his old manager and that he is moving to another city. He says the same thing every time. He leaves since the morning and walks everywhere and comes back till the night. He does not do drugs but has a past of doing drugs. He used to drink every weekend before he started doing all of this. He would drink coffe every day before work. And on weekends drink alot. I and my family are concerned about him. We do not know what is wrong with him. He does not do drugs. He drinks sometimes on weekends, not often anymore. He says he is married and that he makes a call to someone and they pay all his bills. He leaves every day and walks anywhere. He knows what he does, he is aware. But we do not understand why he thinks stuff that is not in fact true. He is living in a fantasy. Doctor: Hello. He has developed an attraction for his manager and there was no actual relationship and then he lost the job. Then he started developing the symptoms. He has developed firm belief that he is married to his manager. His behavior has changed suddenly, lost the job and he is running or going out for sunbath without any explainable cause. These are most likely occurring due to some psychotic disorder. This could be due to delusions resulted due to psychosis. This cannot be ignored. His urgent psychiatric consultation is advised. Drugs like Olanzapine, Risperidone, Quetiapine, etc., can be used to control his symptoms."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Does patient suffering from mental health illness act like living in fantasy?"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id253"
+      },
+      "train_trial_index": 0,
+      "request": {
+        "model_deployment": "openai/gpt-5",
+        "model": "openai/gpt-5",
+        "embedding": false,
+        "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: Hi doctor, This question is not about me. But it is about a family member that I truly love and want the best for him. For the past years, my brother has had a big crush on his manager. He would always talk about her when he would come home from work. He would talk about her constantly. Sometimes even saying that she also likes him and that he knows they are going to end up together. He had the biggest crush and still till this day talks about her. He lost his job a few months ago and started acting weird. His manager is a different race. So when he was home after he got fired, he would constantly be outside wanting to get tanner because he said thats the way she likes guys. To be tanned how his old manager's race is. He would sit outside every single day wanting to get sunburned. He did indeed. Then weeks went by and he told my mom that his mission of sitting down outside was over and that he will start going to walk instead. At this moment all he does is wake up and go walk anywhere and walk to different places for no reason. He constantly says that he is married already with his old manager and that he is moving to another city. He says the same thing every time. He leaves since the morning and walks everywhere and comes back till the night. He does not do drugs but has a past of doing drugs. He used to drink every weekend before he started doing all of this. He would drink coffe every day before work. And on weekends drink alot. I and my family are concerned about him. We do not know what is wrong with him. He does not do drugs. He drinks sometimes on weekends, not often anymore. He says he is married and that he makes a call to someone and they pay all his bills. He leaves every day and walks anywhere. He knows what he does, he is aware. But we do not understand why he thinks stuff that is not in fact true. He is living in a fantasy. Doctor: Hello. He has developed an attraction for his manager and there was no actual relationship and then he lost the job. Then he started developing the symptoms. He has developed firm belief that he is married to his manager. His behavior has changed suddenly, lost the job and he is running or going out for sunbath without any explainable cause. These are most likely occurring due to some psychotic disorder. This could be due to delusions resulted due to psychosis. This cannot be ignored. His urgent psychiatric consultation is advised. Drugs like Olanzapine, Risperidone, Quetiapine, etc., can be used to control his symptoms.\nSummary:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 1,
+        "max_tokens": 80,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A family member reports that their brother developed delusional beliefs and unusual behaviors centered on a former manager after losing his job, and the doctor advises urgent psychiatric evaluation for possible psychosis with treatment using antipsychotic medication.",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": "A",
+                "logprob": 0
+              },
+              {
+                "text": " family",
+                "logprob": 0
+              },
+              {
+                "text": " member",
+                "logprob": 0
+              },
+              {
+                "text": " reports",
+                "logprob": 0
+              },
+              {
+                "text": " that",
+                "logprob": 0
+              },
+              {
+                "text": " their",
+                "logprob": 0
+              },
+              {
+                "text": " brother",
+                "logprob": 0
+              },
+              {
+                "text": " developed",
+                "logprob": 0
+              },
+              {
+                "text": " del",
+                "logprob": 0
+              },
+              {
+                "text": "us",
+                "logprob": 0
+              },
+              {
+                "text": "ional",
+                "logprob": 0
+              },
+              {
+                "text": " beliefs",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " unusual",
+                "logprob": 0
+              },
+              {
+                "text": " behaviors",
+                "logprob": 0
+              },
+              {
+                "text": " centered",
+                "logprob": 0
+              },
+              {
+                "text": " on",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": " former",
+                "logprob": 0
+              },
+              {
+                "text": " manager",
+                "logprob": 0
+              },
+              {
+                "text": " after",
+                "logprob": 0
+              },
+              {
+                "text": " losing",
+                "logprob": 0
+              },
+              {
+                "text": " his",
+                "logprob": 0
+              },
+              {
+                "text": " job",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " doctor",
+                "logprob": 0
+              },
+              {
+                "text": " advises",
+                "logprob": 0
+              },
+              {
+                "text": " urgent",
+                "logprob": 0
+              },
+              {
+                "text": " psychiatric",
+                "logprob": 0
+              },
+              {
+                "text": " evaluation",
+                "logprob": 0
+              },
+              {
+                "text": " for",
+                "logprob": 0
+              },
+              {
+                "text": " possible",
+                "logprob": 0
+              },
+              {
+                "text": " psychosis",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " treatment",
+                "logprob": 0
+              },
+              {
+                "text": " using",
+                "logprob": 0
+              },
+              {
+                "text": " ant",
+                "logprob": 0
+              },
+              {
+                "text": "ips",
+                "logprob": 0
+              },
+              {
+                "text": "ych",
+                "logprob": 0
+              },
+              {
+                "text": "otic",
+                "logprob": 0
+              },
+              {
+                "text": " medication",
+                "logprob": 0
+              },
+              {
+                "text": ".",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "stop"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 4.658398151397705,
+        "request_datetime": 1754761678
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0,
+      "annotations": {
+        "med_dialog": {
+          "prompt_text": "You are a medical expert tasked with evaluating the quality of medical dialogue summaries.\n\nYour goal is to assess how well the summary captures the patient-doctor conversation,\nand how it compares to the gold response in terms of accuracy, completeness, and clarity.\n\nThe patient-doctor conversation will be provided in these tags:\n<conversation>\nPatient: Hi doctor, This question is not about me. But it is about a family member that I truly love and want the best for him. For the past years, my brother has had a big crush on his manager. He would always talk about her when he would come home from work. He would talk about her constantly. Sometimes even saying that she also likes him and that he knows they are going to end up together. He had the biggest crush and still till this day talks about her. He lost his job a few months ago and started acting weird. His manager is a different race. So when he was home after he got fired, he would constantly be outside wanting to get tanner because he said thats the way she likes guys. To be tanned how his old manager's race is. He would sit outside every single day wanting to get sunburned. He did indeed. Then weeks went by and he told my mom that his mission of sitting down outside was over and that he will start going to walk instead. At this moment all he does is wake up and go walk anywhere and walk to different places for no reason. He constantly says that he is married already with his old manager and that he is moving to another city. He says the same thing every time. He leaves since the morning and walks everywhere and comes back till the night. He does not do drugs but has a past of doing drugs. He used to drink every weekend before he started doing all of this. He would drink coffe every day before work. And on weekends drink alot. I and my family are concerned about him. We do not know what is wrong with him. He does not do drugs. He drinks sometimes on weekends, not often anymore. He says he is married and that he makes a call to someone and they pay all his bills. He leaves every day and walks anywhere. He knows what he does, he is aware. But we do not understand why he thinks stuff that is not in fact true. He is living in a fantasy. Doctor: Hello. He has developed an attraction for his manager and there was no actual relationship and then he lost the job. Then he started developing the symptoms. He has developed firm belief that he is married to his manager. His behavior has changed suddenly, lost the job and he is running or going out for sunbath without any explainable cause. These are most likely occurring due to some psychotic disorder. This could be due to delusions resulted due to psychosis. This cannot be ignored. His urgent psychiatric consultation is advised. Drugs like Olanzapine, Risperidone, Quetiapine, etc., can be used to control his symptoms.\n</conversation>\n\nThe response will be provided in these tags:\n<response>\nA family member reports that their brother developed delusional beliefs and unusual behaviors centered on a former manager after losing his job, and the doctor advises urgent psychiatric evaluation for possible psychosis with treatment using antipsychotic medication.\n</response>\n\nThe reference response will be provided in these tags:\n<gold_response>\nDoes patient suffering from mental health illness act like living in fantasy?\n</gold_response>\n\nCarefully review the <response> and compare it to the <gold_response> when needed.\n\nPlease evaluate the generated summary on a scale of 1-5 (1 = poor, 5 = excellent)\nfor each of these three key dimensions:\n\nEvaluation Criteria:\nAccuracy (1-5)\n- Does the summary correctly capture the main medical issue and clinical details from the conversation?\n\nCompleteness (1-5)\n- Does the summary include all important medical information from the conversation?\n\nClarity (1-5)\n- Is the summary easy to understand for clinical use?\n\nOutput Format:\nOutput your evaluation as a single valid JSON object matching the following structure:\n{\n    \"accuracy\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"completeness\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"clarity\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    }\n}\n\nEnsure the output is valid JSON:\n- Use **double quotes** (\") for all keys and string values.\n- When quoting text or sections inside the explanations, use escaped double quotes (\") to\n  maintain valid JSON formatting.\n- Do not include any additional information in the output.\n"
+        }
+      }
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Patient: Hello doctor,I just got one side of my wisdom teeth removed both upper and lower six days ago, and I have another one scheduled after two days for the left side. The upper is 100 % fine, which they pulled. The lower they pulled the tooth without removing the root because it was too close to the nerve. I do have some stitching in this area currently on the lower cheek. Noticed a hard lump about 1 inch between my lower jawline and cheek area. Is this normal because of swelling or something else. Currently taking Amoxicillin 500 mg and Ibuprofen 600 mg. Please let me know what this hard lump is, also generally on the lower side where this lump is, remains sore. Doctor: Hello. The lump is mostly a hard swelling which forms postsurgical removal of the wisdom tooth or maybe even by swollen lymph nodes due to infection. It takes a week or two for the swelling to subside. Sometimes, if the root is still inside, the infection may be remaining there causing swelling. Get an X-ray done to find out the exact problem and stronger antibiotics like Augmentin (Amoxicillin and Clavulanic acid) along with a painkiller for a week. For more information consult a dentist online --> https://www.icliniq.com/ask-a-doctor-online/dentist"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "l got a sore hard lump after the removal of wisdom tooth. Is it normal?"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id2760"
+      },
+      "train_trial_index": 0,
+      "request": {
+        "model_deployment": "openai/gpt-5",
+        "model": "openai/gpt-5",
+        "embedding": false,
+        "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: Hello doctor,I just got one side of my wisdom teeth removed both upper and lower six days ago, and I have another one scheduled after two days for the left side. The upper is 100 % fine, which they pulled. The lower they pulled the tooth without removing the root because it was too close to the nerve. I do have some stitching in this area currently on the lower cheek. Noticed a hard lump about 1 inch between my lower jawline and cheek area. Is this normal because of swelling or something else. Currently taking Amoxicillin 500 mg and Ibuprofen 600 mg. Please let me know what this hard lump is, also generally on the lower side where this lump is, remains sore. Doctor: Hello. The lump is mostly a hard swelling which forms postsurgical removal of the wisdom tooth or maybe even by swollen lymph nodes due to infection. It takes a week or two for the swelling to subside. Sometimes, if the root is still inside, the infection may be remaining there causing swelling. Get an X-ray done to find out the exact problem and stronger antibiotics like Augmentin (Amoxicillin and Clavulanic acid) along with a painkiller for a week. For more information consult a dentist online --> https://www.icliniq.com/ask-a-doctor-online/dentist\nSummary:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 1,
+        "max_tokens": 80,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "After a lower wisdom tooth extraction where the root was left due to nerve proximity, the patient developed a sore, hard lump near the jaw/cheek; the doctor says it\u2019s likely postoperative swelling or reactive lymph nodes, advises an X-ray to rule out infection from the retained root, suggests a week of Augmentin with pain relief, and notes swelling usually subsides in 1\u20132",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": "After",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": " lower",
+                "logprob": 0
+              },
+              {
+                "text": " wisdom",
+                "logprob": 0
+              },
+              {
+                "text": " tooth",
+                "logprob": 0
+              },
+              {
+                "text": " extraction",
+                "logprob": 0
+              },
+              {
+                "text": " where",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " root",
+                "logprob": 0
+              },
+              {
+                "text": " was",
+                "logprob": 0
+              },
+              {
+                "text": " left",
+                "logprob": 0
+              },
+              {
+                "text": " due",
+                "logprob": 0
+              },
+              {
+                "text": " to",
+                "logprob": 0
+              },
+              {
+                "text": " nerve",
+                "logprob": 0
+              },
+              {
+                "text": " proximity",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " patient",
+                "logprob": 0
+              },
+              {
+                "text": " developed",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": " sore",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " hard",
+                "logprob": 0
+              },
+              {
+                "text": " lump",
+                "logprob": 0
+              },
+              {
+                "text": " near",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " jaw",
+                "logprob": 0
+              },
+              {
+                "text": "/",
+                "logprob": 0
+              },
+              {
+                "text": "che",
+                "logprob": 0
+              },
+              {
+                "text": "ek",
+                "logprob": 0
+              },
+              {
+                "text": ";",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " doctor",
+                "logprob": 0
+              },
+              {
+                "text": " says",
+                "logprob": 0
+              },
+              {
+                "text": " it",
+                "logprob": 0
+              },
+              {
+                "text": "\u2019s",
+                "logprob": 0
+              },
+              {
+                "text": " likely",
+                "logprob": 0
+              },
+              {
+                "text": " post",
+                "logprob": 0
+              },
+              {
+                "text": "operative",
+                "logprob": 0
+              },
+              {
+                "text": " swelling",
+                "logprob": 0
+              },
+              {
+                "text": " or",
+                "logprob": 0
+              },
+              {
+                "text": " reactive",
+                "logprob": 0
+              },
+              {
+                "text": " lymph",
+                "logprob": 0
+              },
+              {
+                "text": " nodes",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " advises",
+                "logprob": 0
+              },
+              {
+                "text": " an",
+                "logprob": 0
+              },
+              {
+                "text": " X",
+                "logprob": 0
+              },
+              {
+                "text": "-ray",
+                "logprob": 0
+              },
+              {
+                "text": " to",
+                "logprob": 0
+              },
+              {
+                "text": " rule",
+                "logprob": 0
+              },
+              {
+                "text": " out",
+                "logprob": 0
+              },
+              {
+                "text": " infection",
+                "logprob": 0
+              },
+              {
+                "text": " from",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " retained",
+                "logprob": 0
+              },
+              {
+                "text": " root",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " suggests",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": " week",
+                "logprob": 0
+              },
+              {
+                "text": " of",
+                "logprob": 0
+              },
+              {
+                "text": " Aug",
+                "logprob": 0
+              },
+              {
+                "text": "ment",
+                "logprob": 0
+              },
+              {
+                "text": "in",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " pain",
+                "logprob": 0
+              },
+              {
+                "text": " relief",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " notes",
+                "logprob": 0
+              },
+              {
+                "text": " swelling",
+                "logprob": 0
+              },
+              {
+                "text": " usually",
+                "logprob": 0
+              },
+              {
+                "text": " subs",
+                "logprob": 0
+              },
+              {
+                "text": "ides",
+                "logprob": 0
+              },
+              {
+                "text": " in",
+                "logprob": 0
+              },
+              {
+                "text": " ",
+                "logprob": 0
+              },
+              {
+                "text": "1",
+                "logprob": 0
+              },
+              {
+                "text": "\u2013",
+                "logprob": 0
+              },
+              {
+                "text": "2",
+                "logprob": 0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 5.908766984939575,
+        "request_datetime": 1754761678
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0,
+      "annotations": {
+        "med_dialog": {
+          "prompt_text": "You are a medical expert tasked with evaluating the quality of medical dialogue summaries.\n\nYour goal is to assess how well the summary captures the patient-doctor conversation,\nand how it compares to the gold response in terms of accuracy, completeness, and clarity.\n\nThe patient-doctor conversation will be provided in these tags:\n<conversation>\nPatient: Hello doctor,I just got one side of my wisdom teeth removed both upper and lower six days ago, and I have another one scheduled after two days for the left side. The upper is 100 % fine, which they pulled. The lower they pulled the tooth without removing the root because it was too close to the nerve. I do have some stitching in this area currently on the lower cheek. Noticed a hard lump about 1 inch between my lower jawline and cheek area. Is this normal because of swelling or something else. Currently taking Amoxicillin 500 mg and Ibuprofen 600 mg. Please let me know what this hard lump is, also generally on the lower side where this lump is, remains sore. Doctor: Hello. The lump is mostly a hard swelling which forms postsurgical removal of the wisdom tooth or maybe even by swollen lymph nodes due to infection. It takes a week or two for the swelling to subside. Sometimes, if the root is still inside, the infection may be remaining there causing swelling. Get an X-ray done to find out the exact problem and stronger antibiotics like Augmentin (Amoxicillin and Clavulanic acid) along with a painkiller for a week. For more information consult a dentist online --> https://www.icliniq.com/ask-a-doctor-online/dentist\n</conversation>\n\nThe response will be provided in these tags:\n<response>\nAfter a lower wisdom tooth extraction where the root was left due to nerve proximity, the patient developed a sore, hard lump near the jaw/cheek; the doctor says it\u2019s likely postoperative swelling or reactive lymph nodes, advises an X-ray to rule out infection from the retained root, suggests a week of Augmentin with pain relief, and notes swelling usually subsides in 1\u20132\n</response>\n\nThe reference response will be provided in these tags:\n<gold_response>\nl got a sore hard lump after the removal of wisdom tooth. Is it normal?\n</gold_response>\n\nCarefully review the <response> and compare it to the <gold_response> when needed.\n\nPlease evaluate the generated summary on a scale of 1-5 (1 = poor, 5 = excellent)\nfor each of these three key dimensions:\n\nEvaluation Criteria:\nAccuracy (1-5)\n- Does the summary correctly capture the main medical issue and clinical details from the conversation?\n\nCompleteness (1-5)\n- Does the summary include all important medical information from the conversation?\n\nClarity (1-5)\n- Is the summary easy to understand for clinical use?\n\nOutput Format:\nOutput your evaluation as a single valid JSON object matching the following structure:\n{\n    \"accuracy\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"completeness\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"clarity\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    }\n}\n\nEnsure the output is valid JSON:\n- Use **double quotes** (\") for all keys and string values.\n- When quoting text or sections inside the explanations, use escaped double quotes (\") to\n  maintain valid JSON formatting.\n- Do not include any additional information in the output.\n"
+        }
+      }
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Patient: Hello doctor, I have multiple small cysts in both ovaries (PCOS). Our family friend suggested me to consume Kalarchikai medicine, powdered mixed with pepper and honey to have it for one mandalam (48 days). I have completed nearly 44 days by consuming one small ball of the mixture every morning and before two weeks I got my periods. Then I had checked whether the cysts were dissolved by having an abdomen scan. But still, small multiple follicules have been seen in it with both ovaries enlarged. Kindly suggest me what I can do further. I got married before one and a half years and I am much worried about my pregnancy. I have gallstones as well. Doctor: Hello. I just read your query. See Kalarachi Kai choornam is helpful in amenorrhea. As far as small cysts are concerned they are unmatured eggs which failed to induce menstrual cycle previously, as a result, they got collected in the ovary and they will remain in the ovary. Now, you have got your periods you can start trying for conception. But I advise you to do it under the supervision of a nearby gynecologist because egg size is important while conception and that you can know by ovulation study. Ovulation study is performed under the supervision of a gynecologist. For gall stones, surgical intervention is required generally. Medicine is not of much help."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Will Kalarchikai cure multiple ovarian cysts in PCOD?"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id1450"
+      },
+      "train_trial_index": 0,
+      "request": {
+        "model_deployment": "openai/gpt-5",
+        "model": "openai/gpt-5",
+        "embedding": false,
+        "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: Hello doctor, I have multiple small cysts in both ovaries (PCOS). Our family friend suggested me to consume Kalarchikai medicine, powdered mixed with pepper and honey to have it for one mandalam (48 days). I have completed nearly 44 days by consuming one small ball of the mixture every morning and before two weeks I got my periods. Then I had checked whether the cysts were dissolved by having an abdomen scan. But still, small multiple follicules have been seen in it with both ovaries enlarged. Kindly suggest me what I can do further. I got married before one and a half years and I am much worried about my pregnancy. I have gallstones as well. Doctor: Hello. I just read your query. See Kalarachi Kai choornam is helpful in amenorrhea. As far as small cysts are concerned they are unmatured eggs which failed to induce menstrual cycle previously, as a result, they got collected in the ovary and they will remain in the ovary. Now, you have got your periods you can start trying for conception. But I advise you to do it under the supervision of a nearby gynecologist because egg size is important while conception and that you can know by ovulation study. Ovulation study is performed under the supervision of a gynecologist. For gall stones, surgical intervention is required generally. Medicine is not of much help.\nSummary:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 1,
+        "max_tokens": 80,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A woman with PCOS who took Kalarchikai for 44 days regained her periods but still shows multiple ovarian follicles, and the doctor advises trying to conceive under a gynecologist\u2019s supervision with ovulation monitoring, while noting that gallstones usually require surgical treatment.",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": "A",
+                "logprob": 0
+              },
+              {
+                "text": " woman",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " PC",
+                "logprob": 0
+              },
+              {
+                "text": "OS",
+                "logprob": 0
+              },
+              {
+                "text": " who",
+                "logprob": 0
+              },
+              {
+                "text": " took",
+                "logprob": 0
+              },
+              {
+                "text": " Kal",
+                "logprob": 0
+              },
+              {
+                "text": "arch",
+                "logprob": 0
+              },
+              {
+                "text": "ik",
+                "logprob": 0
+              },
+              {
+                "text": "ai",
+                "logprob": 0
+              },
+              {
+                "text": " for",
+                "logprob": 0
+              },
+              {
+                "text": " ",
+                "logprob": 0
+              },
+              {
+                "text": "44",
+                "logprob": 0
+              },
+              {
+                "text": " days",
+                "logprob": 0
+              },
+              {
+                "text": " regained",
+                "logprob": 0
+              },
+              {
+                "text": " her",
+                "logprob": 0
+              },
+              {
+                "text": " periods",
+                "logprob": 0
+              },
+              {
+                "text": " but",
+                "logprob": 0
+              },
+              {
+                "text": " still",
+                "logprob": 0
+              },
+              {
+                "text": " shows",
+                "logprob": 0
+              },
+              {
+                "text": " multiple",
+                "logprob": 0
+              },
+              {
+                "text": " ovarian",
+                "logprob": 0
+              },
+              {
+                "text": " follic",
+                "logprob": 0
+              },
+              {
+                "text": "les",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " doctor",
+                "logprob": 0
+              },
+              {
+                "text": " advises",
+                "logprob": 0
+              },
+              {
+                "text": " trying",
+                "logprob": 0
+              },
+              {
+                "text": " to",
+                "logprob": 0
+              },
+              {
+                "text": " conceive",
+                "logprob": 0
+              },
+              {
+                "text": " under",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": " g",
+                "logprob": 0
+              },
+              {
+                "text": "ynec",
+                "logprob": 0
+              },
+              {
+                "text": "ologist",
+                "logprob": 0
+              },
+              {
+                "text": "\u2019s",
+                "logprob": 0
+              },
+              {
+                "text": " supervision",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " ov",
+                "logprob": 0
+              },
+              {
+                "text": "ulation",
+                "logprob": 0
+              },
+              {
+                "text": " monitoring",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " while",
+                "logprob": 0
+              },
+              {
+                "text": " noting",
+                "logprob": 0
+              },
+              {
+                "text": " that",
+                "logprob": 0
+              },
+              {
+                "text": " gall",
+                "logprob": 0
+              },
+              {
+                "text": "stones",
+                "logprob": 0
+              },
+              {
+                "text": " usually",
+                "logprob": 0
+              },
+              {
+                "text": " require",
+                "logprob": 0
+              },
+              {
+                "text": " surgical",
+                "logprob": 0
+              },
+              {
+                "text": " treatment",
+                "logprob": 0
+              },
+              {
+                "text": ".",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "stop"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 7.584926128387451,
+        "request_datetime": 1754761678
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0,
+      "annotations": {
+        "med_dialog": {
+          "prompt_text": "You are a medical expert tasked with evaluating the quality of medical dialogue summaries.\n\nYour goal is to assess how well the summary captures the patient-doctor conversation,\nand how it compares to the gold response in terms of accuracy, completeness, and clarity.\n\nThe patient-doctor conversation will be provided in these tags:\n<conversation>\nPatient: Hello doctor, I have multiple small cysts in both ovaries (PCOS). Our family friend suggested me to consume Kalarchikai medicine, powdered mixed with pepper and honey to have it for one mandalam (48 days). I have completed nearly 44 days by consuming one small ball of the mixture every morning and before two weeks I got my periods. Then I had checked whether the cysts were dissolved by having an abdomen scan. But still, small multiple follicules have been seen in it with both ovaries enlarged. Kindly suggest me what I can do further. I got married before one and a half years and I am much worried about my pregnancy. I have gallstones as well. Doctor: Hello. I just read your query. See Kalarachi Kai choornam is helpful in amenorrhea. As far as small cysts are concerned they are unmatured eggs which failed to induce menstrual cycle previously, as a result, they got collected in the ovary and they will remain in the ovary. Now, you have got your periods you can start trying for conception. But I advise you to do it under the supervision of a nearby gynecologist because egg size is important while conception and that you can know by ovulation study. Ovulation study is performed under the supervision of a gynecologist. For gall stones, surgical intervention is required generally. Medicine is not of much help.\n</conversation>\n\nThe response will be provided in these tags:\n<response>\nA woman with PCOS who took Kalarchikai for 44 days regained her periods but still shows multiple ovarian follicles, and the doctor advises trying to conceive under a gynecologist\u2019s supervision with ovulation monitoring, while noting that gallstones usually require surgical treatment.\n</response>\n\nThe reference response will be provided in these tags:\n<gold_response>\nWill Kalarchikai cure multiple ovarian cysts in PCOD?\n</gold_response>\n\nCarefully review the <response> and compare it to the <gold_response> when needed.\n\nPlease evaluate the generated summary on a scale of 1-5 (1 = poor, 5 = excellent)\nfor each of these three key dimensions:\n\nEvaluation Criteria:\nAccuracy (1-5)\n- Does the summary correctly capture the main medical issue and clinical details from the conversation?\n\nCompleteness (1-5)\n- Does the summary include all important medical information from the conversation?\n\nClarity (1-5)\n- Is the summary easy to understand for clinical use?\n\nOutput Format:\nOutput your evaluation as a single valid JSON object matching the following structure:\n{\n    \"accuracy\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"completeness\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"clarity\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    }\n}\n\nEnsure the output is valid JSON:\n- Use **double quotes** (\") for all keys and string values.\n- When quoting text or sections inside the explanations, use escaped double quotes (\") to\n  maintain valid JSON formatting.\n- Do not include any additional information in the output.\n"
+        }
+      }
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Patient: Hi doctor, I was diagnosed with GERD six years ago. I have gained 10 pounds of weight and I started having phlegm in my throat. I am coughing more to get the phlegm out of my throat. I am currently taking Prevacid (over-the-counter) once a day in the morning. The phlegm and coughing does not seem to be going away and it is affecting my daily life. Should I take Prevacid at night too? Is there any medication that I can change to or add to Prevacid daily? Doctor: Hello. 1. CBC (complete blood count). 2. LFT (liver function tests). 3. Upper gastrointestinal endoscopy. Dyspepsia (indigestion). GERD (gastroesophageal reflux disease). Revert back after 15 days to a medical gastroenterologist online.---> https://www.icliniq.com/ask-a-doctor-online/medical-gastroenterologist"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Should I take Prevacid in the night for GERD?"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id570"
+      },
+      "train_trial_index": 0,
+      "request": {
+        "model_deployment": "openai/gpt-5",
+        "model": "openai/gpt-5",
+        "embedding": false,
+        "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: Hi doctor, I was diagnosed with GERD six years ago. I have gained 10 pounds of weight and I started having phlegm in my throat. I am coughing more to get the phlegm out of my throat. I am currently taking Prevacid (over-the-counter) once a day in the morning. The phlegm and coughing does not seem to be going away and it is affecting my daily life. Should I take Prevacid at night too? Is there any medication that I can change to or add to Prevacid daily? Doctor: Hello. 1. CBC (complete blood count). 2. LFT (liver function tests). 3. Upper gastrointestinal endoscopy. Dyspepsia (indigestion). GERD (gastroesophageal reflux disease). Revert back after 15 days to a medical gastroenterologist online.---> https://www.icliniq.com/ask-a-doctor-online/medical-gastroenterologist\nSummary:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 1,
+        "max_tokens": 80,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A patient with longstanding GERD, new weight gain, and persistent phlegm/cough despite morning OTC Prevacid asked about dosing and alternatives, and the doctor advised a workup (CBC, LFTs, upper GI endoscopy) and follow-up with a gastroenterologist in 15 days.",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": "A",
+                "logprob": 0
+              },
+              {
+                "text": " patient",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " longstanding",
+                "logprob": 0
+              },
+              {
+                "text": " GER",
+                "logprob": 0
+              },
+              {
+                "text": "D",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " new",
+                "logprob": 0
+              },
+              {
+                "text": " weight",
+                "logprob": 0
+              },
+              {
+                "text": " gain",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " persistent",
+                "logprob": 0
+              },
+              {
+                "text": " ph",
+                "logprob": 0
+              },
+              {
+                "text": "leg",
+                "logprob": 0
+              },
+              {
+                "text": "m",
+                "logprob": 0
+              },
+              {
+                "text": "/c",
+                "logprob": 0
+              },
+              {
+                "text": "ough",
+                "logprob": 0
+              },
+              {
+                "text": " despite",
+                "logprob": 0
+              },
+              {
+                "text": " morning",
+                "logprob": 0
+              },
+              {
+                "text": " O",
+                "logprob": 0
+              },
+              {
+                "text": "TC",
+                "logprob": 0
+              },
+              {
+                "text": " Pre",
+                "logprob": 0
+              },
+              {
+                "text": "vac",
+                "logprob": 0
+              },
+              {
+                "text": "id",
+                "logprob": 0
+              },
+              {
+                "text": " asked",
+                "logprob": 0
+              },
+              {
+                "text": " about",
+                "logprob": 0
+              },
+              {
+                "text": " dos",
+                "logprob": 0
+              },
+              {
+                "text": "ing",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " alternatives",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " doctor",
+                "logprob": 0
+              },
+              {
+                "text": " advised",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": " work",
+                "logprob": 0
+              },
+              {
+                "text": "up",
+                "logprob": 0
+              },
+              {
+                "text": " (",
+                "logprob": 0
+              },
+              {
+                "text": "CBC",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " L",
+                "logprob": 0
+              },
+              {
+                "text": "FT",
+                "logprob": 0
+              },
+              {
+                "text": "s",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " upper",
+                "logprob": 0
+              },
+              {
+                "text": " GI",
+                "logprob": 0
+              },
+              {
+                "text": " end",
+                "logprob": 0
+              },
+              {
+                "text": "os",
+                "logprob": 0
+              },
+              {
+                "text": "copy",
+                "logprob": 0
+              },
+              {
+                "text": ")",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " follow",
+                "logprob": 0
+              },
+              {
+                "text": "-up",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": " gastro",
+                "logprob": 0
+              },
+              {
+                "text": "enter",
+                "logprob": 0
+              },
+              {
+                "text": "ologist",
+                "logprob": 0
+              },
+              {
+                "text": " in",
+                "logprob": 0
+              },
+              {
+                "text": " ",
+                "logprob": 0
+              },
+              {
+                "text": "15",
+                "logprob": 0
+              },
+              {
+                "text": " days",
+                "logprob": 0
+              },
+              {
+                "text": ".",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "stop"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 4.418951988220215,
+        "request_datetime": 1754761683
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0,
+      "annotations": {
+        "med_dialog": {
+          "prompt_text": "You are a medical expert tasked with evaluating the quality of medical dialogue summaries.\n\nYour goal is to assess how well the summary captures the patient-doctor conversation,\nand how it compares to the gold response in terms of accuracy, completeness, and clarity.\n\nThe patient-doctor conversation will be provided in these tags:\n<conversation>\nPatient: Hi doctor, I was diagnosed with GERD six years ago. I have gained 10 pounds of weight and I started having phlegm in my throat. I am coughing more to get the phlegm out of my throat. I am currently taking Prevacid (over-the-counter) once a day in the morning. The phlegm and coughing does not seem to be going away and it is affecting my daily life. Should I take Prevacid at night too? Is there any medication that I can change to or add to Prevacid daily? Doctor: Hello. 1. CBC (complete blood count). 2. LFT (liver function tests). 3. Upper gastrointestinal endoscopy. Dyspepsia (indigestion). GERD (gastroesophageal reflux disease). Revert back after 15 days to a medical gastroenterologist online.---> https://www.icliniq.com/ask-a-doctor-online/medical-gastroenterologist\n</conversation>\n\nThe response will be provided in these tags:\n<response>\nA patient with longstanding GERD, new weight gain, and persistent phlegm/cough despite morning OTC Prevacid asked about dosing and alternatives, and the doctor advised a workup (CBC, LFTs, upper GI endoscopy) and follow-up with a gastroenterologist in 15 days.\n</response>\n\nThe reference response will be provided in these tags:\n<gold_response>\nShould I take Prevacid in the night for GERD?\n</gold_response>\n\nCarefully review the <response> and compare it to the <gold_response> when needed.\n\nPlease evaluate the generated summary on a scale of 1-5 (1 = poor, 5 = excellent)\nfor each of these three key dimensions:\n\nEvaluation Criteria:\nAccuracy (1-5)\n- Does the summary correctly capture the main medical issue and clinical details from the conversation?\n\nCompleteness (1-5)\n- Does the summary include all important medical information from the conversation?\n\nClarity (1-5)\n- Is the summary easy to understand for clinical use?\n\nOutput Format:\nOutput your evaluation as a single valid JSON object matching the following structure:\n{\n    \"accuracy\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"completeness\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"clarity\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    }\n}\n\nEnsure the output is valid JSON:\n- Use **double quotes** (\") for all keys and string values.\n- When quoting text or sections inside the explanations, use escaped double quotes (\") to\n  maintain valid JSON formatting.\n- Do not include any additional information in the output.\n"
+        }
+      }
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Patient: Hello doctor,I am trying to conceive but my husband and I did cocaine a week ago. How long should my husband and I wait to safely continue to try to get pregnant? How long until it is out of our system? How long does cocaine stay in sperm? Thanks in advance. Doctor: Hello, Wellcome to iclinq.com. There are few researches/studies on cocaine use by males and its effect on pregnancy. Few suggest that cocaine by itself has limited effects as most of the time it is taken along with other drugs or as a cocktail of alcohol and cigarette (tobacco). So, most of the people take not just cocaine but a combination of drugs. Cocaine narrows blood vessels (vasoconstriction). It can lead to erectile dysfunction. Few studies suggest that it has receptors on testicles and sperm. So, it can degenerate testicular tissues/or sperm quality, transfer from sperm to female egg and can lead to early miscarriage. Cocaine is a very fast acting drug which affects the nervous system and produces short-lived euphoric attitude for 15 minutes to an hour, but causes long-term damage to the body and brain like anxiety, depression, aggression, impairment of logic and critical thinking, heart problem, hypertension and decrease in bone density. Its half-life is an hour. So, it takes about an hour for half of the cocaine consumed to leave the body. But, with long-term use, the drug starts to accumulate in the blood and body tissues allowing certain tests to detect it in the system for an extended period of time. After a single use of cocaine, agents created by its metabolism can be detected in the urine for two to four days, and in chronic users, cocaine can be detected up to 12 days and highly concentrated cocaine can be detected in the urine up to three weeks. It can be detected in the saliva and blood for an average 12-48 hours. In hairs and sweat for an extended period of time, it can be detected. So, after all the above description, I do not know how your husband had cocaine, as a cocktail along with other drugs, or just cocaine? Secondly, how long he has been taking it? For you, have you been on alcohol, cocaine or smoking? If you had taken in the past, better to quit completely. My advice is, try to avoid drugs like cocaine, alcohol, ketamine, and MDMA completely for a couple of months before trying for pregnancy. Because, if the mother has an addiction, it has psychosocial effects on the fetus in addition to the drugs' side effects itself. Best of luck. For more information consult an obstetrician and gynaecologist online --> https://www.icliniq.com/ask-a-doctor-online/obstetrician-and-gynaecologist"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "How long should my husband and I wait to try for a baby if we did cocaine?"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id1836"
+      },
+      "train_trial_index": 0,
+      "request": {
+        "model_deployment": "openai/gpt-5",
+        "model": "openai/gpt-5",
+        "embedding": false,
+        "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: Hello doctor,I am trying to conceive but my husband and I did cocaine a week ago. How long should my husband and I wait to safely continue to try to get pregnant? How long until it is out of our system? How long does cocaine stay in sperm? Thanks in advance. Doctor: Hello, Wellcome to iclinq.com. There are few researches/studies on cocaine use by males and its effect on pregnancy. Few suggest that cocaine by itself has limited effects as most of the time it is taken along with other drugs or as a cocktail of alcohol and cigarette (tobacco). So, most of the people take not just cocaine but a combination of drugs. Cocaine narrows blood vessels (vasoconstriction). It can lead to erectile dysfunction. Few studies suggest that it has receptors on testicles and sperm. So, it can degenerate testicular tissues/or sperm quality, transfer from sperm to female egg and can lead to early miscarriage. Cocaine is a very fast acting drug which affects the nervous system and produces short-lived euphoric attitude for 15 minutes to an hour, but causes long-term damage to the body and brain like anxiety, depression, aggression, impairment of logic and critical thinking, heart problem, hypertension and decrease in bone density. Its half-life is an hour. So, it takes about an hour for half of the cocaine consumed to leave the body. But, with long-term use, the drug starts to accumulate in the blood and body tissues allowing certain tests to detect it in the system for an extended period of time. After a single use of cocaine, agents created by its metabolism can be detected in the urine for two to four days, and in chronic users, cocaine can be detected up to 12 days and highly concentrated cocaine can be detected in the urine up to three weeks. It can be detected in the saliva and blood for an average 12-48 hours. In hairs and sweat for an extended period of time, it can be detected. So, after all the above description, I do not know how your husband had cocaine, as a cocktail along with other drugs, or just cocaine? Secondly, how long he has been taking it? For you, have you been on alcohol, cocaine or smoking? If you had taken in the past, better to quit completely. My advice is, try to avoid drugs like cocaine, alcohol, ketamine, and MDMA completely for a couple of months before trying for pregnancy. Because, if the mother has an addiction, it has psychosocial effects on the fetus in addition to the drugs' side effects itself. Best of luck. For more information consult an obstetrician and gynaecologist online --> https://www.icliniq.com/ask-a-doctor-online/obstetrician-and-gynaecologist\nSummary:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 1,
+        "max_tokens": 80,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "The patient asked how long after using cocaine she and her husband should wait to try to conceive and how long it stays in the system/sperm, and the doctor explained cocaine\u2019s short half-life but longer detection (urine ~2\u20134 days after single use, longer with chronic use), possible adverse effects on sperm and fertility, and advised avoiding all drugs and waiting a couple of months before attempting pregnancy",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": "The",
+                "logprob": 0
+              },
+              {
+                "text": " patient",
+                "logprob": 0
+              },
+              {
+                "text": " asked",
+                "logprob": 0
+              },
+              {
+                "text": " how",
+                "logprob": 0
+              },
+              {
+                "text": " long",
+                "logprob": 0
+              },
+              {
+                "text": " after",
+                "logprob": 0
+              },
+              {
+                "text": " using",
+                "logprob": 0
+              },
+              {
+                "text": " cocaine",
+                "logprob": 0
+              },
+              {
+                "text": " she",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " her",
+                "logprob": 0
+              },
+              {
+                "text": " husband",
+                "logprob": 0
+              },
+              {
+                "text": " should",
+                "logprob": 0
+              },
+              {
+                "text": " wait",
+                "logprob": 0
+              },
+              {
+                "text": " to",
+                "logprob": 0
+              },
+              {
+                "text": " try",
+                "logprob": 0
+              },
+              {
+                "text": " to",
+                "logprob": 0
+              },
+              {
+                "text": " conceive",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " how",
+                "logprob": 0
+              },
+              {
+                "text": " long",
+                "logprob": 0
+              },
+              {
+                "text": " it",
+                "logprob": 0
+              },
+              {
+                "text": " stays",
+                "logprob": 0
+              },
+              {
+                "text": " in",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " system",
+                "logprob": 0
+              },
+              {
+                "text": "/s",
+                "logprob": 0
+              },
+              {
+                "text": "perm",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " doctor",
+                "logprob": 0
+              },
+              {
+                "text": " explained",
+                "logprob": 0
+              },
+              {
+                "text": " cocaine",
+                "logprob": 0
+              },
+              {
+                "text": "\u2019s",
+                "logprob": 0
+              },
+              {
+                "text": " short",
+                "logprob": 0
+              },
+              {
+                "text": " half",
+                "logprob": 0
+              },
+              {
+                "text": "-life",
+                "logprob": 0
+              },
+              {
+                "text": " but",
+                "logprob": 0
+              },
+              {
+                "text": " longer",
+                "logprob": 0
+              },
+              {
+                "text": " detection",
+                "logprob": 0
+              },
+              {
+                "text": " (",
+                "logprob": 0
+              },
+              {
+                "text": "ur",
+                "logprob": 0
+              },
+              {
+                "text": "ine",
+                "logprob": 0
+              },
+              {
+                "text": " ~",
+                "logprob": 0
+              },
+              {
+                "text": "2",
+                "logprob": 0
+              },
+              {
+                "text": "\u2013",
+                "logprob": 0
+              },
+              {
+                "text": "4",
+                "logprob": 0
+              },
+              {
+                "text": " days",
+                "logprob": 0
+              },
+              {
+                "text": " after",
+                "logprob": 0
+              },
+              {
+                "text": " single",
+                "logprob": 0
+              },
+              {
+                "text": " use",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " longer",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " chronic",
+                "logprob": 0
+              },
+              {
+                "text": " use",
+                "logprob": 0
+              },
+              {
+                "text": "),",
+                "logprob": 0
+              },
+              {
+                "text": " possible",
+                "logprob": 0
+              },
+              {
+                "text": " adverse",
+                "logprob": 0
+              },
+              {
+                "text": " effects",
+                "logprob": 0
+              },
+              {
+                "text": " on",
+                "logprob": 0
+              },
+              {
+                "text": " sperm",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " fertility",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " advised",
+                "logprob": 0
+              },
+              {
+                "text": " avoiding",
+                "logprob": 0
+              },
+              {
+                "text": " all",
+                "logprob": 0
+              },
+              {
+                "text": " drugs",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " waiting",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": " couple",
+                "logprob": 0
+              },
+              {
+                "text": " of",
+                "logprob": 0
+              },
+              {
+                "text": " months",
+                "logprob": 0
+              },
+              {
+                "text": " before",
+                "logprob": 0
+              },
+              {
+                "text": " attempting",
+                "logprob": 0
+              },
+              {
+                "text": " pregnancy",
+                "logprob": 0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 6.551647901535034,
+        "request_datetime": 1754761684
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0,
+      "annotations": {
+        "med_dialog": {
+          "prompt_text": "You are a medical expert tasked with evaluating the quality of medical dialogue summaries.\n\nYour goal is to assess how well the summary captures the patient-doctor conversation,\nand how it compares to the gold response in terms of accuracy, completeness, and clarity.\n\nThe patient-doctor conversation will be provided in these tags:\n<conversation>\nPatient: Hello doctor,I am trying to conceive but my husband and I did cocaine a week ago. How long should my husband and I wait to safely continue to try to get pregnant? How long until it is out of our system? How long does cocaine stay in sperm? Thanks in advance. Doctor: Hello, Wellcome to iclinq.com. There are few researches/studies on cocaine use by males and its effect on pregnancy. Few suggest that cocaine by itself has limited effects as most of the time it is taken along with other drugs or as a cocktail of alcohol and cigarette (tobacco). So, most of the people take not just cocaine but a combination of drugs. Cocaine narrows blood vessels (vasoconstriction). It can lead to erectile dysfunction. Few studies suggest that it has receptors on testicles and sperm. So, it can degenerate testicular tissues/or sperm quality, transfer from sperm to female egg and can lead to early miscarriage. Cocaine is a very fast acting drug which affects the nervous system and produces short-lived euphoric attitude for 15 minutes to an hour, but causes long-term damage to the body and brain like anxiety, depression, aggression, impairment of logic and critical thinking, heart problem, hypertension and decrease in bone density. Its half-life is an hour. So, it takes about an hour for half of the cocaine consumed to leave the body. But, with long-term use, the drug starts to accumulate in the blood and body tissues allowing certain tests to detect it in the system for an extended period of time. After a single use of cocaine, agents created by its metabolism can be detected in the urine for two to four days, and in chronic users, cocaine can be detected up to 12 days and highly concentrated cocaine can be detected in the urine up to three weeks. It can be detected in the saliva and blood for an average 12-48 hours. In hairs and sweat for an extended period of time, it can be detected. So, after all the above description, I do not know how your husband had cocaine, as a cocktail along with other drugs, or just cocaine? Secondly, how long he has been taking it? For you, have you been on alcohol, cocaine or smoking? If you had taken in the past, better to quit completely. My advice is, try to avoid drugs like cocaine, alcohol, ketamine, and MDMA completely for a couple of months before trying for pregnancy. Because, if the mother has an addiction, it has psychosocial effects on the fetus in addition to the drugs' side effects itself. Best of luck. For more information consult an obstetrician and gynaecologist online --> https://www.icliniq.com/ask-a-doctor-online/obstetrician-and-gynaecologist\n</conversation>\n\nThe response will be provided in these tags:\n<response>\nThe patient asked how long after using cocaine she and her husband should wait to try to conceive and how long it stays in the system/sperm, and the doctor explained cocaine\u2019s short half-life but longer detection (urine ~2\u20134 days after single use, longer with chronic use), possible adverse effects on sperm and fertility, and advised avoiding all drugs and waiting a couple of months before attempting pregnancy\n</response>\n\nThe reference response will be provided in these tags:\n<gold_response>\nHow long should my husband and I wait to try for a baby if we did cocaine?\n</gold_response>\n\nCarefully review the <response> and compare it to the <gold_response> when needed.\n\nPlease evaluate the generated summary on a scale of 1-5 (1 = poor, 5 = excellent)\nfor each of these three key dimensions:\n\nEvaluation Criteria:\nAccuracy (1-5)\n- Does the summary correctly capture the main medical issue and clinical details from the conversation?\n\nCompleteness (1-5)\n- Does the summary include all important medical information from the conversation?\n\nClarity (1-5)\n- Is the summary easy to understand for clinical use?\n\nOutput Format:\nOutput your evaluation as a single valid JSON object matching the following structure:\n{\n    \"accuracy\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"completeness\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"clarity\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    }\n}\n\nEnsure the output is valid JSON:\n- Use **double quotes** (\") for all keys and string values.\n- When quoting text or sections inside the explanations, use escaped double quotes (\") to\n  maintain valid JSON formatting.\n- Do not include any additional information in the output.\n"
+        }
+      }
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Patient: Hello doctor, My father has been diagnosed with pulmonary embolism. What is the safest blood thinner he can use? Doctor: Hi. Pulmonary embolism is a serious condition. We need to deal with it on an urgent basis with higher levels of blood thinners. The safest one is, of course, the mild ones such as Ecosprin (Aspirin), but that is not the drug of choice in pulmonary embolism in acute stages. The treatment always depends on the stage. If the embolus is still there, we will go in for injections, low molecular weight heparins such as Enoxaparin or Dalteparin and oral ones such as Warfarin. They have dangers but are necessary and life-saving. If the embolus has been dissolved, we can maintain on low dose Warfarin also. Tablets such as Clopidogrel and Aspirin are not used in embolism, they are fine for heart blockages. Revert back to a cardiologist online --> https://www.icliniq.com/ask-a-doctor-online/cardiologist"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Diagnosed with pulmonary embolism. What is the safest blood thinner that can be used?"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id1766"
+      },
+      "train_trial_index": 0,
+      "request": {
+        "model_deployment": "openai/gpt-5",
+        "model": "openai/gpt-5",
+        "embedding": false,
+        "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: Hello doctor, My father has been diagnosed with pulmonary embolism. What is the safest blood thinner he can use? Doctor: Hi. Pulmonary embolism is a serious condition. We need to deal with it on an urgent basis with higher levels of blood thinners. The safest one is, of course, the mild ones such as Ecosprin (Aspirin), but that is not the drug of choice in pulmonary embolism in acute stages. The treatment always depends on the stage. If the embolus is still there, we will go in for injections, low molecular weight heparins such as Enoxaparin or Dalteparin and oral ones such as Warfarin. They have dangers but are necessary and life-saving. If the embolus has been dissolved, we can maintain on low dose Warfarin also. Tablets such as Clopidogrel and Aspirin are not used in embolism, they are fine for heart blockages. Revert back to a cardiologist online --> https://www.icliniq.com/ask-a-doctor-online/cardiologist\nSummary:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 1,
+        "max_tokens": 80,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "The doctor explains that pulmonary embolism needs urgent treatment with anticoagulants like low-molecular-weight heparin and warfarin (not antiplatelets such as aspirin or clopidogrel), with the regimen depending on the stage of the clot, and advises follow-up with a cardiologist.",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": "The",
+                "logprob": 0
+              },
+              {
+                "text": " doctor",
+                "logprob": 0
+              },
+              {
+                "text": " explains",
+                "logprob": 0
+              },
+              {
+                "text": " that",
+                "logprob": 0
+              },
+              {
+                "text": " pulmonary",
+                "logprob": 0
+              },
+              {
+                "text": " emb",
+                "logprob": 0
+              },
+              {
+                "text": "ol",
+                "logprob": 0
+              },
+              {
+                "text": "ism",
+                "logprob": 0
+              },
+              {
+                "text": " needs",
+                "logprob": 0
+              },
+              {
+                "text": " urgent",
+                "logprob": 0
+              },
+              {
+                "text": " treatment",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " ant",
+                "logprob": 0
+              },
+              {
+                "text": "ico",
+                "logprob": 0
+              },
+              {
+                "text": "ag",
+                "logprob": 0
+              },
+              {
+                "text": "ul",
+                "logprob": 0
+              },
+              {
+                "text": "ants",
+                "logprob": 0
+              },
+              {
+                "text": " like",
+                "logprob": 0
+              },
+              {
+                "text": " low",
+                "logprob": 0
+              },
+              {
+                "text": "-m",
+                "logprob": 0
+              },
+              {
+                "text": "olecular",
+                "logprob": 0
+              },
+              {
+                "text": "-weight",
+                "logprob": 0
+              },
+              {
+                "text": " he",
+                "logprob": 0
+              },
+              {
+                "text": "par",
+                "logprob": 0
+              },
+              {
+                "text": "in",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " war",
+                "logprob": 0
+              },
+              {
+                "text": "far",
+                "logprob": 0
+              },
+              {
+                "text": "in",
+                "logprob": 0
+              },
+              {
+                "text": " (",
+                "logprob": 0
+              },
+              {
+                "text": "not",
+                "logprob": 0
+              },
+              {
+                "text": " anti",
+                "logprob": 0
+              },
+              {
+                "text": "plate",
+                "logprob": 0
+              },
+              {
+                "text": "lets",
+                "logprob": 0
+              },
+              {
+                "text": " such",
+                "logprob": 0
+              },
+              {
+                "text": " as",
+                "logprob": 0
+              },
+              {
+                "text": " aspir",
+                "logprob": 0
+              },
+              {
+                "text": "in",
+                "logprob": 0
+              },
+              {
+                "text": " or",
+                "logprob": 0
+              },
+              {
+                "text": " clo",
+                "logprob": 0
+              },
+              {
+                "text": "pid",
+                "logprob": 0
+              },
+              {
+                "text": "og",
+                "logprob": 0
+              },
+              {
+                "text": "rel",
+                "logprob": 0
+              },
+              {
+                "text": "),",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " regimen",
+                "logprob": 0
+              },
+              {
+                "text": " depending",
+                "logprob": 0
+              },
+              {
+                "text": " on",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " stage",
+                "logprob": 0
+              },
+              {
+                "text": " of",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " clot",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " advises",
+                "logprob": 0
+              },
+              {
+                "text": " follow",
+                "logprob": 0
+              },
+              {
+                "text": "-up",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": " cardi",
+                "logprob": 0
+              },
+              {
+                "text": "ologist",
+                "logprob": 0
+              },
+              {
+                "text": ".",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "stop"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 5.293600082397461,
+        "request_datetime": 1754761686
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0,
+      "annotations": {
+        "med_dialog": {
+          "prompt_text": "You are a medical expert tasked with evaluating the quality of medical dialogue summaries.\n\nYour goal is to assess how well the summary captures the patient-doctor conversation,\nand how it compares to the gold response in terms of accuracy, completeness, and clarity.\n\nThe patient-doctor conversation will be provided in these tags:\n<conversation>\nPatient: Hello doctor, My father has been diagnosed with pulmonary embolism. What is the safest blood thinner he can use? Doctor: Hi. Pulmonary embolism is a serious condition. We need to deal with it on an urgent basis with higher levels of blood thinners. The safest one is, of course, the mild ones such as Ecosprin (Aspirin), but that is not the drug of choice in pulmonary embolism in acute stages. The treatment always depends on the stage. If the embolus is still there, we will go in for injections, low molecular weight heparins such as Enoxaparin or Dalteparin and oral ones such as Warfarin. They have dangers but are necessary and life-saving. If the embolus has been dissolved, we can maintain on low dose Warfarin also. Tablets such as Clopidogrel and Aspirin are not used in embolism, they are fine for heart blockages. Revert back to a cardiologist online --> https://www.icliniq.com/ask-a-doctor-online/cardiologist\n</conversation>\n\nThe response will be provided in these tags:\n<response>\nThe doctor explains that pulmonary embolism needs urgent treatment with anticoagulants like low-molecular-weight heparin and warfarin (not antiplatelets such as aspirin or clopidogrel), with the regimen depending on the stage of the clot, and advises follow-up with a cardiologist.\n</response>\n\nThe reference response will be provided in these tags:\n<gold_response>\nDiagnosed with pulmonary embolism. What is the safest blood thinner that can be used?\n</gold_response>\n\nCarefully review the <response> and compare it to the <gold_response> when needed.\n\nPlease evaluate the generated summary on a scale of 1-5 (1 = poor, 5 = excellent)\nfor each of these three key dimensions:\n\nEvaluation Criteria:\nAccuracy (1-5)\n- Does the summary correctly capture the main medical issue and clinical details from the conversation?\n\nCompleteness (1-5)\n- Does the summary include all important medical information from the conversation?\n\nClarity (1-5)\n- Is the summary easy to understand for clinical use?\n\nOutput Format:\nOutput your evaluation as a single valid JSON object matching the following structure:\n{\n    \"accuracy\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"completeness\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"clarity\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    }\n}\n\nEnsure the output is valid JSON:\n- Use **double quotes** (\") for all keys and string values.\n- When quoting text or sections inside the explanations, use escaped double quotes (\") to\n  maintain valid JSON formatting.\n- Do not include any additional information in the output.\n"
+        }
+      }
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Patient: Hello doctor, I have multiple small cysts in both ovaries (PCOS). Our family friend suggested me to consume Kalarchikai medicine, powdered mixed with pepper and honey to have it for one mandalam (48 days). I have completed nearly 44 days by consuming one small ball of the mixture every morning and before two weeks I got my periods. Then I had checked whether the cysts were dissolved by having an abdomen scan. But still, small multiple follicules have been seen in it with both ovaries enlarged. Kindly suggest me what I can do further. I got married before one and a half years and I am much worried about my pregnancy. I have gallstones as well. Doctor: Hello. I just read your query. See Kalarachi Kai choornam is helpful in amenorrhea. As far as small cysts are concerned they are unmatured eggs which failed to induce menstrual cycle previously, as a result, they got collected in the ovary and they will remain in the ovary. Now, you have got your periods you can start trying for conception. But I advise you to do it under the supervision of a nearby gynecologist because egg size is important while conception and that you can know by ovulation study. Ovulation study is performed under the supervision of a gynecologist. For gall stones, surgical intervention is required generally. Medicine is not of much help."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Will Kalarchikai cure multiple ovarian cysts in PCOD?"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id883"
+      },
+      "train_trial_index": 0,
+      "request": {
+        "model_deployment": "openai/gpt-5",
+        "model": "openai/gpt-5",
+        "embedding": false,
+        "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: Hello doctor, I have multiple small cysts in both ovaries (PCOS). Our family friend suggested me to consume Kalarchikai medicine, powdered mixed with pepper and honey to have it for one mandalam (48 days). I have completed nearly 44 days by consuming one small ball of the mixture every morning and before two weeks I got my periods. Then I had checked whether the cysts were dissolved by having an abdomen scan. But still, small multiple follicules have been seen in it with both ovaries enlarged. Kindly suggest me what I can do further. I got married before one and a half years and I am much worried about my pregnancy. I have gallstones as well. Doctor: Hello. I just read your query. See Kalarachi Kai choornam is helpful in amenorrhea. As far as small cysts are concerned they are unmatured eggs which failed to induce menstrual cycle previously, as a result, they got collected in the ovary and they will remain in the ovary. Now, you have got your periods you can start trying for conception. But I advise you to do it under the supervision of a nearby gynecologist because egg size is important while conception and that you can know by ovulation study. Ovulation study is performed under the supervision of a gynecologist. For gall stones, surgical intervention is required generally. Medicine is not of much help.\nSummary:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 1,
+        "max_tokens": 80,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A woman with PCOS who took Kalarchikai for 44 days regained her periods but still shows multiple ovarian follicles, and the doctor advises trying to conceive under a gynecologist\u2019s supervision with ovulation monitoring, while noting that gallstones usually require surgical treatment.",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": "A",
+                "logprob": 0
+              },
+              {
+                "text": " woman",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " PC",
+                "logprob": 0
+              },
+              {
+                "text": "OS",
+                "logprob": 0
+              },
+              {
+                "text": " who",
+                "logprob": 0
+              },
+              {
+                "text": " took",
+                "logprob": 0
+              },
+              {
+                "text": " Kal",
+                "logprob": 0
+              },
+              {
+                "text": "arch",
+                "logprob": 0
+              },
+              {
+                "text": "ik",
+                "logprob": 0
+              },
+              {
+                "text": "ai",
+                "logprob": 0
+              },
+              {
+                "text": " for",
+                "logprob": 0
+              },
+              {
+                "text": " ",
+                "logprob": 0
+              },
+              {
+                "text": "44",
+                "logprob": 0
+              },
+              {
+                "text": " days",
+                "logprob": 0
+              },
+              {
+                "text": " regained",
+                "logprob": 0
+              },
+              {
+                "text": " her",
+                "logprob": 0
+              },
+              {
+                "text": " periods",
+                "logprob": 0
+              },
+              {
+                "text": " but",
+                "logprob": 0
+              },
+              {
+                "text": " still",
+                "logprob": 0
+              },
+              {
+                "text": " shows",
+                "logprob": 0
+              },
+              {
+                "text": " multiple",
+                "logprob": 0
+              },
+              {
+                "text": " ovarian",
+                "logprob": 0
+              },
+              {
+                "text": " follic",
+                "logprob": 0
+              },
+              {
+                "text": "les",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " doctor",
+                "logprob": 0
+              },
+              {
+                "text": " advises",
+                "logprob": 0
+              },
+              {
+                "text": " trying",
+                "logprob": 0
+              },
+              {
+                "text": " to",
+                "logprob": 0
+              },
+              {
+                "text": " conceive",
+                "logprob": 0
+              },
+              {
+                "text": " under",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": " g",
+                "logprob": 0
+              },
+              {
+                "text": "ynec",
+                "logprob": 0
+              },
+              {
+                "text": "ologist",
+                "logprob": 0
+              },
+              {
+                "text": "\u2019s",
+                "logprob": 0
+              },
+              {
+                "text": " supervision",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " ov",
+                "logprob": 0
+              },
+              {
+                "text": "ulation",
+                "logprob": 0
+              },
+              {
+                "text": " monitoring",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " while",
+                "logprob": 0
+              },
+              {
+                "text": " noting",
+                "logprob": 0
+              },
+              {
+                "text": " that",
+                "logprob": 0
+              },
+              {
+                "text": " gall",
+                "logprob": 0
+              },
+              {
+                "text": "stones",
+                "logprob": 0
+              },
+              {
+                "text": " usually",
+                "logprob": 0
+              },
+              {
+                "text": " require",
+                "logprob": 0
+              },
+              {
+                "text": " surgical",
+                "logprob": 0
+              },
+              {
+                "text": " treatment",
+                "logprob": 0
+              },
+              {
+                "text": ".",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "stop"
+            }
+          }
+        ],
+        "cached": true,
+        "request_time": 7.584926128387451,
+        "request_datetime": 1754761678
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0,
+      "annotations": {
+        "med_dialog": {
+          "prompt_text": "You are a medical expert tasked with evaluating the quality of medical dialogue summaries.\n\nYour goal is to assess how well the summary captures the patient-doctor conversation,\nand how it compares to the gold response in terms of accuracy, completeness, and clarity.\n\nThe patient-doctor conversation will be provided in these tags:\n<conversation>\nPatient: Hello doctor, I have multiple small cysts in both ovaries (PCOS). Our family friend suggested me to consume Kalarchikai medicine, powdered mixed with pepper and honey to have it for one mandalam (48 days). I have completed nearly 44 days by consuming one small ball of the mixture every morning and before two weeks I got my periods. Then I had checked whether the cysts were dissolved by having an abdomen scan. But still, small multiple follicules have been seen in it with both ovaries enlarged. Kindly suggest me what I can do further. I got married before one and a half years and I am much worried about my pregnancy. I have gallstones as well. Doctor: Hello. I just read your query. See Kalarachi Kai choornam is helpful in amenorrhea. As far as small cysts are concerned they are unmatured eggs which failed to induce menstrual cycle previously, as a result, they got collected in the ovary and they will remain in the ovary. Now, you have got your periods you can start trying for conception. But I advise you to do it under the supervision of a nearby gynecologist because egg size is important while conception and that you can know by ovulation study. Ovulation study is performed under the supervision of a gynecologist. For gall stones, surgical intervention is required generally. Medicine is not of much help.\n</conversation>\n\nThe response will be provided in these tags:\n<response>\nA woman with PCOS who took Kalarchikai for 44 days regained her periods but still shows multiple ovarian follicles, and the doctor advises trying to conceive under a gynecologist\u2019s supervision with ovulation monitoring, while noting that gallstones usually require surgical treatment.\n</response>\n\nThe reference response will be provided in these tags:\n<gold_response>\nWill Kalarchikai cure multiple ovarian cysts in PCOD?\n</gold_response>\n\nCarefully review the <response> and compare it to the <gold_response> when needed.\n\nPlease evaluate the generated summary on a scale of 1-5 (1 = poor, 5 = excellent)\nfor each of these three key dimensions:\n\nEvaluation Criteria:\nAccuracy (1-5)\n- Does the summary correctly capture the main medical issue and clinical details from the conversation?\n\nCompleteness (1-5)\n- Does the summary include all important medical information from the conversation?\n\nClarity (1-5)\n- Is the summary easy to understand for clinical use?\n\nOutput Format:\nOutput your evaluation as a single valid JSON object matching the following structure:\n{\n    \"accuracy\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"completeness\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"clarity\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    }\n}\n\nEnsure the output is valid JSON:\n- Use **double quotes** (\") for all keys and string values.\n- When quoting text or sections inside the explanations, use escaped double quotes (\") to\n  maintain valid JSON formatting.\n- Do not include any additional information in the output.\n"
+        }
+      }
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Patient: Hello doctor, I want to ask for my mother. Her age is 52 years and weight is 54 kg approx. She suffered from chikungunya in and as chikungunya causes severe pain in joints. So the doctor prescribed painkillers always and when the pain was severe, the doctor also gave injections to decrease pain (one every day). After recovery in one month, I tested her blood sugar level and that came (365) nine months back, after recovering from chikungunya. Does that high level of blood sugar came due to the painkiller that she took and the injections? Followed by that I did her blood sugar test every month sometimes after 15 days then after that up to now, in last more than 1.5 year it never came up. It always came between 90 to 110 in the last 1.5 years or more time. One important point is she did not take any medicine from the date it was diagnosed. Medicine was taken only first day and not after that. She also made changes in her lifestyle as she is not taking sugar much. She is only taking natural sugar in fruits, etc. Some time brown sugar in milk. Does this mean she is not having blood sugar problem and that level came up only due to painkillers and injections she took at the time of chikungunya? Is there any way I can check? Doctor: Hi. Temporarily any illness can cause elevated blood sugar levels. It is difficult to say what was the cause in her case. If the painkillers included steroids then yes, that added to the cause. But illness itself could be the reason, since it disturbs the immune system and can affect any organ system. To confirm that if she has diabetes or not, in addition to blood sugar monitoring (early morning and two hours after any meal) she will need HbA1C test specifically, that can confirm if she has diabetes or not. It is very easy to do and is available in most centers. If it is greater than 6.0 level despite diet control, she more likely has diabetes and should be treated. Acute illness. HbA1C and complete metabolic panel. To be determined after laboratory reports. Continue diet control."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Can painkillers for chikungunya raise blood sugar levels?"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id1490"
+      },
+      "train_trial_index": 0,
+      "request": {
+        "model_deployment": "openai/gpt-5",
+        "model": "openai/gpt-5",
+        "embedding": false,
+        "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: Hello doctor, I want to ask for my mother. Her age is 52 years and weight is 54 kg approx. She suffered from chikungunya in and as chikungunya causes severe pain in joints. So the doctor prescribed painkillers always and when the pain was severe, the doctor also gave injections to decrease pain (one every day). After recovery in one month, I tested her blood sugar level and that came (365) nine months back, after recovering from chikungunya. Does that high level of blood sugar came due to the painkiller that she took and the injections? Followed by that I did her blood sugar test every month sometimes after 15 days then after that up to now, in last more than 1.5 year it never came up. It always came between 90 to 110 in the last 1.5 years or more time. One important point is she did not take any medicine from the date it was diagnosed. Medicine was taken only first day and not after that. She also made changes in her lifestyle as she is not taking sugar much. She is only taking natural sugar in fruits, etc. Some time brown sugar in milk. Does this mean she is not having blood sugar problem and that level came up only due to painkillers and injections she took at the time of chikungunya? Is there any way I can check? Doctor: Hi. Temporarily any illness can cause elevated blood sugar levels. It is difficult to say what was the cause in her case. If the painkillers included steroids then yes, that added to the cause. But illness itself could be the reason, since it disturbs the immune system and can affect any organ system. To confirm that if she has diabetes or not, in addition to blood sugar monitoring (early morning and two hours after any meal) she will need HbA1C test specifically, that can confirm if she has diabetes or not. It is very easy to do and is available in most centers. If it is greater than 6.0 level despite diet control, she more likely has diabetes and should be treated. Acute illness. HbA1C and complete metabolic panel. To be determined after laboratory reports. Continue diet control.\nSummary:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 1,
+        "max_tokens": 80,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "After a 52-year-old woman had a one-time high blood sugar (365) following chikungunya and pain treatments, the doctor explained it could be from the illness and/or steroids, and advised confirming diabetes with fasting and post-meal checks plus an HbA1c test (and metabolic panel), continuing diet control, and treating if HbA1c is elevated.",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": "After",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": " ",
+                "logprob": 0
+              },
+              {
+                "text": "52",
+                "logprob": 0
+              },
+              {
+                "text": "-year",
+                "logprob": 0
+              },
+              {
+                "text": "-old",
+                "logprob": 0
+              },
+              {
+                "text": " woman",
+                "logprob": 0
+              },
+              {
+                "text": " had",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": " one",
+                "logprob": 0
+              },
+              {
+                "text": "-time",
+                "logprob": 0
+              },
+              {
+                "text": " high",
+                "logprob": 0
+              },
+              {
+                "text": " blood",
+                "logprob": 0
+              },
+              {
+                "text": " sugar",
+                "logprob": 0
+              },
+              {
+                "text": " (",
+                "logprob": 0
+              },
+              {
+                "text": "365",
+                "logprob": 0
+              },
+              {
+                "text": ")",
+                "logprob": 0
+              },
+              {
+                "text": " following",
+                "logprob": 0
+              },
+              {
+                "text": " ch",
+                "logprob": 0
+              },
+              {
+                "text": "ik",
+                "logprob": 0
+              },
+              {
+                "text": "ung",
+                "logprob": 0
+              },
+              {
+                "text": "unya",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " pain",
+                "logprob": 0
+              },
+              {
+                "text": " treatments",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " doctor",
+                "logprob": 0
+              },
+              {
+                "text": " explained",
+                "logprob": 0
+              },
+              {
+                "text": " it",
+                "logprob": 0
+              },
+              {
+                "text": " could",
+                "logprob": 0
+              },
+              {
+                "text": " be",
+                "logprob": 0
+              },
+              {
+                "text": " from",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " illness",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": "/or",
+                "logprob": 0
+              },
+              {
+                "text": " steroids",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " advised",
+                "logprob": 0
+              },
+              {
+                "text": " confirming",
+                "logprob": 0
+              },
+              {
+                "text": " diabetes",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " fasting",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " post",
+                "logprob": 0
+              },
+              {
+                "text": "-me",
+                "logprob": 0
+              },
+              {
+                "text": "al",
+                "logprob": 0
+              },
+              {
+                "text": " checks",
+                "logprob": 0
+              },
+              {
+                "text": " plus",
+                "logprob": 0
+              },
+              {
+                "text": " an",
+                "logprob": 0
+              },
+              {
+                "text": " H",
+                "logprob": 0
+              },
+              {
+                "text": "b",
+                "logprob": 0
+              },
+              {
+                "text": "A",
+                "logprob": 0
+              },
+              {
+                "text": "1",
+                "logprob": 0
+              },
+              {
+                "text": "c",
+                "logprob": 0
+              },
+              {
+                "text": " test",
+                "logprob": 0
+              },
+              {
+                "text": " (",
+                "logprob": 0
+              },
+              {
+                "text": "and",
+                "logprob": 0
+              },
+              {
+                "text": " metabolic",
+                "logprob": 0
+              },
+              {
+                "text": " panel",
+                "logprob": 0
+              },
+              {
+                "text": "),",
+                "logprob": 0
+              },
+              {
+                "text": " continuing",
+                "logprob": 0
+              },
+              {
+                "text": " diet",
+                "logprob": 0
+              },
+              {
+                "text": " control",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " treating",
+                "logprob": 0
+              },
+              {
+                "text": " if",
+                "logprob": 0
+              },
+              {
+                "text": " H",
+                "logprob": 0
+              },
+              {
+                "text": "b",
+                "logprob": 0
+              },
+              {
+                "text": "A",
+                "logprob": 0
+              },
+              {
+                "text": "1",
+                "logprob": 0
+              },
+              {
+                "text": "c",
+                "logprob": 0
+              },
+              {
+                "text": " is",
+                "logprob": 0
+              },
+              {
+                "text": " elevated",
+                "logprob": 0
+              },
+              {
+                "text": ".",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "stop"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 4.986917734146118,
+        "request_datetime": 1754761686
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0,
+      "annotations": {
+        "med_dialog": {
+          "prompt_text": "You are a medical expert tasked with evaluating the quality of medical dialogue summaries.\n\nYour goal is to assess how well the summary captures the patient-doctor conversation,\nand how it compares to the gold response in terms of accuracy, completeness, and clarity.\n\nThe patient-doctor conversation will be provided in these tags:\n<conversation>\nPatient: Hello doctor, I want to ask for my mother. Her age is 52 years and weight is 54 kg approx. She suffered from chikungunya in and as chikungunya causes severe pain in joints. So the doctor prescribed painkillers always and when the pain was severe, the doctor also gave injections to decrease pain (one every day). After recovery in one month, I tested her blood sugar level and that came (365) nine months back, after recovering from chikungunya. Does that high level of blood sugar came due to the painkiller that she took and the injections? Followed by that I did her blood sugar test every month sometimes after 15 days then after that up to now, in last more than 1.5 year it never came up. It always came between 90 to 110 in the last 1.5 years or more time. One important point is she did not take any medicine from the date it was diagnosed. Medicine was taken only first day and not after that. She also made changes in her lifestyle as she is not taking sugar much. She is only taking natural sugar in fruits, etc. Some time brown sugar in milk. Does this mean she is not having blood sugar problem and that level came up only due to painkillers and injections she took at the time of chikungunya? Is there any way I can check? Doctor: Hi. Temporarily any illness can cause elevated blood sugar levels. It is difficult to say what was the cause in her case. If the painkillers included steroids then yes, that added to the cause. But illness itself could be the reason, since it disturbs the immune system and can affect any organ system. To confirm that if she has diabetes or not, in addition to blood sugar monitoring (early morning and two hours after any meal) she will need HbA1C test specifically, that can confirm if she has diabetes or not. It is very easy to do and is available in most centers. If it is greater than 6.0 level despite diet control, she more likely has diabetes and should be treated. Acute illness. HbA1C and complete metabolic panel. To be determined after laboratory reports. Continue diet control.\n</conversation>\n\nThe response will be provided in these tags:\n<response>\nAfter a 52-year-old woman had a one-time high blood sugar (365) following chikungunya and pain treatments, the doctor explained it could be from the illness and/or steroids, and advised confirming diabetes with fasting and post-meal checks plus an HbA1c test (and metabolic panel), continuing diet control, and treating if HbA1c is elevated.\n</response>\n\nThe reference response will be provided in these tags:\n<gold_response>\nCan painkillers for chikungunya raise blood sugar levels?\n</gold_response>\n\nCarefully review the <response> and compare it to the <gold_response> when needed.\n\nPlease evaluate the generated summary on a scale of 1-5 (1 = poor, 5 = excellent)\nfor each of these three key dimensions:\n\nEvaluation Criteria:\nAccuracy (1-5)\n- Does the summary correctly capture the main medical issue and clinical details from the conversation?\n\nCompleteness (1-5)\n- Does the summary include all important medical information from the conversation?\n\nClarity (1-5)\n- Is the summary easy to understand for clinical use?\n\nOutput Format:\nOutput your evaluation as a single valid JSON object matching the following structure:\n{\n    \"accuracy\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"completeness\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"clarity\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    }\n}\n\nEnsure the output is valid JSON:\n- Use **double quotes** (\") for all keys and string values.\n- When quoting text or sections inside the explanations, use escaped double quotes (\") to\n  maintain valid JSON formatting.\n- Do not include any additional information in the output.\n"
+        }
+      }
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Patient: Hello doctor, My BP is very high 200/75. I have made aortic valve replacement surgery with metal valve nine years ago. The BP is high for the past four days and nothing gets it down. In an emergency clinic, they gave me a Nitroglycerin patch which made my BP reach 170/75, however, it did not get the BP more down. My physician prescribed me Coversyl 5/2.5 and Concor 5. I am a chronic Coumadin user. Doctor: Hello. There are multiple options available for you. Firstly, it is better to shift to other drugs like Telmisartan 80 mg or Losartan 100 mg instead of Coversyl plus because combination makes it difficult to titrate. If you want to stick to the same then some other medicines like Amlodipine 5 mg and if not effective 10 mg in addition to Coversyl plus and Concor, will control your BP. Also, if BP remains elevated then tablet Prazosin XL 2.5 mg should be added which can be increased to 10 mg if necessary. So, overall, you may have tablet Coversyl plus, Concor and the third drug should be added like Amlodipine 5/10 mg (or similar medicine Cilnidipine). Next in the line if necessary is Prazosin. Also, the dose of Coversyl could be increased later if necessary. In an emergency situation, you should discuss with your doctor regarding intravenous Labetalol or intravenous Nitroglycerin drip for immediate BP control."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "How can high BP be controlled in a patient with aortic valve replacement?"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id306"
+      },
+      "train_trial_index": 0,
+      "request": {
+        "model_deployment": "openai/gpt-5",
+        "model": "openai/gpt-5",
+        "embedding": false,
+        "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: Hello doctor, My BP is very high 200/75. I have made aortic valve replacement surgery with metal valve nine years ago. The BP is high for the past four days and nothing gets it down. In an emergency clinic, they gave me a Nitroglycerin patch which made my BP reach 170/75, however, it did not get the BP more down. My physician prescribed me Coversyl 5/2.5 and Concor 5. I am a chronic Coumadin user. Doctor: Hello. There are multiple options available for you. Firstly, it is better to shift to other drugs like Telmisartan 80 mg or Losartan 100 mg instead of Coversyl plus because combination makes it difficult to titrate. If you want to stick to the same then some other medicines like Amlodipine 5 mg and if not effective 10 mg in addition to Coversyl plus and Concor, will control your BP. Also, if BP remains elevated then tablet Prazosin XL 2.5 mg should be added which can be increased to 10 mg if necessary. So, overall, you may have tablet Coversyl plus, Concor and the third drug should be added like Amlodipine 5/10 mg (or similar medicine Cilnidipine). Next in the line if necessary is Prazosin. Also, the dose of Coversyl could be increased later if necessary. In an emergency situation, you should discuss with your doctor regarding intravenous Labetalol or intravenous Nitroglycerin drip for immediate BP control.\nSummary:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 1,
+        "max_tokens": 80,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A patient with a mechanical aortic valve on warfarin has persistent severe hypertension (200/75, only reduced to 170/75 with a nitro patch) despite Coversyl Plus and Concor, and the doctor recommends switching to an ARB (telmisartan 80 mg or losartan 100 mg) or adding amlodipine (5\u201310 mg)",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": "A",
+                "logprob": 0
+              },
+              {
+                "text": " patient",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": " mechanical",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": "ortic",
+                "logprob": 0
+              },
+              {
+                "text": " valve",
+                "logprob": 0
+              },
+              {
+                "text": " on",
+                "logprob": 0
+              },
+              {
+                "text": " war",
+                "logprob": 0
+              },
+              {
+                "text": "far",
+                "logprob": 0
+              },
+              {
+                "text": "in",
+                "logprob": 0
+              },
+              {
+                "text": " has",
+                "logprob": 0
+              },
+              {
+                "text": " persistent",
+                "logprob": 0
+              },
+              {
+                "text": " severe",
+                "logprob": 0
+              },
+              {
+                "text": " hypertension",
+                "logprob": 0
+              },
+              {
+                "text": " (",
+                "logprob": 0
+              },
+              {
+                "text": "200",
+                "logprob": 0
+              },
+              {
+                "text": "/",
+                "logprob": 0
+              },
+              {
+                "text": "75",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " only",
+                "logprob": 0
+              },
+              {
+                "text": " reduced",
+                "logprob": 0
+              },
+              {
+                "text": " to",
+                "logprob": 0
+              },
+              {
+                "text": " ",
+                "logprob": 0
+              },
+              {
+                "text": "170",
+                "logprob": 0
+              },
+              {
+                "text": "/",
+                "logprob": 0
+              },
+              {
+                "text": "75",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": " nit",
+                "logprob": 0
+              },
+              {
+                "text": "ro",
+                "logprob": 0
+              },
+              {
+                "text": " patch",
+                "logprob": 0
+              },
+              {
+                "text": ")",
+                "logprob": 0
+              },
+              {
+                "text": " despite",
+                "logprob": 0
+              },
+              {
+                "text": " Covers",
+                "logprob": 0
+              },
+              {
+                "text": "yl",
+                "logprob": 0
+              },
+              {
+                "text": " Plus",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " Con",
+                "logprob": 0
+              },
+              {
+                "text": "cor",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " doctor",
+                "logprob": 0
+              },
+              {
+                "text": " recommends",
+                "logprob": 0
+              },
+              {
+                "text": " switching",
+                "logprob": 0
+              },
+              {
+                "text": " to",
+                "logprob": 0
+              },
+              {
+                "text": " an",
+                "logprob": 0
+              },
+              {
+                "text": " AR",
+                "logprob": 0
+              },
+              {
+                "text": "B",
+                "logprob": 0
+              },
+              {
+                "text": " (",
+                "logprob": 0
+              },
+              {
+                "text": "tel",
+                "logprob": 0
+              },
+              {
+                "text": "mis",
+                "logprob": 0
+              },
+              {
+                "text": "art",
+                "logprob": 0
+              },
+              {
+                "text": "an",
+                "logprob": 0
+              },
+              {
+                "text": " ",
+                "logprob": 0
+              },
+              {
+                "text": "80",
+                "logprob": 0
+              },
+              {
+                "text": " mg",
+                "logprob": 0
+              },
+              {
+                "text": " or",
+                "logprob": 0
+              },
+              {
+                "text": " los",
+                "logprob": 0
+              },
+              {
+                "text": "art",
+                "logprob": 0
+              },
+              {
+                "text": "an",
+                "logprob": 0
+              },
+              {
+                "text": " ",
+                "logprob": 0
+              },
+              {
+                "text": "100",
+                "logprob": 0
+              },
+              {
+                "text": " mg",
+                "logprob": 0
+              },
+              {
+                "text": ")",
+                "logprob": 0
+              },
+              {
+                "text": " or",
+                "logprob": 0
+              },
+              {
+                "text": " adding",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": "ml",
+                "logprob": 0
+              },
+              {
+                "text": "od",
+                "logprob": 0
+              },
+              {
+                "text": "ip",
+                "logprob": 0
+              },
+              {
+                "text": "ine",
+                "logprob": 0
+              },
+              {
+                "text": " (",
+                "logprob": 0
+              },
+              {
+                "text": "5",
+                "logprob": 0
+              },
+              {
+                "text": "\u2013",
+                "logprob": 0
+              },
+              {
+                "text": "10",
+                "logprob": 0
+              },
+              {
+                "text": " mg",
+                "logprob": 0
+              },
+              {
+                "text": ")",
+                "logprob": 0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 9.67481517791748,
+        "request_datetime": 1754761688
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0,
+      "annotations": {
+        "med_dialog": {
+          "prompt_text": "You are a medical expert tasked with evaluating the quality of medical dialogue summaries.\n\nYour goal is to assess how well the summary captures the patient-doctor conversation,\nand how it compares to the gold response in terms of accuracy, completeness, and clarity.\n\nThe patient-doctor conversation will be provided in these tags:\n<conversation>\nPatient: Hello doctor, My BP is very high 200/75. I have made aortic valve replacement surgery with metal valve nine years ago. The BP is high for the past four days and nothing gets it down. In an emergency clinic, they gave me a Nitroglycerin patch which made my BP reach 170/75, however, it did not get the BP more down. My physician prescribed me Coversyl 5/2.5 and Concor 5. I am a chronic Coumadin user. Doctor: Hello. There are multiple options available for you. Firstly, it is better to shift to other drugs like Telmisartan 80 mg or Losartan 100 mg instead of Coversyl plus because combination makes it difficult to titrate. If you want to stick to the same then some other medicines like Amlodipine 5 mg and if not effective 10 mg in addition to Coversyl plus and Concor, will control your BP. Also, if BP remains elevated then tablet Prazosin XL 2.5 mg should be added which can be increased to 10 mg if necessary. So, overall, you may have tablet Coversyl plus, Concor and the third drug should be added like Amlodipine 5/10 mg (or similar medicine Cilnidipine). Next in the line if necessary is Prazosin. Also, the dose of Coversyl could be increased later if necessary. In an emergency situation, you should discuss with your doctor regarding intravenous Labetalol or intravenous Nitroglycerin drip for immediate BP control.\n</conversation>\n\nThe response will be provided in these tags:\n<response>\nA patient with a mechanical aortic valve on warfarin has persistent severe hypertension (200/75, only reduced to 170/75 with a nitro patch) despite Coversyl Plus and Concor, and the doctor recommends switching to an ARB (telmisartan 80 mg or losartan 100 mg) or adding amlodipine (5\u201310 mg)\n</response>\n\nThe reference response will be provided in these tags:\n<gold_response>\nHow can high BP be controlled in a patient with aortic valve replacement?\n</gold_response>\n\nCarefully review the <response> and compare it to the <gold_response> when needed.\n\nPlease evaluate the generated summary on a scale of 1-5 (1 = poor, 5 = excellent)\nfor each of these three key dimensions:\n\nEvaluation Criteria:\nAccuracy (1-5)\n- Does the summary correctly capture the main medical issue and clinical details from the conversation?\n\nCompleteness (1-5)\n- Does the summary include all important medical information from the conversation?\n\nClarity (1-5)\n- Is the summary easy to understand for clinical use?\n\nOutput Format:\nOutput your evaluation as a single valid JSON object matching the following structure:\n{\n    \"accuracy\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"completeness\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"clarity\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    }\n}\n\nEnsure the output is valid JSON:\n- Use **double quotes** (\") for all keys and string values.\n- When quoting text or sections inside the explanations, use escaped double quotes (\") to\n  maintain valid JSON formatting.\n- Do not include any additional information in the output.\n"
+        }
+      }
+    }
+  ],
+  "annotator_specs": [
+    {
+      "class_name": "helm.benchmark.annotation.med_dialog_annotator.MedDialogAnnotator",
+      "args": {}
+    }
+  ]
+}

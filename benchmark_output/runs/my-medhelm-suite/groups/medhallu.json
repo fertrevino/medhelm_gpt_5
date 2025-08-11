@@ -1,0 +1,147 @@
+[
+  {
+    "title": "",
+    "header": [
+      {
+        "value": "Model",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "EM",
+        "description": "MedHallu is a benchmark focused on evaluating factual correctness in biomedical question answering. Each instance contains a PubMed-derived knowledge snippet, a biomedical question, and a model-generated answer. The task is to classify whether the answer is factually correct or contains hallucinated (non-grounded) information. This benchmark is designed to assess the factual reliability of medical language models.\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+        "markdown": false,
+        "lower_is_better": false,
+        "metadata": {
+          "metric": "EM",
+          "run_group": "MedHallu"
+        }
+      },
+      {
+        "value": "Observed inference time (s)",
+        "description": "MedHallu is a benchmark focused on evaluating factual correctness in biomedical question answering. Each instance contains a PubMed-derived knowledge snippet, a biomedical question, and a model-generated answer. The task is to classify whether the answer is factually correct or contains hallucinated (non-grounded) information. This benchmark is designed to assess the factual reliability of medical language models.\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+        "markdown": false,
+        "lower_is_better": true,
+        "metadata": {
+          "metric": "Observed inference time (s)",
+          "run_group": "MedHallu"
+        }
+      },
+      {
+        "value": "# eval",
+        "description": "MedHallu is a benchmark focused on evaluating factual correctness in biomedical question answering. Each instance contains a PubMed-derived knowledge snippet, a biomedical question, and a model-generated answer. The task is to classify whether the answer is factually correct or contains hallucinated (non-grounded) information. This benchmark is designed to assess the factual reliability of medical language models.\n\n# eval: Number of evaluation instances.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# eval",
+          "run_group": "MedHallu"
+        }
+      },
+      {
+        "value": "# train",
+        "description": "MedHallu is a benchmark focused on evaluating factual correctness in biomedical question answering. Each instance contains a PubMed-derived knowledge snippet, a biomedical question, and a model-generated answer. The task is to classify whether the answer is factually correct or contains hallucinated (non-grounded) information. This benchmark is designed to assess the factual reliability of medical language models.\n\n# train: Number of training instances (e.g., in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "# train",
+          "run_group": "MedHallu"
+        }
+      },
+      {
+        "value": "truncated",
+        "description": "MedHallu is a benchmark focused on evaluating factual correctness in biomedical question answering. Each instance contains a PubMed-derived knowledge snippet, a biomedical question, and a model-generated answer. The task is to classify whether the answer is factually correct or contains hallucinated (non-grounded) information. This benchmark is designed to assess the factual reliability of medical language models.\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "truncated",
+          "run_group": "MedHallu"
+        }
+      },
+      {
+        "value": "# prompt tokens",
+        "description": "MedHallu is a benchmark focused on evaluating factual correctness in biomedical question answering. Each instance contains a PubMed-derived knowledge snippet, a biomedical question, and a model-generated answer. The task is to classify whether the answer is factually correct or contains hallucinated (non-grounded) information. This benchmark is designed to assess the factual reliability of medical language models.\n\n# prompt tokens: Number of tokens in the prompt.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# prompt tokens",
+          "run_group": "MedHallu"
+        }
+      },
+      {
+        "value": "# output tokens",
+        "description": "MedHallu is a benchmark focused on evaluating factual correctness in biomedical question answering. Each instance contains a PubMed-derived knowledge snippet, a biomedical question, and a model-generated answer. The task is to classify whether the answer is factually correct or contains hallucinated (non-grounded) information. This benchmark is designed to assess the factual reliability of medical language models.\n\n# output tokens: Actual number of output tokens.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# output tokens",
+          "run_group": "MedHallu"
+        }
+      }
+    ],
+    "rows": [
+      [
+        {
+          "value": "GPT 5",
+          "description": "",
+          "href": "?group=medhallu&subgroup=&runSpecs=%5B%22medhallu%3Amodel%3Dopenai_gpt-5%22%5D",
+          "markdown": false,
+          "run_spec_names": [
+            "medhallu:model=openai_gpt-5"
+          ]
+        },
+        {
+          "value": 0.88,
+          "description": "min=0.88, mean=0.88, max=0.88, sum=0.88 (1)",
+          "style": {
+            "font-weight": "bold"
+          },
+          "markdown": false
+        },
+        {
+          "value": 8.228727684020996,
+          "description": "min=8.229, mean=8.229, max=8.229, sum=8.229 (1)",
+          "style": {
+            "font-weight": "bold"
+          },
+          "markdown": false
+        },
+        {
+          "value": 100.0,
+          "description": "min=100, mean=100, max=100, sum=100 (1)",
+          "style": {},
+          "markdown": false
+        },
+        {
+          "value": 0.0,
+          "description": "min=0, mean=0, max=0, sum=0 (1)",
+          "style": {},
+          "markdown": false
+        },
+        {
+          "value": 0.0,
+          "description": "min=0, mean=0, max=0, sum=0 (1)",
+          "style": {},
+          "markdown": false
+        },
+        {
+          "value": 708.95,
+          "description": "min=708.95, mean=708.95, max=708.95, sum=708.95 (1)",
+          "style": {},
+          "markdown": false
+        },
+        {
+          "value": 1.0,
+          "description": "min=1, mean=1, max=1, sum=1 (1)",
+          "style": {},
+          "markdown": false
+        }
+      ]
+    ],
+    "links": [
+      {
+        "text": "LaTeX",
+        "href": "benchmark_output/runs/my-medhelm-suite/groups/latex/medhallu_medhallu_.tex"
+      },
+      {
+        "text": "JSON",
+        "href": "benchmark_output/runs/my-medhelm-suite/groups/json/medhallu_medhallu_.json"
+      }
+    ],
+    "name": "medhallu_"
+  }
+]

@@ -1,0 +1,1001 @@
+[
+  {
+    "name": "aci_bench:model=openai_gpt-5",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.aci_bench_scenario.ACIBenchScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "Summarize the conversation to generate a clinical note with four sections:\n1. HISTORY OF PRESENT ILLNESS\n2. PHYSICAL EXAM\n3. RESULTS\n4. ASSESSMENT AND PLAN\n\nThe conversation is:\n",
+      "input_prefix": "Conversation: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Clinical Note: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 0,
+      "max_eval_instances": 10,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "temperature": 0.0,
+      "max_tokens": 768,
+      "stop_sequences": [],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.summarization_metrics.SummarizationMetric",
+        "args": {
+          "task": "aci_bench",
+          "device": "cpu",
+          "bertscore_model": "distilbert-base-uncased",
+          "rescale_with_baseline": false
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": []
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.aci_bench_metrics.ACIBenchMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "clinical",
+      "aci_bench"
+    ],
+    "annotators": [
+      {
+        "class_name": "helm.benchmark.annotation.aci_bench_annotator.ACIBenchAnnotator",
+        "args": {}
+      }
+    ]
+  },
+  {
+    "name": "ehr_sql:model=openai_gpt-5",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.ehr_sql_scenario.EhrSqlScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "You are a highly skilled AI specializing in medical SQL queries. Given a database schema and a medical question, generate a valid SQL query that retrieves the required information from the database. Output only the SQL query without explanations.\n\nInput: A database schema followed by a natural language question.\nOutput: A valid SQL query ending with ;. Only return SQL query, don't add additional text.\n\nIf the question is unanswerable, return an empty string without additional text or comments.\n",
+      "input_prefix": "Medical Question + Schema: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "SQL Query: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 0,
+      "max_eval_instances": 100,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "temperature": 0.0,
+      "max_tokens": 1024,
+      "stop_sequences": [],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.ehr_sql_metrics.EhrSqlMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "ehr_sql"
+    ],
+    "annotators": [
+      {
+        "class_name": "helm.benchmark.annotation.ehr_sql_annotator.EhrSqlAnnotator",
+        "args": {}
+      }
+    ]
+  },
+  {
+    "name": "head_qa:language=en,category=None,model=openai_gpt-5",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.headqa_scenario.HeadQAScenario",
+      "args": {
+        "language": "en",
+        "category": null
+      }
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "You are a highly knowledgeable AI assistant specializing in biomedical sciences. Your task is to answer multiple-choice questions accurately based on the options provided. Each question will relate to biomedical concepts, and you will be asked to choose the most appropriate answer.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, or D).\n",
+      "input_prefix": "Question: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Answer: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 0,
+      "max_eval_instances": 100,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "biomedical",
+      "head_qa"
+    ]
+  },
+  {
+    "name": "med_dialog,subset=healthcaremagic:model=openai_gpt-5",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.med_dialog_scenario.MedDialogScenario",
+      "args": {
+        "subset": "healthcaremagic"
+      }
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "Generate a one sentence summary of this patient-doctor conversation.\n",
+      "input_prefix": "Patient-Doctor: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Summary: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 0,
+      "max_eval_instances": 10,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "temperature": 0.0,
+      "max_tokens": 80,
+      "stop_sequences": [],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.summarization_metrics.SummarizationMetric",
+        "args": {
+          "task": "med_dialog",
+          "device": "cpu",
+          "bertscore_model": "distilbert-base-uncased",
+          "rescale_with_baseline": false
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": []
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.med_dialog_metrics.MedDialogMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "med_dialog"
+    ],
+    "annotators": [
+      {
+        "class_name": "helm.benchmark.annotation.med_dialog_annotator.MedDialogAnnotator",
+        "args": {}
+      }
+    ]
+  },
+  {
+    "name": "med_dialog,subset=icliniq:model=openai_gpt-5",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.med_dialog_scenario.MedDialogScenario",
+      "args": {
+        "subset": "icliniq"
+      }
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "Generate a one sentence summary of this patient-doctor conversation.\n",
+      "input_prefix": "Patient-Doctor: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Summary: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 0,
+      "max_eval_instances": 10,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "temperature": 0.0,
+      "max_tokens": 80,
+      "stop_sequences": [],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.summarization_metrics.SummarizationMetric",
+        "args": {
+          "task": "med_dialog",
+          "device": "cpu",
+          "bertscore_model": "distilbert-base-uncased",
+          "rescale_with_baseline": false
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": []
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.med_dialog_metrics.MedDialogMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "med_dialog"
+    ],
+    "annotators": [
+      {
+        "class_name": "helm.benchmark.annotation.med_dialog_annotator.MedDialogAnnotator",
+        "args": {}
+      }
+    ]
+  },
+  {
+    "name": "medbullets:model=openai_gpt-5",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.medbullets_scenario.MedBulletsScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "You are a highly knowledgeable AI assistant specializing in medicine. Your task is to answer medical questions similar to those found on the USMLE Step 2/3 exams. You will be provided with a clinical scenario followed by several multiple-choice options.\n\nSelect the correct answer by outputting only the letter corresponding to your choice (A, B, C, D, or E).\n",
+      "input_prefix": "Clinical Scenario: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Answer: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 0,
+      "max_eval_instances": 100,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "clinical",
+      "medbullets"
+    ]
+  },
+  {
+    "name": "medcalc_bench:model=openai_gpt-5",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.medcalc_bench_scenario.MedCalcBenchScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "Given a patient note and a clinical question, compute the requested medical value.\n",
+      "input_prefix": "",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Answer only the requested quantity without units. No explanation needed: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 0,
+      "max_eval_instances": 1000,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "temperature": 0.0,
+      "max_tokens": 10,
+      "stop_sequences": [],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.medcalc_bench_metrics.MedCalcBenchMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "medcalc_bench"
+    ]
+  },
+  {
+    "name": "medec:model=openai_gpt-5",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.medec_scenario.MedecScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "The following is a medical narrative about a patient. You are a skilled medical doctor reviewing the clinical text. The text is either correct or contains one error. The text has a sentence per line. Each line starts with the sentence ID, followed by a space character then the sentence to check. Check every sentence of the text. If the text is correct return the following output: CORRECT. If the text has a medical error, return the sentence ID of the sentence containing the error, followed by a space, and a corrected version of the sentence.\n",
+      "input_prefix": "Clinical Note: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Answer: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 0,
+      "max_eval_instances": 100,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "temperature": 0.0,
+      "max_tokens": 256,
+      "stop_sequences": [],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.medec_metrics.MedecMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": []
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "clinical",
+      "medec"
+    ]
+  },
+  {
+    "name": "medhallu:model=openai_gpt-5",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.medhallu_scenario.MedHalluScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "You are an AI assistant with extensive knowledge in the field of medicine. I want you act as an answer judge. Given a question and an answer, your objective is to determine if the provided answer contains non-factual or hallucinated information. You SHOULD give your judgement based on the following hallucination types and the world knowledge.\n\nYou are trying to determine if there is a factual contradiction between the answer and the world knowledge. Some information in the answer might be fabricated. Answer '0' if the answer is factual and '1' if the answer is hallucinated. You can categorize the answer as hallucinated if it falls in either of the category:\nType: Misinterpretation of #Question#: These are hallucinated answers that misunderstands the question, leading to an off-topic or irrelevant response.\nType: Incomplete Information: These are hallucinated answers that Point out what is not true without providing correct information.\nType: Mechanism and Pathway Misattribution - These are hallucinated answer that falsely attribution of biological mechanisms, molecular pathways, or disease processes that contradicts established medical knowledge\nType: Methodological and Evidence Fabrication - Inventing false research methods, statistical data, or specific clinical outcomes\n\nDo not return anything else, just the answer.\nReturn just an integer value, '0' if the answer is factual and '1' if the answer is hallucinated. No letter or word, just the integer value.\n",
+      "input_prefix": "",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Return just an integer value, '0' if the answer is factual and '1' if the answer is hallucinated.\nNo letter or word, just the integer value.\n\nYour Judgment: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 0,
+      "max_eval_instances": 100,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "temperature": 0.0,
+      "max_tokens": 5,
+      "stop_sequences": [],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "medhallu"
+    ]
+  },
+  {
+    "name": "medi_qa:model=openai_gpt-5",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.medi_qa_scenario.MediQAScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "Answer the following consumer health question.\n",
+      "input_prefix": "Question: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Answer: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 0,
+      "max_eval_instances": 10,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "temperature": 0.0,
+      "max_tokens": 1024,
+      "stop_sequences": [],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.summarization_metrics.SummarizationMetric",
+        "args": {
+          "task": "medi_qa",
+          "device": "cpu",
+          "bertscore_model": "distilbert-base-uncased",
+          "rescale_with_baseline": false
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": []
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.medi_qa_metrics.MediQAMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "medi_qa"
+    ],
+    "annotators": [
+      {
+        "class_name": "helm.benchmark.annotation.medi_qa_annotator.MediQAAnnotator",
+        "args": {}
+      }
+    ]
+  },
+  {
+    "name": "mtsamples_replicate:model=openai_gpt-5",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.mtsamples_replicate_scenario.MTSamplesReplicateScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "Given various information about a patient, return a reasonable treatment plan for the patient.\n",
+      "input_prefix": "",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Answer: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 0,
+      "max_eval_instances": 10,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "temperature": 0.0,
+      "max_tokens": 512,
+      "stop_sequences": [],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.summarization_metrics.SummarizationMetric",
+        "args": {
+          "task": "mtsamples_replicate",
+          "device": "cpu",
+          "bertscore_model": "distilbert-base-uncased",
+          "rescale_with_baseline": false
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": []
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.mtsamples_replicate_metrics.MTSamplesReplicateMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "mtsamples_replicate"
+    ],
+    "annotators": [
+      {
+        "class_name": "helm.benchmark.annotation.mtsamples_replicate_annotator.MTSamplesReplicateAnnotator",
+        "args": {}
+      }
+    ]
+  },
+  {
+    "name": "pubmed_qa:model=openai_gpt-5",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.pubmed_qa_scenario.PubMedQAScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "Answer A for yes, B for no or C for maybe. Do not include any explanation or additional text. Output only the letter on a single line.\n",
+      "input_prefix": "Question: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Answer: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 0,
+      "max_eval_instances": 100,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "pubmed_qa"
+    ]
+  },
+  {
+    "name": "race_based_med:model=openai_gpt-5",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.race_based_med_scenario.RaceBasedMedScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "Answer A for yes, B for no.\n",
+      "input_prefix": "",
+      "input_suffix": "",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Respond with only 'A' for yes or 'B' for no. Do not add any other text, punctuation, or symbols: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 0,
+      "max_eval_instances": 100,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "race_based_med"
+    ]
+  }
+]

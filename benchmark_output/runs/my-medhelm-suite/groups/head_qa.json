@@ -1,0 +1,147 @@
+[
+  {
+    "title": "language: en, category: None",
+    "header": [
+      {
+        "value": "Model",
+        "markdown": false,
+        "metadata": {}
+      },
+      {
+        "value": "EM",
+        "description": "HeadQA is a benchmark consisting of biomedical multiple-choice questions intended to evaluate a model's medical knowledge and reasoning. Each instance presents a clinical or scientific question with four answer options, requiring the model to select the most appropriate answer [(Vilares et al., 2019)](https://arxiv.org/abs/1906.04701).\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+        "markdown": false,
+        "lower_is_better": false,
+        "metadata": {
+          "metric": "EM",
+          "run_group": "HeadQA"
+        }
+      },
+      {
+        "value": "Observed inference time (s)",
+        "description": "HeadQA is a benchmark consisting of biomedical multiple-choice questions intended to evaluate a model's medical knowledge and reasoning. Each instance presents a clinical or scientific question with four answer options, requiring the model to select the most appropriate answer [(Vilares et al., 2019)](https://arxiv.org/abs/1906.04701).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+        "markdown": false,
+        "lower_is_better": true,
+        "metadata": {
+          "metric": "Observed inference time (s)",
+          "run_group": "HeadQA"
+        }
+      },
+      {
+        "value": "# eval",
+        "description": "HeadQA is a benchmark consisting of biomedical multiple-choice questions intended to evaluate a model's medical knowledge and reasoning. Each instance presents a clinical or scientific question with four answer options, requiring the model to select the most appropriate answer [(Vilares et al., 2019)](https://arxiv.org/abs/1906.04701).\n\n# eval: Number of evaluation instances.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# eval",
+          "run_group": "HeadQA"
+        }
+      },
+      {
+        "value": "# train",
+        "description": "HeadQA is a benchmark consisting of biomedical multiple-choice questions intended to evaluate a model's medical knowledge and reasoning. Each instance presents a clinical or scientific question with four answer options, requiring the model to select the most appropriate answer [(Vilares et al., 2019)](https://arxiv.org/abs/1906.04701).\n\n# train: Number of training instances (e.g., in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "# train",
+          "run_group": "HeadQA"
+        }
+      },
+      {
+        "value": "truncated",
+        "description": "HeadQA is a benchmark consisting of biomedical multiple-choice questions intended to evaluate a model's medical knowledge and reasoning. Each instance presents a clinical or scientific question with four answer options, requiring the model to select the most appropriate answer [(Vilares et al., 2019)](https://arxiv.org/abs/1906.04701).\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+        "markdown": false,
+        "metadata": {
+          "metric": "truncated",
+          "run_group": "HeadQA"
+        }
+      },
+      {
+        "value": "# prompt tokens",
+        "description": "HeadQA is a benchmark consisting of biomedical multiple-choice questions intended to evaluate a model's medical knowledge and reasoning. Each instance presents a clinical or scientific question with four answer options, requiring the model to select the most appropriate answer [(Vilares et al., 2019)](https://arxiv.org/abs/1906.04701).\n\n# prompt tokens: Number of tokens in the prompt.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# prompt tokens",
+          "run_group": "HeadQA"
+        }
+      },
+      {
+        "value": "# output tokens",
+        "description": "HeadQA is a benchmark consisting of biomedical multiple-choice questions intended to evaluate a model's medical knowledge and reasoning. Each instance presents a clinical or scientific question with four answer options, requiring the model to select the most appropriate answer [(Vilares et al., 2019)](https://arxiv.org/abs/1906.04701).\n\n# output tokens: Actual number of output tokens.",
+        "markdown": false,
+        "metadata": {
+          "metric": "# output tokens",
+          "run_group": "HeadQA"
+        }
+      }
+    ],
+    "rows": [
+      [
+        {
+          "value": "GPT 5",
+          "description": "",
+          "href": "?group=head_qa&subgroup=language%3A%20en%2C%20category%3A%20None&runSpecs=%5B%22head_qa%3Alanguage%3Den%2Ccategory%3DNone%2Cmodel%3Dopenai_gpt-5%22%5D",
+          "markdown": false,
+          "run_spec_names": [
+            "head_qa:language=en,category=None,model=openai_gpt-5"
+          ]
+        },
+        {
+          "value": 0.93,
+          "description": "min=0.93, mean=0.93, max=0.93, sum=0.93 (1)",
+          "style": {
+            "font-weight": "bold"
+          },
+          "markdown": false
+        },
+        {
+          "value": 5.865615155696869,
+          "description": "min=5.866, mean=5.866, max=5.866, sum=5.866 (1)",
+          "style": {
+            "font-weight": "bold"
+          },
+          "markdown": false
+        },
+        {
+          "value": 100.0,
+          "description": "min=100, mean=100, max=100, sum=100 (1)",
+          "style": {},
+          "markdown": false
+        },
+        {
+          "value": 0.0,
+          "description": "min=0, mean=0, max=0, sum=0 (1)",
+          "style": {},
+          "markdown": false
+        },
+        {
+          "value": 0.0,
+          "description": "min=0, mean=0, max=0, sum=0 (1)",
+          "style": {},
+          "markdown": false
+        },
+        {
+          "value": 151.78,
+          "description": "min=151.78, mean=151.78, max=151.78, sum=151.78 (1)",
+          "style": {},
+          "markdown": false
+        },
+        {
+          "value": 1.0,
+          "description": "min=1, mean=1, max=1, sum=1 (1)",
+          "style": {},
+          "markdown": false
+        }
+      ]
+    ],
+    "links": [
+      {
+        "text": "LaTeX",
+        "href": "benchmark_output/runs/my-medhelm-suite/groups/latex/head_qa_head_qa_language:en,category:None.tex"
+      },
+      {
+        "text": "JSON",
+        "href": "benchmark_output/runs/my-medhelm-suite/groups/json/head_qa_head_qa_language:en,category:None.json"
+      }
+    ],
+    "name": "head_qa_language:en,category:None"
+  }
+]

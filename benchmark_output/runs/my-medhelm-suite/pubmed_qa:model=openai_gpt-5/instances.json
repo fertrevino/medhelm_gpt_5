@@ -1,0 +1,2902 @@
+[
+  {
+    "input": {
+      "text": "Context: Background. An unknown number of colorectal cancers could be due to missed adenomas during previous endoscopy. Data in the literature are sparse. A large cross-sectional study was done in a prospective database of all patients diagnosed with colorectal cancer.\nMethods. All consecutive endoscopies over a period of 15 years, in which colorectal cancer was diagnosed were included. All patients who underwent more than one endoscopy and in whom ultimately cancer was diagnosed were studied separately.\nResults. Colorectal cancer was diagnosed in 835 patients. Twenty-five patients underwent a previous endoscopy without a cancer diagnosis. These 25 patients were divided into three groups according to the time between the endoscopy in which the cancer was detected and the previous endoscopy. Five out of these 25 patients underwent regular surveillance. Only 11 patients had no argument for regular follow-up. Assuming that these cancers developed from an adenoma than only 11 out of 835 (1.3%) cancers were missed in the adenoma phase. There was no difference in the size of the tumour between the three groups of patients.\n\nQuestion: Are many colorectal cancers due to missed adenomas?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id993"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To investigate the relevance of the Symptom Checklist 90-R Obsessive-Compulsive subscale to cognition in individuals with brain tumor.\nDesign. A prospective study of patients assessed with a neuropsychological test battery.\nSetting. A university medical center.\nPatients. Nineteen adults with biopsy-confirmed diagnoses of malignant brain tumors were assessed prior to aggressive chemotherapy.\nMain Outcome Measures. Included in the assessment were the Mattis Dementia Rating Scale, California Verbal Learning Test, Trail Making Test B, Symptom Checklist 90-R, Mood Assessment Scale, Beck Anxiety Inventory, and Chronic Illness Problem Inventory.\nResults. The SCL 90-R Obsessive-Compulsive subscale was not related to objective measures of attention, verbal memory, or age. It was related significantly to symptoms of depression (r = .81, P<.005), anxiety (r = .66, P<.005), and subjective complaints of memory problems (r = .75, P<.005). Multivariate analyses indicated that reported symptoms of depression contributed 66% of the variance in predicting SCL 90-R Obsessive-Compulsive Scores, whereas symptoms of anxiety contributed an additional 6% (P<.0001).\n\nQuestion: Does the SCL 90-R obsessive-compulsive dimension identify cognitive impairments?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id859"
+  },
+  {
+    "input": {
+      "text": "Context: Background. Implementation of the complex treatment strategies that have been shown to improve survival of patients with congestive heart failure (CHF) may require certain expertise. We wanted to examine the association between pattern of outpatient care and survival of patients with CHF.\nMethods. In a retrospective cohort study conducted with national Veterans Health Administration (VHA) databases, we examined the association between the pattern of outpatient care and survival in 11,661 patients discharged from VA hospitals between October 1, 1991, and September 30, 1992, with the primary diagnosis of CHF (cohort 1). Patients were divided into 4 groups, on the basis of their pattern of outpatient care over a 12-month period after discharge: 1) general medicine clinic visits only (GM-only); 2) cardiology clinic visits only (CARD-only); 3) general medicine and cardiology (MIXED) clinic visits; and 4) neither general medicine nor cardiology clinic visits (no-GM/CARD). We used the Cox proportional hazards model to evaluate 1-year survival, controlling for clinical and demographic factors. Consistency of our results was examined by performing identical analysis on a cohort of patients discharged from VHA hospitals between October 1, 1994, and September 30, 1995 (cohort 2, n = 10,141).\nResults. The overall 1-year mortality rate was 23% in the primary cohort. The unadjusted mortality rate was highest for patients in the no-GM/CARD follow up (29%) and lowest for patients in the MIXED group (19%). By use of the MIXED group as reference and adjusting for important clinical and demographic factors, the risk of death (risk ratio [95% CI]) was 1.12 (0.94-1.34) in the CARD-only group, 1.26 (1.15-1.38) in the GM-only group, and 1.48 (1.28-1.72) in the no-GM/CARD group. Cohort-2 results were consistent with cohort 1 for most covariates, and significant survival differences were again found between GM-only and the MIXED group (1.25 [1.14-1.37]).\n\nQuestion: Is specialty care associated with improved survival of patients with congestive heart failure?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id298"
+  },
+  {
+    "input": {
+      "text": "Context: Background. Treatment of elderly cancer patients has gained importance. One question regarding the treatment of metastatic spinal cord compression (MSCC) is whether elderly patients benefit from surgery in addition to radiotherapy? In attempting to answer this question, we performed a matched-pair analysis comparing surgery followed by radiotherapy to radiotherapy alone.\nPatients And Methods. Data from 42 elderly (age>\u200965 years) patients receiving surgery plus radiotherapy (S\u2009+\u2009RT) were matched to 84 patients (1:2) receiving radiotherapy alone (RT). Groups were matched for ten potential prognostic factors and compared regarding motor function, local control, and survival. Additional matched-pair analyses were performed for the subgroups of patients receiving direct decompressive surgery plus stabilization of involved vertebrae (DDSS, n\u2009=\u200981) and receiving laminectomy (LE, n\u2009=\u200945).\nResults. Improvement of motor function occurred in 21% after S\u2009+\u2009RT and 24% after RT (p\u2009=\u20090.39). The 1-year local control rates were 81% and 91% (p\u2009=\u20090.44), while the 1-year survival rates were 46% and 39% (p\u2009=\u20090.71). In the matched-pair analysis of patients receiving DDSS, improvement of motor function occurred in 22% after DDSS\u2009+\u2009RT and 24% after RT alone (p\u2009=\u20090.92). The 1-year local control rates were 95% and 89% (p\u2009=\u20090.62), and the 1-year survival rates were 54% and 43% (p\u2009=\u20090.30). In the matched-pair analysis of patients receiving LE, improvement of motor function occurred in 20% after LE\u2009+\u2009RT and 23% after RT alone (p\u2009=\u20090.06). The 1-year local control rates were 50% and 92% (p\u2009=\u20090.33). The 1-year survival rates were 32% and 32% (p\u2009=\u20090.55).\n\nQuestion: Do elderly patients benefit from surgery in addition to radiotherapy for treatment of metastatic spinal cord compression?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id553"
+  },
+  {
+    "input": {
+      "text": "Context: Background. The criteria for administration of adjuvant radiation therapy after thymoma resection remains controversial, and it is unclear whether patients with Masaoka stage III thymoma benefit from adjuvant radiation. The goal of this report was to determine whether or not this group benefits from radiation therapy in disease-specific survival and disease-free survival.\nMethods. Case records of the Massachusetts General Hospital were retrospectively reviewed from 1972 to 2004. One hundred and seventy-nine patients underwent resection for thymoma, of which 45 had stage III disease.\nResults. Forty-five stage III patients underwent resection and in 36 it was complete. Thirty-eight stage III patients received radiation therapy. Baseline prognostic factors between radiated and nonradiated groups were similar. The addition of adjuvant radiotherapy did not alter local or distant recurrence rates in patients with stage III thymoma. Disease-specific survival at 10 years in stage III patients who did not receive radiation was 75% (95% confidence interval, 32% to 100%) and in patients who did receive radiation therapy it was 79% (95% confidence interval, 64% to 94%) (p = 0.21). The most common site of relapse was the pleura.\n\nQuestion: Adjuvant radiation of stage III thymoma: is it necessary?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id672"
+  },
+  {
+    "input": {
+      "text": "Context: Objectives. (1) To describe the prevalence of general practitioner visits and hospitalization according to sex and age groups; (2) to identify which factors are independently associated with a higher use of health care services among elderly Spanish; and (3) to study the time trends in the prevalence of use of health care services 2001-2009.\nStudy Design. Observational study. We analyzed data from the Spanish National Health Surveys conducted in 2001 (n=21,058), 2003 (n=21,650), 2006 (n=29,478) and 2009 (n=22,188). We included responses from adults aged 65 years and older.\nOutcome Measures. The main variables were the number of general practitioner visits in the last 4 weeks and hospitalization in the past year. We stratified the adjusted models by the main variables. We analyzed socio-demographic characteristics, health related variables, using multivariate logistic regression models.\nResults. The total number of subjects was 24,349 (15,041 woman, 9309 men). Women were significantly older than men (P<0.001). Women had higher prevalence of general practitioner visits than men in all surveys. Men had significantly higher prevalence of hospitalizations than women in the years 2001, 2006 and 2009. When we adjusted the hospitalization by possible confounders using logistic regressions, men had a higher probability of being hospitalized than women (OR 1.53, 1.39-1.69). The variables that were significantly associated with a higher use of health care services were lower educational level, worse self-rated health, chronic conditions, polypharmacy, and the level of disability. The number of general practitioner visits among women and men significantly increased from 2001 to 2009 (women: OR 1.43, 1.27-1.61; men: OR 1.71, 1.49-1.97).\n\nQuestion: Has the prevalence of health care services use increased over the last decade (2001-2009) in elderly people?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id971"
+  },
+  {
+    "input": {
+      "text": "Context: Introduction. To evaluate the impact of HER2 immunoreactivity on clinical outcome in locally advanced urothelial carcinoma patients who received surgery alone, or methotrexate, vinblastine, epirubicin, and cisplatin (M-VEC) as adjuvant chemotherapy.\nMaterials And Methods. We studied 114 formalin-fixed paraffin-embedded specimens obtained from locally advanced urothelial carcinoma patients receiving surgery alone or adjuvant M-VEC. The authors evaluated HER2 immunoreactivity using immunohistochemical staining and explored the influence of pathological parameters and HER2 immunoreactivity on progression-free survival (PFS) and disease-specific overall survival (OS) using univariate and multivariate Cox's analyses.\nResults. Urothelial carcinoma of the bladder had a significantly higher frequency of HER2 immunoreactivity than that of the upper urinary tract (60.7 vs. 20.7%, p<0.0001). Overall, nodal status was a strong and independent prognostic indicator for clinical outcome. The HER2 immunoreactivity was significantly associated with PFS (p = 0.02) and disease-specific OS (p = 0.005) in advanced urothelial carcinoma patients. As for patients with adjuvant M-VEC, HER2 immunoreactivity was a significant prognostic factor for PFS (p = 0.03) and disease-specific OS (p = 0.02) using univariate analysis, but not multivariate analysis, and not for patients receiving watchful waiting.\n\nQuestion: Does HER2 immunoreactivity provide prognostic information in locally advanced urothelial carcinoma patients receiving adjuvant M-VEC chemotherapy?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id27"
+  },
+  {
+    "input": {
+      "text": "Context: Background. The incidence of acetabular fractures in osteoporotic patients is increasing. Immediate total hip arthroplasty (THA) has potential advantages, but achieving acetabular component stability is challenging and, at early followup, reported revision rates for loosening are high.QUESTIONS/\nPurposes. This study measured acetabular component stability and the initial surface contact achieved between the acetabular component and unfractured region of the pelvis after THA using an oversized acetabular component and cup-cage reconstruction.\nMethods. Between November 2011 and November 2013, we treated 40 acute acetabular fractures in patients older than 70 years of age. Of these, 12 (30%) underwent immediate THA using an oversized acetabular component with screws inserted only into the ilium and a cup-cage construct. Postoperatively all patients were mobilized without weightbearing restrictions. Indications for immediate THA after acetabular fractures were displaced articular comminution deemed unreducible. Eleven of the 12 were prospectively studied to evaluate the initial stability of the reconstructions using radiostereometric analysis. One of the patients died of a pulmonary embolism after surgery, and the remaining 10 (median age, 81 years; range, 72-86 years) were studied. Of these, five were analyzed at 1 year and five were analyzed at 2 years. Acetabular component migration was defined as acceptable if less than the limits for primary THA that predict later loosening (1.76 mm of proximal migration and 2.53\u00b0 of sagittal rotation). The contact surface between the acetabular component and ilium in direct continuity with the sacroiliac joint, and the ischium and pubis in direct continuity with the symphysis pubis, was measured on postoperative CT scans.\nResults. At 1 year the median proximal migration was 0.83 mm (range, 0.09-5.13 mm) and sagittal rotation was 1.3\u00b0 (range, 0.1\u00b0-7.4\u00b0). Three of the 10 components had migration above the suggested limits for primary THA at 1 year postoperatively. The contact surface achieved at surgery between the acetabular component and pelvis ranged from 11 to 17 cm(2) (15%-27% of each component).\n\nQuestion: Does cup-cage reconstruction with oversized cups provide initial stability in THA for osteoporotic acetabular fractures?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id231"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To explore the secondary benefits of treadmill training for people in the chronic stage of recovery from stroke.\nDesign. Modified random assignment, matched-pair control group design with repeated measures.\nSetting. Outpatient stroke centre.\nParticipants. Twenty individuals post first stroke who acknowledged walking slower than pre stroke. Participants matched by side of hemiparesis and motor impairment.\nInterventions. Twelve 20-minute sessions of walking on a treadmill or weekly phone call.\nMain Outcome Measures. Depression (Beck Depression Index), mobility and social participation (Stroke Impact Scale 3.0 subscales) were assessed initially, at the end of 12 treatments (four weeks) and six weeks later.\nResults. No significant difference was found between groups for any dependent measure. The ANOVA to investigate main effects in each group found no significant findings in the control group; however in the treatment group significant improvements over time for depression (P = 0.005, P<0.001), mobility (P = 0.008) and social participation (P = 0.004) were demonstrated.\n\nQuestion: Treadmill training post stroke: are there any secondary benefits?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id306"
+  },
+  {
+    "input": {
+      "text": "Context: Study Objective. To evaluate psychological distress as a predictor of disability due to common chronic disorders.\nStudy Population And Methods. A 10-year follow-up study was carried out among a representative cohort (N = 8655) of 18-64 year old Finnish farmers, who had participated in a health survey in 1979 and were able to work at baseline. A record linkage with the nationwide register of the Social Insurance Institution was made to identify disability pensions granted between 1980 and 1990 in the cohort. The medical certificates of 1004 (11.6%) prematurely retired farmers were reviewed to confirm and classify disabling conditions. A sum score based on self-reports of 11 symptoms at the baseline was used as a measure of psychological distress.\nResults. After adjustment for age, sex, smoking and body mass index, the cause-specific relative risks (RR) (95% confidence intervals [CI]) of disability in the highest quartile of the psychological distress score as compared with the lowest quartile were for myocardial infarction 2.34 (95% CI: 1.17-4.69), for depression 2.50 (95% CI: 1.09-5.72), for neck-shoulder disorders 1.98 (95% CI: 1.26-3.11), for unspecified low-back disorders 1.76 (95% CI: 1.24-2.49), for knee osteoarthritis 1.55 (95% CI: 0.91-2.63) and for trip osteoarthritis 0.89 (95% CI: 0.42-1.85). The corresponding RR for overall disability was 1.76 (95% CI: 1.44-2.14) in the highest quartile of psychological distress score as compared with the lowest quartile.\n\nQuestion: Does psychological distress predict disability?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id706"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. The hypothesis of this prospective study is that intrapartum vibroacoustic stimulation (VAS) is an effective predictor of fetal acidosis during labor. Various clinical conditions, such as term versus preterm gestation, first stage versus second stage of labor, and fetal heart rate (FHR) variable decelerations versus late decelerations will be tested.\nMethods. During the study period, 113 patients were studied prospectively in either active phase of first stage (n = 53) or during the second stage of labor (n = 60). They were selected from cases exhibiting moderate to severe FHR variable decelerations or late decelerations. The fetuses of study subjects received a VAS for three seconds and FHR changes were recorded. Fetal scalp blood pH or umbilical arterial blood pH was obtained within 15 minutes of VAS. The relationship between FHR responses to VAS and fetal blood pH in term and preterm gestations, the relationship of two tests (VAS and fetal blood pH) to type of FHR decelerations, and the predictability of neonatal morbidity by two tests were analyzed. Where appropriate, Fisher's exact test (p<0.05 was considered statistically different) and the odd ratio with 95% confidence intervals were used for statistical analyses.\nResults. Excellent association between acceleration response to VAS and pH>or = 7.20, and between a negative response to VAS (no acceleration or decelerations) and pH<7.20 were found in the first stage of labor, the second stage of labor, and the combination of both stages together (p = 0.0001, OR = 10.6 [3.3-34.0]). It was observed that negative VAS responses for predicting fetal acidosis (pH<7.20) were comparable between term (>or = 37 weeks) and preterm (<37 weeks,>or = 34 weeks) fetuses. Since the preterm fetuses enrolled in the study were limited in number, it is difficult to draw adequate conclusions. The positive predictive value (PPV) of fetal acidosis was 67% in both groups of FHR variable decelerations and late decelerations, but the false negative rate of acceleration VAS response for predicting no acidosis was significantly higher in the group of late decelerations (29% vs 8%, p = 0.034). Finally, both a negative VAS response and fetal acidosis (pH<7.20) have equal predictability for neonatal morbidity. The PPV of NICU admission by a negative VAS response was two times higher than that of fetal acidosis (PPV = 61% vs 29%, p = 0.038).\n\nQuestion: Is intrapartum vibroacoustic stimulation an effective predictor of fetal acidosis?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id496"
+  },
+  {
+    "input": {
+      "text": "Context: Hypotheses. The APACHE II (Acute Physiology and Chronic Health Evaluation II) score used as an intensive care unit (ICU) admission score in emergency surgical patients is not independent of the effects of treatment and might lead to considerable bias in the comparability of defined groups of patients and in the evaluation of treatment policies. Postoperative monitoring with the APACHE II score is clinically irrelevant.\nDesign. Inception cohort study.\nSetting. Secondary referral center.\nPatients. Eighty-five consecutive emergency surgical patients admitted to the surgical ICU in 1999. The APACHE II score was calculated before surgery; after admission to the ICU; and on postoperative days 3, 7, and 10.\nMain Outcome Measures. APACHE II scores and predicted and observed mortality rates.\nResults. The mean +/- SD APACHE II score of 24.2 +/- 8.3 at admission to the ICU was approximately 36% greater than the initial APACHE II score of 17.8 +/- 7.7, a difference that was highly statistically significant (P<.001). The overall mortality of 32% favorably corresponds with the predicted mortality of 34% according to the initial APACHE II score. However, the predicted mortality of 50% according to the APACHE II score at admission to the ICU was significantly different from the observed mortality rate (P =.02). In 40 long-term patients (>/=10 days in the ICU), the difference between the APACHE II scores of survivors and patients who died was statistically significant on day 10 (P =.04).\n\nQuestion: Risk stratification in emergency surgical patients: is the APACHE II score a reliable marker of physiological impairment?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id558"
+  },
+  {
+    "input": {
+      "text": "Context: Background. This study sought to compare general surgery research residents' survey information regarding self-efficacy ratings to their observed performance during a simulated small bowel repair. Their observed performance ratings were based on their leadership skills in directing their assistant.\nMethods. Participants were given 15\u00a0min to perform a bowel repair using bovine intestines with standardized injuries. Operative assistants were assigned to help assist with the repair. Before the procedure, participants were asked to rate their expected skills decay, task difficulty, and confidence in addressing the small bowel injury. Interactions were coded to identify the number of instructions given by the participants to the assistant during the repair. Statistical analyses assessed the relationship between the number of directional instructions and participants' perceptions self-efficacy measures. Directional instructions were defined as any dialog by the participant who guided the assistant to perform an action.\nResults. Thirty-six residents (58.3% female) participated in the study. Participants who rated lower levels of decay in their intraoperative decision-making and small bowel repair skills were noted to use their assistant more by giving more instructions. Similarly, a higher number of instructions correlated with lower perceived difficulty in selecting the correct suture, suture pattern, and completing the entire surgical task.\n\nQuestion: Do resident's leadership skills relate to ratings of technical skill?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id784"
+  },
+  {
+    "input": {
+      "text": "Context: Background. A case of spinal subdural hematoma (SSDH) following subarachnoid hemorrhage (SAH) because of a ruptured internal carotid aneurysm is described. Such a case has never been reported.\nCase Description. A 52-year-old woman underwent a craniotomy for a ruptured internal carotid aneurysm. A computed tomography scan showed that SAH existed predominantly in the posterior fossa and subdural hematoma beneath the cerebellar tentorium. Intrathecal administration of urokinase, IV administration of fasudil hydrochloride, and continuous cerebrospinal fluid (CSF) evacuation via cisternal drainage were performed as prophylactic treatments for vasospasm. On the sixth postoperative day, the patient complained of severe lower back and buttock pain. Magnetic resonance imaging showed a subdural hematoma in the lumbosacral region. Although the mass effect was extensive, the patient showed no neurologic symptoms other than the sciatica. She was treated conservatively. The hematoma dissolved gradually and had diminished completely 15 weeks later. Her pain gradually subsided, and she was discharged 7 weeks later without any neurologic deficit.\n\nQuestion: Spinal subdural hematoma: a sequela of a ruptured intracranial aneurysm?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id239"
+  },
+  {
+    "input": {
+      "text": "Context: Objectives. To compare the dose intensity and toxicity profiles for patients undergoing chemotherapy at the Townsville Cancer Centre (TCC), a tertiary cancer centre in northern Queensland, with those for patients treated in Mount Isa, supervised by the same medical oncologists via teleoncology.\nDesign. A quasi-experimental design comparing two patient groups.\nSetting. TCC and Mount Isa Hospital, which both operate under the auspices of the Townsville Teleoncology Network (TTN).\nParticipants. Eligible patients who received chemotherapy at TCC or Mt Isa Hospital between 1 May 2007 and 30 April 2012.\nIntervention. Teleoncology model for managing cancer patients in rural towns.\nMain Outcome Measures. Dose intensity (doses, number of cycles and lines of treatment) and toxicity rates (rate of serious side effects, hospital admissions and mortality).\nResults. Over 5 years, 89 patients received a total of 626 cycles of various chemotherapy regimens in Mount Isa. During the same period, 117 patients who received a total of 799 cycles of chemotherapy at TCC were eligible for inclusion in the comparison group. There were no significant differences between the Mount Isa and TCC patients in most demographic characteristics, mean numbers of treatment cycles, dose intensities, proportions of side effects, and hospital admissions. There were no toxicity-related deaths in either group.\n\nQuestion: Do teleoncology models of care enable safe delivery of chemotherapy in rural towns?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id578"
+  },
+  {
+    "input": {
+      "text": "Context: Introduction. For women, the correlation between circulating androgens and sexual desire is inconclusive. Substitution with androgens at physiological levels improves sexual function in women who experience decreased sexual desire and androgen deficiency from surgical menopause, pituitary disease, and age-related decline in androgen production in the ovaries. Measuring bioactive testosterone is difficult and new methods have been proposed, including measuring the primary androgen metabolite androsterone glucuronide (ADT-G).AIM: The aim of this study was to investigate a possible correlation between serum levels of androgens and sexual desire in women and whether the level of ADT-G is better correlated than the level of circulating androgens with sexual desire.\nMethods. This was a cross-sectional study including 560 healthy women aged 19-65 years divided into three age groups. Correlations were considered to be statistically significant at P<0.05.\nMain Outcome Measure. Sexual desire was determined as the total score of the sexual desire domain of the Female Sexual Function Index. Total testosterone (TT), calculated free testosterone (FT), androstenedione, dehydroepiandrosterone sulfate (DHEAS), and ADT-G were analyzed using mass spectrometry.\nResults. Sexual desire correlated overall with FT and androstenedione in the total cohort of women. In a subgroup of women aged 25-44 years with no use of systemic hormonal contraception, sexual desire correlated with TT, FT, androstenedione, and DHEAS. In women aged 45-65 years, androstenedione correlated with sexual desire. No correlations between ADT-G and sexual desire were identified.\n\nQuestion: Is there a correlation between androgens and sexual desire in women?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id55"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To determine the cost of 46 commonly used investigations and therapies and to assess British Columbia family doctors' awareness of these costs.\nDesign. Mailed survey asking about costs of 23 investigations and 23 therapies relevant to family practice. A random sample of 600 doctors was asked to report their awareness of costs and to estimate costs of the 46 items.\nSetting. British Columbia.\nParticipants. Six hundred family physicians.\nMain Outcome Measures. Estimates within 25% of actual cost were considered correct. Associations between cost awareness and respondents'characteristics (eg, sex, practice location) were sought. Degree of error in estimates was also assessed.\nResults. Overall, 283 (47.2%) surveys were returned and 259 analyzed. Few respondents estimated costs within 25% of true cost, and estimates were highly variable. Physicians underestimated costs of expensive drugs and laboratory investigations and overestimated costs of inexpensive drugs. Cost awareness did not correlate with sex, practice location, College certification, faculty appointment, or years in practice.\n\nQuestion: Do family physicians know the costs of medical care?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id906"
+  },
+  {
+    "input": {
+      "text": "Context: Context. The levels of bone formation and resorption can be assessed at the tissue level by bone histomorphometry on transiliac bone biopsies. Systemic biochemical markers of bone turnover reflect the overall bone formation and resorption at the level of the entire skeleton but cannot discriminate the different skeletal compartments.\nObjective. Our aim was to investigate the correlations between the serum biochemical markers of formation and resorption with histomorphometric parameters.\nDesign. We performed post hoc analysis of a previous clinical study.\nSetting. Patients were selected from the general population.\nPatients. A total of 371 untreated postmenopausal osteoporotic women aged 50 to 84 years with a lumbar T-score \u2264 -2.5 SD or \u2264 -1 SD with at least one osteoporotic fracture.\nInterventions. Transiliac bone biopsies were obtained after a double tetracycline labeling, and blood samples were collected.\nMain Outcome Measures. The static and dynamic parameters of formation and bone resorption were measured by histomorphometry. Serum biochemical markers of formation (bone alkaline phosphatase [ALP]; procollagen type I N-terminal propeptide [PINP]) and resorption (C-terminal crosslinking telopeptide of collagen type 1 [sCTX]) were assessed.\nResults. The mean values of biochemical markers were: bone ALP, 15.0 \u00b1 5.2 ng/mL; PINP, 56.2 \u00b1 21.9 \u03bcg/mL; and sCTX, 0.58 \u00b1 0.26 ng/mL. Bone ALP and PINP were significantly correlated with both the static and dynamic parameters of formation (0.21 \u2264 r' \u2264 0.36; 0.01 \u2265 P \u2265 .0001). sCTX was significantly correlated with all resorption parameters (0.18 \u2264 r' \u2264 0.24; 0.02 \u2265 P \u2265 .0001).\n\nQuestion: Are Biochemical Markers of Bone Turnover Representative of Bone Histomorphometry in 370 Postmenopausal Women?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id175"
+  },
+  {
+    "input": {
+      "text": "Context: Objectives. Recent years have seen a rapid proliferation of emergency ultrasound (EUS) programs in the United States. To date, there is no evidence supporting that EUS fellowships enhance residents' ultrasound (US) educational experiences. The purpose of this study was to determine the impact of EUS fellowships on emergency medicine (EM) residents' US education.\nMethods. We conducted a cross-sectional study at 9 academic medical centers. A questionnaire on US education and bedside US use was pilot tested and given to EM residents. The primary outcomes included the number of US examinations performed, scope of bedside US applications, barriers to residents' US education, and US use in the emergency department. The secondary outcomes were factors that would impact residents' US education. The outcomes were compared between residency programs with and without EUS fellowships.\nResults. A total of 244 EM residents participated in this study. Thirty percent (95% confidence interval, 24%-35%) reported they had performed more than 150 scans. Residents in programs with EUS fellowships reported performing more scans than those in programs without fellowships (P = .04). Significant differences were noted in most applications of bedside US between residency programs with and without fellowships (P<.05). There were also significant differences in the barriers to US education between residency programs with and without fellowships (P<.05).\n\nQuestion: Do emergency ultrasound fellowship programs impact emergency medicine residents' ultrasound education?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id14"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To determine the duration of continuing pregnancy after antenatal corticosteroid (AC) administration and to evaluate the potential opportunity for rescue AC.\nStudy Design. Retrospective analysis of women at 24-32 weeks' gestation who received AC at one institution.\nResults. Six hundred ninety-two women received AC. Two hundred forty-seven (35.7%) delivered at>or = 34 weeks' gestation. Three hundred twenty-one (46.4%) delivered within 1 week of AC; 92 of those women (13.3%) delivered within 24 hours. Only 124 (17.9%) remained pregnant 1 week after AC and delivered at<34 weeks. The latter were compared to women delivering>2 week after AC but>or = 34 weeks. More likely to deliver at<34 weeks were those women who received AC for premature preterm rupture of membranes (OR 3.83, 95% CI 2.06-7.17), twins (OR 2.90, 95% CI 1.42-5.95) or before 28 weeks (OR 2.21, 95% CI 1.38-3.52).\n\nQuestion: Continuation of pregnancy after antenatal corticosteroid administration: opportunity for rescue?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id77"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To assess if the Hawkins sign can predict whether or not astragalus fractures of the neck will develop avascular necrosis. It is also assessed whether the occurrence of this complication is related to the displacement of the fracture, soft tissue injury, or delay in the reduction or surgery. The results were compared with those found in the literature.\nMaterial And Methods. A retrospective study was conducted on 23 talar neck fractures recorded over a a period of thirteen years. The following variables were analysed: displacement of the fracture, soft tissue injury, delay and type of treatment, complications, observation of the Hawkins sign, and functional outcome.\nResults. There were 7 type I Hawkins fractures, 11 type II, and 4 type III and 1 type IV. Four cases developed avascular necrosis (2 Hawkins type II and 2 type III). Hawkins sign was observed in 12 cases, of which none developed necrosis. Four cases with negative Hawkins sign developed necrosis. No statistically significant differences were found when comparing the development of avascular necrosis with the displacement of the fracture, soft tissue injury, or delay in treatment. Differences were found when comparing the development of avascular necrosis with the Hawkins sign (P=.03).\n\nQuestion: Is the Hawkins sign able to predict necrosis in fractures of the neck of the astragalus?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id31"
+  },
+  {
+    "input": {
+      "text": "Context: Background. Physical examination to detect abdominal injuries has been considered unreliable in alcohol-intoxicated trauma patients. Computed tomography (CT) plays the primary role in these abdominal evaluations.\nMethods. We reviewed medical records of all blunt trauma patients admitted to our trauma service from January 1, 1992, to March 31, 1998. Study patients had a blood alcohol level>or =80 mg/dL, Glasgow Coma Scale (GCS) score of 15, and unremarkable abdominal examination.\nResults. Of 324 patients studied, 317 (98%) had CT scans negative for abdominal injury. Abdominal injuries were identified in 7 patients (2%), with only 2 (0.6%) requiring abdominal exploration. A significant association was found between major chest injury and abdominal injury.\n\nQuestion: Blunt trauma in intoxicated patients: is computed tomography of the abdomen always necessary?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id481"
+  },
+  {
+    "input": {
+      "text": "Context: Methods. Each patient received a smartphone with an insulin dose advisor (IDA) and with (G3 group) or without (G2 group) the telemonitoring/teleconsultation function. Patients were classified as \"high users\" if the proportion of \"informed\" meals using the IDA exceeded 67% (median) and as \"low users\" if not. Also analyzed was the respective impact of the IDA function and teleconsultations on the final HbA1c levels.\nResults. Among the high users, the proportion of informed meals remained stable from baseline to the end of the study 6months later (from 78.1\u00b121.5% to 73.8\u00b125.1%; P=0.107), but decreased in the low users (from 36.6\u00b129.4% to 26.7\u00b128.4%; P=0.005). As expected, HbA1c improved in high users from 8.7% [range: 8.3-9.2%] to 8.2% [range: 7.8-8.7%]in patients with (n=26) vs without (n=30) the benefit of telemonitoring/teleconsultation (-0.49\u00b10.60% vs -0.52\u00b10.73%, respectively; P=0.879). However, although HbA1c also improved in low users from 9.0% [8.5-10.1] to 8.5% [7.9-9.6], those receiving support via teleconsultation tended to show greater improvement than the others (-0.93\u00b10.97 vs -0.46\u00b11.05, respectively; P=0.084).\n\nQuestion: Telemedicine and type 1 diabetes: is technology per se sufficient to improve glycaemic control?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id310"
+  },
+  {
+    "input": {
+      "text": "Context: Background. Controlled ovarian stimulation (COS) with intrauterine insemination (IUI) is a common treatment in couples with unexplained non-conception. Induction of multifollicular growth is considered to improve pregnancy outcome, but it contains an increased risk of multiple pregnancies and ovarian hyperstimulation syndrome. In this study the impact of the number of follicles (>14 mm) on the ongoing pregnancy rate (PR) and multiple PR was evaluated in the first four treatment cycles.\nMethods. A retrospective cohort study was performed in all couples with unexplained non-conception undergoing COS-IUI in the Academic Hospital of Maastricht. The main outcome measure was ongoing PR. Secondary outcomes were ongoing multiple PR, number of follicles of>or=14 mm, and order of treatment cycle.\nResults. Three hundred couples were included. No significant difference was found in ongoing PR between women with one, two, three or four follicles respectively (P=0.54), but in women with two or more follicles 12/73 pregnancies were multiples. Ongoing PR was highest in the first treatment cycle and declined significantly with increasing cycle order (P=0.006), while multiple PR did not change.\n\nQuestion: Is controlled ovarian stimulation in intrauterine insemination an acceptable therapy in couples with unexplained non-conception in the perspective of multiple pregnancies?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id311"
+  },
+  {
+    "input": {
+      "text": "Context: Background. Acute pancreatitis is the major complication of endoscopic retrograde cholangiopancreatography (ERCP) procedure and there are some reports showing cytokine changes in ERCP-induced pancreatits.GOALS: To investigate the association between early changes (within 24 hours) in the serum interleukin (IL)-2, IL-4, tumor necrosis factor (TNF)alpha, and IL-6 levels and the development of post-ERCP pancreatitis.STUDY: Forty five consecutive patients who underwent therapeutic ERCP and 10 patients with acute pancreatitis without ERCP were enrolled to the study. Serum concentrations of IL-2, IL-4, TNFalpha, and IL-6 were determined immediately before, 12 hours and 24 hours after ERCP.\nResults. Seven of the 45 patients (15.5%) developed post-ERCP pancreatitis. The levels of IL-4 at 24 hours after ERCP were significantly lower in the patients with post-ERCP pancreatitis than in those without pancreatitis, while TNFalpha levels at 12 hours after ERCP were higher in the complicated group than those of the uncomplicated group. The ratios of TNFalpha/IL-4 at 12 and 24 hours after ERCP were found significantly higher in the patients with post-ERCP pancreatitis than in those without pancreatitis. IL-6 in the complicated patients was found significantly increased at 24 hours after ERCP.\n\nQuestion: Do the changes in the serum levels of IL-2, IL-4, TNFalpha, and IL-6 reflect the inflammatory activity in the patients with post-ERCP pancreatitis?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id883"
+  },
+  {
+    "input": {
+      "text": "Context: Background. The use of the private sector for health care is increasing, but it is unclear whether this will reduce demand on the NHS. The aim of this study was to examine the relationship between private and NHS outpatient referral rates accounting for their association with deprivation.\nMethods. This is a prospective survey of general practitioner referrals to private and NHS consultant-led services between 1 January and 31 December 2001 from 10 general practices in the Trent Focus Collaborative Research Network, United Kingdom. Patient referrals were aggregated to give private and NHS referral rates for each electoral ward in each practice.\nResults. Of 17,137 referrals, 90.4 percent (15,495) were to the NHS and 9.6 percent (1642) to the private sector. Private referral rates were lower in patients from the most deprived fifth of wards compared with the least deprived fifth (rate ratio 0.25, 95 percent CI 0.15 to 0.41, p<0.001), whereas NHS referral rates were slightly higher in patients in the most deprived fifth of wards (rate ratio 1.18, 95 percent CI 0.98 to 1.42, p = 0.08) both after age standardisation and adjustment for practice. The NHS referral rate was significantly higher (rate ratio 1.40, 95 percent CI 1.15 to 1.71, p = 0.001) in wards with private referral rates in the top fifth compared with the bottom fifth after adjustment for deprivation and practice.\n\nQuestion: Does increased use of private health care reduce the demand for NHS care?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id788"
+  },
+  {
+    "input": {
+      "text": "Context: Background. We have previously reported the feasibility of diagnostic and therapeutic peritoneoscopy including liver biopsy, gastrojejunostomy, and tubal ligation by an oral transgastric approach. We present results of per-oral transgastric splenectomy in a porcine model. The goal of this study was to determine the technical feasibility of per-oral transgastric splenectomy using a flexible endoscope.\nMethods. We performed acute experiments on 50-kg pigs. All animals were fed liquids for 3 days prior to procedure. The procedures were performed under general anesthesia with endotracheal intubation. The flexible endoscope was passed per orally into the stomach and puncture of the gastric wall was performed with a needle knife. The puncture was extended to create a 1.5-cm incision using a pull-type sphincterotome, and a double-channel endoscope was advanced into the peritoneal cavity. The peritoneal cavity was insufflated with air through the endoscope. The spleen was visualized. The splenic vessels were ligated with endoscopic loops and clips, and then mesentery was dissected using electrocautery.\nResults. Endoscopic splenectomy was performed on six pigs. There were no complications during gastric incision and entrance into the peritoneal cavity. Visualization of the spleen and other intraperitoneal organs was very good. Ligation of the splenic vessels and mobilization of the spleen were achieved using commercially available devices and endoscopic accessories.\n\nQuestion: Transgastric endoscopic splenectomy: is it possible?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id45"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To analyze, retrospectively, the patterns and behavior of metastatic lesions in prostate cancer patients treated with external beam radiotherapy and to investigate whether patients with<or =5 lesions had an improved outcome relative to patients with>5 lesions.\nMethods And Materials. The treatment and outcome of 369 eligible patients with Stage T1-T3aN0-NXM0 prostate cancer were analyzed during a minimal 10-year follow-up period. All patients were treated with curative intent to a mean dose of 65 Gy. The full history of any metastatic disease was documented for each subject, including the initial site of involvement, any progression over time, and patient survival.\nResults. The overall survival rate for the 369 patients was 75% at 5 years and 45% at 10 years. The overall survival rate of patients who never developed metastases was 90% and 81% at 5 and 10 years, respectively. However, among the 74 patients (20%) who developed metastases, the survival rate at both 5 and 10 years was significantly reduced (p<0.0001). The overall survival rate for patients who developed bone metastases was 58% and 27% at 5 and 10 years, respectively, and patients with bone metastases to the pelvis fared worse compared with those with vertebral metastases. With regard to the metastatic number, patients with<or =5 metastatic lesions had superior survival rates relative to those with>5 lesions (73% and 36% at 5 and 10 years vs. 45% and 18% at 5 and 10 years, respectively; p = 0.02). In addition, both the metastasis-free survival rate and the interval measured from the date of the initial diagnosis of prostate cancer to the development of bone metastasis were statistically superior for patients with<or =5 lesions compared with patients with>5 lesions (p = 0.01 and 0.02, respectively). However, the survival rate and the interval from the date of diagnosis of bone metastasis to the time of death for patients in both groups were not significantly different, statistically (p = 0.17 and 0.27, respectively).\n\nQuestion: Is there a favorable subset of patients with prostate cancer who develop oligometastases?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id103"
+  },
+  {
+    "input": {
+      "text": "Context: Objectives. This study sought to investigate the ischemic and bleeding outcomes of patients fulfilling high bleeding risk (HBR) criteria who were randomized to zotarolimus-eluting Endeavor Sprint stent (E-ZES) or bare-metal stent (BMS) implantation followed by an abbreviated dual antiplatelet therapy (DAPT) duration for stable or unstable coronary artery disease.\nBackground. DES instead of BMS use remains controversial in HBR patients, in whom long-term DAPT poses safety concerns.\nMethods. The ZEUS (Zotarolimus-Eluting Endeavor Sprint Stent in Uncertain DES Candidates) is a multinational, randomized single-blinded trial that randomized among others, in a stratified manner, 828 patients fulfilling pre-defined clinical or biochemical HBR criteria-including advanced age, indication to oral anticoagulants or other pro-hemorrhagic medications, history of bleeding and known anemia-to receive E-ZES or BMS followed by a protocol-mandated 30-day DAPT regimen. The primary endpoint of the study was the 12-month major adverse cardiovascular event rate, consisting of death, myocardial infarction, or target vessel revascularization.\nResults. Compared with patients without, those with 1 or more HBR criteria had worse outcomes, owing to higher ischemic and bleeding risks. Among HBR patients, major adverse cardiovascular events occurred in 22.6% of the E-ZES and 29% of the BMS patients (hazard ratio: 0.75; 95% confidence interval: 0.57 to 0.98; p = 0.033), driven by lower myocardial infarction (3.5% vs. 10.4%; p<0.001) and target vessel revascularization (5.9% vs. 11.4%; p = 0.005) rates in the E-ZES arm. The composite of definite or probable stent thrombosis was significantly reduced in E-ZES recipients, whereas bleeding events did not differ between stent groups.\n\nQuestion: Is Bare-Metal Stent Implantation Still Justifiable in High Bleeding Risk Patients Undergoing Percutaneous Coronary Intervention?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id760"
+  },
+  {
+    "input": {
+      "text": "Context: Background. Assessment of visual acuity depends on the optotypes used for measurement. The ability to recognize different optotypes differs even if their critical details appear under the same visual angle. Since optotypes are evaluated on individuals with good visual acuity and without eye disorders, differences in the lower visual acuity range cannot be excluded. In this study, visual acuity measured with the Snellen E was compared to the Landolt C acuity.\nPatients And Methods. 100 patients (age 8 - 90 years, median 60.5 years) with various eye disorders, among them 39 with amblyopia due to strabismus, and 13 healthy volunteers were tested. Charts with the Snellen E and the Landolt C (Precision Vision) which mimic the ETDRS charts were used to assess visual acuity. Three out of 5 optotypes per line had to be correctly identified, while wrong answers were monitored. In the group of patients, the eyes with the lower visual acuity, and the right eyes of the healthy subjects, were evaluated.\nResults. Differences between Landolt C acuity (LR) and Snellen E acuity (SE) were small. The mean decimal values for LR and SE were 0.25 and 0.29 in the entire group and 0.14 and 0.16 for the eyes with strabismus amblyopia. The mean difference between LR and SE was 0.55 lines in the entire group and 0.55 lines for the eyes with strabismus amblyopia, with higher values of SE in both groups. The results of the other groups were similar with only small differences between LR and SE.\n\nQuestion: Landolt C and snellen e acuity: differences in strabismus amblyopia?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id1"
+  },
+  {
+    "input": {
+      "text": "Context: Background. Women have been reported to show more frequent recanalization and better recovery after intravenous (IV) recombinant tissue plasminogen activator (rt-PA) treatment for acute stroke compared with men. To investigate this we studied a series of stroke patients receiving IV rt-PA and undergoing acute transcranial doppler (TCD) examination.\nMethods. Acute stroke patients received IV rt-PA and had acute TCD examination within 4 hours of symptom onset at 4 major stroke centers. TCD findings were interpreted using the Thrombolysis in Brain Ischemia (TIBI) flow grading system. The recanalization rates, and poor 3-month outcomes (modified Rankin scale>2) of men and women were compared using the chi-square test. Multiple regression analysis was used to assess sex as a predictor of recanalization and poor 3-month outcome after controlling for age, baseline NIH Stroke Scale (NIHSS), time to treatment, hypertension, and blood glucose.\nResults. 369 patients had TCD examinations before or during IV rt-PA treatment. The 199 (53.9%) men and 170 (46.1%) women had mean ages of 67\u2009\u00b1\u200913 and 70\u2009\u00b1\u200914 years, respectively. The sexes did not differ significantly in baseline stroke severity, time to TCD examination, or time to thrombolysis. Of the men, 68 (34.2%) had complete recanalization, 58 (29.1%) had partial recanalization, and 73 (36.6%) had no recanalization. Of the women, 53 (31.2%) had complete recanalization, 46 (27%) had partial recanalization, and 71 (41.8%) had no recanalization (p\u2009=\u20090.6). Multiple regression analyses showed no difference between the sexes in recanalization rate, time to recanalization, or clinical outcome at 3 months.\n\nQuestion: Does the sex of acute stroke patients influence the effectiveness of rt-PA?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id823"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. The aim of this study was to investigate the role of menopausal transition and menopausal symptoms in relation to quality of life in a cohort of middle-aged women in Kinmen.\nDesign. A total of 734 premenopausal women participated in the baseline study, and 579 women (78.9%) completed a follow-up 2 years later. Quality of life was assessed by the Medical Outcomes Study Short Form-36. Participating women were asked for demographic data, about vasomotor symptoms, and to complete the Medical Outcomes Study Short Form-36 and the Hospital Anxiety and Depression Scale.\nResults. There was no demographic difference between women who remained premenopausal and those who entered perimenopause except for age. Vitality deteriorated no matter whether the women stayed in premenopause or entered perimenopause. In multivariate analysis, only vasomotor symptoms had an adverse influence on role limitation of emotion after adjusting for age, education, menopausal status, baseline cognitive score, and Hospital Anxiety and Depression Scale score. The menopausal transition did not influence the eight domains of the Short Form-36 in the multivariate regression model.\n\nQuestion: Does menopausal transition affect the quality of life?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id710"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To investigate the significance of pelvic pain and its association with defecatory symptoms in women with pelvic organ prolapse (POP).\nStudy Design. This is a cross sectional study of 248 women with stage II POP or greater. Women were stratified into \"pain\" and \"no-pain\" groups based on their response to a question on the Pelvic Floor Distress Inventory short form. Associations between patient demographics, exam findings and responses to validated questionnaires were evaluated.\nResults. In women with POP, defecatory symptoms are significantly more common in women with pelvic pain including straining with bowel movement (OR 2.4, 95% CI 1.3, 4.6), sense of incomplete emptying (OR 4.4, 95% CI 2.3, 8.2), pain with bowel movement (OR 5.3, 95% CI 1.2, 23.0) and splinting with bowel movement (OR 3.8, 95% CI 2.0, 7.5).\n\nQuestion: Is pelvic pain associated with defecatory symptoms in women with pelvic organ prolapse?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id614"
+  },
+  {
+    "input": {
+      "text": "Context: Background. Children with sickle cell disease (SCD) are at risk of bone infarcts and acute osteomyelitis. The clinical differentiation between a bone infarct and acute osteomyelitis is a diagnostic challenge. Unenhanced T1-W fat-saturated MR images have been proposed as a potential tool to differentiate bone infarcts from osteomyelitis.\nObjective. To evaluate the reliability of unenhanced T1-W fat-saturated MRI for differentiation between bone infarcts and acute osteomyelitis in children with SCD.\nMaterials And Methods. We retrospectively reviewed the records of 31 children (20 boys, 11 girls; mean age 10.6 years, range 1.1-17.9 years) with SCD and acute bone pain who underwent MR imaging including unenhanced T1-W fat-saturated images from 2005 to 2010. Complete clinical charts were reviewed by a pediatric hematologist with training in infectious diseases to determine a clinical standard to define the presence or absence of osteomyelitis. A pediatric radiologist reviewed all MR imaging and was blinded to clinical information. Based on the signal intensity in T1-W fat-saturated images, the children were further classified as positive for osteomyelitis (low bone marrow signal intensity) or positive for bone infarct (high bone marrow signal intensity).\nResults. Based on the clinical standard, 5 children were classified as positive for osteomyelitis and 26 children as positive for bone infarct (negative for osteomyelitis). The bone marrow signal intensity on T1-W fat-saturated imaging was not significant for the differentiation between bone infarct and osteomyelitis (P\u2009=\u20090.56). None of the additional evaluated imaging parameters on unenhanced MRI proved reliable in differentiating these diagnoses.\n\nQuestion: Utility of unenhanced fat-suppressed T1-weighted MRI in children with sickle cell disease -- can it differentiate bone infarcts from acute osteomyelitis?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id790"
+  },
+  {
+    "input": {
+      "text": "Context: Background. The Pathway represents a longitudinal program for medical students, consisting of both domestic and international experiences with poor populations. A previous study reported no significant attitudinal changes toward the medically indigent between Pathway and non-Pathway students.\nPurpose. The purpose of this study was to investigate and differentiate the skills and attitudes of Pathway and non-Pathway students in working with culturally diverse populations by conducting quantitative and qualitative analyses.\nMethods. Selected items from a cultural assessment were analyzed using independent t-tests and a proportional analysis using approximation of the binomial distribution. In addition, a qualitative assessment of non-Pathway and Pathway students was conducted.\nResults. A statistically significant difference was found at the end of Years 2, 3, and 4 regarding student confidence ratings, and qualitative results had similar findings.\n\nQuestion: Global Longitudinal Pathway: has medical education curriculum influenced medical students' skills and attitudes toward culturally diverse populations?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id408"
+  },
+  {
+    "input": {
+      "text": "Context: Background. To determine whether patients with high-risk metastatic breast cancer draw benefit from combination chemotherapy as first-line treatment.\nPatients And Methods. A total of 260 women with measurable metastatic breast cancer fulfilling high-risk criteria, previously untreated with chemotherapy for their metastatic disease, were randomized to receive either mitoxantrone 12 mg/m(2) or the combination of fluorouracil 500 mg/m(2), epirubicin 50 mg/m(2) and cyclophosphamide 500 mg/m(2) (FEC) every 3 weeks. Treatment was continued until complete remission plus two cycles, or until disease progression. In the case of partial remission or stable disease, treatment was stopped after 12 cycles. Second-line treatment was vindesine, mitomycin and prednisolone. Gain from treatment was estimated using a modified Brunner's score composed of time to progression, patients' rating of the treatment benefit, alopecia, vomiting and performance status.\nResults. After recruitment from 1992 to 1997 and observation from 1997 to 1999, the final evaluation showed that single-agent treatment with mitoxantrone does not differ significantly from combination treatment with FEC in terms of response, objective remission rate, remission duration, time to response, time to best response, time to progression or overall survival. There was, however, a significant difference in gain from treatment using a modified Brunner's score favoring the single-agent treatment arm. There was no evidence that any subgroup would fare better with combination treatment.\n\nQuestion: Is first-line single-agent mitoxantrone in the treatment of high-risk metastatic breast cancer patients as effective as combination chemotherapy?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id736"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To evaluate feasibility of the guidelines of the Groupe Francophone de R\u00e9animation et Urgence P\u00e9diatriques (French-speaking group of paediatric intensive and emergency care; GFRUP) for limitation of treatments in the paediatric intensive care unit (PICU).\nDesign. A 2-year prospective survey.\nSetting. A 12-bed PICU at the H\u00f4pital Jeanne de Flandre, Lille, France.\nPatients. Were included when limitation of treatments was expected.\nResults. Of 967 children admitted, 55 were included with a 2-day median delay. They were younger than others (24 v 60 months), had a higher paediatric risk of mortality (PRISM) score (14 v 4), and a higher paediatric overall performance category (POPC) score at admission (2 v 1); all p<0.002. 34 (50% of total deaths) children died. A limitation decision was made without meeting for 7 children who died: 6 received do-not-resuscitate orders (DNROs) and 1 received withholding decision. Decision-making meetings were organised for 31 children, and the following decisions were made: 12 DNROs (6 deaths and 6 survivals), 4 withholding (1 death and 3 survivals), with 14 withdrawing (14 deaths) and 1 continuing treatment (survival). After limitation, 21 (31% of total deaths) children died and 10 survived (POPC score 4). 13 procedures were interrupted because of death and 11 because of clinical improvement (POPC score 4). Parents' opinions were obtained after 4 family conferences (for a total of 110 min), 3 days after inclusion. The first meeting was planned for 6 days after inclusion and held on the 7th day after inclusion; 80% of parents were immediately informed of the decision, which was implemented after half a day.\n\nQuestion: Are the GFRUP's recommendations for withholding or withdrawing treatments in critically ill children applicable?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id957"
+  },
+  {
+    "input": {
+      "text": "Context: Background. Longitudinally following patients requires a full-time employee (FTE)-dependent data inflow infrastructure. There are efforts to capture patient-reported outcomes (PROs) by the use of non-FTE-dependent methodologies. In this study, we set out to assess the reliability of PRO data captured via FTE-dependent compared with non-FTE-dependent methodologies.\nMethods. A total of 119 adult patients (65 men) who underwent 1-and 2-level lumbar fusions at Duke University Medical Center were enrolled in this prospective study. Enrollment criteria included available demographic, clinical, and PRO data. All patients completed 2 sets of questionnaires--the first a phone interviews and the second a self-survey. There was at least a 2-week period between the phone interviews and self-survey. Questionnaires included the Oswestry Disability Index (ODI), the visual analog scale for back pain (VAS-BP), and the visual analog scale for leg pain (VAS-LP). Repeated-measures analysis of variance was used to compare the reliability of baseline PRO data captured.\nResults. A total of 39.49% of patients were smokers, 21.00% had diabetes, and 11.76% had coronary artery disease; 26.89% reported history of anxiety disorder, and 28.57% reported history of depression. A total of 97.47% of patients had a high-school diploma or General Education Development, and 49.57% attained a 4-year college degree or postgraduate degree. We observed a high correlation between baseline PRO data captured between FTE-dependent versus non-FTE dependent methodologies (ODI: r = -0.89, VAS-BP: r = 0.74, VAS-LP: r = 0.70). There was no difference in PROs of baseline pain and functional disability between FTE-dependent and non-FTE-dependent methodologies: baseline ODI (FTE-dependent: 47.73 \u00b1 16.77 [mean \u00b1 SD] vs. non-FTE-dependent: 45.81 \u00b1 12.11, P = 0.39), VAS-LP (FTE-dependent: 6.13 \u00b1 2.78 vs. non-FTE-dependent: 6.46 \u00b1 2.79, P = 0.36) and VAS-BP (FTE-dependent: 6.33 \u00b1 2.90 vs. non-FTE-dependent: 6.53 \u00b1 2.48, P = 0.57).\n\nQuestion: Assessing Patient Reported Outcomes Measures via Phone Interviews Versus Patient Self-Survey in the Clinic: Are We Measuring the Same Thing?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id366"
+  },
+  {
+    "input": {
+      "text": "Context: Purpose. This study was designed to compare clinical effectiveness of operative with nonoperative treatment for displaced midshaft clavicular fractures (DMCF).\nMethods. We systematically searched electronic databases (MEDILINE, EMBASE, CLINICAL, OVID, BIOSIS and Cochrane registry of controlled clinical trials) to identify randomized controlled trials (RCTs) in which operative treatment was compared with nonoperative treatment for DMCF from 1980 to 2012. The methodologic quality of trials was assessed. Data from chosen studies were pooled with using of fixed-effects and random-effects models with mean differences and risk ratios for continuous and dichotomous variables, respectively.\nResults. Four RCTs with a total of 321 patients were screened for the present study. Results showed that the operative treatment was superior to the nonoperative treatment regarding the rate of nonunion [95\u00a0% confidence interval (CI) (0.05, 0.43), P\u00a0=\u00a00.0004], malunion [95\u00a0% CI (0.06, 0.34), P\u00a0<\u00a00.00001] and overall complication [95\u00a0% CI (0.43-0.76), P\u00a0=\u00a00.0001]. Subgroup analyses of complications revealed that significant differences were existed in the incidence of neurologic symptoms [95\u00a0% CI (0.20, 0.74), P\u00a0=\u00a00.004] and dissatisfaction with appearance [95\u00a0% CI (0.19, 0.65), P\u00a0=\u00a00.001]. Lack of consistent and standardized assessment data, insufficiency analysis that carried out showed improved functional outcomes (P\u00a0<\u00a00.05) in operative treatment.\n\nQuestion: Should displaced midshaft clavicular fractures be treated surgically?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id918"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To investigate whether prepuncture ultrasound evaluation of vascular anatomy facilitates internal jugular vein cannulation compared with landmark-guided puncture.\nDesign. Prospective randomized study.\nSetting. Single community hospital.\nParticipants. Adult patients undergoing general anesthesia (n = 240).\nInterventions. The right internal jugular vein was cannulated using either anatomic landmarks or prepuncture ultrasound (3.75/7.5 MHz) guidance. In the landmark group, respiratory jugular venodilation was used as the primary landmark for locating the vein. Results of cannulation and the incidence of complications were compared.\nMeasurements And Main Results. Patients were randomly assigned to the ultrasound or landmark group. Respiratory jugular venodilation was identified in 188 patients (78.3%), in whom results of cannulation did not differ between the 2 techniques with respect to the venous access rate (cannulated at the first attempt: 83.5% in the landmark v 85.7% in the ultrasound group), the success rate (cannulated within 3 attempts: 96.9% v 95.6%), and the incidence of arterial puncture (1.0% v 3.3%). In the remaining 52 respiratory jugular venodilation-unidentified patients, the access rate (30.4% v 86.2%, p<0.001) and the success rate (78.3 v 100%, p<0.05) were significantly better in the ultrasound group, and no arterial puncture was recorded in the ultrasound group, whereas the incidence was 13.0% in the landmark group. The results were similar regardless of the ultrasound frequency used.\n\nQuestion: Does ultrasound imaging before puncture facilitate internal jugular vein cannulation?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id267"
+  },
+  {
+    "input": {
+      "text": "Context: Background. Primary eosinophilic esophagitis, a chronic inflammatory disorder of the esophagus, evokes recurrent dysphagia. Endoscopy is often unremarkable, and no consensus exists regarding management of resultant dysphagia. The response of a series of patients with primary eosinophilic esophagitis to dilation is reported together with a description of a possibly pathognomonic sign: fragile esophageal mucosa, for which the term \"cr\u00eape-paper\" mucosa is introduced.\nMethods. Five men underwent endoscopy because of dysphagia confirmed (clinically, endoscopically, and histologically) to be caused by primary eosinophilic esophagitis and were treated by bouginage.\nObservations. All patients had extremely fragile, inelastic, and delicate mucosa, which tore easily even with minor trauma. After the procedure, patients remained asymptomatic for 3 to 24 months.\n\nQuestion: Fragility of the esophageal mucosa: a pathognomonic endoscopic sign of primary eosinophilic esophagitis?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id230"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To evaluate the accuracy of ultrasonographic examination in boys with an undescended testis.\nMaterial And Methods. All patients who were referred to the paediatric surgeon after detection of an undescended testis were evaluated prospectively between November 2001 and November 2004. Among these 377 patients, 87 were referred with an ultrasonogram previously prescribed by the referring primary physician. The results of the ultrasonogram were compared to the results of the clinical examination of the paediatric surgeon and, in cases of no palpable testis, to the surgical findings.\nResults. Ultrasonography did not detect the retractile testes. Ultrasonography detected 67% of the palpable undescended testes. In cases of no palpable testis, the ultrasonographic examination missed the abdominal testes and sometimes other structures were falsely interpreted as a testis.\n\nQuestion: Is there any interest to perform ultrasonography in boys with undescended testis?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id996"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To examine the impact of early discharge on newborn metabolic screening.\nStudy Design. Metabolic screening results were obtained from the Alabama State Lab for all infants born at our hospital between 8/1/97, and 1/31/99, and were matched with an existing database of early discharge infants. An early newborn discharge was defined as a discharge between 24 and 47 hours of age. Metabolic screening tests included phenylketonuria (PKU), hypothyroidism, and congenital adrenal hyperplasia (CAH). Early discharge and traditional stay infants were compared to determine the percentage of newborns screened and the timing of the first adequate specimen.\nResults. The state laboratory received specimens from 3860 infants; 1324 were on early discharge newborns and 2536 infants in the traditional stay group. At least one filter paper test (PKU, hypothyroidism, and CAH) was collected on 99.2% of early discharge infants and 96.0% of traditional stay infants (P<.0001). Early discharge infants had a higher rate of initial filter paper specimens being inadequate (22.9%) compared with traditional stay infants (14.3%, P<.0001) but had a higher rate of repeat specimens when the initial specimen was inadequate (85.0% early discharge vs 75.3% traditional stay, P=.002). The early discharge group was more likely to have an adequate specimen within the first 9 days of life (1001, 98.8% early discharge vs 2016, 96.7% traditional stay, P=.0005).\n\nQuestion: Does early discharge with nurse home visits affect adequacy of newborn metabolic screening?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id635"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To evaluate the degree to which histologic chorioamnionitis, a frequent finding in placentas submitted for histopathologic evaluation, correlates with clinical indicators of infection in the mother.\nStudy Design. A retrospective review was performed on 52 cases with a histologic diagnosis of acute chorioamnionitis from 2,051 deliveries at University Hospital, Newark, from January 2003 to July 2003. Third-trimester placentas without histologic chorioamnionitis (n = 52) served as controls. Cases and controls were selected sequentially. Maternal medical records were reviewed for indicators of maternal infection.\nResults. Histologic chorioamnionitis was significantly associated with the usage of antibiotics (p = 0.0095) and a higher mean white blood cell count (p = 0.018). The presence of 1 or more clinical indicators was significantly associated with the presence of histologic chorioamnionitis (p = 0.019).\n\nQuestion: Does histologic chorioamnionitis correspond to clinical chorioamnionitis?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id698"
+  },
+  {
+    "input": {
+      "text": "Context: Context. Severe upper gastrointestinal (GI) motor disorders, including gastroparesis (GP), can consume significant health care resources. Many patients are refractory to traditional drug therapy.\nObjective. To compare symptoms, healthcare resource utilization and costs in two groups of patients with the symptoms of GP: those treated via gastric electrical stimulation (GES) and those treated with traditional pharmacological agents in an intensive outpatient program (MED).\nDesign. A long-term comparison of patients with devices (n = 9) vs intensive medical therapy (n = 9).\nSetting And Patients. A total of 18 eligible patients with the symptoms of GP reported for 1-year baseline and long-term treatment for 3 years.\nInterventions. Patients with the symptoms of GP were treated by a GES or intensive medical therapy (MED).\nMain Outcome Measures. GP Symptoms, healthcare resource utilization using investigator-derived independent outcome measure score (IDIOMS) and total hospital (inpatient and outpatient) billing costs.\nResults. Gastrointestinal symptoms were significantly different from baseline (F = 3.03, P<0.017) with GP patients treated via GES showing more sustained improvement over 36 months than those treated via MED. Healthcare resource usage, measured via the IDIOMS, significantly improved at 12, 24 and 36 month follow-up for GES patients (F = 10.49, P<0.001), compared with patients receiving medical therapy, who demonstrated further deterioration. GP patients treated via GES also proved superior to medical therapy at 24 and 36 months with regard to decreased costs (F = 4.85, P<0.001). Within group comparisons indicated significantly reduced hospital days for both patient groups; however, no statistical differences were noted between groups in terms of hospital days. Three of nine patients in the MED group died primarily from i.v. access related problems; none of the GES patients died.\n\nQuestion: Is gastric electrical stimulation superior to standard pharmacologic therapy in improving GI symptoms, healthcare resources, and long-term health care benefits?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id251"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To determine the incidence and severity of acute side effects from the use of polyvalent antivenin in victims of rattlesnake bites.\nDesign. We retrospectively reviewed the records of all patients who presented with rattlesnake bites to a university teaching hospital during an 11-year period. From patient medical records, we extracted demographic data, clinical measurements, and outcomes during emergency department evaluation and subsequent hospitalization. Data regarding serum sickness were not collected.\nOutcome Measures. Primary outcome variables were the occurrence of immediate hypersensitivity reaction to antivenin, the type of reaction, permanent disability at hospital discharge, and mortality.\nResults. We identified a total of 73 patients with rattlesnake bites during the study period. Bite envenomation was graded as nonenvenomated, 7 patients (10%); mild, 23 patients (32%); moderate, 32 patients (44%); and severe, 11 patients (15%). We identified 65 patients who received antivenin. Antivenin doses ranged from 1 to 30 vials per patient (mean, 12.0 +/- 6.0), for a total of 777 vials. In 43 patients (66%), 10 or more vials of antivenin were given. The mean number of vials of antivenin given to each snakebite grade were as follows: mild, 8.4 (+/-4.0); moderate, 11.8 (+/-5.7); and severe, 18.7 (+/-6.3). No deaths, amputations, or permanent disability from snakebite occurred in the patients receiving antivenin. Acute side effects of antivenin-occurring within the first 6 hours after administration-were seen in 12 patients (18%; 95% confidence interval, 10%-30%). Acute side effects consisted solely of urticaria in all but 1 patient (2%; 95% confidence interval, 0%-8%). This patient had a history of previous antivenin reaction and required a short course of intravenous epinephrine for blood pressure support. No other complications occurred.\n\nQuestion: Does the aggressive use of polyvalent antivenin for rattlesnake bites result in serious acute side effects?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id783"
+  },
+  {
+    "input": {
+      "text": "Context: Introduction. Poor bone quality and unstable fractures increase the cut-out rate in implants with gliding lag screws. The U-Blade (RC) lag screw for the Gamma3\u00aenail was introduced to provide monoaxial rotational stability of the femoral head and neck fragment. The purpose of this study was to evaluate whether the use of the U-Blade (RC) lag screw is associated with reduced cut-out in patients with OTA/AO 31A1-3 fractures.MATERIAL &\nMethods. Between 2009 and 2014, 751 patients with OTA/AO 31A1-3 fractures were treated with a Gamma3\u00aenail at our institution. Out of this sample 199 patients were treated with U-blade (RC) lag screws. A total of 135 patients (117 female, 18 male) with standard lag screw (treatment group A) were matched equally regarding age (\u00b14 years) sex, fracture type and location to 135 patients with U-blade (RC) lag screw (treatment group B). Within a mean follow up of 9.2 months (range 6-18 months) we assessed the cut-out rate, the calTAD, lag screw migration, the Parker's mobility score and the Parker's ratio at postoperatively, six and 12 months following surgery. Furthermore we recorded all complications, ASA-Score, hospital stay and duration of surgery retrospectively.\nResults. The most common fracture among group B with a cut-out of the lag screw were AO/OTA 2.3 and 3.2 fractures whereas in group A cut-out was most commonly seen in AO/OTA 2.1, 2.2 and 2.3 fractures, there was no significant reduction of the cut-out rate in group B 2.2% (n=3) compared to group A 3.7% (n=5). The duration of surgery was significantly shorter in group A (p<0.05). There was no significant difference in lag screw placement, the Parker's ratio and mobilization.\n\nQuestion: Does an additional antirotation U-Blade (RC) lag screw improve treatment of AO/OTA 31 A1-3 fractures with gamma 3 nail?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id819"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To clarify whether horizontal canal ocular reflex is influenced by otolith organs input.\nMethods. The subjects were seven healthy humans. The right ear was stimulated using ice-water. Each subject was kept in a left-ear-down position for 20 s and then repositioned to a prone position, a right-ear-down position and a supine position with 20 s intervals. Nystagmus was analysed using three-dimensional video-oculography.\nResults. Eye movements in the supine position and the prone position were not in a symmetric fashion. Nystagmus in the left-ear-down position and the right-ear-down position were not symmetric either. These phenomena indicate that the axis of the eyeball rotation was affected by the shift of the direction of gravity exerted on the head.\n\nQuestion: Is horizontal semicircular canal ocular reflex influenced by otolith organs input?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id141"
+  },
+  {
+    "input": {
+      "text": "Context: Background And Aims. Refusal of patients to participate in intervention programs is an important problem in clinical trials but, in general, researchers devote relatively little attention to it. In this article, a comparison is made between patients who, after having been invited, agreed to participate in a self-management intervention (participants) and those who refused (refusers). Compared with other studies of refusers, relatively more information could be gathered with regard to both their characteristics and reasons for refusing, because all potential participants were invited personally.\nMethods. Older patients from a Dutch outpatient clinic were invited to participate in a self-management intervention, and their characteristics were assessed. Demographic data were collected, as well as data on physical functioning and lack of emotional support. People who refused to participate were asked to give their reasons for refusing.\nResults. Of the 361 patients invited, 267 (74%) refused participation. These refusers were more restricted in their mobility, lived further away from the location of the intervention, and had a partner more often than did the participants. No differences were found in level of education, age or gender. The main reasons given by respondents for refusing to participate were lack of time, travel distance, and transport problems.\n\nQuestion: Do older patients who refuse to participate in a self-management intervention in the Netherlands differ from older patients who agree to participate?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id316"
+  },
+  {
+    "input": {
+      "text": "Context: Aims. An association has been described between elevated serum angiotensin-converting enzyme (ACE) and an increased risk of severe hypoglycaemia (SH). To ascertain whether this reported association could be replicated in a different country, it was re-examined in 300 individuals with Type 1 diabetes.\nMethods. People with Type 1 diabetes, none of whom was taking renin-angiotensin system blocking drugs, were recruited. Participants recorded the frequency with which they had experienced SH. Glycated haemoglobin (HbA(1c)) and serum ACE were measured. The difference in the incidence of SH between different quartiles of ACE activity and the relationship between serum ACE and SH were examined using non-parametric statistical tests and a negative binomial model.\nResults. Data were obtained from 300 patients [158 male; HbA(1c) median (range) 8.2% (5.2-12.8%), median age 36 years (16-88); duration of diabetes 14.5 years (2-49)]. The incidence of SH was 0.93 episodes per patient year. The mean incidence of SH in the top and bottom quartiles of ACE activity was 0.5 and 1.7 episodes per patient year, respectively, but this difference was not statistically significant (P = 0.075). Spearman's test showed a very weak, although statistically significant, association between serum ACE level and SH incidence (r = 0.115, P = 0.047). The binomial model also showed a statistically significant (P = 0.002), but clinically weak, relationship between serum ACE and SH.\n\nQuestion: Serum angiotensin-converting enzyme and frequency of severe hypoglycaemia in Type 1 diabetes: does a relationship exist?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id587"
+  },
+  {
+    "input": {
+      "text": "Context: Background. We sought to develop a more reliable structured implicit chart review instrument for use in assessing the quality of care for chronic disease and to examine if ratings are more reliable for conditions in which the evidence base for practice is more developed.\nMethods. We conducted a reliability study in a cohort with patient records including both outpatient and inpatient care as the objects of measurement. We developed a structured implicit review instrument to assess the quality of care over one year of treatment. 12 reviewers conducted a total of 496 reviews of 70 patient records selected from 26 VA clinical sites in two regions of the country. Each patient had between one and four conditions specified as having a highly developed evidence base (diabetes and hypertension) or a less developed evidence base (chronic obstructive pulmonary disease or a collection of acute conditions). Multilevel analysis that accounts for the nested and cross-classified structure of the data was used to estimate the signal and noise components of the measurement of quality and the reliability of implicit review.\nResults. For COPD and a collection of acute conditions the reliability of a single physician review was quite low (intra-class correlation = 0.16-0.26) but comparable to most previously published estimates for the use of this method in inpatient settings. However, for diabetes and hypertension the reliability is significantly higher at 0.46. The higher reliability is a result of the reviewers collectively being able to distinguish more differences in the quality of care between patients (p<0.007) and not due to less random noise or individual reviewer bias in the measurement. For these conditions the level of true quality (i.e. the rating of quality of care that would result from the full population of physician reviewers reviewing a record) varied from poor to good across patients.\n\nQuestion: Profiling quality of care: Is there a role for peer review?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id331"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To determine the potential prognostic value of using functional magnetic resonance imaging (fMRI) to identify patients with disorders of consciousness, who show potential for recovery.\nDesign. Observational study.\nSetting. Unit for acute rehabilitation care.\nParticipants. Patients (N=22) in a vegetative state (VS; n=10) and minimally conscious state (MCS; n=12) during the first 200 days after the initial incident.\nInterventions. Not applicable.\nMain Outcome Measure. Further course on the Coma Recovery Scale-Revised.\nResults. Participants performed a mental imagery fMRI paradigm. They were asked to alternately imagine playing tennis and navigating through their home. In 14 of the 22 examined patients (VS, n=5; MCS, n=9), a significant activation of the regions of interest (ROIs) of the mental imagery paradigm could be found. All 5 patients with activation of a significant blood oxygen level dependent signal, who were in a VS at the time of the fMRI examination, reached at least an MCS at the end of the observation period. In contrast, 5 participants in a VS who failed to show activation in ROIs, did not (sensitivity 100%, specificity 100%). Six of 9 patients in an MCS with activation in ROIs emerged from an MCS. Of 3 patients in an MCS who did not show activation, 2 patients stayed in an MCS and 1 patient emerged from the MCS (sensitivity 85%, specificity 40%).\n\nQuestion: Can mental imagery functional magnetic resonance imaging predict recovery in patients with disorders of consciousness?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id295"
+  },
+  {
+    "input": {
+      "text": "Context: Objectives. Swedish hospital mergers seem to stem from a conviction among policy makers that bigger hospitals lead to lower average costs and improved clinical outcomes. The effects of mergers in the form of multisited hospitals have not been systematically evaluated. The purpose of this article is to contribute to this area of knowledge by exploring responses to the merger of Blekinge Hospital.\nMethods. The evaluation was guided by the philosophy of triangulation. A questionnaire was sent to 597 randomly selected employees, that is 24% of the health care staff. Four hundred ninety-eight employees answered the questionnaire, giving a response rate of 83%. Furthermore, interviews of different groups of stakeholders were conducted.\nResults. A moderate increase of quality was assessed, which, a low proportion of the employees perceived had decisively or largely to do with the merger. The majority perceives economical incentives as the drivers of change, but, at the same time, only 10% of this group believes this target was reached completely or to a large extent.\n\nQuestion: Is it better to be big?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id262"
+  },
+  {
+    "input": {
+      "text": "Context: Background. Elevation of cardiac troponin (cTn) is considered specific for myocardial damage. Elevated cTn and echocardiogrpahic documentation of wall motion abnormalities (WMAs) that were recorded after extreme physical effort raise the question whether dobutamine stress echo (DSE), can also induce elevation of troponin.\nMethods. we prospective enrolled stable patients (age>18 years) referred to DSE. The exam was performed under standardized conditions. Blood samples for cTnI were obtained at baseline and 18-24 hours after the test. We aimed to compare between the clinical and echocardiographic features of patients with elevated cTnI and those without cTnI elevations.\nResults. Fifty-seven consecutive patients were included. The average age was 64.4 \u00b1 10.7, 73% of the patients were males, and nearly half of the patients were known to have ischemic heart disease. Two of the patients were excluded due to technical difficulty. No signs of ischemia were recorded in 25 (45.4%). Among the patients with established ischemia on DSE, 12 (22%) had mild ischemia, 13 (23.6%) had moderate and 5 (9%) had severe ischemia. Angiography was performed in 13 (26%) of the patients, of which 7 had PCI and one was referred to bypass surgery. None of the patients had elevated cTnI 18-24 hours after the DSE.\n\nQuestion: Can dobutamine stress echocardiography induce cardiac troponin elevation?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id432"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To correlate magnetic resonance (MR) image findings with pain response by provocation discography in patients with discogenic low back pain, with an emphasis on the combination analysis of a high intensity zone (HIZ) and disc contour abnormalities.\nMaterials And Methods. Sixty-two patients (aged 17-68 years) with axial low back pain that was likely to be disc related underwent lumbar discography (178 discs tested). The MR images were evaluated for disc degeneration, disc contour abnormalities, HIZ, and endplate abnormalities. Based on the combination of an HIZ and disc contour abnormalities, four classes were determined: (1) normal or bulging disc without HIZ; (2) normal or bulging disc with HIZ; (3) disc protrusion without HIZ; (4) disc protrusion with HIZ. These MR image findings and a new combined MR classification were analyzed in the base of concordant pain determined by discography.\nResults. Disc protrusion with HIZ [sensitivity 45.5%; specificity 97.8%; positive predictive value (PPV), 87.0%] correlated significantly with concordant pain provocation (P<0.01). A normal or bulging disc with HIZ was not associated with reproduction of pain. Disc degeneration (sensitivity 95.4%; specificity 38.8%; PPV 33.9%), disc protrusion (sensitivity 68.2%; specificity 80.6%; PPV 53.6%), and HIZ (sensitivity 56.8%; specificity 83.6%; PPV 53.2%) were not helpful in the identification of a disc with concordant pain.\n\nQuestion: Can magnetic resonance imaging accurately predict concordant pain provocation during provocative disc injection?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id862"
+  },
+  {
+    "input": {
+      "text": "Context: Introduction. Whether mutation status should be used to guide therapy is an important issue in many cancers. We correlated mutation profile in radioiodine-refractory (RAIR) metastatic thyroid cancers (TCs) with patient outcome and response to tyrosine kinase inhibitors (TKIs), and discussed the results with other published data.\nMaterials And Methods. Outcome in 82 consecutive patients with metastatic RAIR thyroid carcinoma prospectively tested for BRAF, RAS and PI3KCA mutations was retrospectively analyzed, including 55 patients treated with multikinase inhibitors.\nResults. Papillary thyroid carcinomas (PTCs) were the most frequent histological subtype (54.9 %), followed by poorly differentiated thyroid carcinoma [PDTC] (30.5 %) and follicular thyroid carcinoma [FTC](14.6 %). A genetic mutation was identified in 23 patients (28 %) and BRAF was the most frequently mutated gene (23 %). Median progression-free survival (PFS) on first-line TKI treatment was 14.6 months (95% CI 9.9-18.4). BRAF mutation positively influenced median PFS, both in the entire TKI-treated cohort (median PFS 34.7 months versus 11.6 months; hazard ratio [HR] 0.29; 95% CI 0.09-0.98; p\u2009=\u20090.03) and in the TKI-treated PTC cohort (n\u2009=\u200922) [log-rank p\u2009=\u20090.086; HR 2.95; 95 % CI 0.81-10.70). However, in TKI-treated patients, PDTC histologic subtype was the only independent prognostic factor for PFS identified in the multivariate analysis (HR 2.36; 95% CI 1.01-5.54; p\u2009=\u20090.048).\n\nQuestion: Does Molecular Genotype Provide Useful Information in the Management of Radioiodine Refractory Thyroid Cancers?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id582"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To characterize the gender dimorphism after injury with specific reference to the reproductive age of the women (young,<48 yrs of age, vs. old,>52 yrs of age) in a cohort of severely injured trauma patients for which significant variation in postinjury care is minimized.\nDesign. Secondary data analysis of an ongoing prospective multicenter cohort study.\nSetting. Academic, level I trauma and intensive care unit centers.\nPatients. Blunt-injured adults with hemorrhagic shock.\nInterventions. None.\nMeasurements And Main Results. Separate Cox proportional hazard regression models were formulated based on all patients to evaluate the effects of gender on mortality, multiple organ failure, and nosocomial infection, after controlling for all important confounders. These models were then used to characterize the effect of gender in young and old age groups. Overall mortality, multiple organ failure, and nosocomial infection rates for the entire cohort (n = 1,036) were 20%, 40%, and 45%, respectively. Mean Injury Severity Score was 32 +/- 14 (mean +/- SD). Men (n = 680) and women (n = 356) were clinically similar except that men required higher crystalloid volumes, more often had a history of alcoholism and liver disease, and had greater ventilatory and intensive care unit requirements. Female gender was independently associated with a 43% and 23% lower risk of multiple organ failure and nosocomial infection, respectively. Gender remained an independent risk factor in young and old subgroup analysis, with the protection afforded by female gender remaining unchanged.\n\nQuestion: Characterization of the gender dimorphism after injury and hemorrhagic shock: are hormonal differences responsible?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id272"
+  },
+  {
+    "input": {
+      "text": "Context: Background. It is now widely accepted that AMP-activated protein kinase (AMPK) is a critical regulator of energy homeostasis. Recently, it has been shown to regulate circadian clocks. In seasonal breeding species such as sheep, the circadian clock controls the secretion of an endogenous rhythm of melatonin and, as a consequence, is probably involved in the generation of seasonal rhythms of reproduction. Considering this, we identified the presence of the subunits of AMPK in different hypothalamic nuclei involved in the pre- and post-pineal pathways that control seasonality of reproduction in the ewe and we investigated if the intracerebroventricular (i.c.v.) injection of two activators of AMPK, metformin and AICAR, affected the circadian rhythm of melatonin in ewes that were housed in constant darkness. In parallel the secretion of insulin was monitored as a peripheral metabolic marker. We also investigated the effects of i.c.v. AICAR on the phosphorylation of AMPK and acetyl-CoA carboxylase (ACC), a downstream target of AMPK, in brain structures along the photoneuroendocrine pathway to the pineal gland.\nResults. All the subunits of AMPK that we studied were identified in all brain areas that were dissected but with some differences in their level of expression among structures. Metformin and AICAR both reduced (p<0.001 and p<0.01 respectively) the amplitude of the circadian rhythm of melatonin secretion independently of insulin secretion. The i.c.v. injection of AICAR only tended (p = 0.1) to increase the levels of phosphorylated AMPK in the paraventricular nucleus but significantly increased the levels of phosphorylated ACC in the paraventricular nucleus (p<0.001) and in the pineal gland (p<0.05).\n\nQuestion: The effect of an intracerebroventricular injection of metformin or AICAR on the plasma concentrations of melatonin in the ewe: potential involvement of AMPK?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id270"
+  },
+  {
+    "input": {
+      "text": "Context: Objectives. To determine the effect of prior benign prostate biopsies on the surgical and clinical outcomes of patients treated with radical perineal prostatectomy for prostate cancer.\nMethods. A total of 1369 patients with clinically localized prostate cancer underwent radical prostatectomy by a single surgeon between 1991 and 2001. A subset of 203 patients (14.9%), who had undergone at least one prior benign prostate biopsy for a rising prostate-specific antigen and/or abnormal digital rectal examination, constituted our study population. A total of 1115 patients with no prior biopsy represented our control group. After prostatectomy, patients were evaluated at 6-month intervals for biochemical evidence of recurrence, defined as a prostate-specific antigen level of 0.5 ng/mL or greater.\nResults. Patients with a prior benign biopsy had more favorable pathologic features with more organ-confined (74% versus 64%; P<0.001) and less margin-positive (9.8% versus 18%) disease. Only 24 patients (12%) in the study group (versus 20% in control group; P = 0.01) had eventual evidence of biochemical failure. Kaplan-Meier analyses suggested that patients with prior benign biopsies have improved biochemical disease-free survival, especially for those with more aggressive disease (Gleason sum 7 or greater; P<0.01). Overall, patients in the study group had lower probability (odds ratio 0.57, P<0.001) of biochemical failure compared with those in the control group.\n\nQuestion: Does prior benign prostate biopsy predict outcome for patients treated with radical perineal prostatectomy?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id987"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To assess the results of transsphenoidal pituitary surgery in patients with Cushing's disease over a period of 18 years, and to determine if there are factors which will predict the outcome.\nPatients. Sixty-nine sequential patients treated surgically by a single surgeon in Newcastle upon Tyne between 1980 and 1997 were identified and data from 61 of these have been analysed.\nDesign. Retrospective analysis of outcome measures.\nMain Outcome Measures. Patients were divided into three groups (remission, failure and relapse) depending on the late outcome of their treatment as determined at the time of analysis, i.e. 88 months (median) years after surgery. Remission is defined as biochemical reversal of hypercortisolism with re-emergence of diurnal circadian rhythm, resolution of clinical features and adequate suppression on low-dose dexamethasone testing. Failure is defined as the absence of any of these features. Relapse is defined as the re-emergence of Cushing's disease more than one year after operation. Clinical features such as weight, sex, hypertension, associated endocrine disorders and smoking, biochemical studies including preoperative and postoperative serum cortisol, urine free cortisol, serum ACTH, radiological, histological and surgical findings were assessed in relation to these three groups to determine whether any factors could reliably predict failure or relapse after treatment.\nResults. Of the 61 patients included in this study, 48 (78.7%) achieved initial remission and 13 (21.3%) failed treatment. Seven patients suffered subsequent relapse (range 22-158 months) in their condition after apparent remission, leaving a final group of 41 patients (67.2%) in the remission group. Tumour was identified at surgery in 52 patients, of whom 38 achieved remission. In comparison, only 3 of 9 patients in whom no tumour was identified achieved remission. This difference was significant (P = 0.048). When both radiological and histological findings were positive, the likelihood of achieving remission was significantly higher than if both modalities were negative (P = 0.038). There were significant differences between remission and failure groups when 2- and 6-week postoperative serum cortisol levels (P = 0.002 and 0.001, respectively) and 6-week postoperative urine free cortisol levels (P = 0.026) were compared. This allowed identification of patients who failed surgical treatment in the early postoperative period. Complications of surgery included transitory DI in 13, transitory CSF leak in 8 and transitory nasal discharge and cacosmia in 3. Twelve of 41 patients required some form of hormonal replacement therapy despite achieving long-term remission. Thirteen patients underwent a second operation, of whom 5 achieved remission.\n\nQuestion: Transsphenoidal pituitary surgery in Cushing's disease: can we predict outcome?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id319"
+  },
+  {
+    "input": {
+      "text": "Context: Background. This article examines the hypothesis that the six U.S. states with the highest rates of road traffic deaths (group 1 states) also had above-average rates of other forms of injury such as falling, poisoning, drowning, fire, suffocation, homicide, and suicide, and also for the retail trade and construction industries. The converse, second hypothesis, for the six states with the lowest rates of road traffic deaths (group 2 states) is also examined.\nResults. Data for these 12 states for the period 1983 to 1995 included nine categories of unintentional and four categories of intentional injury. Seventy-four percent of the group 1 states conformed to the first hypothesis, and 85% of the group 2 states conformed to the second hypothesis.\n\nQuestion: Do some U.S. states have higher/lower injury mortality rates than others?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id569"
+  },
+  {
+    "input": {
+      "text": "Context: Background. The intent of this study was to determine if the use of a single or combination of static foot posture measurements can be used to predict rearfoot, midfoot, and forefoot plantar surface area in individuals with pronated or normal foot types.\nMethods. Twelve foot measurements were collected on 52 individuals (mean age 25.8 years) with the change in midfoot width used to place subjects in a pronated or normal foot mobility group. Dynamic plantar contact area was collected during walking with a pressure sensor platform. The 12 measures were entered into a stepwise regression analysis to determine the optimal set of measures associated with regional plantar surface area.\nResults. A two variable model was found to describe the relationship between the foot measurements and forefoot plantar contact area (r(2)=0.79, p<0.0001). A four variable model was found to describe the relationship between the foot measurements and midfoot plantar contact area (r(2)=0.85, p<0.0001) in those individuals with a 1.26cm or greater change in midfoot width.\n\nQuestion: Can static foot posture measurements predict regional plantar surface area?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id643"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To critically assess the evidence that appendiceal perforation is a risk factor for subsequent tubal infertility or ectopic pregnancy.\nData Sources. Epidemiologic studies investigating the relationship between appendectomy and infertility or ectopic pregnancy were identified by searching the MEDLINE database from 1966 to 1997. Appropriate citations were also extracted from a manual search of the bibliographies of selected papers.\nStudy Selection. Twenty-three articles were retrieved. Only 4 presented original data including comparisons to a nonexposed control group and they form the basis for this study.\nData Extraction. Because the raw data or specific techniques of data analysis were not always explicitly described, indices of risk for exposure were extracted from the data as presented and were analysed without attempting to convert them to a common measure.\nData Synthesis. Articles were assessed according to the criteria of the Evidence-Based Medicine Working Group for evaluating articles on harm. Review of the literature yielded estimates of the risk of adverse fertility outcomes ranging from 1.6 (95% confidence interval [CI] 1.1 to 2.5) for ectopic pregnancy after an appendectomy to 4.8 (95% CI 1.5 to 14.9) for tubal infertility from perforation of the appendix. Recall bias, and poor adjustment for confounding variables in some reports, weakened the validity of the studies.\n\nQuestion: Is perforation of the appendix a risk factor for tubal infertility and ectopic pregnancy?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id142"
+  },
+  {
+    "input": {
+      "text": "Context: Objectives. The objectives of this study were to evaluate the ability of the Young-Burgess classification system to predict mortality, transfusion requirements, and nonorthopaedic injuries in patients with pelvic ring fractures and to determine whether mortality rates after pelvic fractures have changed over time.\nDesign. Retrospective review.\nSetting. Level I trauma center.\nPatients. One thousand two hundred forty-eight patients with pelvic fractures during a 7-year period.\nIntervention. None.\nMain Outcome Measurements. Mortality at index admission, transfusion requirement during first 24 hours, and presence of nonorthopaedic injuries as a function of Young-Burgess pelvic classification type. Mortality compared with historic controls.\nResults. Despite a relatively large sample size, the ability of the Young-Burgess system to predict mortality only approached statistical significance (P = 0.07, Kruskal-Wallis). The Young-Burgess system differentiated transfusion requirements--lateral compression Type 3 (LC3) and anteroposterior compression Types 2 (APC2) and 3 (APC3) fractures had higher transfusion requirements than did lateral compression Type 1 (LC1), anteroposterior compression Type 1 (APC1), and vertical shear (VS) (P<0.05)--but was not as useful at predicting head, chest, or abdomen injuries. Dividing fractures into stable and unstable types allowed the system to predict mortality rates, abdomen injury rates, and transfusion requirements. Overall mortality in the study group was 9.1%, unchanged from original Young-Burgess studies 15 years previously (P = 0.3).\n\nQuestion: Young-Burgess classification of pelvic ring fractures: does it predict mortality, transfusion requirements, and non-orthopaedic injuries?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id202"
+  },
+  {
+    "input": {
+      "text": "Context: Purpose. The optimal age at which to perform orchiopexy for cryptorchidism has long been debated. The aim of this study was to determine if age at orchiopexy affected testicular atrophy.\nMethods. A retrospective review of patients undergoing orchiopexy from 2000 to 2010 was conducted. An individual testis, rather than patient, was used as the dependent variable. A total of 349 testicles from 1126 charts (ICD-9=752.51) were identified. Primary study outcome was testicular survival without atrophy.\nResults. Mean follow up for the study was 25 months. There was postoperative atrophy in 27 testes (7.7%). Intraabdominal testicle was independently associated with increased postsurgical atrophy (p<0.0001). The odds of postsurgical atrophy were 15.66 times higher for an abdominal vs. inguinal location (95% CI: 5.5-44.6). Testicular atrophy was highest for orchiopexy at ages 13-24 months (n=16 of 133, 12%) vs. those less than 13 months (n=3 of 64, 5%), and those greater than 24 months (n=8 of 152, 5%) (p=0.0024). After adjusting for location, age was not statistically significant with postsurgical atrophy (p=0.055).\n\nQuestion: Undescended testes: does age at orchiopexy affect survival of the testis?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id413"
+  },
+  {
+    "input": {
+      "text": "Context: Background. Vaginal intraepithelial neoplasia is a little known disease which could be related to risk factors different from simple HPV infections.\nObjective. To ascertain wheter vaginal lesions have a natural history similar to cervical lesions.MATERIALS &\nMethods. A retrospective study to identify patients with vaginal lesions and synchronous cervical lesions through biopsy. The rate of mild cervical lesions (koilocytosis, warts, CIN I with and without koilocytosis) was compared with the rate of severe cervical lesions (CIN II and III, cervical carcinoma) in patients with mild vaginal lesions (warts and koilocytosis, and low-grade VAIN) and in patients with severe vaginal lesions (high-grade VAIN). Using koilocytosis as a marker, the rate of \"active\" cervical lesions was compared with the rate of \"non active\" cervical lesions in patients with \"active\" versus \"non active\" vaginal lesions. Finally, the rates of mild and severe cervical lesions were compared among each group of VAIN (low-grade, high-grade, with or without koilocytosis).\nResults. In patients with mild vaginal lesions, mild cervical lesions were significantly more frequent than severe cervical lesions. In patients with \"active\" vaginal lesions the rate of \"active\" cervical lesions was significantly higher than \"non active\" cervical lesions. The differences in rates of mild cervical lesions and severe cervical lesions among patients with high-grade VAIN and low-grade VAIN (with and without koilocytosis) were not significant.\n\nQuestion: Does vaginal intraepithelial neoplasia have the same evolution as cervical intraepithelial neoplasia?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id196"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To prospectively evaluate the amount of tissue removed at loop electrosurgical excision procedure (LEEP) vs. cold knife conization.\nStudy Design. Forty consecutive LEEP or cold knife conization specimens were prospectively measured and weighed by a single pathology technician. Diameter, length and weight of the specimens were compared using Student's t test.\nResults. Mean diameter of cold knife cone specimens was 2.6 vs. 2.2 cm for LEEP (P = .07). Mean length of cold knife cone specimens was 1.5 vs. 1.0 cm for LEEP (P = .001). Mean weight for cold knife cone specimens was 4.4 vs. 2.0 g for LEEP (P = .001).\n\nQuestion: Cold knife conization vs. LEEP. Are they the same procedure?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id264"
+  },
+  {
+    "input": {
+      "text": "Context: Background. Nasal Polyposis (NP) is defined as a chronic inflammatory disease of sinonasal mucosa leading to diffuse formation of benign polyps. Although family histories are frequently suggested in medical literature, no specific study focused on this point has been reported. The purpose of this study is to determine whether a hereditary factor could be implied for NP in a family where several members were affected. We included 99 members of this family.\nMethods. All patients were assessed for conditions known to be associated with the development or presence of NP. Concerning NP, patients were screened with a validated questionnaire and selected patients had a medical examination by an Ear, Nose and Throat practitioner.\nResults. Thirteen patients had a personal history of NP without asthma, aspirin intolerance, Churg Strauss syndrome, cystic fibrosis, Young's syndrome, bare lymphocyte syndrome, or primary ciliary dyskinesia. Within this family, 19.7% of those older than 17 years were affected by NP, as compared with the national French prevalence of 2.1%.\n\nQuestion: Nasal polyposis: is there an inheritance pattern?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id531"
+  },
+  {
+    "input": {
+      "text": "Context: Methodology. Seventeen patients, aged 7-54\u00a0years (mean of 37.2\u00a0year), were treated by pulpotomy and filling with ProRoot MTA(\u00ae)  in premolar or molar teeth with vital pulps and without clinical evidence of irreversible pulpitis. The patients were then followed up for 12 to 24\u00a0months and the teeth then assessed by clinical and radiographic examination. Statistical analysis was performed with Kaplan-Meier survival probability statistics to estimate the survival of the treated teeth.\nResults. At 24\u00a0months, the survival rate without any complementary treatment was estimated to be 82%. Two of the 17 treated teeth required root canal treatment for pain control and one for prosthetic reasons.\n\nQuestion: Should pulp chamber pulpotomy be seen as a permanent treatment?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id252"
+  },
+  {
+    "input": {
+      "text": "Context: Background And Purpose. Women are more likely to have a worse outcome after an acute stroke than men. Some studies have suggested that women also benefit less from intravenous thrombolysis after an acute ischemic stroke, but others found no sex differences in safety and efficacy. We aimed to evaluate differences in 3-month outcome between sexes in intravenous tissue-type plasminogen activator-treated patients registered in the Safe Implementation of Treatments in Stroke-International Stroke Thrombolysis Register.\nMethods. A total of 45 079 patients treated with intravenous alteplase were recorded from 2002 to 2011. Main outcome measures were symptomatic intracerebral hemorrhage, functional independence (modified Rankin Scale score, 0-2), and mortality at 3 months.\nResults. Among 25 777 (57.2%) men and 19 302 (42.8%) women, we found no difference in the rate of symptomatic intracerebral hemorrhage (P=0.13), a significantly higher likelihood of functional independence at 3 months in men (P<0.0001) and a higher mortality in women when compared with men (P<0.00001). After adjustment for confounding variables, we did not observe any difference between sexes in functional outcome (odds ratio, 1.03; 95% confidence interval, 0.97-1.09; P=0.39), whereas male sex was related to a higher risk of mortality (odds ratio, 1.19; 95% confidence interval, 1.10-1.29; P=0.00003) and symptomatic intracerebral hemorrhage (odds ratio, 1.25, 95% confidence interval, 1.04-1.51; P=0.02).\n\nQuestion: Does sex influence the response to intravenous thrombolysis in ischemic stroke?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id576"
+  },
+  {
+    "input": {
+      "text": "Context: Background Context. Current evidence suggests that neck pain is negatively associated with health-related quality of life (HRQoL). However, these studies are cross-sectional and do not inform the association between neck pain and future HRQoL.\nPurpose. The purpose of this study was to investigate the association between increasing grades of neck pain severity and HRQoL 6 months later. In addition, this longitudinal study examines the crude association between the course of neck pain and HRQoL.\nStudy Design. This is a population-based cohort study.\nPatient Sample. Eleven hundred randomly sampled Saskatchewan adults were included.\nOutcome Measures. Outcome measures were the mental component summary (MCS) and physical component summary (PCS) of the Short-Form-36 (SF-36) questionnaire.\nMethods. We formed a cohort of 1,100 randomly sampled Saskatchewan adults in September 1995. We used the Chronic Pain Questionnaire to measure neck pain and its related disability. The SF-36 questionnaire was used to measure physical and mental HRQoL 6 months later. Multivariable linear regression was used to measure the association between graded neck pain and HRQoL while controlling for confounding. Analysis of variance and t tests were used to measure the crude association among four possible courses of neck pain and HRQoL at 6 months. The neck pain trajectories over 6 months were no or mild neck pain, improving neck pain, worsening neck pain, and persistent neck pain. Finally, analysis of variance was used to examine changes in baseline to 6-month PCS and MCS scores among the four neck pain trajectory groups.\nResults. The 6-month follow-up rate was 74.9%. We found an exposure-response relationship between neck pain and physical HRQoL after adjusting for age, education, arthritis, low back pain, and depressive symptomatology. Compared with participants without neck pain at baseline, those with mild (\u03b2=-1.53, 95% confidence interval [CI]=-2.83, -0.24), intense (\u03b2=-3.60, 95% CI=-5.76, -1.44), or disabling (\u03b2=-8.55, 95% CI=-11.68, -5.42) neck pain had worse physical HRQoL 6 months later. We did not find an association between neck pain and mental HRQoL. A worsening course of neck pain and persistent neck pain were associated with worse physical HRQoL.\n\nQuestion: Is neck pain associated with worse health-related quality of life 6 months later?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id738"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To identify the features of PMR that may predict the duration of steroid therapy, the occurrence of relapses and the late development of GCA.\nMethods. Prospective cohort study of 176 patients with PMR, followed up for 5 years. Baseline factors associated with the duration of steroids therapy were identified using Cox regression. Predictors of relapse and the late development of GCA were identified using binary logistic regression.\nResults. A total of 176 patients with PMR were included, of whom 124 stopped steroids within 5 years. The probability of stopping steroids within 5 years was independently reduced by an elevated plasma viscosity (PV) [hazard ratio (HR) = 0.49; 95% CI 0.29, 0.82 for a PV>or = 2.00 mPa s compared with a PV<or = 1.80 mPa s; overall P = 0.024] and by starting treatment at>15 mg prednisolone (HR = 0.63; 95% CI 0.41, 0.97; P = 0.036). Either of these independently reduced the chances of stopping steroids within a given time interval between 27 and 51%. No significant predictors of relapse were identified. Predictors of late GCA on univariable analysis were female sex [odds ratio (OR) = 8.16; 95% CI 1.06, 63.13; P = 0.044], HLA-DRB1*0101 or -*0401 alleles (OR = 4.95; 95% CI 1.05, 23.34; P = 0.043), PV>or = 2.00 mPa s compared with PV<or = 1.80 mPa s (OR = 10.64; 95% CI 1.28, 88.38; P = 0.029) and initial prednisolone dose>15 mg (OR = 4.53; 95% CI 1.61, 12.79; P = 0.004).\n\nQuestion: Can the prognosis of polymyalgia rheumatica be predicted at disease onset?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id299"
+  },
+  {
+    "input": {
+      "text": "Context: Background. Sublingual varices have earlier been related to ageing, smoking and cardiovascular disease. The aim of this study was to investigate whether sublingual varices are related to presence of hypertension.\nMethods. In an observational clinical study among 431 dental patients tongue status and blood pressure were documented. Digital photographs of the lateral borders of the tongue for grading of sublingual varices were taken, and blood pressure was measured. Those patients without previous diagnosis of hypertension and with a noted blood pressure \u2265 140 mmHg and/or \u2265 90 mmHg at the dental clinic performed complementary home blood pressure during one week. Those with an average home blood pressure \u2265 135 mmHg and/or \u2265 85 mmHg were referred to the primary health care centre, where three office blood pressure measurements were taken with one week intervals. Two independent blinded observers studied the photographs of the tongues. Each photograph was graded as none/few (grade 0) or medium/severe (grade 1) presence of sublingual varices. Pearson's Chi-square test, Student's t-test, and multiple regression analysis were applied. Power calculation stipulated a study population of 323 patients.\nResults. An association between sublingual varices and hypertension was found (OR = 2.25, p<0.002). Mean systolic blood pressure was 123 and 132 mmHg in patients with grade 0 and grade 1 sublingual varices, respectively (p<0.0001, CI 95 %). Mean diastolic blood pressure was 80 and 83 mmHg in patients with grade 0 and grade 1 sublingual varices, respectively (p<0.005, CI 95 %). Sublingual varices indicate hypertension with a positive predictive value of 0.5 and a negative predictive value of 0.80.\n\nQuestion: Is there a connection between sublingual varices and hypertension?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id740"
+  },
+  {
+    "input": {
+      "text": "Context: Methods. As part of an MRC funded study into primary care oral anticoagulation management, INR measurements obtained in general practice were validated against values on the same samples obtained in hospital laboratories. A prospective comparative trial was undertaken between three hospital laboratories and nine general practices. All patients attending general practice based anticoagulant clinics had parallel INR estimations performed in general practice and in a hospital laboratory.\nResults. 405 tests were performed. Comparison between results obtained in the practices and those in the reference hospital laboratory (gold standard), which used the same method of testing for INR, showed a correlation coefficient of 0.96. Correlation coefficients comparing the results with the various standard laboratory techniques ranged from 0.86 to 0.92. It was estimated that up to 53% of tests would have resulted in clinically significant differences (change in warfarin dose) depending upon the site and method of testing. The practice derived results showed a positive bias ranging from 0.28 to 1.55, depending upon the site and method of testing.\n\nQuestion: Is the international normalised ratio (INR) reliable?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id247"
+  },
+  {
+    "input": {
+      "text": "Context: Background. To investigate the association between age-related macular degeneration (AMD) and the polymorphisms of HIF1A, a major vascular epithelial growth factor regulator under hypoxic conditions. The associations of AMD and polymorphisms of genes CFH, SKIV2L and MYRIP were also studied.\nDesign. Prospective study.\nParticipants. Eighty-seven AMD patients and 80 healthy subjects admitted to the Department of Ophthalmology at Pamukkale University Hospital, Denizli, Turkey, were included: 45 (52%) had wet type AMD, and 42 (48%) had dry type AMD.\nMethods. Polymorphisms rs1061170 (CFH), rs429608 (SKIV2L), rs2679798 (MYRIP) and both rs11549465 and rs11549467 (HIF1A) were investigated in DNA isolated from peripheral blood samples of the cases and controls by dye-termination DNA sequencing.\nMain Outcome Measures. Genotype distribution of rs1061170 (CFH), rs429608 (SKIV2L), rs2679798 (MYRIP) and both rs11549465 and rs11549467 (HIF1A) in AMD cases and healthy controls; association between genotypes and AMD subtypes.\nResults. Given the significant difference between the mean age of case and control groups (72.13\u2009\u00b1\u20095.77 vs. 62.80\u2009\u00b1\u20095.22, respectively) (P\u2009=\u2009.000), subsequent analyses were adjusted for age. We found that having at least one C allele for polymorphism rs1061170 increases AMD risk independent of age (OR\u2009=\u20092.42, 95% confidence interval [CI], 1.22-4.81). The ancestral T allele for polymorphism rs1061170 has a protective effect for AMD (OR\u2009=\u20090.53, 95% CI, 0.34-0.83). No statistically significant difference for distributions of other single nucleotide polymorphisms (SNPs) emerged between patients and healthy subjects.\n\nQuestion: HIF1A as a major vascular endothelial growth factor regulator: do its polymorphisms have an association with age-related macular degeneration?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id926"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. We examined whether invasive lung-specimen collection-to-treatment times for intensive care unit patients with suspected ventilator-associated pneumonia (VAP) differ with to the work shift during which specimens were collected. We compared weekday day shifts and off-hours (from 6:30 p.m. to 8:29 a.m. the next day for night shifts, from Saturday 1:00 p.m. to Monday 8:29 a.m. for weekends, and from 8:30 a.m. to 8:29 a.m. the following morning for public holidays).\nDesign And Setting. Single-center, observational study in the intensive care unit in an academic teaching hospital.\nPatients And Participants. 101 patients who developed 152 episodes of bacteriologically confirmed VAP.\nMeasurements And Results. Of the 152 VAP episodes 66 were diagnosed during off-hours. Neither more bronchoscopy complications nor more inappropriate initial antimicrobial treatments for patients were observed between day and off-hour shifts. Indeed, the overall time from brochoalveolar lavage to antibiotic administration was shorter for off-hours than day-shifts due to shorter specimen collection-to-antibiotic prescription times, but antibiotic prescription-to-administration times were the same.\n\nQuestion: Does invasive diagnosis of nosocomial pneumonia during off-hours delay treatment?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id412"
+  },
+  {
+    "input": {
+      "text": "Context: Purpose. Utilization of the Recovery Knowledge Inventory (RKI) and Recovery Attitudes Questionnaire (RAQ) in southeastern Australia raised questions about the RAQ, including links between attitudes, faith, and culture in supporting the recovery journey. These questions are particularly important when considered in the context of people with mental illness who live in secular multicultural societies.\n\nQuestion: Recovery Outcome Measures: Is There a Place for Culture, Attitudes, and Faith?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id389"
+  },
+  {
+    "input": {
+      "text": "Context: Objectives. The so-called \"globulomaxillary cyst\", described as a fissural cyst, caused by entrapped epithelium between the nasal and maxillary process, is no longer considered for its own entity. Nevertheless, cystic lesions, which correspond to the previous image of globulomaxillary cysts, do still occur in daily practice. This raises the question to which entities pathological processes in this particular region actually belong to.\nMaterials And Methods. In a retrospective study, 17 cases (12 men and 5 women, 12-59\u00a0years old) of primarily diagnosed globulomaxillary cysts are analysed according to clinical, radiological and histological aspects, catamnestic processed and assigned to a new entity. The results are compared with the international literature and draws conclusions on the diagnostic and therapeutic procedure.\nResults. Seven lateral periodontal cysts, four radicular cysts, two keratocystic odontogenic tumours, one adenomatoid odontogenic tumour, one periapical granuloma, one residual cyst and one undefined jaw cyst were determined.\n\nQuestion: Globulomaxillary cysts--do they really exist?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id796"
+  },
+  {
+    "input": {
+      "text": "Context: Purpose. Ultrasound is currently not established for the diagnosis of fractures. The aim of this study was to compare ultrasound and X-ray beyond their use solely for the identification of fractures, i. e., for the detection of fracture type and dislocation for pediatric fracture diagnosis.\nMaterials And Methods. Limb bones of dead young pigs served as a model for pediatric bones. The fractured bones were examined with ultrasound, X-ray, and CT, which served as the gold standard.\nResults. 162 of 248 bones were fractured. 130 fractures were identified using ultrasound, and 148 using X-ray. There were some advantages of X-ray over ultrasound in the detection of fracture type (80 correct results using X-ray, 66 correct results using ultrasound). Ultrasound, however, was superior to X-ray for dislocation identification (41 correct results using X-ray, 51 correct results using ultrasound). Both findings were not statistically significant after adjustment for multiple testing.\n\nQuestion: Is ultrasound equal to X-ray in pediatric fracture diagnosis?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id601"
+  },
+  {
+    "input": {
+      "text": "Context: Background. Coronary atherosclerotic burden is excessive in diabetic patients. Diabetes mellitus (DM) is an independent predictor for both death and myocardial infarction. It is not known whether the prevalence of complex coronary lesions, such as bifurcation and ostial lesions, is different in diabetics from nondiabetics.\nObjective. The aim of present study was to investigate the prevalence of these lesions in patients with DM.\nMethods. One thousand fourteen consecutive patients (mean age 61.3+/-10.7 years) were investigated. Coronary angiograms were examined for bifurcation and ostial lesions using a digital quantitative system. Patients were classified as diabetic (n=281) or nondiabetic (n=733).\nResults. Patient mean age, and rates of hypertension and hyperlipidemia were significantly higher in the diabetic group than in the nondiabetic group (P<0.0001), although smoking was significantly lower (P=0.001). Reasons for coronary angiography and treatment were comparable between the two groups. The prevalence of bifurcation lesions and ostial lesions was significantly greater in the diabetic group than in the nondiabetic group (9.8% versus 4.3% [P=0.001] and 38.4% versus 29.2% [P=0.003]in the diabetic group versus the nondiabetic group). The presence of DM and greater age were found to be independent predictors for bifurcation lesions (OR=2.27 [P=0.004] and OR=1.03 [P=0.01], for DM and age, respectively) and ostial lesions (OR=1.40 [P=0.027] and OR=1.02 [P=0.001], for DM and age, respectively) in multivariate analysis.\n\nQuestion: Are complex coronary lesions more frequent in patients with diabetes mellitus?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id654"
+  },
+  {
+    "input": {
+      "text": "Context: Background And Aims. Studies examining predictors of survival among the oldest-old have primarily focused on objective measures, such as physical function and health status. Only a few studies have examined the effect of personality traits on survival, such as optimism. The aim of this study was to examine whether an optimistic outlook predicts survival among the oldest-old.\nMethods. The Danish 1905 Cohort Survey is a nationwide, longitudinal survey comprising all individuals born in Denmark in 1905. At baseline in 1998, a total of 2,262 persons aged 92 or 93 agreed to participate in the intake survey. The baseline in-person interview consisted of a comprehensive questionnaire including physical functioning and health, and a question about whether the respondent had an optimistic, neutral or pessimistic outlook on his or her own future.\nResults. During the follow-up period of 12 years (1998-2010) there were 2,239 deaths (99 %) in the 1905 Cohort Survey. Univariable analyses revealed that optimistic women and men were at lower risk of death compared to their neutral counterparts [HR 0.82, 95 % CI (0.73-0.93) and 0.81, 95 % CI (0.66-0.99), respectively]. When confounding factors such as baseline physical and cognitive functioning and disease were taken into account the association between optimism and survival weakened in both sexes, but the general pattern persisted. Optimistic women were still at lower risk of death compared to neutral women [HR 0.85, 95 % CI (0.74-0.97)]. The risk of death was also decreased for optimistic men compared to their neutral counterparts, but the effect was non-significant [HR 0.91, 95 % CI (0.73-1.13)].\n\nQuestion: Optimism and survival: does an optimistic outlook predict better survival at advanced ages?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id261"
+  },
+  {
+    "input": {
+      "text": "Context: Introduction. As with some procedures, trauma fellowship training and greater surgeon experience may result in better outcomes following intramedullary nailing (IMN) of diaphyseal femur fractures. However, surgeons with such training and experience may not always be available to all patients. The purpose of this study is to determine whether trauma training affects the post-operative difference in femoral version (DFV) following IMN.\nMaterials And Methods. Between 2000 and 2009, 417 consecutive patients with diaphyseal femur fractures (AO/OTA 32A-C) were treated via IMN. Inclusion criteria for this study included complete baseline and demographic documentation as well as pre-operative films for fracture classification and post-operative CT scanogram (per institutional protocol) for version and length measurement of both the nailed and uninjured femurs. Exclusion criteria included bilateral injuries, multiple ipsilateral lower extremity fractures, previous injury, and previous deformity. Of the initial 417 subjects, 355 patients met our inclusion criteria. Other data included in our analysis were age, sex, injury mechanism, open vs. closed fracture, daytime vs. nighttime surgery, mechanism of injury, and AO and Winquist classifications. Post-operative femoral version of both lower extremities was measured on CT scanogram by an orthopaedic trauma fellowship trained surgeon. Standard univariate and multivariate analyses were performed to determine statistically significant risk factors for malrotation between the two cohorts.\nResults. Overall, 80.3% (288/355) of all fractures were fixed by trauma-trained surgeons. The mean post-operative DFV was 8.7\u00b0 in these patients, compared to 10.7\u00b0 in those treated by surgeons of other subspecialties. This difference was not statistically significant when accounting for other factors in a multivariate model (p>0.05). The same statistical trend was true when analyzing outcomes of only the more severe Winquist type III and IV fractures. Additionally, surgeon experience was not significantly predictive of post-operative version for either trauma or non-trauma surgeons (p>0.05 for both).\n\nQuestion: Comparing femoral version after intramedullary nailing performed by trauma-trained and non-trauma trained surgeons: is there a difference?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id456"
+  },
+  {
+    "input": {
+      "text": "Context: Introduction. Current risk assessment models for surgical site occurrence (SSO) and surgical site infection (SSI) after open ventral hernia repair (VHR) have limited external validation. Our aim was to determine (1) whether existing models stratify patients into groups by risk and (2) which model best predicts the rate of SSO and SSI.\nMethods. Patients who underwent open VHR and were followed for at least 1\u00a0mo were included. Using two data sets-a retrospective multicenter database (Ventral Hernia Outcomes Collaborative) and a single-center prospective database (Prospective)-each patient was assigned a predicted risk with each of the following models: Ventral Hernia Risk Score (VHRS), Ventral Hernia Working Group (VHWG), Centers for Disease Control and Prevention Wound Class, and Hernia Wound Risk Assessment Tool (HW-RAT). Patients in the Prospective database were also assigned a predicted risk from the American College of Surgeons National Surgical Quality Improvement Program (ACS-NSQIP). Areas under the receiver operating characteristic curve (area under the curve [AUC]) were compared to assess the predictive accuracy of the models for SSO and SSI. Pearson's chi-square was used to determine which models were able to risk-stratify patients into groups with significantly differing rates of actual SSO and SSI.\nResults. The Ventral Hernia Outcomes Collaborative database (n\u00a0=\u00a0795) had an overall SSO and SSI rate of 23% and 17%, respectively. The AUCs were low for SSO (0.56, 0.54, 0.52, and 0.60) and SSI (0.55, 0.53, 0.50, and 0.58). The VHRS (P\u00a0=\u00a00.01) and HW-RAT (P\u00a0<\u00a00.01) significantly stratified patients into tiers for SSO, whereas the VHWG (P\u00a0<\u00a00.05) and HW-RAT (P\u00a0<\u00a00.05) stratified for SSI. In the Prospective database (n\u00a0=\u00a088), 14% and 8% developed an SSO and SSI, respectively. The AUCs were low for SSO (0.63, 0.54, 0.50, 0.57, and 0.69) and modest for SSI (0.81, 0.64, 0.55, 0.62, and 0.73). The ACS-NSQIP (P\u00a0<\u00a00.01) stratified for SSO, whereas the VHRS (P\u00a0<\u00a00.01) and ACS-NSQIP (P\u00a0<\u00a00.05) stratified for SSI. In both databases, VHRS, VHWG, and Centers for Disease Control and Prevention overestimated risk of SSO and SSI, whereas HW-RAT and ACS-NSQIP underestimated risk for all groups.\n\nQuestion: Do risk calculators accurately predict surgical site\u00a0occurrences?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id386"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To determine the therapeutic effect (alleviation of vascular type headache) and side effects of a slow intravenous metoclopramide infusion over 15 min compared with those effects of a bolus intravenous metoclopramide infusion over 2 min in the treatment of patients with recent onset vascular type headache.\nMaterial And Methods. All adults treated with metoclopramide for vascular type headache were eligible for entry into this clinical randomised double blinded trial. This study compared the effects of two different rates of intravenous infusion of metoclopramide over a period of 13 months at a university hospital emergency department. During the trial, side effects and headache scores were recorded at baseline (0 min), and then at 5, 15, 30 and 60 min. Repeated measures analysis of variance was used to compare the medication's efficacy and side effects.\nResults. A total of 120 patients presenting to the emergency department met the inclusion criteria. Of these, 62 patients (51.7%) were given 10 mg metoclopramide as a slow intravenous infusion over 15 min (SIG group) and 58 patients (48.3%) were given 10 mg metoclopramide intravenous bolus infusion over 2 min (BIG group). 17 of the 58 patients in the BIG group (29.3%) and 4 of the 62 patients (6.5%) in the SIG group had akathisia (p = 0.001). There were no significant differences between the BIG and SIG groups in terms of mean headache scores (p = 0.34) and no adverse reactions in the study period. Metoclopramide successfully relieved the headache symptom(s) of patients in both the BIG and SIG groups.\n\nQuestion: Intravenous administration of metoclopramide by 2 min bolus vs 15 min infusion: does it affect the improvement of headache while reducing the side effects?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id982"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. The primary objective of the study was to determine emergency medical services (EMS) professionals' opinions regarding participation in disease and injury prevention programs. A secondary objective was to determine the proportion of EMS professionals who had participated in disease prevention programs.\nMethods. As part of the National Registry of Emergency Medical Technicians' biennial reregistration process, EMS professionals reregistering in 2006 were asked to complete an optional survey regarding their opinions on and participation in disease and injury prevention. Demographic characteristics were also collected. Data were analyzed using descriptive statistics and 99% confidence intervals (CIs). The chi-square test was used to compare differences by responder demographics (alpha = 0.01). A 10% difference between groups was determined to be clinically significant.\nResults. The survey was completed by 27,233 EMS professionals. Of these responders, 82.7% (99% CI: 82.1-83.3) felt that EMS professionals should participate in disease prevention, with those working 20 to 29 hours per week being the least likely to think they should participate (67.4%, p<0.001). About a third, 33.8% (99% CI: 33.1-34.6), of the respondents reported having provided prevention services, with those having a graduate degree (43.5%, p<0.001), those working in EMS for more than 21 years (44%, p<0.001), those working for the military (57%, p<0.001), those working 60 to 69 hours per week (41%, p<0.001), and those responding to zero emergency calls in a typical week (43%, p<0.001) being the most likely to report having provided prevention services. About half, 51.1% (99% CI: 50.4-51.9), of the respondents agreed that prevention services should be provided during emergency calls, and 7.7% (99% CI: 7.3-8.1) of the respondents reported providing prevention services during emergency calls. No demographic differences existed. Those who had participated in prevention programs were more likely to respond that EMS professionals should participate in prevention (92% vs. 82%, p<0.001). Further, those who had provided prevention services during emergency calls were more likely to think EMS professionals should provide prevention services during emergency calls (81% vs. 51%, p<0.001).\n\nQuestion: Do emergency medical services professionals think they should participate in disease prevention?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id909"
+  },
+  {
+    "input": {
+      "text": "Context: Background. It is well established that schizophrenia is associated with structural brain abnormalities, but whether these are static or progress over time remains controversial.\nMethods. A systematic review of longitudinal volumetric studies using region-of-interest structural magnetic resonance imaging in patients with schizophrenia and healthy control subjects. The percentage change in volume between scans for each brain region of interest was obtained, and data were combined using random effects meta-analysis.\nResults. Twenty-seven studies were included in the meta-analysis, with 928 patients and 867 control subjects, and 32 different brain regions of interest. Subjects with schizophrenia showed significantly greater decreases over time in whole brain volume, whole brain gray matter, frontal gray and white matter, parietal white matter, and temporal white matter volume, as well as larger increases in lateral ventricular volume, than healthy control subjects. The time between baseline and follow-up magnetic resonance imaging scans ranged from 1 to 10 years. The differences between patients and control subjects in annualized percentage volume change were -.07% for whole brain volume, -.59% for whole brain gray matter, -.32% for frontal white matter, -.32% for parietal white matter, -.39% for temporal white matter, and +.36% for bilateral lateral ventricles.\n\nQuestion: Are there progressive brain changes in schizophrenia?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id693"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To examine the representativeness of a randomized controlled trial (RCT) sample versus one obtained by consecutive new case ascertainment, for subjects with child bipolar I disorder.\nMethod. Subjects (N = 247) were outpatients who participated in either the National Institute of Mental Health-funded Phenomenology and Course of Pediatric Bipolar Disorders study or the Treatment of Early Age Mania (TEAM) study. Both studies required that subjects have current DSM-IV bipolar I disorder (manic or mixed phase) and a Children's Global Assessment Scale (CGAS) score<or=60. All subjects had elation and/or grandiosity. Subjects in the Phenomenology study were obtained from 1995 to 1998 by consecutive new case ascertainment from designated pediatric and psychiatric facilities. Subjects in the TEAM RCT were recruited from media and community sources between March 2003 and March 2005. Assessment instruments included the Washington University in St. Louis Kiddie Schedule for Affective Disorders and Schizophrenia, given separately to parents about their children and to children about themselves, and the CGAS. Logistic regression was used for comparisons.\nResults. The TEAM and Phenomenology groups were similar in age (10.4 [SD = 2.3], 10.9 [SD = 2.3]years, respectively) and other demography. Both had long current episode duration (4.8 [SD = 2.4], 3.2 [SD = 2.3]years) and low lifetime use of any mood stabilizer (23.6%, 35.0%). Many mania symptoms and ultradian rapid cycling, psychosis, and suicidality were significantly more prevalent in the RCT sample.\n\nQuestion: Diagnostic characteristics of child bipolar I disorder: does the \"Treatment of Early Age Mania (team)\" sample generalize?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id236"
+  },
+  {
+    "input": {
+      "text": "Context: Purpose. In vivo comparative gap measurements were performed in three different patella positions (reduced, subluxated and everted) using offset-type-force-controlled-spreader-system.\nMethods. Prospectively, 50 knees were operated by total knee arthroplasty using a navigation-assisted gap-balancing technique. The offset-type-force-controlled-spreader-system was used for gap measurements. This commercially available instrument allows controllable tension in patella-reduced position. The mediolateral gaps of knee extension (0\u00b0) and flexion (90\u00b0) angle were recorded in three different patella positions; reduced, subluxated and everted. Any gap differences of more than 3 mm were considered as a meaningful difference. Correlation between the difference with the demographic data, preoperative radiologic alignment and intraoperative data was analysed. For statistical analysis, ANOVA and Pearson's correlation test were used.\nResults. The gaps in patella eversion demonstrated smaller gaps both in knee extension and flexion position compared to the gaps of patella reduction position. The amount of decreased gaps was more definite in knee flexion position. Statistically significant difference was observed for the lateral gap of patella eversion compared to gap of patella reduction in knee flexion position (p<0.05). There were notable cases of variability in knee flexion position. Significant portion of 12 (24 %) knees of patella subluxation and 33 (66 %) knees of patella evertion demonstrated either increased or decreased gaps in knee flexion position compared to the gaps of patella reduction position.\n\nQuestion: Does patella position influence ligament balancing in total knee arthroplasty?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id501"
+  },
+  {
+    "input": {
+      "text": "Context: Purpose. To explore the extent to which parent-adolescent emotional closeness, family conflict, and parental permissiveness moderate the association of puberty and alcohol use in adolescents (aged 10-14).\nMethods. Cross-sectional survey of 7631 adolescents from 231 Australian schools. Measures included pubertal status, recent (30day) alcohol use, parent-adolescent emotional closeness, family conflict, parental permissiveness of alcohol use and peer alcohol use. The analysis was based on a two-level (individuals nested within schools) logistic regression model, with main effects entered first, and interaction terms added second.\nResults. The interaction of family factors and pubertal stage did not improve the fit of the model, so a main effect model of family factors and pubertal stage was adopted. There were significant main effects for pubertal stage with boys in middle puberty at increased odds of alcohol use, and girls in advanced puberty at increased odds of alcohol use.\n\nQuestion: The association of puberty and young adolescent alcohol use: do parents have a moderating role?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id497"
+  },
+  {
+    "input": {
+      "text": "Context: Background. Obstructive sleep apnea (OSA) is tightly linked to increased cardiovascular disease. Surgery is an important method to treat OSA, but its effect on serum lipid levels in OSA patients is unknown. We aimed to evaluate the effect of upper airway surgery on lipid profiles.\nMaterial And Methods. We performed a retrospective review of 113 adult patients with OSA who underwent surgery (nasal or uvulopalatopharyngoplasty [UPPP]) at a major, urban, academic hospital in Beijing from 2012 to 2013 who had preoperative and postoperative serum lipid profiles.\nResults. Serum TC (4.86\u00b10.74 to 4.69\u00b10.71) and LP(a) (median 18.50 to 10.90) all decreased significantly post-operatively (P<0.01, 0.01, respectively), with no changes in serum HDL, LDL, or TG (P>0.05, all). For UPPP patients (n=51), serum TC, HDL and LP(a) improved (P=0.01, 0.01,<0.01, respectively). For nasal patients (n=62), only the serum LP(a) decreased (P<0.01). In patients with normal serum lipids at baseline, only serum LP(a) decreased (P<0.01). In contrast, in patients with isolated hypertriglyceridemia, the serum HDL, TG and LP(a) showed significant improvements (P=0.02, 0.03,<0.01, respectively). In patients with isolated hypercholesterolemia, the serum LP(a) decreased significantly (P=0.01), with a similar trend for serum TC (P=0.06). In patients with mixed hyperlipidemia, the serum TC and LDL also decreased (P=0.02, 0.03, respectively).\n\nQuestion: Does airway surgery lower serum lipid levels in obstructive sleep apnea patients?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id874"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. \u2022 Robot-assisted radical cystectomy (RARC) remains controversial in terms of oncologic outcomes, especially during the initial experience. The purpose of this study was to evaluate the impact of initial experience of robotic cystectomy programs on oncologic outcomes and overall survival.\nPatients And Methods. \u2022 Utilizing a prospectively maintained, single institution robotic cystectomy database, we identified 164 consecutive patients who underwent RARC since November 2005. \u2022 After stratification by age group, gender, pathologic T stage, lymph node status, surgical margin status, and sequential case number; we used chi-squared analyses to correlate sequential case number to operative time, surgical blood loss, lymph node yield, and surgical margin status. \u2022 We also addressed the relationship between complications and sequential case number. We then utilized Cox proportional hazard modeling and Kaplan-Meier survival analyses to correlate variables to overall mortality.\nResults. \u2022 Sequential case number was not significantly associated with increased incidence of complications, surgical blood loss, or positive surgical margins (P= 0.780, P= 0.548, P= 0.545). Case number was, however, significantly associated with shorter operative time and mean number of lymph nodes retrieved (P<0.001, P<0.001). \u2022 Sequential case number was not significantly associated with survival; however, tumour stage, the presence of lymph node metastases, and positive surgical margins were significantly associated with death. \u2022 Although being the largest of its kind, this was a small study with short follow-up when compared to open cystectomy series.\n\nQuestion: Is patient outcome compromised during the initial experience with robot-assisted radical cystectomy?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id452"
+  },
+  {
+    "input": {
+      "text": "Context: Objectives. The effect of topical N-acetylcysteine (NAC) application was investigated on the healing of acute experimental tympanic membrane perforations.\nMaterials And Methods. Twenty guinea pigs were used in this study. Under intraperitoneal ketamine anesthesia, incisional myringotomies were performed in the posterosuperior quadrant of the tympanic membranes with a straight otologic hook. The diameter of the perforations was approximately 2 mm. Perforations in both ears were treated with freshly prepared sponges soaked in either 0.1 ml 0.9% NaCl solution (10 control animals) or 0.6 mg/0.1 ml NAC (10 animals) for three consecutive days. All the tympanic membranes were examined by otomicroscopy on the third, fifth, seventh, and ninth days.\nResults. In the control group, all the perforations were completely closed at the end of nine days. During the same period, only 40% of the perforations were completely closed in the NAC group. The remaining ears exhibited otorrhea by the third day.\n\nQuestion: Does topical N-acetylcysteine application after myringotomy cause severe otorrhea?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id494"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To evaluate the outcome of a new modification of percutaneous needle suspension, using a bone anchor system for fixing the suture at the public bone, and to compare the results with those published previously.\nPatients And Methods. From March 1996, 37 patients with stress urinary incontinence (>2 years) were treated using a bone anchor system. On each side the suture was attached to the pubocervical fascia and the vaginal wall via a broad 'Z'-stitch. A urodynamic investigation performed preoperatively in all patients confirmed stress incontinence and excluded detrusor instability. The outcome was assessed by either by a clinical follow-up investigation or using a standardized questionnaire, over a mean follow-up of 11 months (range 6-18).\nResults. In the 37 patients, the procedure was successful in 25 (68%), with 16 (43%) of the patients completely dry and nine (24%) significantly improved. Removal of the bone anchor and suture was necessary in two patients, because of unilateral bacterial infection in one and a bilateral soft tissue granuloma in the other. One bone anchor became dislocated in a third patient. In two cases where the treatment failed, new detrusor instability was documented urodynamically. Minor complications were prolonged wound pain in 10 (26%) and transient urinary retention or residual urine in 12 patients (32%).\n\nQuestion: Does bone anchor fixation improve the outcome of percutaneous bladder neck suspension in female stress urinary incontinence?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id923"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. To analyse associations between indicators for adoption of new drugs and to test the hypothesis that physicians' early adoption of new drugs is a personal trait independent of drug groups.\nMethods. In a population-based cohort study using register data, we analysed the prescribing of new drugs by Danish general practitioners. Angiotensin-II antagonists, triptans, selective cyclo-oxygenase-2 antagonists and esomeprazol were used in the assessment. As indicators of new drug uptake, we used adoption time, cumulative incidence, preference proportion, incidence rate and prescription cost and volume. For each measure, we ranked the general practices. Ranks were pair-wise plotted, and Pearson's correlation coefficient ( r) was calculated. Next, we analysed the correlation between ranks across different drug classes.\nResults. For all indicators, the general practitioners' adoption of one group of drugs was poorly associated with adoption of others ( r</=0.49), indicating that early adoption of one type of drugs is not associated with early adoption of another. For all drug groups, adoption time adjusted for practice size was only weakly associated with other indicators ( r: -0.56 to -0.27). Indicators, based on cost and volume of drugs, were highly correlated ( r: 0.96-0.99), and the others correlated reasonably well ( r: 0.51-0.91).\n\nQuestion: Does the early adopter of drugs exist?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id279"
+  },
+  {
+    "input": {
+      "text": "Context: Objective. The present studywas designed to investigate the possible role of T cells in spatial learning ability in mouse after toluene exposure.\nMethod. Eight-week-old male wild-type (WT) and nude mice of BALB/c strain were exposed to toluene (0, 9 and 90 ppm) in a nose-only exposure chamber for 30 min per day for 3 consecutive days and then once per week for 4 weeks. Twenty-four hours after the completion of exposure, we examined the spatial learning ability in each mouse using the Morris water maze apparatus.\nResults. In the acquisition phase, a longer escape latency was observed in nude mice exposed to 90 ppm toluene on days 3 and 4 when compared with corresponding WT mice. However, the effect of toluene on the escape latency was not significant in nude mice. In the probe trial, WT mice exposed to 90 ppm toluene showed poor retention memory compared with the control group. In the reversal phase, we did not find any significant difference between groups.\n\nQuestion: Can T-cell deficiency affect spatial learning ability following toluene exposure?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id638"
+  },
+  {
+    "input": {
+      "text": "Context: Purpose. To investigate the effect of obesity at the start of adolescence on the prevalence, incidence and maintenance of chest wheezing among individuals aged 11-15 years in a birth cohort in a developing country.\nMethods. The seventh follow-up of the 1993 Pelotas birth cohort occurred in 2004 (individuals aged 10-11 years). Between January and August 2008, the eighth follow-up of the cohort was conducted. All the individuals of the original cohort who were alive (who were then adolescents aged between 14 and 15 years) were targets for the study. The International Study of Asthma and Allergies in Childhood (ISAAC) questionnaire was used to define wheezing. In addition to the body mass index (BMI), used to define obesity by the World Health Organization (WHO) criteria, we assessed skinfold thickness.\nResults. From the original cohort, 4,349 individuals were located (85.7% follow-up rate). The prevalence of chest wheezing at 11 and 15 years were 13.5% (95% CI: 12.5%-14.5%) and 12.1% (95% CI: 11.1%-13.1%), respectively. The prevalence of wheezing at both times was 4.5% (95% CI: 3.9%-5.1%) and the incidence of wheezing was 7.5% (95% CI: 6.7%-8.3%). Independent of the effect of various confounding variables, the prevalence of wheezing at 15 years was 50% greater among obese individuals than among eutrophic individuals at 11 years (RR 1.53; 95% CI: 1.14-2.05). The greater the skinfold tertile at 11 years, the higher the prevalence of wheezing at 15 years was (p = .011). Weight status and skinfolds did not present any association with incident wheezing. After controlling for confounding factors, the risk of persistent wheezing among obese individuals at 11 years was 1.82 (95% CI: 1.30-2.54).\n\nQuestion: Is obesity a risk factor for wheezing among adolescents?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id485"
+  },
+  {
+    "input": {
+      "text": "Context: Rationale And Objectives. To investigate the contribution of chemical shift magnetic resonance imaging for assessment of the margins of solid breast masses by benefiting from India ink artifact.\nMethods And Materials. Eighty-eight masses in 64 patients were evaluated in T1- and T2-weighted images, dynamic contrast and chemical shift studies according to Breast Imaging Reporting and Data System magnetic resonance lexicon. Subtraction images were automatically obtained by chemical shift imaging and dynamic studies. Each sequence was scored using a scale of 1 to 5 according to its ability to demonstrate margins separate from surrounding parenchyma. Breast parenchyma was evaluated as fatty and dense. The results were compared with the histopathologic results.\nResults. Twenty-eight (31.8%) of the lesions were localized in fatty breast, and the remaining 60 (68.2%) lesions were localized in dense breast. There were 34 (38.6%) benign and 54 (61.4%) malignant masses. In fatty breast, chemical shift subtraction and T1-weighted images were valuable both for the demonstration and differentiation of benign lesions (P<.05). None of the sequence was valuable for both the demonstration and differentiation of malignant lesions in fatty breasts (P>.05). In dense breasts, chemical shift subtraction and dynamic contrast subtraction images were valuable for both the demonstration and differentiation of benign and malignant lesions. Additional to these sequences, T2-weighted images was also valuable for benign lesions (P<.05).\n\nQuestion: Chemical shift MRI: is there any contribution to morphologic evaluation of solid breast masses?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id568"
+  },
+  {
+    "input": {
+      "text": "Context: Introduction. Longer duration of neoadjuvant (NA) imatinib\u00a0(IM) used for locally advanced (LA) gastrointestinal stromal tumours (GIST) is not based on biology of the tumour reflected by kit mutation analysis.\nMaterial And Methods. LA or locally recurrent (LR) GIST treated with NA IM from May 2008 to March 2015 from a prospective database were included in\u00a0the analysis. Archived formalin-fixed paraffin-embedded tissues (FFPE) were used for testing KIT exons 9, 11, 13 and 17 by PCR.\nResults. One hundred twenty-five patients with LA or LR GIST were treated with NA IM. Forty-five patients (36\u00a0%) had undergone c-kit mutation testing. Exon 11 was seen in 25 patients (55.5\u00a0%), 3 with exon 9 (6.7\u00a0%) and 2 with exon 13 (4.4\u00a0%). Twelve were wild type (26.6\u00a0%) and \u00a03 (6.7 %) were declared uninterpretable. Response rate (RR) for the exon 11 mutants was higher than the non-exon 11 mutant group (84 vs. 40\u00a0%, p\u2009=\u20090.01). Disease stabilization rate (DSR) rates were also higher in the exon 11 subgroup than non-exon 11 group (92 vs. 75\u00a0%). Eighty-four per cent exon 11 and 75\u00a0% non-exon 11 mutants were surgical candidates. Patients undergoing surgery had significantly improved event free survival (EFS) (p\u2009<\u20090.001) compared to patients not undergoing surgery, with the same trend seen in OS (p\u2009=\u20090.021). Patients with a SD on response to NA IM had a lower EFS (p\u2009=\u20090.076) and OS compared to patients achieving CR/PR. There were no differences between the various exon variants in terms of outcomes and responses\n\nQuestion: Neoadjuvant Imatinib in Locally Advanced Gastrointestinal stromal Tumours, Will Kit Mutation Analysis Be a Pathfinder?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id108"
+  },
+  {
+    "input": {
+      "text": "Context: Background. Cytokeratin 7/20 staining has been reported to be helpful in diagnosing Barrett's oesophagus and gastric intestinal metaplasia. However, this is still a matter of some controversy.\nObjective. To determine the diagnostic usefulness of cytokeratin 7/20 immunostaining for short-segment Barrett's oesophagus in Korea.\nMethods. In patients with Barrett's oesophagus, diagnosed endoscopically, at least two biopsy specimens were taken from just below the squamocolumnar junction. If goblet cells were found histologically with alcian blue staining, cytokeratin 7/20 immunohistochemical stains were performed. Intestinal metaplasia at the cardia was diagnosed whenever biopsy specimens taken from within 2 cm below the oesophagogastric junction revealed intestinal metaplasia. Barrett's cytokeratin 7/20 pattern was defined as cytokeratin 20 positivity in only the superficial gland, combined with cytokeratin 7 positivity in both the superficial and deep glands.\nResults. Barrett's cytokeratin 7/20 pattern was observed in 28 out of 36 cases (77.8%) with short-segment Barrett's oesophagus, 11 out of 28 cases (39.3%) with intestinal metaplasia at the cardia, and nine out of 61 cases (14.8%) with gastric intestinal metaplasia. The sensitivity and specificity of Barrett's cytokeratin 7/20 pattern were 77.8 and 77.5%, respectively.\n\nQuestion: Is cytokeratin immunoreactivity useful in the diagnosis of short-segment Barrett's oesophagus in Korea?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id367"
+  },
+  {
+    "input": {
+      "text": "Context: Objectives. To determine the ability of dentists to recognize digitally manipulated radiographs.\nMethods. A poster was presented at the Annual Meeting of the German Society for Periodontology displaying the intra-oral radiographs of 12 different patients. Half of the radiographs were subjected to digital manipulation to add or remove specific features. Dentists were asked to identify these radiographs by means of a questionnaire.\nResults. Thirty-nine dentists submitted usable questionnaires. Statistical evaluation revealed a distribution of hits similar to the random distribution. None of the dentists detected all the six manipulated radiographs; three dentists had five correct, but there were five with only one. An authentic radiograph scored highest as a manipulation.\n\nQuestion: Can dentists recognize manipulated digital radiographs?\n"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "maybe"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id644"
+  }
+]

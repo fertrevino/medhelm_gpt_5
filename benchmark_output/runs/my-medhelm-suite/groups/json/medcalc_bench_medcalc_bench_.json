@@ -1,0 +1,145 @@
+{
+  "title": "",
+  "header": [
+    {
+      "value": "Model",
+      "markdown": false,
+      "metadata": {}
+    },
+    {
+      "value": "MedCalc Accuracy",
+      "description": "MedCalc-Bench is a benchmark designed to evaluate models on their ability to compute clinically relevant values from patient notes. Each instance consists of a clinical note describing the patient's condition, a diagnostic question targeting a specific medical value, and a ground truth response. [(Khandekar et al., 2024)](https://arxiv.org/abs/2406.12036).\n\nMedCalc Accuracy: Comparison based on category. Exact match for categories risk, severity and diagnosis. Check if within range for the other categories.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "MedCalc Accuracy",
+        "run_group": "MedCalc-Bench"
+      }
+    },
+    {
+      "value": "Observed inference time (s)",
+      "description": "MedCalc-Bench is a benchmark designed to evaluate models on their ability to compute clinically relevant values from patient notes. Each instance consists of a clinical note describing the patient's condition, a diagnostic question targeting a specific medical value, and a ground truth response. [(Khandekar et al., 2024)](https://arxiv.org/abs/2406.12036).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "MedCalc-Bench"
+      }
+    },
+    {
+      "value": "# eval",
+      "description": "MedCalc-Bench is a benchmark designed to evaluate models on their ability to compute clinically relevant values from patient notes. Each instance consists of a clinical note describing the patient's condition, a diagnostic question targeting a specific medical value, and a ground truth response. [(Khandekar et al., 2024)](https://arxiv.org/abs/2406.12036).\n\n# eval: Number of evaluation instances.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# eval",
+        "run_group": "MedCalc-Bench"
+      }
+    },
+    {
+      "value": "# train",
+      "description": "MedCalc-Bench is a benchmark designed to evaluate models on their ability to compute clinically relevant values from patient notes. Each instance consists of a clinical note describing the patient's condition, a diagnostic question targeting a specific medical value, and a ground truth response. [(Khandekar et al., 2024)](https://arxiv.org/abs/2406.12036).\n\n# train: Number of training instances (e.g., in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "# train",
+        "run_group": "MedCalc-Bench"
+      }
+    },
+    {
+      "value": "truncated",
+      "description": "MedCalc-Bench is a benchmark designed to evaluate models on their ability to compute clinically relevant values from patient notes. Each instance consists of a clinical note describing the patient's condition, a diagnostic question targeting a specific medical value, and a ground truth response. [(Khandekar et al., 2024)](https://arxiv.org/abs/2406.12036).\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "truncated",
+        "run_group": "MedCalc-Bench"
+      }
+    },
+    {
+      "value": "# prompt tokens",
+      "description": "MedCalc-Bench is a benchmark designed to evaluate models on their ability to compute clinically relevant values from patient notes. Each instance consists of a clinical note describing the patient's condition, a diagnostic question targeting a specific medical value, and a ground truth response. [(Khandekar et al., 2024)](https://arxiv.org/abs/2406.12036).\n\n# prompt tokens: Number of tokens in the prompt.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# prompt tokens",
+        "run_group": "MedCalc-Bench"
+      }
+    },
+    {
+      "value": "# output tokens",
+      "description": "MedCalc-Bench is a benchmark designed to evaluate models on their ability to compute clinically relevant values from patient notes. Each instance consists of a clinical note describing the patient's condition, a diagnostic question targeting a specific medical value, and a ground truth response. [(Khandekar et al., 2024)](https://arxiv.org/abs/2406.12036).\n\n# output tokens: Actual number of output tokens.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# output tokens",
+        "run_group": "MedCalc-Bench"
+      }
+    }
+  ],
+  "rows": [
+    [
+      {
+        "value": "GPT 5",
+        "description": "",
+        "href": "?group=medcalc_bench&subgroup=&runSpecs=%5B%22medcalc_bench%3Amodel%3Dopenai_gpt-5%22%5D",
+        "markdown": false,
+        "run_spec_names": [
+          "medcalc_bench:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 0.353,
+        "description": "min=0.353, mean=0.353, max=0.353, sum=0.353 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false
+      },
+      {
+        "value": 22.05719614245456,
+        "description": "min=22.057, mean=22.057, max=22.057, sum=22.057 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false
+      },
+      {
+        "value": 1000.0,
+        "description": "min=1000, mean=1000, max=1000, sum=1000 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 0.0,
+        "description": "min=0, mean=0, max=0, sum=0 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 0.0,
+        "description": "min=0, mean=0, max=0, sum=0 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 585.063,
+        "description": "min=585.063, mean=585.063, max=585.063, sum=585.063 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 2.224,
+        "description": "min=2.224, mean=2.224, max=2.224, sum=2.224 (1)",
+        "style": {},
+        "markdown": false
+      }
+    ]
+  ],
+  "links": [
+    {
+      "text": "LaTeX",
+      "href": "benchmark_output/runs/my-medhelm-suite/groups/latex/medcalc_bench_medcalc_bench_.tex"
+    },
+    {
+      "text": "JSON",
+      "href": "benchmark_output/runs/my-medhelm-suite/groups/json/medcalc_bench_medcalc_bench_.json"
+    }
+  ],
+  "name": "medcalc_bench_"
+}

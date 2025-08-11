@@ -1,0 +1,79 @@
+{
+  "name": "ehr_sql:model=openai_gpt-5",
+  "scenario_spec": {
+    "class_name": "helm.benchmark.scenarios.ehr_sql_scenario.EhrSqlScenario",
+    "args": {}
+  },
+  "adapter_spec": {
+    "method": "generation",
+    "global_prefix": "",
+    "global_suffix": "",
+    "instructions": "You are a highly skilled AI specializing in medical SQL queries. Given a database schema and a medical question, generate a valid SQL query that retrieves the required information from the database. Output only the SQL query without explanations.\n\nInput: A database schema followed by a natural language question.\nOutput: A valid SQL query ending with ;. Only return SQL query, don't add additional text.\n\nIf the question is unanswerable, return an empty string without additional text or comments.\n",
+    "input_prefix": "Medical Question + Schema: ",
+    "input_suffix": "\n",
+    "reference_prefix": "A. ",
+    "reference_suffix": "\n",
+    "chain_of_thought_prefix": "",
+    "chain_of_thought_suffix": "\n",
+    "output_prefix": "SQL Query: ",
+    "output_suffix": "\n",
+    "instance_prefix": "\n",
+    "substitutions": [],
+    "max_train_instances": 0,
+    "max_eval_instances": 100,
+    "num_outputs": 1,
+    "num_train_trials": 1,
+    "num_trials": 1,
+    "sample_train": true,
+    "model_deployment": "openai/gpt-5",
+    "model": "openai/gpt-5",
+    "temperature": 0,
+    "max_tokens": 1024,
+    "stop_sequences": [],
+    "multi_label": false
+  },
+  "metric_specs": [
+    {
+      "class_name": "helm.benchmark.metrics.ehr_sql_metrics.EhrSqlMetric",
+      "args": {}
+    },
+    {
+      "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+      "args": {
+        "names": [
+          "exact_match",
+          "quasi_exact_match",
+          "prefix_exact_match",
+          "quasi_prefix_exact_match"
+        ]
+      }
+    },
+    {
+      "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+      "args": {}
+    },
+    {
+      "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+      "args": {}
+    }
+  ],
+  "data_augmenter_spec": {
+    "perturbation_specs": [],
+    "should_augment_train_instances": false,
+    "should_include_original_train": false,
+    "should_skip_unchanged_train": false,
+    "should_augment_eval_instances": false,
+    "should_include_original_eval": false,
+    "should_skip_unchanged_eval": false,
+    "seeds_per_instance": 1
+  },
+  "groups": [
+    "ehr_sql"
+  ],
+  "annotators": [
+    {
+      "class_name": "helm.benchmark.annotation.ehr_sql_annotator.EhrSqlAnnotator",
+      "args": {}
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "instance_id": "id13914",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: Can rabies be transferred through blood? I may have ran over something and when I came inside after cleaning it I forgot to wash my hands and began playing a video game then I realized I needed to wash my hands so I did then I came back and forgot to clean my mouse and I have a bad habit of biting my nails. So if the animal did have rabies could I have rabies now? Doctor: Hello thanx to contact healthcare magic. If I am your suggestion giving Doctor I suggest you that you should not be worry regarding rabies. Rabies only spreads through damaged nerves, which happens in the case of biting by dogs. But it wont spread by biting of nails. But if suppose when you biting the nail you got injured the fingerbed you might be infected with rabies. But I think you have not injured your finger during biting the nail so do not worry regarding that. If you have anything else to ask kindly contact me Dr Arun Tank, Infectious Disease specialist.\nSummary:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 1,
+      "max_tokens": 80,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id6634",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: Sharp stabbing pain in lower left side of stomach , happened very suddenly and felt like I might pass out, also hurt to breathe, stomach and chest felt tight, like i could not take a deep breathe, it lasted about 20 mins, I had to sit down because of the pain but then it just went away as quickly as it came, still don t feel well but the extreme sharp pain is gone, very confused about what this is, what caused it and why it came and left so suddenly Doctor: Hi,  Thanks for posting your query.  Do you have fever/ watery diarrhea/ constipation/ spasmodic abdominal pain/ nausea or vomiting/ weight loss/ mucus discharge in stools?  Do you have any mass palpable in abdomen? Is there any aggravating or relieving factor for abdominal pain? With the available described symptoms, there could b possibility of peritonitis or muscular ache. You should consult with internal medicine specialist/ gastroenterologist and should go for thorough check up. You should go for complete blood count, urine routine microscopy, renal function test, serum amylase and lipase, colonoscopy, UGI endoscopy for better clarification. You should take low fat, spicy soft diet. Meanwhile, you should take antispasmodics along with proton pump inhibitors. Treatment depends on exact diagnosis. Take care, Dr. Mayank Bhargava\nSummary:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 1,
+      "max_tokens": 80,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id11407",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: hello doc, my son age 23. wt 49kg height 5'9 inch engineering stduent . He is suffering from mdr tb last four year,he was infected in mumbai during his education he was direct infection case of mdr tb. According to his sensitivity test he is sensitive to kanamycin , ethide .pas and cla rithromycin we are giving these medicine along with pza and ethambutal after six months kanamycin was stoped.  But he is not cured still his culture is positive. Please doc. suggest how he will be negative which medicine should be added to his regiment and how long he should take the kanamycin injection. Doctor: Thanks for your question on Healthcare Magic.I can understand your concern.Persistent positive culture even after taking MDR (MultiDrug Resistance) TB treatment is suggestive of possible XDR (extremely drug resistance) TB or TDR (total drug resistance) TB.So better to get done sputum culture and sensitivity for XDR TB.He might need capriomycin injection, moxifloxacin, high dose INH, rifabutin, cycloserine, moxifloxacin etc.No need to give kanamycin injection now. First rule out XDR TB.Hope I have solved your query. I will be happy to help you further. Wishing good health to your son. Thanks.\nSummary:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 1,
+      "max_tokens": 80,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id10313",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: Hi I am just turning 33. I have an amh of 5, 10 dominant follicles, no blocked tubes or any apparent reasons for having had 2 miscarriages and a complete molar pregnancy all in 2 years: I have a 13 year old from a previous relationship. My husband has been checked and he s fine. My doctor had me on letrozole, progesterone for the end of my cycle and just prescribed prognova because lining is 7mm. We have been trying to conceive for 7 months. She has recommended ivf but we can not afford it. Is there anything else we can do or do I have any hope of conceiving naturally? Doctor: Hello and Welcome to \u2018Ask A Doctor\u2019 service.I have reviewed your query and here is my advice.I think you can conceive naturally also. Get a thyroid profile and prolactin level done. You can track your ovulation by repeated ultrasound and when follicle is more than 17 to 18 mm, take an injection for the rupture of follicles. Be in contact with your husband every 2 to 3 days after your periods stop. Take progesterone for next 2 weeks after rupture is confirmed on ultrasound. Do a urine pregnancy test after that. You can try like that for 3 to 6 cycles. If it doesn't work, you can go for IUI.Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Khushboo Priya\nSummary:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 1,
+      "max_tokens": 80,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id8704",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: The doctor's office just told me that I am resistant to Cipro and that is why my bladder infection has not improved.  This is the second round of medication that they have given to me. My bladder infection started over a month again.  Is there any reason for concern that my body is resistant to Cipro and that I have had a bladder infection for this long Doctor: Hi,Thanks for writing in to us.Your doctor intends to inform you that the bacteria causing your bladder infection are resistant to ciprofloxacin. Nowadays due to increased prescribing of antibiotics, the same strain of bacteria which would have been killed by an antibiotic let us say 10 years back, has developed genetic mutation and resistance such that they are able to grow even in the presence of the antibiotic.In other words, the bacteria are becoming more powerful and your antibiotics need to be changed. This is becoming an increasingly common problem in hospitals and you need not worry. The solution to your problem lies in changing over to sensitive antibiotics on your urine culture report. Some of the highly specific antibiotics for urinary infections include nitrofurantoin and newer cephalosoprins. This will be decided by your doctor and you must complete the course for quick recovery.Hope thishelps\nSummary:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 1,
+      "max_tokens": 80,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id10015",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: I have had this pain in my left arm down to almost my wrist. It first started where i would have a sharp pain between my armpit and boob. It doesnt hurt all the time but has become more often lately. Its an aching throbbing feeling but also an numbing weak feeling to where i loose my strength in my arm. After a while it will pass but dont no if its something serious. Need help Doctor: Hi,take this seriously, it could be a lump compressing on your nerves, or any infection, you need an examination by a doctor to exactly judge what your symptoms mean, and what is there cause,I recommend you to consult your doctor at the earliest.\nSummary:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 1,
+      "max_tokens": 80,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id15596",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: I have severe cardiac disease. CABG 18 years ago. Occluded LAD. 10 stents. Increasing frequency of Afib. Taking 400 mg amiodarone OD. Had ablation 6 weeks ago but Afib came back. What other options? Also occluded subclavian jugular veins on both sides so cant get pacemaker. Doctor: Hello and Welcome to \u2018Ask A Doctor\u2019 service. I have reviewed your query and here is my advice.   Its better if you can send me the details like reports of echo and other. I think, in your case it's better not to chase for rhythm control strategy as it's unlikely to be successful in you. It's better to go for rate control strategy with beta blockers, calcium channel blockers and Amiodarone if needed.   Hope I have answered your query. Let me know if I can assist you further.\nSummary:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 1,
+      "max_tokens": 80,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id17906",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: I have four bumps total on my body, under the skin. One on each arm on the top/side, in the same location on each arm; one one right arm near elbow; and one on the middle of my left leg facing inwards. Recently the bumps on my arms have become more swollen and red. The only trauma incurred has been an injection in each arm of phenergan about three months ago. These bumps showed up about two months ago. No other symptoms. Doctor: Hi,Dear,Thanks for the query to HCM.your concern is why painless lump with Phenergan shots 3 mths ago.This lump is of the Fibrosed organised tissue reaction to the phenergan shots preservative chemical.Hope this would reply your query to your satisfaction.Welcome for any further query to HCM in this regard.With Regards,\nSummary:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 1,
+      "max_tokens": 80,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id20568",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: some of us cannot afford to pay to see doctores, and that is me, I am on a tight budget so I do not go for blood tests etc. I think you lot could help hard up people at times. Everyone is money mad. I would never ask for money to help someone even though as poor as I am. Doctor: **1. since blood tests require specific reagent to show whether the levels of different substances in your blood fall within a normal range, thus they can help you and your doctor learn more about your health and can help find potential problems early, when treatments or lifestyle changes may work best, but blood tests alone cannot be used to diagnose certain medical problems.2. Blood tests allow a doctor/physician to see a detailed analysis of any disease markers, the nutrients and waste products in your blood as well as how various organs (e.g., kidneys and liver) are functioning, so if examination or history doesn't reveal much about patient ailment thus laboratory tests are tools helpful in evaluating the health status of an individual3.  since the most common tests are done using a blood sample, or with use of portable machines thus search in your area where the rates are low.\nSummary:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 1,
+      "max_tokens": 80,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id15974",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: My grandson has plexiform neurofibroma in his abdomen! Will it continue to grow if not treated? If he has the NFi gene, can it be treated with meds? If not what kind of treatment is available. The mass in his abdomen also shows it s wrapped around major arteries! What now? Doctor: hi,Thanks for writing in.Plexiform neurofibromas in strategic locations are to be removed through skilled surgery. It is important to know the size and extension of the tumor and if there are any cancerous areas which are developing within. In that case,  you must consult an oncosurgeon and vascular surgeon and know the implications of the tumor causing pressure effects or the rare possibility of the tumor infiltrating the arteries. Medicines are not a treatment option for these tumors. Though the tumors are usually benign and harmless, increase in size with time and malignant transformation cannot be entirely ruled out in your grandson. That might take years to happen but it can be easily prevented by getting treated through surgery at present.\nSummary:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 1,
+      "max_tokens": 80,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  }
+]

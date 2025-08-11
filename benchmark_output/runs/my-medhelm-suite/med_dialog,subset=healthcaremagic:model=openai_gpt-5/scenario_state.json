@@ -1,0 +1,3168 @@
+{
+  "adapter_spec": {
+    "method": "generation",
+    "global_prefix": "",
+    "global_suffix": "",
+    "instructions": "Generate a one sentence summary of this patient-doctor conversation.\n",
+    "input_prefix": "Patient-Doctor: ",
+    "input_suffix": "\n",
+    "reference_prefix": "A. ",
+    "reference_suffix": "\n",
+    "chain_of_thought_prefix": "",
+    "chain_of_thought_suffix": "\n",
+    "output_prefix": "Summary: ",
+    "output_suffix": "\n",
+    "instance_prefix": "\n",
+    "substitutions": [],
+    "max_train_instances": 0,
+    "max_eval_instances": 10,
+    "num_outputs": 1,
+    "num_train_trials": 1,
+    "num_trials": 1,
+    "sample_train": true,
+    "model_deployment": "openai/gpt-5",
+    "model": "openai/gpt-5",
+    "temperature": 0.0,
+    "max_tokens": 80,
+    "stop_sequences": [],
+    "multi_label": false
+  },
+  "request_states": [
+    {
+      "instance": {
+        "input": {
+          "text": "Patient: Can rabies be transferred through blood? I may have ran over something and when I came inside after cleaning it I forgot to wash my hands and began playing a video game then I realized I needed to wash my hands so I did then I came back and forgot to clean my mouse and I have a bad habit of biting my nails. So if the animal did have rabies could I have rabies now? Doctor: Hello thanx to contact healthcare magic. If I am your suggestion giving Doctor I suggest you that you should not be worry regarding rabies. Rabies only spreads through damaged nerves, which happens in the case of biting by dogs. But it wont spread by biting of nails. But if suppose when you biting the nail you got injured the fingerbed you might be infected with rabies. But I think you have not injured your finger during biting the nail so do not worry regarding that. If you have anything else to ask kindly contact me Dr Arun Tank, Infectious Disease specialist."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Can rabies be transferred through blood?"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id13914"
+      },
+      "train_trial_index": 0,
+      "request": {
+        "model_deployment": "openai/gpt-5",
+        "model": "openai/gpt-5",
+        "embedding": false,
+        "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: Can rabies be transferred through blood? I may have ran over something and when I came inside after cleaning it I forgot to wash my hands and began playing a video game then I realized I needed to wash my hands so I did then I came back and forgot to clean my mouse and I have a bad habit of biting my nails. So if the animal did have rabies could I have rabies now? Doctor: Hello thanx to contact healthcare magic. If I am your suggestion giving Doctor I suggest you that you should not be worry regarding rabies. Rabies only spreads through damaged nerves, which happens in the case of biting by dogs. But it wont spread by biting of nails. But if suppose when you biting the nail you got injured the fingerbed you might be infected with rabies. But I think you have not injured your finger during biting the nail so do not worry regarding that. If you have anything else to ask kindly contact me Dr Arun Tank, Infectious Disease specialist.\nSummary:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 1,
+        "max_tokens": 80,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "The patient worries about getting rabies from handling a possibly contaminated surface and then biting nails, and the doctor reassures that rabies is very unlikely to be transmitted this way unless there\u2019s an open wound, so there\u2019s no need to worry.",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": "The",
+                "logprob": 0
+              },
+              {
+                "text": " patient",
+                "logprob": 0
+              },
+              {
+                "text": " worries",
+                "logprob": 0
+              },
+              {
+                "text": " about",
+                "logprob": 0
+              },
+              {
+                "text": " getting",
+                "logprob": 0
+              },
+              {
+                "text": " rab",
+                "logprob": 0
+              },
+              {
+                "text": "ies",
+                "logprob": 0
+              },
+              {
+                "text": " from",
+                "logprob": 0
+              },
+              {
+                "text": " handling",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": " possibly",
+                "logprob": 0
+              },
+              {
+                "text": " contaminated",
+                "logprob": 0
+              },
+              {
+                "text": " surface",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " then",
+                "logprob": 0
+              },
+              {
+                "text": " biting",
+                "logprob": 0
+              },
+              {
+                "text": " nails",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " doctor",
+                "logprob": 0
+              },
+              {
+                "text": " reass",
+                "logprob": 0
+              },
+              {
+                "text": "ures",
+                "logprob": 0
+              },
+              {
+                "text": " that",
+                "logprob": 0
+              },
+              {
+                "text": " rab",
+                "logprob": 0
+              },
+              {
+                "text": "ies",
+                "logprob": 0
+              },
+              {
+                "text": " is",
+                "logprob": 0
+              },
+              {
+                "text": " very",
+                "logprob": 0
+              },
+              {
+                "text": " unlikely",
+                "logprob": 0
+              },
+              {
+                "text": " to",
+                "logprob": 0
+              },
+              {
+                "text": " be",
+                "logprob": 0
+              },
+              {
+                "text": " transmitted",
+                "logprob": 0
+              },
+              {
+                "text": " this",
+                "logprob": 0
+              },
+              {
+                "text": " way",
+                "logprob": 0
+              },
+              {
+                "text": " unless",
+                "logprob": 0
+              },
+              {
+                "text": " there",
+                "logprob": 0
+              },
+              {
+                "text": "\u2019s",
+                "logprob": 0
+              },
+              {
+                "text": " an",
+                "logprob": 0
+              },
+              {
+                "text": " open",
+                "logprob": 0
+              },
+              {
+                "text": " wound",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " so",
+                "logprob": 0
+              },
+              {
+                "text": " there",
+                "logprob": 0
+              },
+              {
+                "text": "\u2019s",
+                "logprob": 0
+              },
+              {
+                "text": " no",
+                "logprob": 0
+              },
+              {
+                "text": " need",
+                "logprob": 0
+              },
+              {
+                "text": " to",
+                "logprob": 0
+              },
+              {
+                "text": " worry",
+                "logprob": 0
+              },
+              {
+                "text": ".",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "stop"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 9.612917184829712,
+        "request_datetime": 1754761490
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0,
+      "annotations": {
+        "med_dialog": {
+          "prompt_text": "You are a medical expert tasked with evaluating the quality of medical dialogue summaries.\n\nYour goal is to assess how well the summary captures the patient-doctor conversation,\nand how it compares to the gold response in terms of accuracy, completeness, and clarity.\n\nThe patient-doctor conversation will be provided in these tags:\n<conversation>\nPatient: Can rabies be transferred through blood? I may have ran over something and when I came inside after cleaning it I forgot to wash my hands and began playing a video game then I realized I needed to wash my hands so I did then I came back and forgot to clean my mouse and I have a bad habit of biting my nails. So if the animal did have rabies could I have rabies now? Doctor: Hello thanx to contact healthcare magic. If I am your suggestion giving Doctor I suggest you that you should not be worry regarding rabies. Rabies only spreads through damaged nerves, which happens in the case of biting by dogs. But it wont spread by biting of nails. But if suppose when you biting the nail you got injured the fingerbed you might be infected with rabies. But I think you have not injured your finger during biting the nail so do not worry regarding that. If you have anything else to ask kindly contact me Dr Arun Tank, Infectious Disease specialist.\n</conversation>\n\nThe response will be provided in these tags:\n<response>\nThe patient worries about getting rabies from handling a possibly contaminated surface and then biting nails, and the doctor reassures that rabies is very unlikely to be transmitted this way unless there\u2019s an open wound, so there\u2019s no need to worry.\n</response>\n\nThe reference response will be provided in these tags:\n<gold_response>\nCan rabies be transferred through blood?\n</gold_response>\n\nCarefully review the <response> and compare it to the <gold_response> when needed.\n\nPlease evaluate the generated summary on a scale of 1-5 (1 = poor, 5 = excellent)\nfor each of these three key dimensions:\n\nEvaluation Criteria:\nAccuracy (1-5)\n- Does the summary correctly capture the main medical issue and clinical details from the conversation?\n\nCompleteness (1-5)\n- Does the summary include all important medical information from the conversation?\n\nClarity (1-5)\n- Is the summary easy to understand for clinical use?\n\nOutput Format:\nOutput your evaluation as a single valid JSON object matching the following structure:\n{\n    \"accuracy\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"completeness\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"clarity\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    }\n}\n\nEnsure the output is valid JSON:\n- Use **double quotes** (\") for all keys and string values.\n- When quoting text or sections inside the explanations, use escaped double quotes (\") to\n  maintain valid JSON formatting.\n- Do not include any additional information in the output.\n"
+        }
+      }
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Patient: Sharp stabbing pain in lower left side of stomach , happened very suddenly and felt like I might pass out, also hurt to breathe, stomach and chest felt tight, like i could not take a deep breathe, it lasted about 20 mins, I had to sit down because of the pain but then it just went away as quickly as it came, still don t feel well but the extreme sharp pain is gone, very confused about what this is, what caused it and why it came and left so suddenly Doctor: Hi,  Thanks for posting your query.  Do you have fever/ watery diarrhea/ constipation/ spasmodic abdominal pain/ nausea or vomiting/ weight loss/ mucus discharge in stools?  Do you have any mass palpable in abdomen? Is there any aggravating or relieving factor for abdominal pain? With the available described symptoms, there could b possibility of peritonitis or muscular ache. You should consult with internal medicine specialist/ gastroenterologist and should go for thorough check up. You should go for complete blood count, urine routine microscopy, renal function test, serum amylase and lipase, colonoscopy, UGI endoscopy for better clarification. You should take low fat, spicy soft diet. Meanwhile, you should take antispasmodics along with proton pump inhibitors. Treatment depends on exact diagnosis. Take care, Dr. Mayank Bhargava"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Had pain in left side of stomach and pain while breathing for 20 minutes. Cause?"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id6634"
+      },
+      "train_trial_index": 0,
+      "request": {
+        "model_deployment": "openai/gpt-5",
+        "model": "openai/gpt-5",
+        "embedding": false,
+        "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: Sharp stabbing pain in lower left side of stomach , happened very suddenly and felt like I might pass out, also hurt to breathe, stomach and chest felt tight, like i could not take a deep breathe, it lasted about 20 mins, I had to sit down because of the pain but then it just went away as quickly as it came, still don t feel well but the extreme sharp pain is gone, very confused about what this is, what caused it and why it came and left so suddenly Doctor: Hi,  Thanks for posting your query.  Do you have fever/ watery diarrhea/ constipation/ spasmodic abdominal pain/ nausea or vomiting/ weight loss/ mucus discharge in stools?  Do you have any mass palpable in abdomen? Is there any aggravating or relieving factor for abdominal pain? With the available described symptoms, there could b possibility of peritonitis or muscular ache. You should consult with internal medicine specialist/ gastroenterologist and should go for thorough check up. You should go for complete blood count, urine routine microscopy, renal function test, serum amylase and lipase, colonoscopy, UGI endoscopy for better clarification. You should take low fat, spicy soft diet. Meanwhile, you should take antispasmodics along with proton pump inhibitors. Treatment depends on exact diagnosis. Take care, Dr. Mayank Bhargava\nSummary:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 1,
+        "max_tokens": 80,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "The patient reported a sudden, severe sharp pain in the lower left abdomen with chest tightness and shortness of breath lasting about 20 minutes and then resolving, and the doctor queried GI symptoms, considered peritonitis versus a muscular cause, and advised prompt evaluation by internal medicine/gastroenterology with labs (CBC, urinalysis, renal function, amylase/lipase) and possible",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": "The",
+                "logprob": 0
+              },
+              {
+                "text": " patient",
+                "logprob": 0
+              },
+              {
+                "text": " reported",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": " sudden",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " severe",
+                "logprob": 0
+              },
+              {
+                "text": " sharp",
+                "logprob": 0
+              },
+              {
+                "text": " pain",
+                "logprob": 0
+              },
+              {
+                "text": " in",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " lower",
+                "logprob": 0
+              },
+              {
+                "text": " left",
+                "logprob": 0
+              },
+              {
+                "text": " abdomen",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " chest",
+                "logprob": 0
+              },
+              {
+                "text": " tight",
+                "logprob": 0
+              },
+              {
+                "text": "ness",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " short",
+                "logprob": 0
+              },
+              {
+                "text": "ness",
+                "logprob": 0
+              },
+              {
+                "text": " of",
+                "logprob": 0
+              },
+              {
+                "text": " breath",
+                "logprob": 0
+              },
+              {
+                "text": " lasting",
+                "logprob": 0
+              },
+              {
+                "text": " about",
+                "logprob": 0
+              },
+              {
+                "text": " ",
+                "logprob": 0
+              },
+              {
+                "text": "20",
+                "logprob": 0
+              },
+              {
+                "text": " minutes",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " then",
+                "logprob": 0
+              },
+              {
+                "text": " resolving",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " doctor",
+                "logprob": 0
+              },
+              {
+                "text": " queried",
+                "logprob": 0
+              },
+              {
+                "text": " GI",
+                "logprob": 0
+              },
+              {
+                "text": " symptoms",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " considered",
+                "logprob": 0
+              },
+              {
+                "text": " per",
+                "logprob": 0
+              },
+              {
+                "text": "iton",
+                "logprob": 0
+              },
+              {
+                "text": "itis",
+                "logprob": 0
+              },
+              {
+                "text": " versus",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": " muscular",
+                "logprob": 0
+              },
+              {
+                "text": " cause",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " advised",
+                "logprob": 0
+              },
+              {
+                "text": " prompt",
+                "logprob": 0
+              },
+              {
+                "text": " evaluation",
+                "logprob": 0
+              },
+              {
+                "text": " by",
+                "logprob": 0
+              },
+              {
+                "text": " internal",
+                "logprob": 0
+              },
+              {
+                "text": " medicine",
+                "logprob": 0
+              },
+              {
+                "text": "/g",
+                "logprob": 0
+              },
+              {
+                "text": "astro",
+                "logprob": 0
+              },
+              {
+                "text": "enter",
+                "logprob": 0
+              },
+              {
+                "text": "ology",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " labs",
+                "logprob": 0
+              },
+              {
+                "text": " (",
+                "logprob": 0
+              },
+              {
+                "text": "CBC",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " ur",
+                "logprob": 0
+              },
+              {
+                "text": "inal",
+                "logprob": 0
+              },
+              {
+                "text": "ysis",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " renal",
+                "logprob": 0
+              },
+              {
+                "text": " function",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " am",
+                "logprob": 0
+              },
+              {
+                "text": "yl",
+                "logprob": 0
+              },
+              {
+                "text": "ase",
+                "logprob": 0
+              },
+              {
+                "text": "/l",
+                "logprob": 0
+              },
+              {
+                "text": "ip",
+                "logprob": 0
+              },
+              {
+                "text": "ase",
+                "logprob": 0
+              },
+              {
+                "text": ")",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " possible",
+                "logprob": 0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 8.903769969940186,
+        "request_datetime": 1754761490
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0,
+      "annotations": {
+        "med_dialog": {
+          "prompt_text": "You are a medical expert tasked with evaluating the quality of medical dialogue summaries.\n\nYour goal is to assess how well the summary captures the patient-doctor conversation,\nand how it compares to the gold response in terms of accuracy, completeness, and clarity.\n\nThe patient-doctor conversation will be provided in these tags:\n<conversation>\nPatient: Sharp stabbing pain in lower left side of stomach , happened very suddenly and felt like I might pass out, also hurt to breathe, stomach and chest felt tight, like i could not take a deep breathe, it lasted about 20 mins, I had to sit down because of the pain but then it just went away as quickly as it came, still don t feel well but the extreme sharp pain is gone, very confused about what this is, what caused it and why it came and left so suddenly Doctor: Hi,  Thanks for posting your query.  Do you have fever/ watery diarrhea/ constipation/ spasmodic abdominal pain/ nausea or vomiting/ weight loss/ mucus discharge in stools?  Do you have any mass palpable in abdomen? Is there any aggravating or relieving factor for abdominal pain? With the available described symptoms, there could b possibility of peritonitis or muscular ache. You should consult with internal medicine specialist/ gastroenterologist and should go for thorough check up. You should go for complete blood count, urine routine microscopy, renal function test, serum amylase and lipase, colonoscopy, UGI endoscopy for better clarification. You should take low fat, spicy soft diet. Meanwhile, you should take antispasmodics along with proton pump inhibitors. Treatment depends on exact diagnosis. Take care, Dr. Mayank Bhargava\n</conversation>\n\nThe response will be provided in these tags:\n<response>\nThe patient reported a sudden, severe sharp pain in the lower left abdomen with chest tightness and shortness of breath lasting about 20 minutes and then resolving, and the doctor queried GI symptoms, considered peritonitis versus a muscular cause, and advised prompt evaluation by internal medicine/gastroenterology with labs (CBC, urinalysis, renal function, amylase/lipase) and possible\n</response>\n\nThe reference response will be provided in these tags:\n<gold_response>\nHad pain in left side of stomach and pain while breathing for 20 minutes. Cause?\n</gold_response>\n\nCarefully review the <response> and compare it to the <gold_response> when needed.\n\nPlease evaluate the generated summary on a scale of 1-5 (1 = poor, 5 = excellent)\nfor each of these three key dimensions:\n\nEvaluation Criteria:\nAccuracy (1-5)\n- Does the summary correctly capture the main medical issue and clinical details from the conversation?\n\nCompleteness (1-5)\n- Does the summary include all important medical information from the conversation?\n\nClarity (1-5)\n- Is the summary easy to understand for clinical use?\n\nOutput Format:\nOutput your evaluation as a single valid JSON object matching the following structure:\n{\n    \"accuracy\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"completeness\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"clarity\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    }\n}\n\nEnsure the output is valid JSON:\n- Use **double quotes** (\") for all keys and string values.\n- When quoting text or sections inside the explanations, use escaped double quotes (\") to\n  maintain valid JSON formatting.\n- Do not include any additional information in the output.\n"
+        }
+      }
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Patient: hello doc, my son age 23. wt 49kg height 5'9 inch engineering stduent . He is suffering from mdr tb last four year,he was infected in mumbai during his education he was direct infection case of mdr tb. According to his sensitivity test he is sensitive to kanamycin , ethide .pas and cla rithromycin we are giving these medicine along with pza and ethambutal after six months kanamycin was stoped.  But he is not cured still his culture is positive. Please doc. suggest how he will be negative which medicine should be added to his regiment and how long he should take the kanamycin injection. Doctor: Thanks for your question on Healthcare Magic.I can understand your concern.Persistent positive culture even after taking MDR (MultiDrug Resistance) TB treatment is suggestive of possible XDR (extremely drug resistance) TB or TDR (total drug resistance) TB.So better to get done sputum culture and sensitivity for XDR TB.He might need capriomycin injection, moxifloxacin, high dose INH, rifabutin, cycloserine, moxifloxacin etc.No need to give kanamycin injection now. First rule out XDR TB.Hope I have solved your query. I will be happy to help you further. Wishing good health to your son. Thanks."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Suggest treatment for MDR-TB"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id11407"
+      },
+      "train_trial_index": 0,
+      "request": {
+        "model_deployment": "openai/gpt-5",
+        "model": "openai/gpt-5",
+        "embedding": false,
+        "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: hello doc, my son age 23. wt 49kg height 5'9 inch engineering stduent . He is suffering from mdr tb last four year,he was infected in mumbai during his education he was direct infection case of mdr tb. According to his sensitivity test he is sensitive to kanamycin , ethide .pas and cla rithromycin we are giving these medicine along with pza and ethambutal after six months kanamycin was stoped.  But he is not cured still his culture is positive. Please doc. suggest how he will be negative which medicine should be added to his regiment and how long he should take the kanamycin injection. Doctor: Thanks for your question on Healthcare Magic.I can understand your concern.Persistent positive culture even after taking MDR (MultiDrug Resistance) TB treatment is suggestive of possible XDR (extremely drug resistance) TB or TDR (total drug resistance) TB.So better to get done sputum culture and sensitivity for XDR TB.He might need capriomycin injection, moxifloxacin, high dose INH, rifabutin, cycloserine, moxifloxacin etc.No need to give kanamycin injection now. First rule out XDR TB.Hope I have solved your query. I will be happy to help you further. Wishing good health to your son. Thanks.\nSummary:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 1,
+        "max_tokens": 80,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A 23-year-old with MDR-TB remains culture-positive despite treatment; the doctor advises testing for XDR/TDR TB and, rather than restarting kanamycin, revising therapy based on sensitivity results (e.g., capreomycin, moxifloxacin, high-dose isoniazid, rifabutin, cycloserine).",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": "A",
+                "logprob": 0
+              },
+              {
+                "text": " ",
+                "logprob": 0
+              },
+              {
+                "text": "23",
+                "logprob": 0
+              },
+              {
+                "text": "-year",
+                "logprob": 0
+              },
+              {
+                "text": "-old",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " M",
+                "logprob": 0
+              },
+              {
+                "text": "DR",
+                "logprob": 0
+              },
+              {
+                "text": "-T",
+                "logprob": 0
+              },
+              {
+                "text": "B",
+                "logprob": 0
+              },
+              {
+                "text": " remains",
+                "logprob": 0
+              },
+              {
+                "text": " culture",
+                "logprob": 0
+              },
+              {
+                "text": "-positive",
+                "logprob": 0
+              },
+              {
+                "text": " despite",
+                "logprob": 0
+              },
+              {
+                "text": " treatment",
+                "logprob": 0
+              },
+              {
+                "text": ";",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " doctor",
+                "logprob": 0
+              },
+              {
+                "text": " advises",
+                "logprob": 0
+              },
+              {
+                "text": " testing",
+                "logprob": 0
+              },
+              {
+                "text": " for",
+                "logprob": 0
+              },
+              {
+                "text": " X",
+                "logprob": 0
+              },
+              {
+                "text": "DR",
+                "logprob": 0
+              },
+              {
+                "text": "/T",
+                "logprob": 0
+              },
+              {
+                "text": "DR",
+                "logprob": 0
+              },
+              {
+                "text": " TB",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " rather",
+                "logprob": 0
+              },
+              {
+                "text": " than",
+                "logprob": 0
+              },
+              {
+                "text": " restarting",
+                "logprob": 0
+              },
+              {
+                "text": " kan",
+                "logprob": 0
+              },
+              {
+                "text": "am",
+                "logprob": 0
+              },
+              {
+                "text": "ycin",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " revis",
+                "logprob": 0
+              },
+              {
+                "text": "ing",
+                "logprob": 0
+              },
+              {
+                "text": " therapy",
+                "logprob": 0
+              },
+              {
+                "text": " based",
+                "logprob": 0
+              },
+              {
+                "text": " on",
+                "logprob": 0
+              },
+              {
+                "text": " sensitivity",
+                "logprob": 0
+              },
+              {
+                "text": " results",
+                "logprob": 0
+              },
+              {
+                "text": " (",
+                "logprob": 0
+              },
+              {
+                "text": "e",
+                "logprob": 0
+              },
+              {
+                "text": ".g",
+                "logprob": 0
+              },
+              {
+                "text": ".,",
+                "logprob": 0
+              },
+              {
+                "text": " cap",
+                "logprob": 0
+              },
+              {
+                "text": "re",
+                "logprob": 0
+              },
+              {
+                "text": "om",
+                "logprob": 0
+              },
+              {
+                "text": "ycin",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " mo",
+                "logprob": 0
+              },
+              {
+                "text": "x",
+                "logprob": 0
+              },
+              {
+                "text": "if",
+                "logprob": 0
+              },
+              {
+                "text": "lox",
+                "logprob": 0
+              },
+              {
+                "text": "acin",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " high",
+                "logprob": 0
+              },
+              {
+                "text": "-d",
+                "logprob": 0
+              },
+              {
+                "text": "ose",
+                "logprob": 0
+              },
+              {
+                "text": " is",
+                "logprob": 0
+              },
+              {
+                "text": "onia",
+                "logprob": 0
+              },
+              {
+                "text": "z",
+                "logprob": 0
+              },
+              {
+                "text": "id",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " rif",
+                "logprob": 0
+              },
+              {
+                "text": "ab",
+                "logprob": 0
+              },
+              {
+                "text": "ut",
+                "logprob": 0
+              },
+              {
+                "text": "in",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " cyc",
+                "logprob": 0
+              },
+              {
+                "text": "loser",
+                "logprob": 0
+              },
+              {
+                "text": "ine",
+                "logprob": 0
+              },
+              {
+                "text": ").",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "stop"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 8.40522313117981,
+        "request_datetime": 1754761490
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0,
+      "annotations": {
+        "med_dialog": {
+          "prompt_text": "You are a medical expert tasked with evaluating the quality of medical dialogue summaries.\n\nYour goal is to assess how well the summary captures the patient-doctor conversation,\nand how it compares to the gold response in terms of accuracy, completeness, and clarity.\n\nThe patient-doctor conversation will be provided in these tags:\n<conversation>\nPatient: hello doc, my son age 23. wt 49kg height 5'9 inch engineering stduent . He is suffering from mdr tb last four year,he was infected in mumbai during his education he was direct infection case of mdr tb. According to his sensitivity test he is sensitive to kanamycin , ethide .pas and cla rithromycin we are giving these medicine along with pza and ethambutal after six months kanamycin was stoped.  But he is not cured still his culture is positive. Please doc. suggest how he will be negative which medicine should be added to his regiment and how long he should take the kanamycin injection. Doctor: Thanks for your question on Healthcare Magic.I can understand your concern.Persistent positive culture even after taking MDR (MultiDrug Resistance) TB treatment is suggestive of possible XDR (extremely drug resistance) TB or TDR (total drug resistance) TB.So better to get done sputum culture and sensitivity for XDR TB.He might need capriomycin injection, moxifloxacin, high dose INH, rifabutin, cycloserine, moxifloxacin etc.No need to give kanamycin injection now. First rule out XDR TB.Hope I have solved your query. I will be happy to help you further. Wishing good health to your son. Thanks.\n</conversation>\n\nThe response will be provided in these tags:\n<response>\nA 23-year-old with MDR-TB remains culture-positive despite treatment; the doctor advises testing for XDR/TDR TB and, rather than restarting kanamycin, revising therapy based on sensitivity results (e.g., capreomycin, moxifloxacin, high-dose isoniazid, rifabutin, cycloserine).\n</response>\n\nThe reference response will be provided in these tags:\n<gold_response>\nSuggest treatment for MDR-TB\n</gold_response>\n\nCarefully review the <response> and compare it to the <gold_response> when needed.\n\nPlease evaluate the generated summary on a scale of 1-5 (1 = poor, 5 = excellent)\nfor each of these three key dimensions:\n\nEvaluation Criteria:\nAccuracy (1-5)\n- Does the summary correctly capture the main medical issue and clinical details from the conversation?\n\nCompleteness (1-5)\n- Does the summary include all important medical information from the conversation?\n\nClarity (1-5)\n- Is the summary easy to understand for clinical use?\n\nOutput Format:\nOutput your evaluation as a single valid JSON object matching the following structure:\n{\n    \"accuracy\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"completeness\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"clarity\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    }\n}\n\nEnsure the output is valid JSON:\n- Use **double quotes** (\") for all keys and string values.\n- When quoting text or sections inside the explanations, use escaped double quotes (\") to\n  maintain valid JSON formatting.\n- Do not include any additional information in the output.\n"
+        }
+      }
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Patient: Hi I am just turning 33. I have an amh of 5, 10 dominant follicles, no blocked tubes or any apparent reasons for having had 2 miscarriages and a complete molar pregnancy all in 2 years: I have a 13 year old from a previous relationship. My husband has been checked and he s fine. My doctor had me on letrozole, progesterone for the end of my cycle and just prescribed prognova because lining is 7mm. We have been trying to conceive for 7 months. She has recommended ivf but we can not afford it. Is there anything else we can do or do I have any hope of conceiving naturally? Doctor: Hello and Welcome to \u2018Ask A Doctor\u2019 service.I have reviewed your query and here is my advice.I think you can conceive naturally also. Get a thyroid profile and prolactin level done. You can track your ovulation by repeated ultrasound and when follicle is more than 17 to 18 mm, take an injection for the rupture of follicles. Be in contact with your husband every 2 to 3 days after your periods stop. Take progesterone for next 2 weeks after rupture is confirmed on ultrasound. Do a urine pregnancy test after that. You can try like that for 3 to 6 cycles. If it doesn't work, you can go for IUI.Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Khushboo Priya"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Suggest treatment for infertility"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id10313"
+      },
+      "train_trial_index": 0,
+      "request": {
+        "model_deployment": "openai/gpt-5",
+        "model": "openai/gpt-5",
+        "embedding": false,
+        "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: Hi I am just turning 33. I have an amh of 5, 10 dominant follicles, no blocked tubes or any apparent reasons for having had 2 miscarriages and a complete molar pregnancy all in 2 years: I have a 13 year old from a previous relationship. My husband has been checked and he s fine. My doctor had me on letrozole, progesterone for the end of my cycle and just prescribed prognova because lining is 7mm. We have been trying to conceive for 7 months. She has recommended ivf but we can not afford it. Is there anything else we can do or do I have any hope of conceiving naturally? Doctor: Hello and Welcome to \u2018Ask A Doctor\u2019 service.I have reviewed your query and here is my advice.I think you can conceive naturally also. Get a thyroid profile and prolactin level done. You can track your ovulation by repeated ultrasound and when follicle is more than 17 to 18 mm, take an injection for the rupture of follicles. Be in contact with your husband every 2 to 3 days after your periods stop. Take progesterone for next 2 weeks after rupture is confirmed on ultrasound. Do a urine pregnancy test after that. You can try like that for 3 to 6 cycles. If it doesn't work, you can go for IUI.Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Khushboo Priya\nSummary:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 1,
+        "max_tokens": 80,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A 33-year-old with two miscarriages and a prior molar pregnancy, normal fertility workup, and limited funds asked about non-IVF options, and the doctor advised that natural conception is possible with thyroid/prolactin testing, monitored ovulation with a trigger shot, timed intercourse plus luteal progesterone for 3\u20136 cycles, and then consider IUI if not",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": "A",
+                "logprob": 0
+              },
+              {
+                "text": " ",
+                "logprob": 0
+              },
+              {
+                "text": "33",
+                "logprob": 0
+              },
+              {
+                "text": "-year",
+                "logprob": 0
+              },
+              {
+                "text": "-old",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " two",
+                "logprob": 0
+              },
+              {
+                "text": " miscar",
+                "logprob": 0
+              },
+              {
+                "text": "riages",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": " prior",
+                "logprob": 0
+              },
+              {
+                "text": " m",
+                "logprob": 0
+              },
+              {
+                "text": "olar",
+                "logprob": 0
+              },
+              {
+                "text": " pregnancy",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " normal",
+                "logprob": 0
+              },
+              {
+                "text": " fertility",
+                "logprob": 0
+              },
+              {
+                "text": " work",
+                "logprob": 0
+              },
+              {
+                "text": "up",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " limited",
+                "logprob": 0
+              },
+              {
+                "text": " funds",
+                "logprob": 0
+              },
+              {
+                "text": " asked",
+                "logprob": 0
+              },
+              {
+                "text": " about",
+                "logprob": 0
+              },
+              {
+                "text": " non",
+                "logprob": 0
+              },
+              {
+                "text": "-",
+                "logprob": 0
+              },
+              {
+                "text": "IV",
+                "logprob": 0
+              },
+              {
+                "text": "F",
+                "logprob": 0
+              },
+              {
+                "text": " options",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " doctor",
+                "logprob": 0
+              },
+              {
+                "text": " advised",
+                "logprob": 0
+              },
+              {
+                "text": " that",
+                "logprob": 0
+              },
+              {
+                "text": " natural",
+                "logprob": 0
+              },
+              {
+                "text": " conception",
+                "logprob": 0
+              },
+              {
+                "text": " is",
+                "logprob": 0
+              },
+              {
+                "text": " possible",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " thyroid",
+                "logprob": 0
+              },
+              {
+                "text": "/pro",
+                "logprob": 0
+              },
+              {
+                "text": "l",
+                "logprob": 0
+              },
+              {
+                "text": "act",
+                "logprob": 0
+              },
+              {
+                "text": "in",
+                "logprob": 0
+              },
+              {
+                "text": " testing",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " monitored",
+                "logprob": 0
+              },
+              {
+                "text": " ov",
+                "logprob": 0
+              },
+              {
+                "text": "ulation",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": " trigger",
+                "logprob": 0
+              },
+              {
+                "text": " shot",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " timed",
+                "logprob": 0
+              },
+              {
+                "text": " intercourse",
+                "logprob": 0
+              },
+              {
+                "text": " plus",
+                "logprob": 0
+              },
+              {
+                "text": " l",
+                "logprob": 0
+              },
+              {
+                "text": "ute",
+                "logprob": 0
+              },
+              {
+                "text": "al",
+                "logprob": 0
+              },
+              {
+                "text": " prog",
+                "logprob": 0
+              },
+              {
+                "text": "ester",
+                "logprob": 0
+              },
+              {
+                "text": "one",
+                "logprob": 0
+              },
+              {
+                "text": " for",
+                "logprob": 0
+              },
+              {
+                "text": " ",
+                "logprob": 0
+              },
+              {
+                "text": "3",
+                "logprob": 0
+              },
+              {
+                "text": "\u2013",
+                "logprob": 0
+              },
+              {
+                "text": "6",
+                "logprob": 0
+              },
+              {
+                "text": " cycles",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " then",
+                "logprob": 0
+              },
+              {
+                "text": " consider",
+                "logprob": 0
+              },
+              {
+                "text": " I",
+                "logprob": 0
+              },
+              {
+                "text": "UI",
+                "logprob": 0
+              },
+              {
+                "text": " if",
+                "logprob": 0
+              },
+              {
+                "text": " not",
+                "logprob": 0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 9.209187030792236,
+        "request_datetime": 1754761490
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0,
+      "annotations": {
+        "med_dialog": {
+          "prompt_text": "You are a medical expert tasked with evaluating the quality of medical dialogue summaries.\n\nYour goal is to assess how well the summary captures the patient-doctor conversation,\nand how it compares to the gold response in terms of accuracy, completeness, and clarity.\n\nThe patient-doctor conversation will be provided in these tags:\n<conversation>\nPatient: Hi I am just turning 33. I have an amh of 5, 10 dominant follicles, no blocked tubes or any apparent reasons for having had 2 miscarriages and a complete molar pregnancy all in 2 years: I have a 13 year old from a previous relationship. My husband has been checked and he s fine. My doctor had me on letrozole, progesterone for the end of my cycle and just prescribed prognova because lining is 7mm. We have been trying to conceive for 7 months. She has recommended ivf but we can not afford it. Is there anything else we can do or do I have any hope of conceiving naturally? Doctor: Hello and Welcome to \u2018Ask A Doctor\u2019 service.I have reviewed your query and here is my advice.I think you can conceive naturally also. Get a thyroid profile and prolactin level done. You can track your ovulation by repeated ultrasound and when follicle is more than 17 to 18 mm, take an injection for the rupture of follicles. Be in contact with your husband every 2 to 3 days after your periods stop. Take progesterone for next 2 weeks after rupture is confirmed on ultrasound. Do a urine pregnancy test after that. You can try like that for 3 to 6 cycles. If it doesn't work, you can go for IUI.Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Khushboo Priya\n</conversation>\n\nThe response will be provided in these tags:\n<response>\nA 33-year-old with two miscarriages and a prior molar pregnancy, normal fertility workup, and limited funds asked about non-IVF options, and the doctor advised that natural conception is possible with thyroid/prolactin testing, monitored ovulation with a trigger shot, timed intercourse plus luteal progesterone for 3\u20136 cycles, and then consider IUI if not\n</response>\n\nThe reference response will be provided in these tags:\n<gold_response>\nSuggest treatment for infertility\n</gold_response>\n\nCarefully review the <response> and compare it to the <gold_response> when needed.\n\nPlease evaluate the generated summary on a scale of 1-5 (1 = poor, 5 = excellent)\nfor each of these three key dimensions:\n\nEvaluation Criteria:\nAccuracy (1-5)\n- Does the summary correctly capture the main medical issue and clinical details from the conversation?\n\nCompleteness (1-5)\n- Does the summary include all important medical information from the conversation?\n\nClarity (1-5)\n- Is the summary easy to understand for clinical use?\n\nOutput Format:\nOutput your evaluation as a single valid JSON object matching the following structure:\n{\n    \"accuracy\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"completeness\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"clarity\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    }\n}\n\nEnsure the output is valid JSON:\n- Use **double quotes** (\") for all keys and string values.\n- When quoting text or sections inside the explanations, use escaped double quotes (\") to\n  maintain valid JSON formatting.\n- Do not include any additional information in the output.\n"
+        }
+      }
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Patient: The doctor's office just told me that I am resistant to Cipro and that is why my bladder infection has not improved.  This is the second round of medication that they have given to me. My bladder infection started over a month again.  Is there any reason for concern that my body is resistant to Cipro and that I have had a bladder infection for this long Doctor: Hi,Thanks for writing in to us.Your doctor intends to inform you that the bacteria causing your bladder infection are resistant to ciprofloxacin. Nowadays due to increased prescribing of antibiotics, the same strain of bacteria which would have been killed by an antibiotic let us say 10 years back, has developed genetic mutation and resistance such that they are able to grow even in the presence of the antibiotic.In other words, the bacteria are becoming more powerful and your antibiotics need to be changed. This is becoming an increasingly common problem in hospitals and you need not worry. The solution to your problem lies in changing over to sensitive antibiotics on your urine culture report. Some of the highly specific antibiotics for urinary infections include nitrofurantoin and newer cephalosoprins. This will be decided by your doctor and you must complete the course for quick recovery.Hope thishelps"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Bladder infection. Body resistant to cipro. Reason?"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id8704"
+      },
+      "train_trial_index": 0,
+      "request": {
+        "model_deployment": "openai/gpt-5",
+        "model": "openai/gpt-5",
+        "embedding": false,
+        "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: The doctor's office just told me that I am resistant to Cipro and that is why my bladder infection has not improved.  This is the second round of medication that they have given to me. My bladder infection started over a month again.  Is there any reason for concern that my body is resistant to Cipro and that I have had a bladder infection for this long Doctor: Hi,Thanks for writing in to us.Your doctor intends to inform you that the bacteria causing your bladder infection are resistant to ciprofloxacin. Nowadays due to increased prescribing of antibiotics, the same strain of bacteria which would have been killed by an antibiotic let us say 10 years back, has developed genetic mutation and resistance such that they are able to grow even in the presence of the antibiotic.In other words, the bacteria are becoming more powerful and your antibiotics need to be changed. This is becoming an increasingly common problem in hospitals and you need not worry. The solution to your problem lies in changing over to sensitive antibiotics on your urine culture report. Some of the highly specific antibiotics for urinary infections include nitrofurantoin and newer cephalosoprins. This will be decided by your doctor and you must complete the course for quick recovery.Hope thishelps\nSummary:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 1,
+        "max_tokens": 80,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "The doctor explains that the patient\u2019s persistent UTI is due to bacterial resistance to ciprofloxacin\u2014a common issue\u2014and advises switching to culture-guided antibiotics (e.g., nitrofurantoin or newer cephalosporins) and completing the full course.",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": "The",
+                "logprob": 0
+              },
+              {
+                "text": " doctor",
+                "logprob": 0
+              },
+              {
+                "text": " explains",
+                "logprob": 0
+              },
+              {
+                "text": " that",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " patient",
+                "logprob": 0
+              },
+              {
+                "text": "\u2019s",
+                "logprob": 0
+              },
+              {
+                "text": " persistent",
+                "logprob": 0
+              },
+              {
+                "text": " UT",
+                "logprob": 0
+              },
+              {
+                "text": "I",
+                "logprob": 0
+              },
+              {
+                "text": " is",
+                "logprob": 0
+              },
+              {
+                "text": " due",
+                "logprob": 0
+              },
+              {
+                "text": " to",
+                "logprob": 0
+              },
+              {
+                "text": " bacterial",
+                "logprob": 0
+              },
+              {
+                "text": " resistance",
+                "logprob": 0
+              },
+              {
+                "text": " to",
+                "logprob": 0
+              },
+              {
+                "text": " c",
+                "logprob": 0
+              },
+              {
+                "text": "ipro",
+                "logprob": 0
+              },
+              {
+                "text": "f",
+                "logprob": 0
+              },
+              {
+                "text": "lox",
+                "logprob": 0
+              },
+              {
+                "text": "acin",
+                "logprob": 0
+              },
+              {
+                "text": "\u2014a",
+                "logprob": 0
+              },
+              {
+                "text": " common",
+                "logprob": 0
+              },
+              {
+                "text": " issue",
+                "logprob": 0
+              },
+              {
+                "text": "\u2014and",
+                "logprob": 0
+              },
+              {
+                "text": " advises",
+                "logprob": 0
+              },
+              {
+                "text": " switching",
+                "logprob": 0
+              },
+              {
+                "text": " to",
+                "logprob": 0
+              },
+              {
+                "text": " culture",
+                "logprob": 0
+              },
+              {
+                "text": "-guid",
+                "logprob": 0
+              },
+              {
+                "text": "ed",
+                "logprob": 0
+              },
+              {
+                "text": " antibiotics",
+                "logprob": 0
+              },
+              {
+                "text": " (",
+                "logprob": 0
+              },
+              {
+                "text": "e",
+                "logprob": 0
+              },
+              {
+                "text": ".g",
+                "logprob": 0
+              },
+              {
+                "text": ".,",
+                "logprob": 0
+              },
+              {
+                "text": " nit",
+                "logprob": 0
+              },
+              {
+                "text": "ro",
+                "logprob": 0
+              },
+              {
+                "text": "fur",
+                "logprob": 0
+              },
+              {
+                "text": "ant",
+                "logprob": 0
+              },
+              {
+                "text": "oin",
+                "logprob": 0
+              },
+              {
+                "text": " or",
+                "logprob": 0
+              },
+              {
+                "text": " newer",
+                "logprob": 0
+              },
+              {
+                "text": " cep",
+                "logprob": 0
+              },
+              {
+                "text": "hal",
+                "logprob": 0
+              },
+              {
+                "text": "os",
+                "logprob": 0
+              },
+              {
+                "text": "por",
+                "logprob": 0
+              },
+              {
+                "text": "ins",
+                "logprob": 0
+              },
+              {
+                "text": ")",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " completing",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " full",
+                "logprob": 0
+              },
+              {
+                "text": " course",
+                "logprob": 0
+              },
+              {
+                "text": ".",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "stop"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 6.040117025375366,
+        "request_datetime": 1754761498
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0,
+      "annotations": {
+        "med_dialog": {
+          "prompt_text": "You are a medical expert tasked with evaluating the quality of medical dialogue summaries.\n\nYour goal is to assess how well the summary captures the patient-doctor conversation,\nand how it compares to the gold response in terms of accuracy, completeness, and clarity.\n\nThe patient-doctor conversation will be provided in these tags:\n<conversation>\nPatient: The doctor's office just told me that I am resistant to Cipro and that is why my bladder infection has not improved.  This is the second round of medication that they have given to me. My bladder infection started over a month again.  Is there any reason for concern that my body is resistant to Cipro and that I have had a bladder infection for this long Doctor: Hi,Thanks for writing in to us.Your doctor intends to inform you that the bacteria causing your bladder infection are resistant to ciprofloxacin. Nowadays due to increased prescribing of antibiotics, the same strain of bacteria which would have been killed by an antibiotic let us say 10 years back, has developed genetic mutation and resistance such that they are able to grow even in the presence of the antibiotic.In other words, the bacteria are becoming more powerful and your antibiotics need to be changed. This is becoming an increasingly common problem in hospitals and you need not worry. The solution to your problem lies in changing over to sensitive antibiotics on your urine culture report. Some of the highly specific antibiotics for urinary infections include nitrofurantoin and newer cephalosoprins. This will be decided by your doctor and you must complete the course for quick recovery.Hope thishelps\n</conversation>\n\nThe response will be provided in these tags:\n<response>\nThe doctor explains that the patient\u2019s persistent UTI is due to bacterial resistance to ciprofloxacin\u2014a common issue\u2014and advises switching to culture-guided antibiotics (e.g., nitrofurantoin or newer cephalosporins) and completing the full course.\n</response>\n\nThe reference response will be provided in these tags:\n<gold_response>\nBladder infection. Body resistant to cipro. Reason?\n</gold_response>\n\nCarefully review the <response> and compare it to the <gold_response> when needed.\n\nPlease evaluate the generated summary on a scale of 1-5 (1 = poor, 5 = excellent)\nfor each of these three key dimensions:\n\nEvaluation Criteria:\nAccuracy (1-5)\n- Does the summary correctly capture the main medical issue and clinical details from the conversation?\n\nCompleteness (1-5)\n- Does the summary include all important medical information from the conversation?\n\nClarity (1-5)\n- Is the summary easy to understand for clinical use?\n\nOutput Format:\nOutput your evaluation as a single valid JSON object matching the following structure:\n{\n    \"accuracy\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"completeness\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"clarity\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    }\n}\n\nEnsure the output is valid JSON:\n- Use **double quotes** (\") for all keys and string values.\n- When quoting text or sections inside the explanations, use escaped double quotes (\") to\n  maintain valid JSON formatting.\n- Do not include any additional information in the output.\n"
+        }
+      }
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Patient: I have had this pain in my left arm down to almost my wrist. It first started where i would have a sharp pain between my armpit and boob. It doesnt hurt all the time but has become more often lately. Its an aching throbbing feeling but also an numbing weak feeling to where i loose my strength in my arm. After a while it will pass but dont no if its something serious. Need help Doctor: Hi,take this seriously, it could be a lump compressing on your nerves, or any infection, you need an examination by a doctor to exactly judge what your symptoms mean, and what is there cause,I recommend you to consult your doctor at the earliest."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "What is the treatment for pain in the arm?"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id10015"
+      },
+      "train_trial_index": 0,
+      "request": {
+        "model_deployment": "openai/gpt-5",
+        "model": "openai/gpt-5",
+        "embedding": false,
+        "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: I have had this pain in my left arm down to almost my wrist. It first started where i would have a sharp pain between my armpit and boob. It doesnt hurt all the time but has become more often lately. Its an aching throbbing feeling but also an numbing weak feeling to where i loose my strength in my arm. After a while it will pass but dont no if its something serious. Need help Doctor: Hi,take this seriously, it could be a lump compressing on your nerves, or any infection, you need an examination by a doctor to exactly judge what your symptoms mean, and what is there cause,I recommend you to consult your doctor at the earliest.\nSummary:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 1,
+        "max_tokens": 80,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A patient reports worsening intermittent left arm pain from the armpit/chest area to near the wrist with throbbing, numbness, and weakness, and the doctor advises prompt in-person evaluation for possible nerve compression or infection.",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": "A",
+                "logprob": 0
+              },
+              {
+                "text": " patient",
+                "logprob": 0
+              },
+              {
+                "text": " reports",
+                "logprob": 0
+              },
+              {
+                "text": " worsening",
+                "logprob": 0
+              },
+              {
+                "text": " intermittent",
+                "logprob": 0
+              },
+              {
+                "text": " left",
+                "logprob": 0
+              },
+              {
+                "text": " arm",
+                "logprob": 0
+              },
+              {
+                "text": " pain",
+                "logprob": 0
+              },
+              {
+                "text": " from",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " ar",
+                "logprob": 0
+              },
+              {
+                "text": "mp",
+                "logprob": 0
+              },
+              {
+                "text": "it",
+                "logprob": 0
+              },
+              {
+                "text": "/ch",
+                "logprob": 0
+              },
+              {
+                "text": "est",
+                "logprob": 0
+              },
+              {
+                "text": " area",
+                "logprob": 0
+              },
+              {
+                "text": " to",
+                "logprob": 0
+              },
+              {
+                "text": " near",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " wrist",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " thro",
+                "logprob": 0
+              },
+              {
+                "text": "bbing",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " numb",
+                "logprob": 0
+              },
+              {
+                "text": "ness",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " weakness",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " doctor",
+                "logprob": 0
+              },
+              {
+                "text": " advises",
+                "logprob": 0
+              },
+              {
+                "text": " prompt",
+                "logprob": 0
+              },
+              {
+                "text": " in",
+                "logprob": 0
+              },
+              {
+                "text": "-person",
+                "logprob": 0
+              },
+              {
+                "text": " evaluation",
+                "logprob": 0
+              },
+              {
+                "text": " for",
+                "logprob": 0
+              },
+              {
+                "text": " possible",
+                "logprob": 0
+              },
+              {
+                "text": " nerve",
+                "logprob": 0
+              },
+              {
+                "text": " compression",
+                "logprob": 0
+              },
+              {
+                "text": " or",
+                "logprob": 0
+              },
+              {
+                "text": " infection",
+                "logprob": 0
+              },
+              {
+                "text": ".",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "stop"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 6.320515871047974,
+        "request_datetime": 1754761499
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0,
+      "annotations": {
+        "med_dialog": {
+          "prompt_text": "You are a medical expert tasked with evaluating the quality of medical dialogue summaries.\n\nYour goal is to assess how well the summary captures the patient-doctor conversation,\nand how it compares to the gold response in terms of accuracy, completeness, and clarity.\n\nThe patient-doctor conversation will be provided in these tags:\n<conversation>\nPatient: I have had this pain in my left arm down to almost my wrist. It first started where i would have a sharp pain between my armpit and boob. It doesnt hurt all the time but has become more often lately. Its an aching throbbing feeling but also an numbing weak feeling to where i loose my strength in my arm. After a while it will pass but dont no if its something serious. Need help Doctor: Hi,take this seriously, it could be a lump compressing on your nerves, or any infection, you need an examination by a doctor to exactly judge what your symptoms mean, and what is there cause,I recommend you to consult your doctor at the earliest.\n</conversation>\n\nThe response will be provided in these tags:\n<response>\nA patient reports worsening intermittent left arm pain from the armpit/chest area to near the wrist with throbbing, numbness, and weakness, and the doctor advises prompt in-person evaluation for possible nerve compression or infection.\n</response>\n\nThe reference response will be provided in these tags:\n<gold_response>\nWhat is the treatment for pain in the arm?\n</gold_response>\n\nCarefully review the <response> and compare it to the <gold_response> when needed.\n\nPlease evaluate the generated summary on a scale of 1-5 (1 = poor, 5 = excellent)\nfor each of these three key dimensions:\n\nEvaluation Criteria:\nAccuracy (1-5)\n- Does the summary correctly capture the main medical issue and clinical details from the conversation?\n\nCompleteness (1-5)\n- Does the summary include all important medical information from the conversation?\n\nClarity (1-5)\n- Is the summary easy to understand for clinical use?\n\nOutput Format:\nOutput your evaluation as a single valid JSON object matching the following structure:\n{\n    \"accuracy\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"completeness\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"clarity\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    }\n}\n\nEnsure the output is valid JSON:\n- Use **double quotes** (\") for all keys and string values.\n- When quoting text or sections inside the explanations, use escaped double quotes (\") to\n  maintain valid JSON formatting.\n- Do not include any additional information in the output.\n"
+        }
+      }
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Patient: I have severe cardiac disease. CABG 18 years ago. Occluded LAD. 10 stents. Increasing frequency of Afib. Taking 400 mg amiodarone OD. Had ablation 6 weeks ago but Afib came back. What other options? Also occluded subclavian jugular veins on both sides so cant get pacemaker. Doctor: Hello and Welcome to \u2018Ask A Doctor\u2019 service. I have reviewed your query and here is my advice.   Its better if you can send me the details like reports of echo and other. I think, in your case it's better not to chase for rhythm control strategy as it's unlikely to be successful in you. It's better to go for rate control strategy with beta blockers, calcium channel blockers and Amiodarone if needed.   Hope I have answered your query. Let me know if I can assist you further."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Suggest treatment for recurrent atrial fibrillation"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id15596"
+      },
+      "train_trial_index": 0,
+      "request": {
+        "model_deployment": "openai/gpt-5",
+        "model": "openai/gpt-5",
+        "embedding": false,
+        "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: I have severe cardiac disease. CABG 18 years ago. Occluded LAD. 10 stents. Increasing frequency of Afib. Taking 400 mg amiodarone OD. Had ablation 6 weeks ago but Afib came back. What other options? Also occluded subclavian jugular veins on both sides so cant get pacemaker. Doctor: Hello and Welcome to \u2018Ask A Doctor\u2019 service. I have reviewed your query and here is my advice.   Its better if you can send me the details like reports of echo and other. I think, in your case it's better not to chase for rhythm control strategy as it's unlikely to be successful in you. It's better to go for rate control strategy with beta blockers, calcium channel blockers and Amiodarone if needed.   Hope I have answered your query. Let me know if I can assist you further.\nSummary:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 1,
+        "max_tokens": 80,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "Patient with severe coronary disease (CABG 18 years ago, LAD occlusion, 10 stents) and recurrent atrial fibrillation despite amiodarone and recent ablation, unable to get a pacemaker due to venous occlusions, was advised to pursue rate control (beta blockers/calcium channel blockers \u00b1 amiodarone) rather than rhythm control, with a",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": "Patient",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " severe",
+                "logprob": 0
+              },
+              {
+                "text": " coronary",
+                "logprob": 0
+              },
+              {
+                "text": " disease",
+                "logprob": 0
+              },
+              {
+                "text": " (",
+                "logprob": 0
+              },
+              {
+                "text": "C",
+                "logprob": 0
+              },
+              {
+                "text": "AB",
+                "logprob": 0
+              },
+              {
+                "text": "G",
+                "logprob": 0
+              },
+              {
+                "text": " ",
+                "logprob": 0
+              },
+              {
+                "text": "18",
+                "logprob": 0
+              },
+              {
+                "text": " years",
+                "logprob": 0
+              },
+              {
+                "text": " ago",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " L",
+                "logprob": 0
+              },
+              {
+                "text": "AD",
+                "logprob": 0
+              },
+              {
+                "text": " oc",
+                "logprob": 0
+              },
+              {
+                "text": "clusion",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " ",
+                "logprob": 0
+              },
+              {
+                "text": "10",
+                "logprob": 0
+              },
+              {
+                "text": " st",
+                "logprob": 0
+              },
+              {
+                "text": "ents",
+                "logprob": 0
+              },
+              {
+                "text": ")",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " recurrent",
+                "logprob": 0
+              },
+              {
+                "text": " atr",
+                "logprob": 0
+              },
+              {
+                "text": "ial",
+                "logprob": 0
+              },
+              {
+                "text": " fibr",
+                "logprob": 0
+              },
+              {
+                "text": "illation",
+                "logprob": 0
+              },
+              {
+                "text": " despite",
+                "logprob": 0
+              },
+              {
+                "text": " am",
+                "logprob": 0
+              },
+              {
+                "text": "iod",
+                "logprob": 0
+              },
+              {
+                "text": "ar",
+                "logprob": 0
+              },
+              {
+                "text": "one",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " recent",
+                "logprob": 0
+              },
+              {
+                "text": " ab",
+                "logprob": 0
+              },
+              {
+                "text": "lation",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " unable",
+                "logprob": 0
+              },
+              {
+                "text": " to",
+                "logprob": 0
+              },
+              {
+                "text": " get",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              },
+              {
+                "text": " pac",
+                "logprob": 0
+              },
+              {
+                "text": "emaker",
+                "logprob": 0
+              },
+              {
+                "text": " due",
+                "logprob": 0
+              },
+              {
+                "text": " to",
+                "logprob": 0
+              },
+              {
+                "text": " ven",
+                "logprob": 0
+              },
+              {
+                "text": "ous",
+                "logprob": 0
+              },
+              {
+                "text": " oc",
+                "logprob": 0
+              },
+              {
+                "text": "clusions",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " was",
+                "logprob": 0
+              },
+              {
+                "text": " advised",
+                "logprob": 0
+              },
+              {
+                "text": " to",
+                "logprob": 0
+              },
+              {
+                "text": " pursue",
+                "logprob": 0
+              },
+              {
+                "text": " rate",
+                "logprob": 0
+              },
+              {
+                "text": " control",
+                "logprob": 0
+              },
+              {
+                "text": " (",
+                "logprob": 0
+              },
+              {
+                "text": "beta",
+                "logprob": 0
+              },
+              {
+                "text": " blockers",
+                "logprob": 0
+              },
+              {
+                "text": "/c",
+                "logprob": 0
+              },
+              {
+                "text": "alc",
+                "logprob": 0
+              },
+              {
+                "text": "ium",
+                "logprob": 0
+              },
+              {
+                "text": " channel",
+                "logprob": 0
+              },
+              {
+                "text": " blockers",
+                "logprob": 0
+              },
+              {
+                "text": " \u00b1",
+                "logprob": 0
+              },
+              {
+                "text": " am",
+                "logprob": 0
+              },
+              {
+                "text": "iod",
+                "logprob": 0
+              },
+              {
+                "text": "ar",
+                "logprob": 0
+              },
+              {
+                "text": "one",
+                "logprob": 0
+              },
+              {
+                "text": ")",
+                "logprob": 0
+              },
+              {
+                "text": " rather",
+                "logprob": 0
+              },
+              {
+                "text": " than",
+                "logprob": 0
+              },
+              {
+                "text": " rhythm",
+                "logprob": 0
+              },
+              {
+                "text": " control",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " a",
+                "logprob": 0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 6.645625114440918,
+        "request_datetime": 1754761499
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0,
+      "annotations": {
+        "med_dialog": {
+          "prompt_text": "You are a medical expert tasked with evaluating the quality of medical dialogue summaries.\n\nYour goal is to assess how well the summary captures the patient-doctor conversation,\nand how it compares to the gold response in terms of accuracy, completeness, and clarity.\n\nThe patient-doctor conversation will be provided in these tags:\n<conversation>\nPatient: I have severe cardiac disease. CABG 18 years ago. Occluded LAD. 10 stents. Increasing frequency of Afib. Taking 400 mg amiodarone OD. Had ablation 6 weeks ago but Afib came back. What other options? Also occluded subclavian jugular veins on both sides so cant get pacemaker. Doctor: Hello and Welcome to \u2018Ask A Doctor\u2019 service. I have reviewed your query and here is my advice.   Its better if you can send me the details like reports of echo and other. I think, in your case it's better not to chase for rhythm control strategy as it's unlikely to be successful in you. It's better to go for rate control strategy with beta blockers, calcium channel blockers and Amiodarone if needed.   Hope I have answered your query. Let me know if I can assist you further.\n</conversation>\n\nThe response will be provided in these tags:\n<response>\nPatient with severe coronary disease (CABG 18 years ago, LAD occlusion, 10 stents) and recurrent atrial fibrillation despite amiodarone and recent ablation, unable to get a pacemaker due to venous occlusions, was advised to pursue rate control (beta blockers/calcium channel blockers \u00b1 amiodarone) rather than rhythm control, with a\n</response>\n\nThe reference response will be provided in these tags:\n<gold_response>\nSuggest treatment for recurrent atrial fibrillation\n</gold_response>\n\nCarefully review the <response> and compare it to the <gold_response> when needed.\n\nPlease evaluate the generated summary on a scale of 1-5 (1 = poor, 5 = excellent)\nfor each of these three key dimensions:\n\nEvaluation Criteria:\nAccuracy (1-5)\n- Does the summary correctly capture the main medical issue and clinical details from the conversation?\n\nCompleteness (1-5)\n- Does the summary include all important medical information from the conversation?\n\nClarity (1-5)\n- Is the summary easy to understand for clinical use?\n\nOutput Format:\nOutput your evaluation as a single valid JSON object matching the following structure:\n{\n    \"accuracy\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"completeness\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"clarity\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    }\n}\n\nEnsure the output is valid JSON:\n- Use **double quotes** (\") for all keys and string values.\n- When quoting text or sections inside the explanations, use escaped double quotes (\") to\n  maintain valid JSON formatting.\n- Do not include any additional information in the output.\n"
+        }
+      }
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Patient: I have four bumps total on my body, under the skin. One on each arm on the top/side, in the same location on each arm; one one right arm near elbow; and one on the middle of my left leg facing inwards. Recently the bumps on my arms have become more swollen and red. The only trauma incurred has been an injection in each arm of phenergan about three months ago. These bumps showed up about two months ago. No other symptoms. Doctor: Hi,Dear,Thanks for the query to HCM.your concern is why painless lump with Phenergan shots 3 mths ago.This lump is of the Fibrosed organised tissue reaction to the phenergan shots preservative chemical.Hope this would reply your query to your satisfaction.Welcome for any further query to HCM in this regard.With Regards,"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "What causes bumps on the body?"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id17906"
+      },
+      "train_trial_index": 0,
+      "request": {
+        "model_deployment": "openai/gpt-5",
+        "model": "openai/gpt-5",
+        "embedding": false,
+        "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: I have four bumps total on my body, under the skin. One on each arm on the top/side, in the same location on each arm; one one right arm near elbow; and one on the middle of my left leg facing inwards. Recently the bumps on my arms have become more swollen and red. The only trauma incurred has been an injection in each arm of phenergan about three months ago. These bumps showed up about two months ago. No other symptoms. Doctor: Hi,Dear,Thanks for the query to HCM.your concern is why painless lump with Phenergan shots 3 mths ago.This lump is of the Fibrosed organised tissue reaction to the phenergan shots preservative chemical.Hope this would reply your query to your satisfaction.Welcome for any further query to HCM in this regard.With Regards,\nSummary:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 1,
+        "max_tokens": 80,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "The patient developed four under\u2011skin bumps (two on the upper arms where they received Phenergan injections three months ago, one near the right elbow, and one on the inner left leg) that appeared about two months ago with recent redness/swelling in the arm bumps and no other symptoms, and the doctor suspects they are painless fibrotic tissue reactions to the Phenergan injection pres",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": "The",
+                "logprob": 0
+              },
+              {
+                "text": " patient",
+                "logprob": 0
+              },
+              {
+                "text": " developed",
+                "logprob": 0
+              },
+              {
+                "text": " four",
+                "logprob": 0
+              },
+              {
+                "text": " under",
+                "logprob": 0
+              },
+              {
+                "text": "\u2011",
+                "logprob": 0
+              },
+              {
+                "text": "skin",
+                "logprob": 0
+              },
+              {
+                "text": " bumps",
+                "logprob": 0
+              },
+              {
+                "text": " (",
+                "logprob": 0
+              },
+              {
+                "text": "two",
+                "logprob": 0
+              },
+              {
+                "text": " on",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " upper",
+                "logprob": 0
+              },
+              {
+                "text": " arms",
+                "logprob": 0
+              },
+              {
+                "text": " where",
+                "logprob": 0
+              },
+              {
+                "text": " they",
+                "logprob": 0
+              },
+              {
+                "text": " received",
+                "logprob": 0
+              },
+              {
+                "text": " Ph",
+                "logprob": 0
+              },
+              {
+                "text": "ener",
+                "logprob": 0
+              },
+              {
+                "text": "gan",
+                "logprob": 0
+              },
+              {
+                "text": " injections",
+                "logprob": 0
+              },
+              {
+                "text": " three",
+                "logprob": 0
+              },
+              {
+                "text": " months",
+                "logprob": 0
+              },
+              {
+                "text": " ago",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " one",
+                "logprob": 0
+              },
+              {
+                "text": " near",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " right",
+                "logprob": 0
+              },
+              {
+                "text": " elbow",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " one",
+                "logprob": 0
+              },
+              {
+                "text": " on",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " inner",
+                "logprob": 0
+              },
+              {
+                "text": " left",
+                "logprob": 0
+              },
+              {
+                "text": " leg",
+                "logprob": 0
+              },
+              {
+                "text": ")",
+                "logprob": 0
+              },
+              {
+                "text": " that",
+                "logprob": 0
+              },
+              {
+                "text": " appeared",
+                "logprob": 0
+              },
+              {
+                "text": " about",
+                "logprob": 0
+              },
+              {
+                "text": " two",
+                "logprob": 0
+              },
+              {
+                "text": " months",
+                "logprob": 0
+              },
+              {
+                "text": " ago",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " recent",
+                "logprob": 0
+              },
+              {
+                "text": " red",
+                "logprob": 0
+              },
+              {
+                "text": "ness",
+                "logprob": 0
+              },
+              {
+                "text": "/sw",
+                "logprob": 0
+              },
+              {
+                "text": "elling",
+                "logprob": 0
+              },
+              {
+                "text": " in",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " arm",
+                "logprob": 0
+              },
+              {
+                "text": " bumps",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " no",
+                "logprob": 0
+              },
+              {
+                "text": " other",
+                "logprob": 0
+              },
+              {
+                "text": " symptoms",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " doctor",
+                "logprob": 0
+              },
+              {
+                "text": " suspects",
+                "logprob": 0
+              },
+              {
+                "text": " they",
+                "logprob": 0
+              },
+              {
+                "text": " are",
+                "logprob": 0
+              },
+              {
+                "text": " pain",
+                "logprob": 0
+              },
+              {
+                "text": "less",
+                "logprob": 0
+              },
+              {
+                "text": " fib",
+                "logprob": 0
+              },
+              {
+                "text": "rot",
+                "logprob": 0
+              },
+              {
+                "text": "ic",
+                "logprob": 0
+              },
+              {
+                "text": " tissue",
+                "logprob": 0
+              },
+              {
+                "text": " reactions",
+                "logprob": 0
+              },
+              {
+                "text": " to",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " Ph",
+                "logprob": 0
+              },
+              {
+                "text": "ener",
+                "logprob": 0
+              },
+              {
+                "text": "gan",
+                "logprob": 0
+              },
+              {
+                "text": " injection",
+                "logprob": 0
+              },
+              {
+                "text": " pres",
+                "logprob": 0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 6.2473509311676025,
+        "request_datetime": 1754761499
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0,
+      "annotations": {
+        "med_dialog": {
+          "prompt_text": "You are a medical expert tasked with evaluating the quality of medical dialogue summaries.\n\nYour goal is to assess how well the summary captures the patient-doctor conversation,\nand how it compares to the gold response in terms of accuracy, completeness, and clarity.\n\nThe patient-doctor conversation will be provided in these tags:\n<conversation>\nPatient: I have four bumps total on my body, under the skin. One on each arm on the top/side, in the same location on each arm; one one right arm near elbow; and one on the middle of my left leg facing inwards. Recently the bumps on my arms have become more swollen and red. The only trauma incurred has been an injection in each arm of phenergan about three months ago. These bumps showed up about two months ago. No other symptoms. Doctor: Hi,Dear,Thanks for the query to HCM.your concern is why painless lump with Phenergan shots 3 mths ago.This lump is of the Fibrosed organised tissue reaction to the phenergan shots preservative chemical.Hope this would reply your query to your satisfaction.Welcome for any further query to HCM in this regard.With Regards,\n</conversation>\n\nThe response will be provided in these tags:\n<response>\nThe patient developed four under\u2011skin bumps (two on the upper arms where they received Phenergan injections three months ago, one near the right elbow, and one on the inner left leg) that appeared about two months ago with recent redness/swelling in the arm bumps and no other symptoms, and the doctor suspects they are painless fibrotic tissue reactions to the Phenergan injection pres\n</response>\n\nThe reference response will be provided in these tags:\n<gold_response>\nWhat causes bumps on the body?\n</gold_response>\n\nCarefully review the <response> and compare it to the <gold_response> when needed.\n\nPlease evaluate the generated summary on a scale of 1-5 (1 = poor, 5 = excellent)\nfor each of these three key dimensions:\n\nEvaluation Criteria:\nAccuracy (1-5)\n- Does the summary correctly capture the main medical issue and clinical details from the conversation?\n\nCompleteness (1-5)\n- Does the summary include all important medical information from the conversation?\n\nClarity (1-5)\n- Is the summary easy to understand for clinical use?\n\nOutput Format:\nOutput your evaluation as a single valid JSON object matching the following structure:\n{\n    \"accuracy\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"completeness\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"clarity\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    }\n}\n\nEnsure the output is valid JSON:\n- Use **double quotes** (\") for all keys and string values.\n- When quoting text or sections inside the explanations, use escaped double quotes (\") to\n  maintain valid JSON formatting.\n- Do not include any additional information in the output.\n"
+        }
+      }
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Patient: some of us cannot afford to pay to see doctores, and that is me, I am on a tight budget so I do not go for blood tests etc. I think you lot could help hard up people at times. Everyone is money mad. I would never ask for money to help someone even though as poor as I am. Doctor: **1. since blood tests require specific reagent to show whether the levels of different substances in your blood fall within a normal range, thus they can help you and your doctor learn more about your health and can help find potential problems early, when treatments or lifestyle changes may work best, but blood tests alone cannot be used to diagnose certain medical problems.2. Blood tests allow a doctor/physician to see a detailed analysis of any disease markers, the nutrients and waste products in your blood as well as how various organs (e.g., kidneys and liver) are functioning, so if examination or history doesn't reveal much about patient ailment thus laboratory tests are tools helpful in evaluating the health status of an individual3.  since the most common tests are done using a blood sample, or with use of portable machines thus search in your area where the rates are low."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "What is the home done test for blood level check ?"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id20568"
+      },
+      "train_trial_index": 0,
+      "request": {
+        "model_deployment": "openai/gpt-5",
+        "model": "openai/gpt-5",
+        "embedding": false,
+        "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: some of us cannot afford to pay to see doctores, and that is me, I am on a tight budget so I do not go for blood tests etc. I think you lot could help hard up people at times. Everyone is money mad. I would never ask for money to help someone even though as poor as I am. Doctor: **1. since blood tests require specific reagent to show whether the levels of different substances in your blood fall within a normal range, thus they can help you and your doctor learn more about your health and can help find potential problems early, when treatments or lifestyle changes may work best, but blood tests alone cannot be used to diagnose certain medical problems.2. Blood tests allow a doctor/physician to see a detailed analysis of any disease markers, the nutrients and waste products in your blood as well as how various organs (e.g., kidneys and liver) are functioning, so if examination or history doesn't reveal much about patient ailment thus laboratory tests are tools helpful in evaluating the health status of an individual3.  since the most common tests are done using a blood sample, or with use of portable machines thus search in your area where the rates are low.\nSummary:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 1,
+        "max_tokens": 80,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A financially constrained patient avoids blood tests, and the doctor explains their benefits and limits for health assessment and suggests seeking affordable local testing options.",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": "A",
+                "logprob": 0
+              },
+              {
+                "text": " financially",
+                "logprob": 0
+              },
+              {
+                "text": " constrained",
+                "logprob": 0
+              },
+              {
+                "text": " patient",
+                "logprob": 0
+              },
+              {
+                "text": " avoids",
+                "logprob": 0
+              },
+              {
+                "text": " blood",
+                "logprob": 0
+              },
+              {
+                "text": " tests",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " the",
+                "logprob": 0
+              },
+              {
+                "text": " doctor",
+                "logprob": 0
+              },
+              {
+                "text": " explains",
+                "logprob": 0
+              },
+              {
+                "text": " their",
+                "logprob": 0
+              },
+              {
+                "text": " benefits",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " limits",
+                "logprob": 0
+              },
+              {
+                "text": " for",
+                "logprob": 0
+              },
+              {
+                "text": " health",
+                "logprob": 0
+              },
+              {
+                "text": " assessment",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " suggests",
+                "logprob": 0
+              },
+              {
+                "text": " seeking",
+                "logprob": 0
+              },
+              {
+                "text": " affordable",
+                "logprob": 0
+              },
+              {
+                "text": " local",
+                "logprob": 0
+              },
+              {
+                "text": " testing",
+                "logprob": 0
+              },
+              {
+                "text": " options",
+                "logprob": 0
+              },
+              {
+                "text": ".",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "stop"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 7.097185134887695,
+        "request_datetime": 1754761504
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0,
+      "annotations": {
+        "med_dialog": {
+          "prompt_text": "You are a medical expert tasked with evaluating the quality of medical dialogue summaries.\n\nYour goal is to assess how well the summary captures the patient-doctor conversation,\nand how it compares to the gold response in terms of accuracy, completeness, and clarity.\n\nThe patient-doctor conversation will be provided in these tags:\n<conversation>\nPatient: some of us cannot afford to pay to see doctores, and that is me, I am on a tight budget so I do not go for blood tests etc. I think you lot could help hard up people at times. Everyone is money mad. I would never ask for money to help someone even though as poor as I am. Doctor: **1. since blood tests require specific reagent to show whether the levels of different substances in your blood fall within a normal range, thus they can help you and your doctor learn more about your health and can help find potential problems early, when treatments or lifestyle changes may work best, but blood tests alone cannot be used to diagnose certain medical problems.2. Blood tests allow a doctor/physician to see a detailed analysis of any disease markers, the nutrients and waste products in your blood as well as how various organs (e.g., kidneys and liver) are functioning, so if examination or history doesn't reveal much about patient ailment thus laboratory tests are tools helpful in evaluating the health status of an individual3.  since the most common tests are done using a blood sample, or with use of portable machines thus search in your area where the rates are low.\n</conversation>\n\nThe response will be provided in these tags:\n<response>\nA financially constrained patient avoids blood tests, and the doctor explains their benefits and limits for health assessment and suggests seeking affordable local testing options.\n</response>\n\nThe reference response will be provided in these tags:\n<gold_response>\nWhat is the home done test for blood level check ?\n</gold_response>\n\nCarefully review the <response> and compare it to the <gold_response> when needed.\n\nPlease evaluate the generated summary on a scale of 1-5 (1 = poor, 5 = excellent)\nfor each of these three key dimensions:\n\nEvaluation Criteria:\nAccuracy (1-5)\n- Does the summary correctly capture the main medical issue and clinical details from the conversation?\n\nCompleteness (1-5)\n- Does the summary include all important medical information from the conversation?\n\nClarity (1-5)\n- Is the summary easy to understand for clinical use?\n\nOutput Format:\nOutput your evaluation as a single valid JSON object matching the following structure:\n{\n    \"accuracy\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"completeness\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"clarity\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    }\n}\n\nEnsure the output is valid JSON:\n- Use **double quotes** (\") for all keys and string values.\n- When quoting text or sections inside the explanations, use escaped double quotes (\") to\n  maintain valid JSON formatting.\n- Do not include any additional information in the output.\n"
+        }
+      }
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Patient: My grandson has plexiform neurofibroma in his abdomen! Will it continue to grow if not treated? If he has the NFi gene, can it be treated with meds? If not what kind of treatment is available. The mass in his abdomen also shows it s wrapped around major arteries! What now? Doctor: hi,Thanks for writing in.Plexiform neurofibromas in strategic locations are to be removed through skilled surgery. It is important to know the size and extension of the tumor and if there are any cancerous areas which are developing within. In that case,  you must consult an oncosurgeon and vascular surgeon and know the implications of the tumor causing pressure effects or the rare possibility of the tumor infiltrating the arteries. Medicines are not a treatment option for these tumors. Though the tumors are usually benign and harmless, increase in size with time and malignant transformation cannot be entirely ruled out in your grandson. That might take years to happen but it can be easily prevented by getting treated through surgery at present."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Suggest treatment for plexiform neurofibroma in abdomen"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id15974"
+      },
+      "train_trial_index": 0,
+      "request": {
+        "model_deployment": "openai/gpt-5",
+        "model": "openai/gpt-5",
+        "embedding": false,
+        "prompt": "Generate a one sentence summary of this patient-doctor conversation.\n\nPatient-Doctor: Patient: My grandson has plexiform neurofibroma in his abdomen! Will it continue to grow if not treated? If he has the NFi gene, can it be treated with meds? If not what kind of treatment is available. The mass in his abdomen also shows it s wrapped around major arteries! What now? Doctor: hi,Thanks for writing in.Plexiform neurofibromas in strategic locations are to be removed through skilled surgery. It is important to know the size and extension of the tumor and if there are any cancerous areas which are developing within. In that case,  you must consult an oncosurgeon and vascular surgeon and know the implications of the tumor causing pressure effects or the rare possibility of the tumor infiltrating the arteries. Medicines are not a treatment option for these tumors. Though the tumors are usually benign and harmless, increase in size with time and malignant transformation cannot be entirely ruled out in your grandson. That might take years to happen but it can be easily prevented by getting treated through surgery at present.\nSummary:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 1,
+        "max_tokens": 80,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "The doctor advises that abdominal plexiform neurofibromas should be evaluated for size, extension, malignancy, and arterial involvement and are best treated with skilled surgical removal (no effective medications), with referral to an oncosurgeon and vascular surgeon, since they are usually benign but can grow and rarely become malignant.",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": "The",
+                "logprob": 0
+              },
+              {
+                "text": " doctor",
+                "logprob": 0
+              },
+              {
+                "text": " advises",
+                "logprob": 0
+              },
+              {
+                "text": " that",
+                "logprob": 0
+              },
+              {
+                "text": " abdominal",
+                "logprob": 0
+              },
+              {
+                "text": " p",
+                "logprob": 0
+              },
+              {
+                "text": "lex",
+                "logprob": 0
+              },
+              {
+                "text": "iform",
+                "logprob": 0
+              },
+              {
+                "text": " neuro",
+                "logprob": 0
+              },
+              {
+                "text": "fib",
+                "logprob": 0
+              },
+              {
+                "text": "rom",
+                "logprob": 0
+              },
+              {
+                "text": "as",
+                "logprob": 0
+              },
+              {
+                "text": " should",
+                "logprob": 0
+              },
+              {
+                "text": " be",
+                "logprob": 0
+              },
+              {
+                "text": " evaluated",
+                "logprob": 0
+              },
+              {
+                "text": " for",
+                "logprob": 0
+              },
+              {
+                "text": " size",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " extension",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " malign",
+                "logprob": 0
+              },
+              {
+                "text": "ancy",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " arterial",
+                "logprob": 0
+              },
+              {
+                "text": " involvement",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " are",
+                "logprob": 0
+              },
+              {
+                "text": " best",
+                "logprob": 0
+              },
+              {
+                "text": " treated",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " skilled",
+                "logprob": 0
+              },
+              {
+                "text": " surgical",
+                "logprob": 0
+              },
+              {
+                "text": " removal",
+                "logprob": 0
+              },
+              {
+                "text": " (",
+                "logprob": 0
+              },
+              {
+                "text": "no",
+                "logprob": 0
+              },
+              {
+                "text": " effective",
+                "logprob": 0
+              },
+              {
+                "text": " medications",
+                "logprob": 0
+              },
+              {
+                "text": "),",
+                "logprob": 0
+              },
+              {
+                "text": " with",
+                "logprob": 0
+              },
+              {
+                "text": " referral",
+                "logprob": 0
+              },
+              {
+                "text": " to",
+                "logprob": 0
+              },
+              {
+                "text": " an",
+                "logprob": 0
+              },
+              {
+                "text": " on",
+                "logprob": 0
+              },
+              {
+                "text": "cos",
+                "logprob": 0
+              },
+              {
+                "text": "urgeon",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " vascular",
+                "logprob": 0
+              },
+              {
+                "text": " surgeon",
+                "logprob": 0
+              },
+              {
+                "text": ",",
+                "logprob": 0
+              },
+              {
+                "text": " since",
+                "logprob": 0
+              },
+              {
+                "text": " they",
+                "logprob": 0
+              },
+              {
+                "text": " are",
+                "logprob": 0
+              },
+              {
+                "text": " usually",
+                "logprob": 0
+              },
+              {
+                "text": " benign",
+                "logprob": 0
+              },
+              {
+                "text": " but",
+                "logprob": 0
+              },
+              {
+                "text": " can",
+                "logprob": 0
+              },
+              {
+                "text": " grow",
+                "logprob": 0
+              },
+              {
+                "text": " and",
+                "logprob": 0
+              },
+              {
+                "text": " rarely",
+                "logprob": 0
+              },
+              {
+                "text": " become",
+                "logprob": 0
+              },
+              {
+                "text": " malignant",
+                "logprob": 0
+              },
+              {
+                "text": ".",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "stop"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 4.7547619342803955,
+        "request_datetime": 1754761505
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0,
+      "annotations": {
+        "med_dialog": {
+          "prompt_text": "You are a medical expert tasked with evaluating the quality of medical dialogue summaries.\n\nYour goal is to assess how well the summary captures the patient-doctor conversation,\nand how it compares to the gold response in terms of accuracy, completeness, and clarity.\n\nThe patient-doctor conversation will be provided in these tags:\n<conversation>\nPatient: My grandson has plexiform neurofibroma in his abdomen! Will it continue to grow if not treated? If he has the NFi gene, can it be treated with meds? If not what kind of treatment is available. The mass in his abdomen also shows it s wrapped around major arteries! What now? Doctor: hi,Thanks for writing in.Plexiform neurofibromas in strategic locations are to be removed through skilled surgery. It is important to know the size and extension of the tumor and if there are any cancerous areas which are developing within. In that case,  you must consult an oncosurgeon and vascular surgeon and know the implications of the tumor causing pressure effects or the rare possibility of the tumor infiltrating the arteries. Medicines are not a treatment option for these tumors. Though the tumors are usually benign and harmless, increase in size with time and malignant transformation cannot be entirely ruled out in your grandson. That might take years to happen but it can be easily prevented by getting treated through surgery at present.\n</conversation>\n\nThe response will be provided in these tags:\n<response>\nThe doctor advises that abdominal plexiform neurofibromas should be evaluated for size, extension, malignancy, and arterial involvement and are best treated with skilled surgical removal (no effective medications), with referral to an oncosurgeon and vascular surgeon, since they are usually benign but can grow and rarely become malignant.\n</response>\n\nThe reference response will be provided in these tags:\n<gold_response>\nSuggest treatment for plexiform neurofibroma in abdomen\n</gold_response>\n\nCarefully review the <response> and compare it to the <gold_response> when needed.\n\nPlease evaluate the generated summary on a scale of 1-5 (1 = poor, 5 = excellent)\nfor each of these three key dimensions:\n\nEvaluation Criteria:\nAccuracy (1-5)\n- Does the summary correctly capture the main medical issue and clinical details from the conversation?\n\nCompleteness (1-5)\n- Does the summary include all important medical information from the conversation?\n\nClarity (1-5)\n- Is the summary easy to understand for clinical use?\n\nOutput Format:\nOutput your evaluation as a single valid JSON object matching the following structure:\n{\n    \"accuracy\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"completeness\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    },\n    \"clarity\": {\n        \"score\": 0,\n        \"explanation\": \"Brief explanation of why this score was given.\"\n    }\n}\n\nEnsure the output is valid JSON:\n- Use **double quotes** (\") for all keys and string values.\n- When quoting text or sections inside the explanations, use escaped double quotes (\") to\n  maintain valid JSON formatting.\n- Do not include any additional information in the output.\n"
+        }
+      }
+    }
+  ],
+  "annotator_specs": [
+    {
+      "class_name": "helm.benchmark.annotation.med_dialog_annotator.MedDialogAnnotator",
+      "args": {}
+    }
+  ]
+}

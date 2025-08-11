@@ -1,0 +1,9 @@
+{
+  "name": "aci_bench",
+  "description": "ACI-Bench is a benchmark of real-world patient-doctor conversations paired withstructured clinical notes. The benchmark evaluates a model's ability to understandspoken medical dialogue and convert it into formal clinical documentation, coveringsections such as history of present illness, physical exam findings, results, and assessmentand plan.",
+  "tags": [
+    "summarization",
+    "medicine"
+  ],
+  "definition_path": "https://github.com/stanford-crfm/helm/blob/main/src/helm/benchmark/scenarios/aci_bench_scenario.py"
+}

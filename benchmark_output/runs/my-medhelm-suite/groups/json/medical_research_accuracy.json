@@ -1,0 +1,152 @@
+{
+  "title": "Accuracy",
+  "header": [
+    {
+      "value": "Model",
+      "markdown": false,
+      "metadata": {}
+    },
+    {
+      "value": "Mean win rate",
+      "description": "How many models this model outperforms on average (over columns).",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {}
+    },
+    {
+      "value": "PubMedQA - EM",
+      "description": "PubMedQA is a biomedical question-answering dataset that evaluates a model's ability to interpret scientific literature. It consists of PubMed abstracts paired with yes/no/maybe questions derived from the content. The benchmark assesses a model's capability to reason over biomedical texts and provide factually grounded answers.\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "PubMedQA"
+      }
+    },
+    {
+      "value": "EHRSQL - EHRSQLExeAcc",
+      "description": "EHRSQL is a benchmark designed to evaluate models on generating structured queries for clinical research. Each example includes a natural language question and a database schema, and the task is to produce an SQL query that would return the correct result for a biomedical research objective. This benchmark assesses a model's understanding of medical terminology, data structures, and query construction.\n\nExecution accuracy for Generated Query: Measures the proportion of correctly predicted answerable questions among all questions predicted to be answerable.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EHRSQLExeAcc",
+        "run_group": "EHRSQL"
+      }
+    },
+    {
+      "value": "BMT-Status - EM",
+      "description": "BMT-Status is a benchmark composed of clinical notes and associated binary questions related to bone marrow transplant (BMT), hematopoietic stem cell transplant (HSCT), or hematopoietic cell transplant (HCT) status. The goal is to determine whether the patient received a subsequent transplant based on the provided clinical documentation.\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "BMT-Status"
+      }
+    },
+    {
+      "value": "RaceBias - EM",
+      "description": "RaceBias is a benchmark used to evaluate language models for racially biased or inappropriate content in medical question-answering scenarios. Each instance consists of a medical question and a model-generated response. The task is to classify whether the response contains race-based, harmful, or inaccurate content. This benchmark supports research into bias detection and fairness in clinical AI systems.\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "RaceBias"
+      }
+    },
+    {
+      "value": "N2C2-CT - EM",
+      "description": "A dataset that provides clinical notes and asks the model to classify whether the patient is a valid candidate for a provided clinical trial.\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "N2C2-CT"
+      }
+    },
+    {
+      "value": "MedHallu - EM",
+      "description": "MedHallu is a benchmark focused on evaluating factual correctness in biomedical question answering. Each instance contains a PubMed-derived knowledge snippet, a biomedical question, and a model-generated answer. The task is to classify whether the answer is factually correct or contains hallucinated (non-grounded) information. This benchmark is designed to assess the factual reliability of medical language models.\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "MedHallu"
+      }
+    }
+  ],
+  "rows": [
+    [
+      {
+        "value": "GPT 5",
+        "description": "",
+        "markdown": false
+      },
+      {
+        "markdown": false
+      },
+      {
+        "value": 0.67,
+        "description": "min=0.67, mean=0.67, max=0.67, sum=0.67 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "pubmed_qa:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 0.18,
+        "description": "min=0.18, mean=0.18, max=0.18, sum=0.18 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "ehr_sql:model=openai_gpt-5"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "value": 0.72,
+        "description": "min=0.72, mean=0.72, max=0.72, sum=0.72 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "race_based_med:model=openai_gpt-5"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "value": 0.88,
+        "description": "min=0.88, mean=0.88, max=0.88, sum=0.88 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "medhallu:model=openai_gpt-5"
+        ]
+      }
+    ]
+  ],
+  "links": [
+    {
+      "text": "LaTeX",
+      "href": "benchmark_output/runs/my-medhelm-suite/groups/latex/medical_research_accuracy.tex"
+    },
+    {
+      "text": "JSON",
+      "href": "benchmark_output/runs/my-medhelm-suite/groups/json/medical_research_accuracy.json"
+    }
+  ],
+  "name": "accuracy"
+}

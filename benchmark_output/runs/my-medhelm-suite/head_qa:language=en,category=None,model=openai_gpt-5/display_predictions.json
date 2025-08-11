@@ -1,0 +1,1502 @@
+[
+  {
+    "instance_id": "id1827",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Praziquantel",
+    "stats": {
+      "num_prompt_tokens": 141.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 9.317942142486572,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id217",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "The body of the tapeworm.",
+    "stats": {
+      "num_prompt_tokens": 141.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 5.9981560707092285,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2204",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Endpoint sensitivity analysis is univariate.",
+    "stats": {
+      "num_prompt_tokens": 130.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 19.2519371509552,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id728",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "The investigation of HLA-DQ2 / DQ8 should be used routinely to rule out the existence of celiac disease.",
+    "stats": {
+      "num_prompt_tokens": 191.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 4.928745985031128,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1213",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Investment of the configuration.",
+    "stats": {
+      "num_prompt_tokens": 118.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.2493860721588135,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1030",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Personalization.",
+    "stats": {
+      "num_prompt_tokens": 125.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.921497106552124,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1798",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Hemiaminal",
+    "stats": {
+      "num_prompt_tokens": 139.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 8.491304159164429,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1869",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "An increase in the release of glucocorticoids.",
+    "stats": {
+      "num_prompt_tokens": 130.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.628730058670044,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1058",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Absolute threshold.",
+    "stats": {
+      "num_prompt_tokens": 135.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 1.8421740531921387,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id909",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "It can be presented both orally and / or in writing.",
+    "stats": {
+      "num_prompt_tokens": 193.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 7.268661975860596,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2460",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "The electronic capture detector is more selective than the flame ionization detector.",
+    "stats": {
+      "num_prompt_tokens": 166.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 6.036226034164429,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id443",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Percussion.",
+    "stats": {
+      "num_prompt_tokens": 166.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.398538112640381,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id791",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Auscultatory silence.",
+    "stats": {
+      "num_prompt_tokens": 132.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 6.853076934814453,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2574",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "In the liver",
+    "stats": {
+      "num_prompt_tokens": 112.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 6.032695055007935,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1231",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Four.",
+    "stats": {
+      "num_prompt_tokens": 112.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 5.78339409828186,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id716",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Paralytic ileus.",
+    "stats": {
+      "num_prompt_tokens": 132.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 4.497674942016602,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id446",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "People who wear gloves have 50% less risk of infection with hepatitis B, showing statistically significant differences.",
+    "stats": {
+      "num_prompt_tokens": 251.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.858165979385376,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id610",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "The composition of the mobile phase varies throughout the chromatography.",
+    "stats": {
+      "num_prompt_tokens": 156.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.8657588958740234,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1210",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Four.",
+    "stats": {
+      "num_prompt_tokens": 105.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 1.8198368549346924,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1611",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "The semilunar valves are open and the tricuspid and mitral valves are closed.",
+    "stats": {
+      "num_prompt_tokens": 169.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.5842761993408203,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id306",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "There is no distant metastasis.",
+    "stats": {
+      "num_prompt_tokens": 143.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 6.642132997512817,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id891",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Subjective",
+    "stats": {
+      "num_prompt_tokens": 116.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 27.447314977645874,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2095",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Vaginal ultrasound.",
+    "stats": {
+      "num_prompt_tokens": 168.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 22.932666063308716,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id1301",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "It allows to amplify exponentially specific fragments of DNA.",
+    "stats": {
+      "num_prompt_tokens": 144.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 5.053367614746094,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id452",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Trifluoroacetic acid.",
+    "stats": {
+      "num_prompt_tokens": 159.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 4.414246082305908,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1235",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Of the mitochondria.",
+    "stats": {
+      "num_prompt_tokens": 129.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 4.2538161277771,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id687",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Body temperature decreases slightly during sleep.",
+    "stats": {
+      "num_prompt_tokens": 153.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.034262180328369,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2510",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Unstable to sunlight due to oxygen emission.",
+    "stats": {
+      "num_prompt_tokens": 145.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 13.556371212005615,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1356",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "It secretes the stomach in an inactive form.",
+    "stats": {
+      "num_prompt_tokens": 135.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 7.490156173706055,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2556",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "a) Acetone + LDA, -78 \u00b0 C; b) 2-Phenylacetaldehyde; c) H2O.",
+    "stats": {
+      "num_prompt_tokens": 256.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 25.592024087905884,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1698",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "It must be done in blocks of a minimum duration of 30 minutes, to have effects on health.",
+    "stats": {
+      "num_prompt_tokens": 179.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.784590005874634,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1284",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "In your molecule there is sialic acid.",
+    "stats": {
+      "num_prompt_tokens": 167.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 5.3732569217681885,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id195",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Uric acid.",
+    "stats": {
+      "num_prompt_tokens": 115.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.3502771854400635,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id298",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Insist on the importance of taking time for your own care and help find alternatives to share time with friends and carry out leisure activities.",
+    "stats": {
+      "num_prompt_tokens": 224.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 4.306360960006714,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id926",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Social identity",
+    "stats": {
+      "num_prompt_tokens": 115.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.242765188217163,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id895",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "The age at which physical exercise begins.",
+    "stats": {
+      "num_prompt_tokens": 154.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.1425981521606445,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id806",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Dystonia",
+    "stats": {
+      "num_prompt_tokens": 126.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.655184745788574,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id526",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "They act selectively and irreversibly on the parietal cell of the mucosa.",
+    "stats": {
+      "num_prompt_tokens": 145.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 12.386237144470215,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2313",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Test of the Koch tree.",
+    "stats": {
+      "num_prompt_tokens": 125.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 7.579087972640991,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id847",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Fracture burst in thoracolumbar hinge.",
+    "stats": {
+      "num_prompt_tokens": 142.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 6.037117004394531,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id963",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "The fact that it is unpredictable.",
+    "stats": {
+      "num_prompt_tokens": 128.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.261519193649292,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1349",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Proximal tubule",
+    "stats": {
+      "num_prompt_tokens": 120.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 1.924562931060791,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2128",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Urgent urinary diversion (ureteral catheterization or percutaneous nephrostomy) given the suspicion of complicated obstructive uropathy.",
+    "stats": {
+      "num_prompt_tokens": 304.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 11.271839141845703,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1756",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Presence of osteoporosis.",
+    "stats": {
+      "num_prompt_tokens": 153.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 4.905064821243286,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id296",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "March \"ataxic\".",
+    "stats": {
+      "num_prompt_tokens": 171.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 4.004977226257324,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id104",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Streptococcus",
+    "stats": {
+      "num_prompt_tokens": 126.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.2475368976593018,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id852",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Prophylactic administration of intravenous antibiotics.",
+    "stats": {
+      "num_prompt_tokens": 155.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 8.678423166275024,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2476",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "It has an internal solution of 0.1M NaF and 0.1M NaCl.",
+    "stats": {
+      "num_prompt_tokens": 149.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 8.299302101135254,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2593",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Stimulates the degradation of glycogen.",
+    "stats": {
+      "num_prompt_tokens": 124.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.068599224090576,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2560",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "3-Bromopyridine.",
+    "stats": {
+      "num_prompt_tokens": 150.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 11.37295389175415,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id196",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Cytochrome c oxidase.",
+    "stats": {
+      "num_prompt_tokens": 119.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 1.625779151916504,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id124",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "VCAM-1.",
+    "stats": {
+      "num_prompt_tokens": 132.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 5.06512188911438,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1038",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Ambivalence.",
+    "stats": {
+      "num_prompt_tokens": 146.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 6.716447830200195,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id776",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Cross-sectional study.",
+    "stats": {
+      "num_prompt_tokens": 205.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.939840078353882,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1096",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Overregulation.",
+    "stats": {
+      "num_prompt_tokens": 144.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 14.617280960083008,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2193",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "He suffers from a simple phobia and requires cognitive-behavioral treatment.",
+    "stats": {
+      "num_prompt_tokens": 209.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 4.8480870723724365,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id2321",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "A normal motor development until the first five months.",
+    "stats": {
+      "num_prompt_tokens": 134.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 5.603797912597656,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2242",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "The McGurk effect.",
+    "stats": {
+      "num_prompt_tokens": 140.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.587500810623169,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2031",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Specialized columnar epithelium with goblet cells.",
+    "stats": {
+      "num_prompt_tokens": 142.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.132920265197754,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id713",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "The major forms, or Stevens Johnson syndrome, are characterized by the absence of mucous membrane involvement.",
+    "stats": {
+      "num_prompt_tokens": 214.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 4.797296047210693,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1646",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Rich in fiber.",
+    "stats": {
+      "num_prompt_tokens": 114.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.733562707901001,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2409",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Infantile anxiety",
+    "stats": {
+      "num_prompt_tokens": 115.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 4.407572984695435,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id855",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Surgery and evaluate adjuvant chemotherapy later.",
+    "stats": {
+      "num_prompt_tokens": 184.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 11.485742807388306,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1709",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Cochrane Library.",
+    "stats": {
+      "num_prompt_tokens": 115.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.3380181789398193,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1263",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Stop or decrease the production of ATP.",
+    "stats": {
+      "num_prompt_tokens": 136.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.5842549800872803,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1254",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Phosphatidic acid, phosphatidylcholine, phosphatidylinositol.",
+    "stats": {
+      "num_prompt_tokens": 179.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.8738770484924316,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id703",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Gentamicin",
+    "stats": {
+      "num_prompt_tokens": 139.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.8456521034240723,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id958",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Spasms in the musculature of the external third of the vagina that interfere with intercourse.",
+    "stats": {
+      "num_prompt_tokens": 154.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.349229097366333,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id487",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Conditioning.",
+    "stats": {
+      "num_prompt_tokens": 120.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.406853199005127,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2088",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "We would indicate as a complementary preferential test a hysterosalpingography for tubal evaluation.",
+    "stats": {
+      "num_prompt_tokens": 247.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 5.218953847885132,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id558",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "The gastric blood flow.",
+    "stats": {
+      "num_prompt_tokens": 119.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 13.720221996307373,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id53",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Stimulates the secretion of androgens by Leydig cells.",
+    "stats": {
+      "num_prompt_tokens": 125.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.2339911460876465,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2482",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "The stationary phase is polar and the mobile phase is non-polar.",
+    "stats": {
+      "num_prompt_tokens": 142.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.063094139099121,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id179",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "The appearance of a stop codon in the A site of the ribosome.",
+    "stats": {
+      "num_prompt_tokens": 148.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.35459303855896,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id701",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "When the donor has positive serology against CMV and the negative receptor.",
+    "stats": {
+      "num_prompt_tokens": 214.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.3948159217834473,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1396",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Thyroid.",
+    "stats": {
+      "num_prompt_tokens": 120.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.0413601398468018,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id92",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Join the DNA protecting it from heat and ultraviolet radiation.",
+    "stats": {
+      "num_prompt_tokens": 143.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.465634822845459,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1453",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "FAD-dependent oxidation; hydration; NAD + -dependent oxidation; thiolysis.",
+    "stats": {
+      "num_prompt_tokens": 172.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.84779691696167,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2127",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Sueroterapia, antit\u00e9rmicos and antibioterapia during three weeks and to repeat levels of PSA in three months.",
+    "stats": {
+      "num_prompt_tokens": 279.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 8.184617042541504,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id688",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "An increase in macrophages with a high content of lipid material.",
+    "stats": {
+      "num_prompt_tokens": 141.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 6.041069030761719,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1267",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Uric acid.",
+    "stats": {
+      "num_prompt_tokens": 115.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 1.5256226062774658,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1077",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "A mode of exposure.",
+    "stats": {
+      "num_prompt_tokens": 116.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 24.29365086555481,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1052",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "The lifestyles.",
+    "stats": {
+      "num_prompt_tokens": 123.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.264500856399536,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2258",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "A disturbance in the integration of the functions of consciousness, memory, identity and perception.",
+    "stats": {
+      "num_prompt_tokens": 156.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.8556950092315674,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1983",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Bisphenol A.",
+    "stats": {
+      "num_prompt_tokens": 118.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 4.192797899246216,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2232",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Original, independent, creative, daring.",
+    "stats": {
+      "num_prompt_tokens": 145.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.3670730590820312,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id868",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Endotracheal intubation with control of the cervical spine.",
+    "stats": {
+      "num_prompt_tokens": 264.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 4.489657163619995,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1942",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Generate multiple copies of a DNA fragment.",
+    "stats": {
+      "num_prompt_tokens": 123.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 1.6356840133666992,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1691",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Pneumococcus.",
+    "stats": {
+      "num_prompt_tokens": 116.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.5456349849700928,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2340",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Dialectical-behavioral therapy.",
+    "stats": {
+      "num_prompt_tokens": 124.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 1.9075639247894287,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2361",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "The high somatosensory amplification.",
+    "stats": {
+      "num_prompt_tokens": 138.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 9.734543085098267,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id562",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Straight line.",
+    "stats": {
+      "num_prompt_tokens": 136.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 13.003206014633179,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id224",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Myasthenia gravis",
+    "stats": {
+      "num_prompt_tokens": 129.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 3.5926201343536377,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1358",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Synthesis of glucose.",
+    "stats": {
+      "num_prompt_tokens": 113.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 5.748239040374756,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1642",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Atropine.",
+    "stats": {
+      "num_prompt_tokens": 212.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 4.089056015014648,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id914",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "The perceived quality of life, including areas such as spirituality.",
+    "stats": {
+      "num_prompt_tokens": 146.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.9357457160949707,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id436",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Introduce Health Education transverse in school curricula.",
+    "stats": {
+      "num_prompt_tokens": 135.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.2884159088134766,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1857",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Primary myelofibrosis",
+    "stats": {
+      "num_prompt_tokens": 181.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 8.378913164138794,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1513",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Restriction fragments of ribosomal RNA genes.",
+    "stats": {
+      "num_prompt_tokens": 138.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.627952814102173,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id2072",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Isotopic study of gastric emptying.",
+    "stats": {
+      "num_prompt_tokens": 195.0,
+      "num_output_tokens": 1.0,
+      "inference_runtime": 2.623170852661133,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  }
+]

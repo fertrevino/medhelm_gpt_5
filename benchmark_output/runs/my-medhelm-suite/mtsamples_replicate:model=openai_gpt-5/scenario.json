@@ -1,0 +1,10 @@
+{
+  "name": "mtsamples_replicate",
+  "description": "MTSamples Replicate is a benchmark that provides transcribed medical reportsfrom various specialties. It is used to evaluate a model's ability to generate clinicallyappropriate treatment plans based on unstructured patient documentation",
+  "tags": [
+    "medical",
+    "transcription",
+    "plan_generation"
+  ],
+  "definition_path": "https://github.com/stanford-crfm/helm/blob/main/src/helm/benchmark/scenarios/mtsamples_replicate_scenario.py"
+}

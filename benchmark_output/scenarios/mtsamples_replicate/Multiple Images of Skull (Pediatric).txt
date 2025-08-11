@@ -1,0 +1,6 @@
+Medical Specialty:Pediatrics - Neonatal
+Sample Name: Multiple Images of Skull (Pediatric)
+Description: Skull, complete, five images.
+(Medical Transcription Sample Report)
+EXAM: Skull, complete, five imagesHISTORY: Plagiocephaly.TECHNIQUE:  Multiple images of the skull were evaluated. There are no priors for comparison.FINDINGS:  Multiple images of the skull were evaluated and they reveal radiographic visualization of the cranial sutures without evidence of closure. There is no evidence of any craniosynostosis. There is no radiographic evidence of plagiocephaly.IMPRESSION:  No evidence of craniosynostosis or radiographic characteristics for plagiocephaly.
+Keywords: pediatrics - neonatal, craniosynostosis, plagiocephaly, complete five images, multiple images, radiographic, images, skull,

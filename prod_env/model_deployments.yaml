@@ -1,0 +1,34 @@
+# Model deployment registry: append-only list of model backends.
+# Fields per entry: name (logical id), model_name (provider id), tokenizer_name (token accounting),
+# max_sequence_length (harness cap), client_spec (client class + optional args).
+# Purpose (MedHELM): integrate new frontier models (e.g., GPT-5) without altering past scenario
+# semantics; runs use deterministic settings (temp 0.0, fixed seeds) on public, auto-scored scenarios.
+# Do not retro-edit past entries to fix regressions—address via new configs or clients.
+model_deployments:
+  - name: openai/gpt-5
+    # High-end OpenAI model (placeholder/version string). Update when official versioning stabilizes.
+    model_name: openai/gpt-5
+    tokenizer_name: openai/cl100k_base  # Uses OpenAI's cl100k (tiktoken) vocabulary.
+    max_sequence_length: 200000  # Soft cap; adjust to match provider published limits if lower.
+    # TODO: max_output_tokens: 100000  # Uncomment & tune once enforced in request layer.
+    client_spec:
+      class_name: "custom_client.OpenAIClient"  # Local wrapper allowing custom logging/instrumentation.
+      args:
+        trust_remote_code: True  # Enables dynamic helpers if surfaced by provider SDK.
+
+  - name: openai/gpt-4o-2024-05-13
+    # Stable GPT-4o snapshot (May 13 2024) for reproducible baselines.
+    model_name: openai/gpt-4o-2024-05-13
+    tokenizer_name: openai/cl100k_base
+    max_sequence_length: 200000
+    # TODO: max_output_tokens: 100000
+    client_spec:
+      class_name: "helm.clients.openai_client.OpenAIClient"  # Upstream HELM OpenAI client implementation.
+
+  - name: anthropic/claude-3-5-sonnet-20241022
+    # Claude 3.5 Sonnet (Oct 22 2024). Balanced reasoning/latency; used for cross-provider comparisons.
+    model_name: anthropic/claude-3-5-sonnet-20241022
+    tokenizer_name: anthropic/claude  # Anthropic tokenizer for token accounting.
+    max_sequence_length: 200000
+    client_spec:
+      class_name: "helm.clients.anthropic_client.AnthropicMessagesClient"  # Standard Anthropic messages client.

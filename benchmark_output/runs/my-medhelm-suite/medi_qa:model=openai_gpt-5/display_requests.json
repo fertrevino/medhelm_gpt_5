@@ -1,0 +1,192 @@
+[
+  {
+    "instance_id": "153",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "Answer the following consumer health question.\n\nQuestion: what are known causes of bipolar disorder\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 1,
+      "max_tokens": 1024,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "82",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "Answer the following consumer health question.\n\nQuestion: Stem Cell Therapy for Muccular Dystrophy I have read the Medline Abstracts 98,99 of 'Limb-girdle muscular dystrophy'. Please could you tell me how I contact a specialist to enquire further with this...Thank you...\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 1,
+      "max_tokens": 1024,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "42",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "Answer the following consumer health question.\n\nQuestion: hi my name is I'm currently working with and I was wondering I came across some of you healthy tip fliers for HIV/Aids treatment .at the moment we have a study going on that helps HIV positive transgender women into HIV quality care .so it would be great to have some more information on HIV/Aids treatment\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 1,
+      "max_tokens": 1024,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "143",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "Answer the following consumer health question.\n\nQuestion: how to prevent atherosclerosis\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 1,
+      "max_tokens": 1024,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "10",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "Answer the following consumer health question.\n\nQuestion: asthma Question. What is the consensus of medical doctors as to whether asthma can be cured? And do you have an article discussing whether asthma can be cured?\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 1,
+      "max_tokens": 1024,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "134",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "Answer the following consumer health question.\n\nQuestion: how nicotine effects the brain\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 1,
+      "max_tokens": 1024,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "55",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "Answer the following consumer health question.\n\nQuestion: know more about My Daughter have Distal renal tubular acidosis. we are from Mexico, and we ae woundering if can send to us more infomation. maybe you can reccommend to us a association???? i don?t know\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 1,
+      "max_tokens": 1024,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "116",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "Answer the following consumer health question.\n\nQuestion: how do you get pulmonary hypertension\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 1,
+      "max_tokens": 1024,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "105",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "Answer the following consumer health question.\n\nQuestion: how do i prevent myself from having dementia\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 1,
+      "max_tokens": 1024,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "97",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "openai/gpt-5",
+      "model": "openai/gpt-5",
+      "embedding": false,
+      "prompt": "Answer the following consumer health question.\n\nQuestion: williams sydrome conditon. i need to send me more information about Williams Syndrome and some tips how to educate people with this disorder.I hope having news from you soon!!thank you\nAnswer:",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 1,
+      "max_tokens": 1024,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  }
+]

@@ -1,0 +1,805 @@
+{
+  "title": "General information",
+  "header": [
+    {
+      "value": "Model",
+      "markdown": false,
+      "metadata": {}
+    },
+    {
+      "value": "MedCalc-Bench - # eval",
+      "description": "MedCalc-Bench is a benchmark designed to evaluate models on their ability to compute clinically relevant values from patient notes. Each instance consists of a clinical note describing the patient's condition, a diagnostic question targeting a specific medical value, and a ground truth response. [(Khandekar et al., 2024)](https://arxiv.org/abs/2406.12036).\n\n# eval: Number of evaluation instances.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# eval",
+        "run_group": "MedCalc-Bench"
+      }
+    },
+    {
+      "value": "MedCalc-Bench - # train",
+      "description": "MedCalc-Bench is a benchmark designed to evaluate models on their ability to compute clinically relevant values from patient notes. Each instance consists of a clinical note describing the patient's condition, a diagnostic question targeting a specific medical value, and a ground truth response. [(Khandekar et al., 2024)](https://arxiv.org/abs/2406.12036).\n\n# train: Number of training instances (e.g., in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "# train",
+        "run_group": "MedCalc-Bench"
+      }
+    },
+    {
+      "value": "MedCalc-Bench - truncated",
+      "description": "MedCalc-Bench is a benchmark designed to evaluate models on their ability to compute clinically relevant values from patient notes. Each instance consists of a clinical note describing the patient's condition, a diagnostic question targeting a specific medical value, and a ground truth response. [(Khandekar et al., 2024)](https://arxiv.org/abs/2406.12036).\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "truncated",
+        "run_group": "MedCalc-Bench"
+      }
+    },
+    {
+      "value": "MedCalc-Bench - # prompt tokens",
+      "description": "MedCalc-Bench is a benchmark designed to evaluate models on their ability to compute clinically relevant values from patient notes. Each instance consists of a clinical note describing the patient's condition, a diagnostic question targeting a specific medical value, and a ground truth response. [(Khandekar et al., 2024)](https://arxiv.org/abs/2406.12036).\n\n# prompt tokens: Number of tokens in the prompt.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# prompt tokens",
+        "run_group": "MedCalc-Bench"
+      }
+    },
+    {
+      "value": "MedCalc-Bench - # output tokens",
+      "description": "MedCalc-Bench is a benchmark designed to evaluate models on their ability to compute clinically relevant values from patient notes. Each instance consists of a clinical note describing the patient's condition, a diagnostic question targeting a specific medical value, and a ground truth response. [(Khandekar et al., 2024)](https://arxiv.org/abs/2406.12036).\n\n# output tokens: Actual number of output tokens.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# output tokens",
+        "run_group": "MedCalc-Bench"
+      }
+    },
+    {
+      "value": "CLEAR - # eval",
+      "description": "CLEAR is a benchmark designed to evaluate models on their ability to detect medical conditions from patient notes using categorical responses. Each instance consists of a clinical note and a target condition, requiring the model to classify the patient's history as either affirmative, negative, or uncertain [(Lopez et al., 2025)](https://www.nature.com/articles/s41746-024-01377-1).\n\n# eval: Number of evaluation instances.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# eval",
+        "run_group": "CLEAR"
+      }
+    },
+    {
+      "value": "CLEAR - # train",
+      "description": "CLEAR is a benchmark designed to evaluate models on their ability to detect medical conditions from patient notes using categorical responses. Each instance consists of a clinical note and a target condition, requiring the model to classify the patient's history as either affirmative, negative, or uncertain [(Lopez et al., 2025)](https://www.nature.com/articles/s41746-024-01377-1).\n\n# train: Number of training instances (e.g., in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "# train",
+        "run_group": "CLEAR"
+      }
+    },
+    {
+      "value": "CLEAR - truncated",
+      "description": "CLEAR is a benchmark designed to evaluate models on their ability to detect medical conditions from patient notes using categorical responses. Each instance consists of a clinical note and a target condition, requiring the model to classify the patient's history as either affirmative, negative, or uncertain [(Lopez et al., 2025)](https://www.nature.com/articles/s41746-024-01377-1).\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "truncated",
+        "run_group": "CLEAR"
+      }
+    },
+    {
+      "value": "CLEAR - # prompt tokens",
+      "description": "CLEAR is a benchmark designed to evaluate models on their ability to detect medical conditions from patient notes using categorical responses. Each instance consists of a clinical note and a target condition, requiring the model to classify the patient's history as either affirmative, negative, or uncertain [(Lopez et al., 2025)](https://www.nature.com/articles/s41746-024-01377-1).\n\n# prompt tokens: Number of tokens in the prompt.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# prompt tokens",
+        "run_group": "CLEAR"
+      }
+    },
+    {
+      "value": "CLEAR - # output tokens",
+      "description": "CLEAR is a benchmark designed to evaluate models on their ability to detect medical conditions from patient notes using categorical responses. Each instance consists of a clinical note and a target condition, requiring the model to classify the patient's history as either affirmative, negative, or uncertain [(Lopez et al., 2025)](https://www.nature.com/articles/s41746-024-01377-1).\n\n# output tokens: Actual number of output tokens.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# output tokens",
+        "run_group": "CLEAR"
+      }
+    },
+    {
+      "value": "MTSamples - # eval",
+      "description": "MTSamples Replicate is a benchmark that provides transcribed medical reports from various specialties. It is used to evaluate a model's ability to generate clinically appropriate treatment plans based on unstructured patient documentation [(MTSamples, 2025)](https://mtsamples.com).\n\n# eval: Number of evaluation instances.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# eval",
+        "run_group": "MTSamples"
+      }
+    },
+    {
+      "value": "MTSamples - # train",
+      "description": "MTSamples Replicate is a benchmark that provides transcribed medical reports from various specialties. It is used to evaluate a model's ability to generate clinically appropriate treatment plans based on unstructured patient documentation [(MTSamples, 2025)](https://mtsamples.com).\n\n# train: Number of training instances (e.g., in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "# train",
+        "run_group": "MTSamples"
+      }
+    },
+    {
+      "value": "MTSamples - truncated",
+      "description": "MTSamples Replicate is a benchmark that provides transcribed medical reports from various specialties. It is used to evaluate a model's ability to generate clinically appropriate treatment plans based on unstructured patient documentation [(MTSamples, 2025)](https://mtsamples.com).\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "truncated",
+        "run_group": "MTSamples"
+      }
+    },
+    {
+      "value": "MTSamples - # prompt tokens",
+      "description": "MTSamples Replicate is a benchmark that provides transcribed medical reports from various specialties. It is used to evaluate a model's ability to generate clinically appropriate treatment plans based on unstructured patient documentation [(MTSamples, 2025)](https://mtsamples.com).\n\n# prompt tokens: Number of tokens in the prompt.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# prompt tokens",
+        "run_group": "MTSamples"
+      }
+    },
+    {
+      "value": "MTSamples - # output tokens",
+      "description": "MTSamples Replicate is a benchmark that provides transcribed medical reports from various specialties. It is used to evaluate a model's ability to generate clinically appropriate treatment plans based on unstructured patient documentation [(MTSamples, 2025)](https://mtsamples.com).\n\n# output tokens: Actual number of output tokens.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# output tokens",
+        "run_group": "MTSamples"
+      }
+    },
+    {
+      "value": "Medec - # eval",
+      "description": "Medec is a benchmark composed of clinical narratives that include either correct documentation or medical errors. Each entry includes sentence-level identifiers and an associated correction task. The model must review the narrative and either identify the erroneous sentence and correct it, or confirm that the text is entirely accurate [(Abacha et al., 2025)](https://arxiv.org/abs/2412.19260).\n\n# eval: Number of evaluation instances.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# eval",
+        "run_group": "Medec"
+      }
+    },
+    {
+      "value": "Medec - # train",
+      "description": "Medec is a benchmark composed of clinical narratives that include either correct documentation or medical errors. Each entry includes sentence-level identifiers and an associated correction task. The model must review the narrative and either identify the erroneous sentence and correct it, or confirm that the text is entirely accurate [(Abacha et al., 2025)](https://arxiv.org/abs/2412.19260).\n\n# train: Number of training instances (e.g., in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "# train",
+        "run_group": "Medec"
+      }
+    },
+    {
+      "value": "Medec - truncated",
+      "description": "Medec is a benchmark composed of clinical narratives that include either correct documentation or medical errors. Each entry includes sentence-level identifiers and an associated correction task. The model must review the narrative and either identify the erroneous sentence and correct it, or confirm that the text is entirely accurate [(Abacha et al., 2025)](https://arxiv.org/abs/2412.19260).\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "truncated",
+        "run_group": "Medec"
+      }
+    },
+    {
+      "value": "Medec - # prompt tokens",
+      "description": "Medec is a benchmark composed of clinical narratives that include either correct documentation or medical errors. Each entry includes sentence-level identifiers and an associated correction task. The model must review the narrative and either identify the erroneous sentence and correct it, or confirm that the text is entirely accurate [(Abacha et al., 2025)](https://arxiv.org/abs/2412.19260).\n\n# prompt tokens: Number of tokens in the prompt.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# prompt tokens",
+        "run_group": "Medec"
+      }
+    },
+    {
+      "value": "Medec - # output tokens",
+      "description": "Medec is a benchmark composed of clinical narratives that include either correct documentation or medical errors. Each entry includes sentence-level identifiers and an associated correction task. The model must review the narrative and either identify the erroneous sentence and correct it, or confirm that the text is entirely accurate [(Abacha et al., 2025)](https://arxiv.org/abs/2412.19260).\n\n# output tokens: Actual number of output tokens.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# output tokens",
+        "run_group": "Medec"
+      }
+    },
+    {
+      "value": "EHRSHOT - # eval",
+      "description": "EHRSHOT is a benchmark designed to evaluate a model's ability to predict future clinical events using structured EHR code sequences. Each instance contains a patient's historical EHR data and a forward-looking clinical question about whether a particular diagnosis, lab result, or hospital event will occur [(Wornow et al., 2023)](https://arxiv.org/abs/2307.02028).\n\n# eval: Number of evaluation instances.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# eval",
+        "run_group": "EHRSHOT"
+      }
+    },
+    {
+      "value": "EHRSHOT - # train",
+      "description": "EHRSHOT is a benchmark designed to evaluate a model's ability to predict future clinical events using structured EHR code sequences. Each instance contains a patient's historical EHR data and a forward-looking clinical question about whether a particular diagnosis, lab result, or hospital event will occur [(Wornow et al., 2023)](https://arxiv.org/abs/2307.02028).\n\n# train: Number of training instances (e.g., in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "# train",
+        "run_group": "EHRSHOT"
+      }
+    },
+    {
+      "value": "EHRSHOT - truncated",
+      "description": "EHRSHOT is a benchmark designed to evaluate a model's ability to predict future clinical events using structured EHR code sequences. Each instance contains a patient's historical EHR data and a forward-looking clinical question about whether a particular diagnosis, lab result, or hospital event will occur [(Wornow et al., 2023)](https://arxiv.org/abs/2307.02028).\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "truncated",
+        "run_group": "EHRSHOT"
+      }
+    },
+    {
+      "value": "EHRSHOT - # prompt tokens",
+      "description": "EHRSHOT is a benchmark designed to evaluate a model's ability to predict future clinical events using structured EHR code sequences. Each instance contains a patient's historical EHR data and a forward-looking clinical question about whether a particular diagnosis, lab result, or hospital event will occur [(Wornow et al., 2023)](https://arxiv.org/abs/2307.02028).\n\n# prompt tokens: Number of tokens in the prompt.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# prompt tokens",
+        "run_group": "EHRSHOT"
+      }
+    },
+    {
+      "value": "EHRSHOT - # output tokens",
+      "description": "EHRSHOT is a benchmark designed to evaluate a model's ability to predict future clinical events using structured EHR code sequences. Each instance contains a patient's historical EHR data and a forward-looking clinical question about whether a particular diagnosis, lab result, or hospital event will occur [(Wornow et al., 2023)](https://arxiv.org/abs/2307.02028).\n\n# output tokens: Actual number of output tokens.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# output tokens",
+        "run_group": "EHRSHOT"
+      }
+    },
+    {
+      "value": "HeadQA - # eval",
+      "description": "HeadQA is a benchmark consisting of biomedical multiple-choice questions intended to evaluate a model's medical knowledge and reasoning. Each instance presents a clinical or scientific question with four answer options, requiring the model to select the most appropriate answer [(Vilares et al., 2019)](https://arxiv.org/abs/1906.04701).\n\n# eval: Number of evaluation instances.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# eval",
+        "run_group": "HeadQA"
+      }
+    },
+    {
+      "value": "HeadQA - # train",
+      "description": "HeadQA is a benchmark consisting of biomedical multiple-choice questions intended to evaluate a model's medical knowledge and reasoning. Each instance presents a clinical or scientific question with four answer options, requiring the model to select the most appropriate answer [(Vilares et al., 2019)](https://arxiv.org/abs/1906.04701).\n\n# train: Number of training instances (e.g., in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "# train",
+        "run_group": "HeadQA"
+      }
+    },
+    {
+      "value": "HeadQA - truncated",
+      "description": "HeadQA is a benchmark consisting of biomedical multiple-choice questions intended to evaluate a model's medical knowledge and reasoning. Each instance presents a clinical or scientific question with four answer options, requiring the model to select the most appropriate answer [(Vilares et al., 2019)](https://arxiv.org/abs/1906.04701).\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "truncated",
+        "run_group": "HeadQA"
+      }
+    },
+    {
+      "value": "HeadQA - # prompt tokens",
+      "description": "HeadQA is a benchmark consisting of biomedical multiple-choice questions intended to evaluate a model's medical knowledge and reasoning. Each instance presents a clinical or scientific question with four answer options, requiring the model to select the most appropriate answer [(Vilares et al., 2019)](https://arxiv.org/abs/1906.04701).\n\n# prompt tokens: Number of tokens in the prompt.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# prompt tokens",
+        "run_group": "HeadQA"
+      }
+    },
+    {
+      "value": "HeadQA - # output tokens",
+      "description": "HeadQA is a benchmark consisting of biomedical multiple-choice questions intended to evaluate a model's medical knowledge and reasoning. Each instance presents a clinical or scientific question with four answer options, requiring the model to select the most appropriate answer [(Vilares et al., 2019)](https://arxiv.org/abs/1906.04701).\n\n# output tokens: Actual number of output tokens.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# output tokens",
+        "run_group": "HeadQA"
+      }
+    },
+    {
+      "value": "Medbullets - # eval",
+      "description": "Medbullets is a benchmark of USMLE-style medical questions designed to assess a model's ability to understand and apply clinical knowledge. Each question is accompanied by a patient scenario and five multiple-choice options, similar to those found on Step 2 and Step 3 board exams [(MedBullets, 2025)](https://step2.medbullets.com).\n\n# eval: Number of evaluation instances.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# eval",
+        "run_group": "Medbullets"
+      }
+    },
+    {
+      "value": "Medbullets - # train",
+      "description": "Medbullets is a benchmark of USMLE-style medical questions designed to assess a model's ability to understand and apply clinical knowledge. Each question is accompanied by a patient scenario and five multiple-choice options, similar to those found on Step 2 and Step 3 board exams [(MedBullets, 2025)](https://step2.medbullets.com).\n\n# train: Number of training instances (e.g., in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "# train",
+        "run_group": "Medbullets"
+      }
+    },
+    {
+      "value": "Medbullets - truncated",
+      "description": "Medbullets is a benchmark of USMLE-style medical questions designed to assess a model's ability to understand and apply clinical knowledge. Each question is accompanied by a patient scenario and five multiple-choice options, similar to those found on Step 2 and Step 3 board exams [(MedBullets, 2025)](https://step2.medbullets.com).\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "truncated",
+        "run_group": "Medbullets"
+      }
+    },
+    {
+      "value": "Medbullets - # prompt tokens",
+      "description": "Medbullets is a benchmark of USMLE-style medical questions designed to assess a model's ability to understand and apply clinical knowledge. Each question is accompanied by a patient scenario and five multiple-choice options, similar to those found on Step 2 and Step 3 board exams [(MedBullets, 2025)](https://step2.medbullets.com).\n\n# prompt tokens: Number of tokens in the prompt.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# prompt tokens",
+        "run_group": "Medbullets"
+      }
+    },
+    {
+      "value": "Medbullets - # output tokens",
+      "description": "Medbullets is a benchmark of USMLE-style medical questions designed to assess a model's ability to understand and apply clinical knowledge. Each question is accompanied by a patient scenario and five multiple-choice options, similar to those found on Step 2 and Step 3 board exams [(MedBullets, 2025)](https://step2.medbullets.com).\n\n# output tokens: Actual number of output tokens.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# output tokens",
+        "run_group": "Medbullets"
+      }
+    },
+    {
+      "value": "MedAlign - # eval",
+      "description": "MedAlign is a benchmark that evaluates a model's ability to interpret and follow instructions grounded in longitudinal electronic health records (EHR). Each instance includes an event-stream style patient record and a natural language question or task, requiring clinically informed reading comprehension and reasoning [(Fleming et al., 2023)](https://arxiv.org/abs/2308.14089).\n\n# eval: Number of evaluation instances.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# eval",
+        "run_group": "MedAlign"
+      }
+    },
+    {
+      "value": "MedAlign - # train",
+      "description": "MedAlign is a benchmark that evaluates a model's ability to interpret and follow instructions grounded in longitudinal electronic health records (EHR). Each instance includes an event-stream style patient record and a natural language question or task, requiring clinically informed reading comprehension and reasoning [(Fleming et al., 2023)](https://arxiv.org/abs/2308.14089).\n\n# train: Number of training instances (e.g., in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "# train",
+        "run_group": "MedAlign"
+      }
+    },
+    {
+      "value": "MedAlign - truncated",
+      "description": "MedAlign is a benchmark that evaluates a model's ability to interpret and follow instructions grounded in longitudinal electronic health records (EHR). Each instance includes an event-stream style patient record and a natural language question or task, requiring clinically informed reading comprehension and reasoning [(Fleming et al., 2023)](https://arxiv.org/abs/2308.14089).\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "truncated",
+        "run_group": "MedAlign"
+      }
+    },
+    {
+      "value": "MedAlign - # prompt tokens",
+      "description": "MedAlign is a benchmark that evaluates a model's ability to interpret and follow instructions grounded in longitudinal electronic health records (EHR). Each instance includes an event-stream style patient record and a natural language question or task, requiring clinically informed reading comprehension and reasoning [(Fleming et al., 2023)](https://arxiv.org/abs/2308.14089).\n\n# prompt tokens: Number of tokens in the prompt.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# prompt tokens",
+        "run_group": "MedAlign"
+      }
+    },
+    {
+      "value": "MedAlign - # output tokens",
+      "description": "MedAlign is a benchmark that evaluates a model's ability to interpret and follow instructions grounded in longitudinal electronic health records (EHR). Each instance includes an event-stream style patient record and a natural language question or task, requiring clinically informed reading comprehension and reasoning [(Fleming et al., 2023)](https://arxiv.org/abs/2308.14089).\n\n# output tokens: Actual number of output tokens.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# output tokens",
+        "run_group": "MedAlign"
+      }
+    },
+    {
+      "value": "ADHD-Behavior - # eval",
+      "description": "ADHD-Behavior is a benchmark that evaluates a model's ability to detect whether a clinician recommends parent training in behavior management, an evidence-based first-line treatment for young children diagnosed with ADHD. Each instance includes a clinical note from a pediatric visit and a binary classification task [(Pillai et al., 2024)](https://doi.org/10.1093/jamia/ocae001).\n\n# eval: Number of evaluation instances.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# eval",
+        "run_group": "ADHD-Behavior"
+      }
+    },
+    {
+      "value": "ADHD-Behavior - # train",
+      "description": "ADHD-Behavior is a benchmark that evaluates a model's ability to detect whether a clinician recommends parent training in behavior management, an evidence-based first-line treatment for young children diagnosed with ADHD. Each instance includes a clinical note from a pediatric visit and a binary classification task [(Pillai et al., 2024)](https://doi.org/10.1093/jamia/ocae001).\n\n# train: Number of training instances (e.g., in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "# train",
+        "run_group": "ADHD-Behavior"
+      }
+    },
+    {
+      "value": "ADHD-Behavior - truncated",
+      "description": "ADHD-Behavior is a benchmark that evaluates a model's ability to detect whether a clinician recommends parent training in behavior management, an evidence-based first-line treatment for young children diagnosed with ADHD. Each instance includes a clinical note from a pediatric visit and a binary classification task [(Pillai et al., 2024)](https://doi.org/10.1093/jamia/ocae001).\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "truncated",
+        "run_group": "ADHD-Behavior"
+      }
+    },
+    {
+      "value": "ADHD-Behavior - # prompt tokens",
+      "description": "ADHD-Behavior is a benchmark that evaluates a model's ability to detect whether a clinician recommends parent training in behavior management, an evidence-based first-line treatment for young children diagnosed with ADHD. Each instance includes a clinical note from a pediatric visit and a binary classification task [(Pillai et al., 2024)](https://doi.org/10.1093/jamia/ocae001).\n\n# prompt tokens: Number of tokens in the prompt.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# prompt tokens",
+        "run_group": "ADHD-Behavior"
+      }
+    },
+    {
+      "value": "ADHD-Behavior - # output tokens",
+      "description": "ADHD-Behavior is a benchmark that evaluates a model's ability to detect whether a clinician recommends parent training in behavior management, an evidence-based first-line treatment for young children diagnosed with ADHD. Each instance includes a clinical note from a pediatric visit and a binary classification task [(Pillai et al., 2024)](https://doi.org/10.1093/jamia/ocae001).\n\n# output tokens: Actual number of output tokens.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# output tokens",
+        "run_group": "ADHD-Behavior"
+      }
+    },
+    {
+      "value": "ADHD-MedEffects - # eval",
+      "description": "ADHD-MedEffects is a benchmark designed to evaluate whether clinical notes for pediatric ADHD visits document medication side effect monitoring, which is a key recommendation in clinical practice guidelines. The dataset supports binary classification to detect presence or absence of side effect inquiries (SEI) within notes [(Bannet et al., 2024)](https://doi.org/10.1542/peds.2024-067223).\n\n# eval: Number of evaluation instances.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# eval",
+        "run_group": "ADHD-MedEffects"
+      }
+    },
+    {
+      "value": "ADHD-MedEffects - # train",
+      "description": "ADHD-MedEffects is a benchmark designed to evaluate whether clinical notes for pediatric ADHD visits document medication side effect monitoring, which is a key recommendation in clinical practice guidelines. The dataset supports binary classification to detect presence or absence of side effect inquiries (SEI) within notes [(Bannet et al., 2024)](https://doi.org/10.1542/peds.2024-067223).\n\n# train: Number of training instances (e.g., in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "# train",
+        "run_group": "ADHD-MedEffects"
+      }
+    },
+    {
+      "value": "ADHD-MedEffects - truncated",
+      "description": "ADHD-MedEffects is a benchmark designed to evaluate whether clinical notes for pediatric ADHD visits document medication side effect monitoring, which is a key recommendation in clinical practice guidelines. The dataset supports binary classification to detect presence or absence of side effect inquiries (SEI) within notes [(Bannet et al., 2024)](https://doi.org/10.1542/peds.2024-067223).\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "truncated",
+        "run_group": "ADHD-MedEffects"
+      }
+    },
+    {
+      "value": "ADHD-MedEffects - # prompt tokens",
+      "description": "ADHD-MedEffects is a benchmark designed to evaluate whether clinical notes for pediatric ADHD visits document medication side effect monitoring, which is a key recommendation in clinical practice guidelines. The dataset supports binary classification to detect presence or absence of side effect inquiries (SEI) within notes [(Bannet et al., 2024)](https://doi.org/10.1542/peds.2024-067223).\n\n# prompt tokens: Number of tokens in the prompt.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# prompt tokens",
+        "run_group": "ADHD-MedEffects"
+      }
+    },
+    {
+      "value": "ADHD-MedEffects - # output tokens",
+      "description": "ADHD-MedEffects is a benchmark designed to evaluate whether clinical notes for pediatric ADHD visits document medication side effect monitoring, which is a key recommendation in clinical practice guidelines. The dataset supports binary classification to detect presence or absence of side effect inquiries (SEI) within notes [(Bannet et al., 2024)](https://doi.org/10.1542/peds.2024-067223).\n\n# output tokens: Actual number of output tokens.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# output tokens",
+        "run_group": "ADHD-MedEffects"
+      }
+    }
+  ],
+  "rows": [
+    [
+      {
+        "value": "GPT 5",
+        "description": "",
+        "markdown": false
+      },
+      {
+        "value": 1000.0,
+        "description": "min=1000, mean=1000, max=1000, sum=1000 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "medcalc_bench:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 0.0,
+        "description": "min=0, mean=0, max=0, sum=0 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "medcalc_bench:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 0.0,
+        "description": "min=0, mean=0, max=0, sum=0 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "medcalc_bench:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 585.063,
+        "description": "min=585.063, mean=585.063, max=585.063, sum=585.063 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "medcalc_bench:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 2.224,
+        "description": "min=2.224, mean=2.224, max=2.224, sum=2.224 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "medcalc_bench:model=openai_gpt-5"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "value": 10.0,
+        "description": "min=10, mean=10, max=10, sum=10 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "mtsamples_replicate:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 0.0,
+        "description": "min=0, mean=0, max=0, sum=0 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "mtsamples_replicate:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 0.0,
+        "description": "min=0, mean=0, max=0, sum=0 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "mtsamples_replicate:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 889.5,
+        "description": "min=889.5, mean=889.5, max=889.5, sum=889.5 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "mtsamples_replicate:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 512.0,
+        "description": "min=512, mean=512, max=512, sum=512 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "mtsamples_replicate:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 100.0,
+        "description": "min=100, mean=100, max=100, sum=100 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "medec:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 0.0,
+        "description": "min=0, mean=0, max=0, sum=0 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "medec:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 0.0,
+        "description": "min=0, mean=0, max=0, sum=0 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "medec:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 300.93,
+        "description": "min=300.93, mean=300.93, max=300.93, sum=300.93 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "medec:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 18.28,
+        "description": "min=18.28, mean=18.28, max=18.28, sum=18.28 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "medec:model=openai_gpt-5"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "value": 100.0,
+        "description": "min=100, mean=100, max=100, sum=100 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "head_qa:language=en,category=None,model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 0.0,
+        "description": "min=0, mean=0, max=0, sum=0 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "head_qa:language=en,category=None,model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 0.0,
+        "description": "min=0, mean=0, max=0, sum=0 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "head_qa:language=en,category=None,model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 151.78,
+        "description": "min=151.78, mean=151.78, max=151.78, sum=151.78 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "head_qa:language=en,category=None,model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 1.0,
+        "description": "min=1, mean=1, max=1, sum=1 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "head_qa:language=en,category=None,model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 100.0,
+        "description": "min=100, mean=100, max=100, sum=100 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "medbullets:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 0.0,
+        "description": "min=0, mean=0, max=0, sum=0 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "medbullets:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 0.0,
+        "description": "min=0, mean=0, max=0, sum=0 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "medbullets:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 337.35,
+        "description": "min=337.35, mean=337.35, max=337.35, sum=337.35 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "medbullets:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 1.0,
+        "description": "min=1, mean=1, max=1, sum=1 (1)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "medbullets:model=openai_gpt-5"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      }
+    ]
+  ],
+  "links": [
+    {
+      "text": "LaTeX",
+      "href": "benchmark_output/runs/my-medhelm-suite/groups/latex/clinical_decision_support_general_information.tex"
+    },
+    {
+      "text": "JSON",
+      "href": "benchmark_output/runs/my-medhelm-suite/groups/json/clinical_decision_support_general_information.json"
+    }
+  ],
+  "name": "general_information"
+}

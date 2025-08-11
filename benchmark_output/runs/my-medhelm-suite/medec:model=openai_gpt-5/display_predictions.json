@@ -1,0 +1,1402 @@
+[
+  {
+    "instance_id": "id405",
+    "train_trial_index": 0,
+    "predicted_text": "6 The patient is started on IV fluids and a type and screen is performed.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 431.0,
+      "num_output_tokens": 16.0,
+      "inference_runtime": 27.082442045211792,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id132",
+    "train_trial_index": 0,
+    "predicted_text": "4 She also performs stereotypic hand-wringing movements and has difficulty walking.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 351.0,
+      "num_output_tokens": 17.0,
+      "inference_runtime": 47.430519104003906,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id211",
+    "train_trial_index": 0,
+    "predicted_text": "CORRECT",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 351.0,
+      "num_output_tokens": 2.0,
+      "inference_runtime": 113.33313512802124,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id243",
+    "train_trial_index": 0,
+    "predicted_text": "CORRECT",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 299.0,
+      "num_output_tokens": 2.0,
+      "inference_runtime": 19.216495990753174,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id85",
+    "train_trial_index": 0,
+    "predicted_text": "17 The patient is diagnosed with dysarthria-clumsy hand syndrome.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 404.0,
+      "num_output_tokens": 15.0,
+      "inference_runtime": 30.389010906219482,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id351",
+    "train_trial_index": 0,
+    "predicted_text": "2 Upon admission his vital signs are as follows: pulse of 120/min, a respiratory rate of 20/min, body temperature of 39 C (102.2 F), and blood pressure of 90/50 mm Hg.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 260.0,
+      "num_output_tokens": 48.0,
+      "inference_runtime": 70.2422993183136,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id366",
+    "train_trial_index": 0,
+    "predicted_text": "CORRECT",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 399.0,
+      "num_output_tokens": 2.0,
+      "inference_runtime": 29.974298000335693,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id521",
+    "train_trial_index": 0,
+    "predicted_text": "6 Octreotide is prescribed and niacin supplementation is initiated.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 255.0,
+      "num_output_tokens": 13.0,
+      "inference_runtime": 26.702376127243042,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id479",
+    "train_trial_index": 0,
+    "predicted_text": "CORRECT",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 359.0,
+      "num_output_tokens": 2.0,
+      "inference_runtime": 91.02610921859741,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id452",
+    "train_trial_index": 0,
+    "predicted_text": "6 She is subsequently given a medication called furosemide that will reduce her volume status by inhibiting the Na-K-2Cl cotransporter in the thick ascending limb of the loop of Henle.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 276.0,
+      "num_output_tokens": 42.0,
+      "inference_runtime": 29.24680519104004,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id268",
+    "train_trial_index": 0,
+    "predicted_text": "6 Testing for von Willebrand disease (vWF antigen, ristocetin cofactor activity, and factor VIII levels) is ordered given her mucocutaneous bleeding with a normal platelet count.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 239.0,
+      "num_output_tokens": 43.0,
+      "inference_runtime": 47.16147303581238,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id210",
+    "train_trial_index": 0,
+    "predicted_text": "5 The patient is diagnosed with bipolar II disorder.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 351.0,
+      "num_output_tokens": 10.0,
+      "inference_runtime": 12.544016122817993,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id591",
+    "train_trial_index": 0,
+    "predicted_text": "13 Factor VIII concentrate is given.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 336.0,
+      "num_output_tokens": 7.0,
+      "inference_runtime": 17.523314952850342,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id306",
+    "train_trial_index": 0,
+    "predicted_text": "9 Due to this, colonoscopy should begin at age 30 (10 years before her father's diagnosis) and be repeated every 5 years.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 311.0,
+      "num_output_tokens": 31.0,
+      "inference_runtime": 22.13859510421753,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id157",
+    "train_trial_index": 0,
+    "predicted_text": "3 Tetralogy of Fallot is suspected after the exam is completed.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 245.0,
+      "num_output_tokens": 15.0,
+      "inference_runtime": 20.943547248840332,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id230",
+    "train_trial_index": 0,
+    "predicted_text": "5 Patient is diagnosed with a spinal epidural abscess.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 257.0,
+      "num_output_tokens": 12.0,
+      "inference_runtime": 10.891020059585571,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id358",
+    "train_trial_index": 0,
+    "predicted_text": "2 Immunosuppressive therapy with high-dose glucocorticoids plus cyclophosphamide or rituximab is initiated after laboratory results show an elevated level of cytoplasmic antineutrophil cytoplasmic antibody.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 177.0,
+      "num_output_tokens": 50.0,
+      "inference_runtime": 13.61385703086853,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id595",
+    "train_trial_index": 0,
+    "predicted_text": "6 Rifampin, dapsone, and clofazimine are prescribed.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 293.0,
+      "num_output_tokens": 18.0,
+      "inference_runtime": 27.130995750427246,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id285",
+    "train_trial_index": 0,
+    "predicted_text": "4 Intramuscular epinephrine is administered.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 267.0,
+      "num_output_tokens": 11.0,
+      "inference_runtime": 19.452564001083374,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id52",
+    "train_trial_index": 0,
+    "predicted_text": "10 Patient is diagnosed with Chiari I malformation.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 320.0,
+      "num_output_tokens": 11.0,
+      "inference_runtime": 14.761843919754028,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id453",
+    "train_trial_index": 0,
+    "predicted_text": "7 The patient is prescribed spironolactone.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 280.0,
+      "num_output_tokens": 11.0,
+      "inference_runtime": 11.91300892829895,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id329",
+    "train_trial_index": 0,
+    "predicted_text": "6 Low-dose aspirin (81 mg daily) should be initiated at 12-16 weeks' gestation to reduce the risk of preeclampsia.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 284.0,
+      "num_output_tokens": 34.0,
+      "inference_runtime": 20.47041392326355,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id48",
+    "train_trial_index": 0,
+    "predicted_text": "8 The patient is diagnosed with progressive multifocal leukoencephalopathy (PML).",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 278.0,
+      "num_output_tokens": 19.0,
+      "inference_runtime": 9.26570987701416,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id231",
+    "train_trial_index": 0,
+    "predicted_text": "6 Patient is diagnosed with a spinal epidural abscess.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 254.0,
+      "num_output_tokens": 12.0,
+      "inference_runtime": 34.86382007598877,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id429",
+    "train_trial_index": 0,
+    "predicted_text": "7 A non-stress test is nonreactive, and a biophysical profile demonstrates abnormal fetal breathing, fetal activity, and fetal muscle tone.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 331.0,
+      "num_output_tokens": 29.0,
+      "inference_runtime": 112.66162991523743,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id14",
+    "train_trial_index": 0,
+    "predicted_text": "4 Herpes simplex virus type 2 is the causative agent.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 228.0,
+      "num_output_tokens": 14.0,
+      "inference_runtime": 5.351848125457764,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id172",
+    "train_trial_index": 0,
+    "predicted_text": "3 mmHg, pulse is 120/min, respirations are 66/min, and pulse oximetry is 92% on room air.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 391.0,
+      "num_output_tokens": 31.0,
+      "inference_runtime": 94.51688718795776,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id476",
+    "train_trial_index": 0,
+    "predicted_text": "CORRECT",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 273.0,
+      "num_output_tokens": 2.0,
+      "inference_runtime": 55.01803994178772,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id424",
+    "train_trial_index": 0,
+    "predicted_text": "8 In addition to emergent intubation, active core rewarming is initiated (eg, warmed IV fluids and humidified oxygen), and heating pads are applied to the trunk rather than the extremities.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 284.0,
+      "num_output_tokens": 41.0,
+      "inference_runtime": 44.74234199523926,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id205",
+    "train_trial_index": 0,
+    "predicted_text": "5 Patient is diagnosed with adjustment disorder with mixed anxiety and depressed mood after he reports increased jumpiness and an exaggerated startle response.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 273.0,
+      "num_output_tokens": 26.0,
+      "inference_runtime": 75.90678095817566,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id367",
+    "train_trial_index": 0,
+    "predicted_text": "18 The patient is prepped for an emergency laparotomy after aggressive intravenous fluid resuscitation is administered but fails to improve the patient's hemodynamics.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 462.0,
+      "num_output_tokens": 32.0,
+      "inference_runtime": 20.785425901412964,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id434",
+    "train_trial_index": 0,
+    "predicted_text": "3 Spironolactone is prescribed.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 190.0,
+      "num_output_tokens": 9.0,
+      "inference_runtime": 7.154850006103516,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id344",
+    "train_trial_index": 0,
+    "predicted_text": "10 Post-mastectomy, trastuzumab therapy will be started.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 305.0,
+      "num_output_tokens": 16.0,
+      "inference_runtime": 19.867515087127686,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id1",
+    "train_trial_index": 0,
+    "predicted_text": "7 120/70 mm Hg",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 296.0,
+      "num_output_tokens": 8.0,
+      "inference_runtime": 74.63659906387329,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id225",
+    "train_trial_index": 0,
+    "predicted_text": "17 Serum osmolality: 305 mOsm/kg Finger-stick glucose: 120 mg/dL",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 404.0,
+      "num_output_tokens": 22.0,
+      "inference_runtime": 19.812671899795532,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id469",
+    "train_trial_index": 0,
+    "predicted_text": "12 Benztropine is administered.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 338.0,
+      "num_output_tokens": 8.0,
+      "inference_runtime": 11.246145725250244,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id511",
+    "train_trial_index": 0,
+    "predicted_text": "3 Oxygen therapy is started immediately, and chest radiography shows bilateral, diffuse, ground-glass appearance, air bronchograms, and poor lung expansion.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 200.0,
+      "num_output_tokens": 31.0,
+      "inference_runtime": 34.08702087402344,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id103",
+    "train_trial_index": 0,
+    "predicted_text": "1 Patient is diagnosed with lactose intolerance.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 148.0,
+      "num_output_tokens": 9.0,
+      "inference_runtime": 7.8758111000061035,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id337",
+    "train_trial_index": 0,
+    "predicted_text": "4 Pulse is 95/min, respirations are 29/min, and oxygen saturation is 95% on room air.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 276.0,
+      "num_output_tokens": 25.0,
+      "inference_runtime": 32.87514019012451,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id350",
+    "train_trial_index": 0,
+    "predicted_text": "5 After an upright chest radiograph demonstrates free intraperitoneal air, urgent surgical exploration is performed rather than endoscopy.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 260.0,
+      "num_output_tokens": 26.0,
+      "inference_runtime": 17.1291720867157,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id8",
+    "train_trial_index": 0,
+    "predicted_text": "CORRECT.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 213.0,
+      "num_output_tokens": 3.0,
+      "inference_runtime": 23.46946930885315,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id312",
+    "train_trial_index": 0,
+    "predicted_text": "33 130 U/L (44-147 U/L)",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 474.0,
+      "num_output_tokens": 12.0,
+      "inference_runtime": 29.793904066085815,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id17",
+    "train_trial_index": 0,
+    "predicted_text": "4 Mycobacterium tuberculosis infection is suspected.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 219.0,
+      "num_output_tokens": 10.0,
+      "inference_runtime": 10.824357032775879,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id471",
+    "train_trial_index": 0,
+    "predicted_text": "4 The patient's chronic alcohol use explains the patient's results.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 227.0,
+      "num_output_tokens": 13.0,
+      "inference_runtime": 15.042747020721436,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id21",
+    "train_trial_index": 0,
+    "predicted_text": "3 The child likely has severe combined immunodeficiency.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 182.0,
+      "num_output_tokens": 11.0,
+      "inference_runtime": 56.01946401596069,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id325",
+    "train_trial_index": 0,
+    "predicted_text": "4 Her weight is 75 kg (165 lb) and her height is 166 cm (5 ft 5 in).",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 435.0,
+      "num_output_tokens": 25.0,
+      "inference_runtime": 12.071397066116333,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id127",
+    "train_trial_index": 0,
+    "predicted_text": "5 Patient is diagnosed with a second branchial cleft cyst.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 246.0,
+      "num_output_tokens": 13.0,
+      "inference_runtime": 18.439938068389893,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id196",
+    "train_trial_index": 0,
+    "predicted_text": "5 After exam, the diagnosis is Stevens-Johnson syndrome/toxic epidermal necrolysis overlap.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 301.0,
+      "num_output_tokens": 23.0,
+      "inference_runtime": 22.419491052627563,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id92",
+    "train_trial_index": 0,
+    "predicted_text": "2 While conversing with the patient, you note that he appears shy and socially inhibited, with marked anxiety about being negatively evaluated.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 356.0,
+      "num_output_tokens": 26.0,
+      "inference_runtime": 42.27918100357056,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id467",
+    "train_trial_index": 0,
+    "predicted_text": "11 The tympanic membrane is observed to be immobile as confirmed by pneumatic otoscopy.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 535.0,
+      "num_output_tokens": 20.0,
+      "inference_runtime": 46.805235147476196,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id186",
+    "train_trial_index": 0,
+    "predicted_text": "5 Although his abnormal behavior continues despite warnings and punishments, he neither argues with his parents nor teachers and does not display verbal or physical aggression toward them.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 260.0,
+      "num_output_tokens": 30.0,
+      "inference_runtime": 48.01410484313965,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id523",
+    "train_trial_index": 0,
+    "predicted_text": "4 Patient is given quinine sulfate plus clindamycin after a peripheral blood smear confirms the diagnosis of P. falciparum infection.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 274.0,
+      "num_output_tokens": 30.0,
+      "inference_runtime": 14.786933898925781,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id118",
+    "train_trial_index": 0,
+    "predicted_text": "14 There is a decreased range of motion of the right hip.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 334.0,
+      "num_output_tokens": 13.0,
+      "inference_runtime": 14.730150938034058,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id233",
+    "train_trial_index": 0,
+    "predicted_text": "4 Physical evaluation reveals a cleft palate and mild jaw malformation.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 226.0,
+      "num_output_tokens": 14.0,
+      "inference_runtime": 11.73246693611145,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id339",
+    "train_trial_index": 0,
+    "predicted_text": "6 Her blood pressure is 149/92 mmHg.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 295.0,
+      "num_output_tokens": 13.0,
+      "inference_runtime": 64.09799599647522,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id566",
+    "train_trial_index": 0,
+    "predicted_text": "6 Percutaneous CT-guided drainage is performed after a CT scan demonstrates inflamed colonic diverticula with a 4-cm abscess.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 268.0,
+      "num_output_tokens": 31.0,
+      "inference_runtime": 10.638983011245728,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id378",
+    "train_trial_index": 0,
+    "predicted_text": "10 The patient is treated and confidentiality is maintained; his parents are not informed without his consent.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 315.0,
+      "num_output_tokens": 19.0,
+      "inference_runtime": 19.214553833007812,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id534",
+    "train_trial_index": 0,
+    "predicted_text": "9 Avoid antibiotics such as ciprofloxacin; provide supportive care while evaluating for Shiga toxin-producing Escherichia coli infection.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 349.0,
+      "num_output_tokens": 28.0,
+      "inference_runtime": 36.84104585647583,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id454",
+    "train_trial_index": 0,
+    "predicted_text": "7 Starting an SSRI (e.g., sertraline) and cognitive behavioral therapy.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 303.0,
+      "num_output_tokens": 19.0,
+      "inference_runtime": 9.612344980239868,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id380",
+    "train_trial_index": 0,
+    "predicted_text": "5 The physician sets clear professional boundaries, states that a romantic relationship is inappropriate, and uses a chaperone for future visits.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 221.0,
+      "num_output_tokens": 26.0,
+      "inference_runtime": 16.273159742355347,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id520",
+    "train_trial_index": 0,
+    "predicted_text": "13 Atropine is administered first, followed by pralidoxime.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 373.0,
+      "num_output_tokens": 16.0,
+      "inference_runtime": 19.345659255981445,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id178",
+    "train_trial_index": 0,
+    "predicted_text": "CORRECT",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 231.0,
+      "num_output_tokens": 2.0,
+      "inference_runtime": 14.737621068954468,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id477",
+    "train_trial_index": 0,
+    "predicted_text": "CORRECT",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 275.0,
+      "num_output_tokens": 2.0,
+      "inference_runtime": 29.850913047790527,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id224",
+    "train_trial_index": 0,
+    "predicted_text": "19 Patient is diagnosed with nephrogenic diabetes insipidus.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 403.0,
+      "num_output_tokens": 14.0,
+      "inference_runtime": 23.96601700782776,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id37",
+    "train_trial_index": 0,
+    "predicted_text": "7 The patient has olecranon bursitis.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 223.0,
+      "num_output_tokens": 11.0,
+      "inference_runtime": 18.731141805648804,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id414",
+    "train_trial_index": 0,
+    "predicted_text": "14 High-dose intravenous methylprednisolone is prescribed.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 332.0,
+      "num_output_tokens": 14.0,
+      "inference_runtime": 11.400187015533447,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id173",
+    "train_trial_index": 0,
+    "predicted_text": "34 The patient is diagnosed with mucosal disruption and is started on IV fluids; opioids are avoided due to the risk of toxic megacolon.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 528.0,
+      "num_output_tokens": 29.0,
+      "inference_runtime": 33.84250497817993,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id34",
+    "train_trial_index": 0,
+    "predicted_text": "CORRECT",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 221.0,
+      "num_output_tokens": 2.0,
+      "inference_runtime": 10.128550052642822,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id64",
+    "train_trial_index": 0,
+    "predicted_text": "5 Auscultation shows a normal S1, loud S2 (accentuated A2), and S4.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 242.0,
+      "num_output_tokens": 23.0,
+      "inference_runtime": 19.516955852508545,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id340",
+    "train_trial_index": 0,
+    "predicted_text": "10 Antenatal corticosteroids and magnesium sulfate are administered, and tocolysis is not initiated due to advanced cervical dilation.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 332.0,
+      "num_output_tokens": 27.0,
+      "inference_runtime": 18.276307106018066,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id249",
+    "train_trial_index": 0,
+    "predicted_text": "20 /dL",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 381.0,
+      "num_output_tokens": 4.0,
+      "inference_runtime": 29.753432035446167,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id449",
+    "train_trial_index": 0,
+    "predicted_text": "2 On examination, he is noted to have 2nd-degree burns involving 54% of his total body surface area.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 289.0,
+      "num_output_tokens": 25.0,
+      "inference_runtime": 19.737224102020264,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id421",
+    "train_trial_index": 0,
+    "predicted_text": "11 Patient is given heparin.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 321.0,
+      "num_output_tokens": 8.0,
+      "inference_runtime": 13.071567058563232,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id165",
+    "train_trial_index": 0,
+    "predicted_text": "12 Patient is diagnosed with babesiosis after laboratory studies show the following: Laboratory test",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 523.0,
+      "num_output_tokens": 16.0,
+      "inference_runtime": 33.98918390274048,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id299",
+    "train_trial_index": 0,
+    "predicted_text": "CORRECT",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 318.0,
+      "num_output_tokens": 2.0,
+      "inference_runtime": 34.97845816612244,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id12",
+    "train_trial_index": 0,
+    "predicted_text": "3 The attending physician explains to the medical students that Shigella species cause disease by invading intestinal M-cells.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 194.0,
+      "num_output_tokens": 23.0,
+      "inference_runtime": 19.44547200202942,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id369",
+    "train_trial_index": 0,
+    "predicted_text": "17 A hip ultrasound is performed.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 388.0,
+      "num_output_tokens": 7.0,
+      "inference_runtime": 39.61124610900879,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id250",
+    "train_trial_index": 0,
+    "predicted_text": "7 Patient will be managed expectantly with observation and parental reassurance, as the bulge increases with crying and is easily reducible; elective surgical repair is deferred unless complications arise or it persists beyond age 4\u20135 years.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 297.0,
+      "num_output_tokens": 47.0,
+      "inference_runtime": 10.634785175323486,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id50",
+    "train_trial_index": 0,
+    "predicted_text": "3 Patient is diagnosed with aplastic crisis due to parvovirus B19 after bone marrow evaluation reveals pure red cell aplasia with absent erythroid precursors.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 233.0,
+      "num_output_tokens": 34.0,
+      "inference_runtime": 27.463000774383545,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id31",
+    "train_trial_index": 0,
+    "predicted_text": "6 Patient is diagnosed with myasthenia gravis after physical exam is notable for 2/5 strength of the upper extremities and 4/5 strength of the lower extremities.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 283.0,
+      "num_output_tokens": 39.0,
+      "inference_runtime": 25.570876121520996,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id78",
+    "train_trial_index": 0,
+    "predicted_text": "CORRECT",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 317.0,
+      "num_output_tokens": 2.0,
+      "inference_runtime": 14.23842477798462,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id66",
+    "train_trial_index": 0,
+    "predicted_text": "CORRECT",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 297.0,
+      "num_output_tokens": 2.0,
+      "inference_runtime": 35.458022117614746,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id142",
+    "train_trial_index": 0,
+    "predicted_text": "4 Physical examination reveals a bifid carotid pulse and a double apical impulse.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 219.0,
+      "num_output_tokens": 18.0,
+      "inference_runtime": 51.49645209312439,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id408",
+    "train_trial_index": 0,
+    "predicted_text": "10 An intravenous epinephrine infusion is initiated after a repeat blood pressure is 90/55 mm Hg, despite these efforts.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 338.0,
+      "num_output_tokens": 29.0,
+      "inference_runtime": 24.975476026535034,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id362",
+    "train_trial_index": 0,
+    "predicted_text": "10 The patient was observed with supplemental oxygen, rest, and careful monitoring, and after an hour his dyspnea improved and his chest pain resolved without additional medication.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 358.0,
+      "num_output_tokens": 33.0,
+      "inference_runtime": 34.67583417892456,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id547",
+    "train_trial_index": 0,
+    "predicted_text": "7 The patient was prescribed an SSRI and referred for cognitive-behavioral therapy to help control these feelings of depersonalization.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 287.0,
+      "num_output_tokens": 28.0,
+      "inference_runtime": 9.811654090881348,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id200",
+    "train_trial_index": 0,
+    "predicted_text": "4 The patient has akathisia.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 207.0,
+      "num_output_tokens": 8.0,
+      "inference_runtime": 11.35646390914917,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id553",
+    "train_trial_index": 0,
+    "predicted_text": "10 Sodium bicarbonate is administered.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 268.0,
+      "num_output_tokens": 7.0,
+      "inference_runtime": 19.056351900100708,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id538",
+    "train_trial_index": 0,
+    "predicted_text": "CORRECT",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 222.0,
+      "num_output_tokens": 2.0,
+      "inference_runtime": 37.5139639377594,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id580",
+    "train_trial_index": 0,
+    "predicted_text": "6 Findings from a stool sample with trichrome stain are shown in Figure A. Metronidazole followed by an intraluminal agent (e.g., paromomycin) is prescribed.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 256.0,
+      "num_output_tokens": 42.0,
+      "inference_runtime": 12.788079738616943,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id15",
+    "train_trial_index": 0,
+    "predicted_text": "12 Chikungunya virus infection is suspected.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 402.0,
+      "num_output_tokens": 10.0,
+      "inference_runtime": 35.40390586853027,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id336",
+    "train_trial_index": 0,
+    "predicted_text": "6 Starting intravenous immunoglobulin.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 275.0,
+      "num_output_tokens": 8.0,
+      "inference_runtime": 12.26303219795227,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id45",
+    "train_trial_index": 0,
+    "predicted_text": "4 The patient is diagnosed with polyarteritis nodosa.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 216.0,
+      "num_output_tokens": 12.0,
+      "inference_runtime": 11.958656072616577,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id6",
+    "train_trial_index": 0,
+    "predicted_text": "9 Parainfluenza virus is the causal pathogen of the patient's condition.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 298.0,
+      "num_output_tokens": 18.0,
+      "inference_runtime": 10.489527940750122,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id162",
+    "train_trial_index": 0,
+    "predicted_text": "5 The patient is diagnosed with social anxiety disorder.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 245.0,
+      "num_output_tokens": 10.0,
+      "inference_runtime": 20.94907522201538,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id481",
+    "train_trial_index": 0,
+    "predicted_text": "CORRECT",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 364.0,
+      "num_output_tokens": 2.0,
+      "inference_runtime": 39.874457120895386,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id466",
+    "train_trial_index": 0,
+    "predicted_text": "7 Endoscopic evaluation (esophagogastroduodenoscopy with biopsy) is recommended rather than empiric oral fluconazole given odynophagia without oral thrush in a patient with advanced AIDS.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 0.0,
+      "num_prompt_tokens": 319.0,
+      "num_output_tokens": 43.0,
+      "inference_runtime": 34.86104202270508,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id75",
+    "train_trial_index": 0,
+    "predicted_text": "6 The patient is diagnosed with toxic epidermal necrolysis.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 297.0,
+      "num_output_tokens": 15.0,
+      "inference_runtime": 7.606356859207153,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id10",
+    "train_trial_index": 0,
+    "predicted_text": "9 V and X. Haemophilus influenzae infection is suspected.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 305.0,
+      "num_output_tokens": 15.0,
+      "inference_runtime": 12.671954870223999,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  },
+  {
+    "instance_id": "id330",
+    "train_trial_index": 0,
+    "predicted_text": "5 Re-excision with margin control (preferably Mohs micrographic surgery) is performed after the pathology report indicates an incomplete excision.",
+    "base64_images": [],
+    "stats": {
+      "medec_error_flag_accuracy": 1.0,
+      "num_prompt_tokens": 247.0,
+      "num_output_tokens": 28.0,
+      "inference_runtime": 11.521208047866821,
+      "num_train_instances": 0.0,
+      "prompt_truncated": 0.0
+    }
+  }
+]

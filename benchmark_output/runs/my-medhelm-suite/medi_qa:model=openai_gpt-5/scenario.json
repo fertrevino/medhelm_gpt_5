@@ -1,0 +1,9 @@
+{
+  "name": "medi_qa",
+  "description": "MEDIQA is a benchmark designed to evaluate a model's ability to retrieve and generatemedically accurate answers to patient-generated questions. Each instance includes aconsumer health question, a set of candidate answers (used in ranking tasks), relevanceannotations, and optionally, additional context. The benchmark focuses on supportingpatient understanding and accessibility in health communication.",
+  "tags": [
+    "knowledge",
+    "biomedical"
+  ],
+  "definition_path": "https://github.com/stanford-crfm/helm/blob/main/src/helm/benchmark/scenarios/medi_qa_scenario.py"
+}

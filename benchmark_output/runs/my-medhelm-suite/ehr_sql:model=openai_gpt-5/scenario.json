@@ -1,0 +1,10 @@
+{
+  "name": "ehr_sql",
+  "description": "EHRSQL is a benchmark designed to evaluate models on generating structured queriesfor clinical research. Each example includes a natural language question and a databaseschema, and the task is to produce an SQL query that would return the correct resultfor a biomedical research objective. This benchmark assesses a model's understandingof medical terminology, data structures, and query construction.",
+  "tags": [
+    "sql",
+    "medical",
+    "reasoning"
+  ],
+  "definition_path": "https://github.com/stanford-crfm/helm/blob/main/src/helm/benchmark/scenarios/ehr_sql_scenario.py"
+}

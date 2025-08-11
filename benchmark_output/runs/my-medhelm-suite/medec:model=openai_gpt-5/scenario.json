@@ -1,0 +1,10 @@
+{
+  "name": "medec",
+  "description": "Medec is a benchmark composed of clinical narratives that include either correctdocumentation or medical errors. Each entry includes sentence-level identifiers and anassociated correction task. The model must review the narrative and either identifythe erroneous sentence and correct it, or confirm that the text is entirely accurate.",
+  "tags": [
+    "error_detection",
+    "error_correction",
+    "biomedical"
+  ],
+  "definition_path": "https://github.com/stanford-crfm/helm/blob/main/src/helm/benchmark/scenarios/medec_scenario.py"
+}

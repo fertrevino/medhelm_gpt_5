@@ -1,0 +1,215 @@
+{
+  "title": "Efficiency",
+  "header": [
+    {
+      "value": "Model",
+      "markdown": false,
+      "metadata": {}
+    },
+    {
+      "value": "Mean win rate",
+      "description": "How many models this model outperforms on average (over columns).",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {}
+    },
+    {
+      "value": "MedCalc-Bench - Observed inference time (s)",
+      "description": "MedCalc-Bench is a benchmark designed to evaluate models on their ability to compute clinically relevant values from patient notes. Each instance consists of a clinical note describing the patient's condition, a diagnostic question targeting a specific medical value, and a ground truth response. [(Khandekar et al., 2024)](https://arxiv.org/abs/2406.12036).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "MedCalc-Bench"
+      }
+    },
+    {
+      "value": "CLEAR - Observed inference time (s)",
+      "description": "CLEAR is a benchmark designed to evaluate models on their ability to detect medical conditions from patient notes using categorical responses. Each instance consists of a clinical note and a target condition, requiring the model to classify the patient's history as either affirmative, negative, or uncertain [(Lopez et al., 2025)](https://www.nature.com/articles/s41746-024-01377-1).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "CLEAR"
+      }
+    },
+    {
+      "value": "MTSamples - Observed inference time (s)",
+      "description": "MTSamples Replicate is a benchmark that provides transcribed medical reports from various specialties. It is used to evaluate a model's ability to generate clinically appropriate treatment plans based on unstructured patient documentation [(MTSamples, 2025)](https://mtsamples.com).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "MTSamples"
+      }
+    },
+    {
+      "value": "Medec - Observed inference time (s)",
+      "description": "Medec is a benchmark composed of clinical narratives that include either correct documentation or medical errors. Each entry includes sentence-level identifiers and an associated correction task. The model must review the narrative and either identify the erroneous sentence and correct it, or confirm that the text is entirely accurate [(Abacha et al., 2025)](https://arxiv.org/abs/2412.19260).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "Medec"
+      }
+    },
+    {
+      "value": "EHRSHOT - Observed inference time (s)",
+      "description": "EHRSHOT is a benchmark designed to evaluate a model's ability to predict future clinical events using structured EHR code sequences. Each instance contains a patient's historical EHR data and a forward-looking clinical question about whether a particular diagnosis, lab result, or hospital event will occur [(Wornow et al., 2023)](https://arxiv.org/abs/2307.02028).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "EHRSHOT"
+      }
+    },
+    {
+      "value": "HeadQA - Observed inference time (s)",
+      "description": "HeadQA is a benchmark consisting of biomedical multiple-choice questions intended to evaluate a model's medical knowledge and reasoning. Each instance presents a clinical or scientific question with four answer options, requiring the model to select the most appropriate answer [(Vilares et al., 2019)](https://arxiv.org/abs/1906.04701).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "HeadQA"
+      }
+    },
+    {
+      "value": "Medbullets - Observed inference time (s)",
+      "description": "Medbullets is a benchmark of USMLE-style medical questions designed to assess a model's ability to understand and apply clinical knowledge. Each question is accompanied by a patient scenario and five multiple-choice options, similar to those found on Step 2 and Step 3 board exams [(MedBullets, 2025)](https://step2.medbullets.com).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "Medbullets"
+      }
+    },
+    {
+      "value": "MedAlign - Observed inference time (s)",
+      "description": "MedAlign is a benchmark that evaluates a model's ability to interpret and follow instructions grounded in longitudinal electronic health records (EHR). Each instance includes an event-stream style patient record and a natural language question or task, requiring clinically informed reading comprehension and reasoning [(Fleming et al., 2023)](https://arxiv.org/abs/2308.14089).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "MedAlign"
+      }
+    },
+    {
+      "value": "ADHD-Behavior - Observed inference time (s)",
+      "description": "ADHD-Behavior is a benchmark that evaluates a model's ability to detect whether a clinician recommends parent training in behavior management, an evidence-based first-line treatment for young children diagnosed with ADHD. Each instance includes a clinical note from a pediatric visit and a binary classification task [(Pillai et al., 2024)](https://doi.org/10.1093/jamia/ocae001).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "ADHD-Behavior"
+      }
+    },
+    {
+      "value": "ADHD-MedEffects - Observed inference time (s)",
+      "description": "ADHD-MedEffects is a benchmark designed to evaluate whether clinical notes for pediatric ADHD visits document medication side effect monitoring, which is a key recommendation in clinical practice guidelines. The dataset supports binary classification to detect presence or absence of side effect inquiries (SEI) within notes [(Bannet et al., 2024)](https://doi.org/10.1542/peds.2024-067223).\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "ADHD-MedEffects"
+      }
+    }
+  ],
+  "rows": [
+    [
+      {
+        "value": "GPT 5",
+        "description": "",
+        "markdown": false
+      },
+      {
+        "markdown": false
+      },
+      {
+        "value": 22.05719614245456,
+        "description": "min=22.057, mean=22.057, max=22.057, sum=22.057 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "medcalc_bench:model=openai_gpt-5"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "value": 62.51663193702698,
+        "description": "min=62.517, mean=62.517, max=62.517, sum=62.517 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "mtsamples_replicate:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 28.271135165691376,
+        "description": "min=28.271, mean=28.271, max=28.271, sum=28.271 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "medec:model=openai_gpt-5"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "value": 5.865615155696869,
+        "description": "min=5.866, mean=5.866, max=5.866, sum=5.866 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "head_qa:language=en,category=None,model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 13.65145320892334,
+        "description": "min=13.651, mean=13.651, max=13.651, sum=13.651 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "medbullets:model=openai_gpt-5"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      }
+    ]
+  ],
+  "links": [
+    {
+      "text": "LaTeX",
+      "href": "benchmark_output/runs/my-medhelm-suite/groups/latex/clinical_decision_support_efficiency.tex"
+    },
+    {
+      "text": "JSON",
+      "href": "benchmark_output/runs/my-medhelm-suite/groups/json/clinical_decision_support_efficiency.json"
+    }
+  ],
+  "name": "efficiency"
+}

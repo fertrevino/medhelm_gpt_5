@@ -1,0 +1,145 @@
+{
+  "title": "",
+  "header": [
+    {
+      "value": "Model",
+      "markdown": false,
+      "metadata": {}
+    },
+    {
+      "value": "Jury Score",
+      "description": "MEDIQA is a benchmark designed to evaluate a model's ability to retrieve and generate medically accurate answers to patient-generated questions. Each instance includes a consumer health question, a set of candidate answers (used in ranking tasks), relevance annotations, and optionally, additional context. The benchmark focuses on supporting patient understanding and accessibility in health communication.\n\nMediQA Jury Score: Measures the average score assigned by an LLM-based jury evaluating task performance.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "Jury Score",
+        "run_group": "MEDIQA"
+      }
+    },
+    {
+      "value": "Observed inference time (s)",
+      "description": "MEDIQA is a benchmark designed to evaluate a model's ability to retrieve and generate medically accurate answers to patient-generated questions. Each instance includes a consumer health question, a set of candidate answers (used in ranking tasks), relevance annotations, and optionally, additional context. The benchmark focuses on supporting patient understanding and accessibility in health communication.\n\nObserved inference runtime (s): Average observed time to process a request to the model (via an API, and thus depends on particular deployment).",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Observed inference time (s)",
+        "run_group": "MEDIQA"
+      }
+    },
+    {
+      "value": "# eval",
+      "description": "MEDIQA is a benchmark designed to evaluate a model's ability to retrieve and generate medically accurate answers to patient-generated questions. Each instance includes a consumer health question, a set of candidate answers (used in ranking tasks), relevance annotations, and optionally, additional context. The benchmark focuses on supporting patient understanding and accessibility in health communication.\n\n# eval: Number of evaluation instances.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# eval",
+        "run_group": "MEDIQA"
+      }
+    },
+    {
+      "value": "# train",
+      "description": "MEDIQA is a benchmark designed to evaluate a model's ability to retrieve and generate medically accurate answers to patient-generated questions. Each instance includes a consumer health question, a set of candidate answers (used in ranking tasks), relevance annotations, and optionally, additional context. The benchmark focuses on supporting patient understanding and accessibility in health communication.\n\n# train: Number of training instances (e.g., in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "# train",
+        "run_group": "MEDIQA"
+      }
+    },
+    {
+      "value": "truncated",
+      "description": "MEDIQA is a benchmark designed to evaluate a model's ability to retrieve and generate medically accurate answers to patient-generated questions. Each instance includes a consumer health question, a set of candidate answers (used in ranking tasks), relevance annotations, and optionally, additional context. The benchmark focuses on supporting patient understanding and accessibility in health communication.\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "truncated",
+        "run_group": "MEDIQA"
+      }
+    },
+    {
+      "value": "# prompt tokens",
+      "description": "MEDIQA is a benchmark designed to evaluate a model's ability to retrieve and generate medically accurate answers to patient-generated questions. Each instance includes a consumer health question, a set of candidate answers (used in ranking tasks), relevance annotations, and optionally, additional context. The benchmark focuses on supporting patient understanding and accessibility in health communication.\n\n# prompt tokens: Number of tokens in the prompt.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# prompt tokens",
+        "run_group": "MEDIQA"
+      }
+    },
+    {
+      "value": "# output tokens",
+      "description": "MEDIQA is a benchmark designed to evaluate a model's ability to retrieve and generate medically accurate answers to patient-generated questions. Each instance includes a consumer health question, a set of candidate answers (used in ranking tasks), relevance annotations, and optionally, additional context. The benchmark focuses on supporting patient understanding and accessibility in health communication.\n\n# output tokens: Actual number of output tokens.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# output tokens",
+        "run_group": "MEDIQA"
+      }
+    }
+  ],
+  "rows": [
+    [
+      {
+        "value": "GPT 5",
+        "description": "",
+        "href": "?group=medi_qa&subgroup=&runSpecs=%5B%22medi_qa%3Amodel%3Dopenai_gpt-5%22%5D",
+        "markdown": false,
+        "run_spec_names": [
+          "medi_qa:model=openai_gpt-5"
+        ]
+      },
+      {
+        "value": 1.0,
+        "description": "min=1, mean=1, max=1, sum=1 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false
+      },
+      {
+        "value": 45.059830737113955,
+        "description": "min=45.06, mean=45.06, max=45.06, sum=45.06 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false
+      },
+      {
+        "value": 10.0,
+        "description": "min=10, mean=10, max=10, sum=10 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 0.0,
+        "description": "min=0, mean=0, max=0, sum=0 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 0.0,
+        "description": "min=0, mean=0, max=0, sum=0 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 38.6,
+        "description": "min=38.6, mean=38.6, max=38.6, sum=38.6 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 744.6,
+        "description": "min=744.6, mean=744.6, max=744.6, sum=744.6 (1)",
+        "style": {},
+        "markdown": false
+      }
+    ]
+  ],
+  "links": [
+    {
+      "text": "LaTeX",
+      "href": "benchmark_output/runs/my-medhelm-suite/groups/latex/medi_qa_medi_qa_.tex"
+    },
+    {
+      "text": "JSON",
+      "href": "benchmark_output/runs/my-medhelm-suite/groups/json/medi_qa_medi_qa_.json"
+    }
+  ],
+  "name": "medi_qa_"
+}

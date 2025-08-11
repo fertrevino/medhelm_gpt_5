@@ -1,0 +1,6 @@
+Medical Specialty:Radiology
+Sample Name: 2-D Echocardiogram - 3
+Description: 2-D Echocardiogram
+(Medical Transcription Sample Report)
+2-D ECHOCARDIOGRAMMultiple views of the heart and great vessels reveal normal intracardiac and great vessel relationships. Cardiac function is normal. There is no significant chamber enlargement or hypertrophy. There is no pericardial effusion or vegetations seen. Doppler interrogation, including color flow imaging, reveals systemic venous return to the right atrium with normal tricuspid inflow. Pulmonary outflow is normal at the valve. Pulmonary venous return is to the left atrium. The interatrial septum is intact. Mitral inflow and ascending aorta flow are normal. The aortic valve is trileaflet. The coronary arteries appear to be normal in their origins. The aortic arch is left-sided and patent with normal descending aorta pulsatility.
+Keywords: radiology, 2-d echocardiogram, cardiac function, doppler, echocardiogram, multiple views, aortic valve, coronary arteries, descending aorta, great vessels, heart, hypertrophy, interatrial septum, intracardiac, pericardial effusion, tricuspid, vegetation, venous, pulmonary,
