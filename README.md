@@ -1,7 +1,7 @@
 # MedHELM GPT-5
 
 ## Overview
-This repository contains reproducibility artifacts for evaluating OpenAI's GPT-5 model on the MedHELM (Medical Holistic Evaluation of Language Models) benchmark. MedHELM is a comprehensive evaluation suite designed to assess the medical knowledge and reasoning capabilities of large language models across diverse healthcare domains.
+This repository contains reproducibility artifacts for evaluating OpenAI's GPT-5 model on the MedHELM (Medical Holistic Evaluation of Language Models) benchmark as discussed in [this paper](https://www.fertrevino.com/docs/gpt5_medhelm.pdf). MedHELM is a comprehensive evaluation suite designed to assess the medical knowledge and reasoning capabilities of large language models across diverse healthcare domains.
 
 Our work provides the first systematic evaluation of GPT-5's performance on medical tasks, comparing it against GPT-4 baselines and current leaderboard leaders. The evaluation covers eight core medical scenarios spanning quantitative reasoning, factual knowledge, clinical decision-making, and fairness considerations.
 
@@ -163,3 +163,17 @@ While the paper focuses on 8 public, deterministically-scored scenarios, the ful
 - **MTSamples Replicate**: Medical transcription scenarios
 
 These extended scenarios provide broader coverage but may include subjective scoring or access restrictions not suitable for the core reproducibility study.
+
+## Citation
+
+Please use the the following citation if you refer to these results in your work.
+
+```bibtex
+@article{Trevino2025_FromGPT4toGPT5,
+  title   = {From GPT-4 to GPT-5: Measuring Progress in Medical Language Understanding Through MedHELM},
+  author  = {Fernando Trevino},
+  year    = {2025},
+  month   = {August 11},
+  note    = {PDF available at \url{https://www.fertrevino.com/docs/gpt5_medhelm.pdf}},
+}
+```
